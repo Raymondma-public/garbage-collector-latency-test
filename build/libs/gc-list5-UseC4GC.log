@@ -1,0 +1,1440 @@
+[0.171s][info][gc] [GCHH : Zing name     : Zing 64-Bit Tiered VM mixed mode ]
+[0.171s][info][gc] [GCHH : Zing release  : 17.0.4.1-zing_22.09.0.0-b2-product-linux-X86_64 ]
+[0.171s][info][gc] [GCHH : OS name       : Linux ]
+[0.171s][info][gc] [GCHH : OS release    : 5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022 ]
+[0.171s][info][gc] [GCHH : hardware      : x86_64 ]
+[0.171s][info][gc] [GCHH : ncpus         : 16 16 8 16 8 ]
+[0.171s][info][gc] [GCHH : TSC           : scaling_driver NA tsc on constant_tsc on nonstop_tsc on distrust_calculated_tsc_freq no UseRdtscForVMInternal false UseRdtsc false ]
+[0.171s][info][gc] [GCHH : machine name  : ZUEN51878 ]
+[0.172s][info][gc] [GCHH : CGroups information: ]
+[0.172s][info][gc] [GCHH :   Container Type                   : cgroupv1 ]
+[0.172s][info][gc] [GCHH :   Active processor count           : 16 ]
+[0.172s][info][gc] [GCHH :   Active processor count(internal) : 16 ]
+[0.172s][info][gc] [GCHH :   Available memory nodes           : 0 ]
+[0.172s][info][gc] [GCHH :   Available CPUs                   : 0-15 ]
+[0.172s][info][gc] [GCHH :   CPU quota, us                    : -1 ]
+[0.172s][info][gc] [GCHH :   CPU period, us                   : 100000 ]
+[0.172s][info][gc] [GCHH :   CPU shares                       : -1 ]
+[0.172s][info][gc] [GCHH :   Memory and swap limit, bytes     : -1 ]
+[0.172s][info][gc] [GCHH :   Memory limit, bytes              : -1 ]
+[0.172s][info][gc] [GCHH :   Memory soft limit, bytes         : -1 ]
+[0.172s][info][gc] [GCHH : start time    : Wed Oct 12 23:26:16 CST 2022 ]
+[0.172s][info][gc] [GCHH : start time ms : 1665588376495 ]
+[0.172s][info][gc] [GCHH : process id    : 2091 ]
+[0.172s][info][gc] [GCHH : sequence no.  : 0 ]
+[0.172s][info][gc] [GCHH : Memory configuration and use (MB) : ]
+[0.172s][info][gc] [GCHH :   System RAM max             : 25429 ]
+[0.172s][info][gc] [GCHH :   System RAM free            : 24065 ]
+[0.172s][info][gc] [GCHH :   Use ZST                    : false ]
+[0.172s][info][gc] [GCHH :   Process Zing maximum              : 6356 ]
+[0.172s][info][gc] [GCHH :   Process Zing reserved (-Xmx)      : 6356 ]
+[0.172s][info][gc] [GCHH :   Process Zing initial  (-Xms)      : 512 ]
+[0.172s][info][gc] [GCHH :   Code cache location     : C Heap Memory ]
+[0.172s][info][gc] [GCHH :   Code cache mlocked      : false ]
+[0.172s][info][gc] [GCHH :   Code cache min          : 16 ]
+[0.172s][info][gc] [GCHH :   Code cache max          : 636 ]
+[0.172s][info][gc] [GCHH :   Code cache page size    : THP always (C heap) ]
+[0.172s][info][gc] [GCHH :   Side band (C Heap)      : 24 ]
+[0.172s][info][gc] [GCHH :   Side band mlocked       : true ]
+[0.172s][info][gc] [GCHH :   Side band page size     : Small (Java heap); THP always (C heap) ]
+[0.172s][info][gc] [GCHH :   Monitor cache location  : C Heap Memory ]
+[0.172s][info][gc] [GCHH :   Monitor cache mlocked   : true ]
+[0.172s][info][gc] [GCHH :   Monitor cache min       : 0 ]
+[0.172s][info][gc] [GCHH :   Monitor cache max       : 512 ]
+[0.172s][info][gc] [GCHH :   Monitor cache page size : THP always (C heap) ]
+[0.172s][info][gc] [GCHH :   Enable java heap elasticity : true ]
+[0.172s][info][gc] [GCHH :   Force NUMA interleaving     : false ]
+[0.172s][info][gc] [GCHH :   Use transparent huge pages for java heap : false ]
+[0.172s][info][gc] [GCHH :   Use explicit huge pages for java heap    : false ]
+[0.172s][info][gc] [GCHH : Compiler Tier 1 : C1 ]
+[0.172s][info][gc] [GCHH : Compiler Tier 2 : Falcon ]
+[0.172s][info][gc] [GCHH : Garbage collection type     : C4 ]
+[0.172s][info][gc] [GCHH : GenPauseless Phase Encoding : Sparse ]
+[0.172s][info][gc] [GCHH : GenPauseless GC physical use soft limits (MB) : ]
+[0.172s][info][gc] [GCHH :   New Generation          : 6356 ]
+[0.172s][info][gc] [GCHH :   Old/Perm Generations    : 6356 ]
+[0.172s][info][gc] [GCHH : GenPauseless GC virtual use limits (MB) : ]
+[0.172s][info][gc] [GCHH :   New Generation          : 6356 ]
+[0.172s][info][gc] [GCHH :   Old/Perm Generations    : 6356 ]
+[0.172s][info][gc] [GCHH : GenPauseless GC thread counts : ]
+[0.172s][info][gc] [GCHH :   Max New GC threads     : 8 ]
+[0.172s][info][gc] [GCHH :   Max Old GC threads     : 4 ]
+[0.172s][info][gc] [GCHH :   Page Zeroing threads   : 1 ]
+[0.172s][info][gc] [GCHH :   Heap Commit threads    : 1 ]
+[0.172s][info][gc] [GCHH : Dynamic GC thread count scheme      : Partial ]
+[0.172s][info][gc] [GCHH : Enable CPU usage based heuristics   : true ]
+[0.172s][info][gc] [GCHH : UseThreadStateNativeWrapperProtocol : true ]
+[0.172s][info][gc] [GCHH : jvm arguments : -javaagent:jHiccup.jar -XX:+PrintCommandLineFlags -XX:+UnlockExperimentalVMOptions -Xlog:gc,safepoint:./gc-list5-UseC4GC.log -Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.rmi.port=9010 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false ]
+[0.172s][info][gc] [GCHH : jvm flags     : none ]
+[0.172s][info][gc] [GCHH : java command  : JVMBenchmark-1.0-SNAPSHOT-list5.jar ]
+[0.172s][info][gc] [GCHS : Affected by MCU Erratum SKX102 : false]
+[0.172s][info][gc] [GCHS : MCU Erratum SKX102 mitigation  : not applied]
+[0.172s][info][gc] [GCHS : /proc/cpuinfo]
+[0.172s][info][gc] [GCHS : processor	: 15]
+[0.172s][info][gc] [GCHS : vendor_id	: GenuineIntel]
+[0.172s][info][gc] [GCHS : cpu family	: 6]
+[0.172s][info][gc] [GCHS : model		: 141]
+[0.172s][info][gc] [GCHS : model name	: 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz]
+[0.172s][info][gc] [GCHS : stepping	: 1]
+[0.172s][info][gc] [GCHS : microcode	: 0xffffffff]
+[0.172s][info][gc] [GCHS : cpu MHz		: 2611.199]
+[0.172s][info][gc] [GCHS : cache size	: 24576 KB]
+[0.172s][info][gc] [GCHS : physical id	: 0]
+[0.172s][info][gc] [GCHS : siblings	: 16]
+[0.172s][info][gc] [GCHS : core id		: 7]
+[0.172s][info][gc] [GCHS : cpu cores	: 8]
+[0.172s][info][gc] [GCHS : apicid		: 15]
+[0.172s][info][gc] [GCHS : initial apicid	: 15]
+[0.172s][info][gc] [GCHS : fpu		: yes]
+[0.172s][info][gc] [GCHS : fpu_exception	: yes]
+[0.172s][info][gc] [GCHS : cpuid level	: 21]
+[0.172s][info][gc] [GCHS : wp		: yes]
+[0.172s][info][gc] [GCHS : flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm avx512_vp2intersect flush_l1d arch_capabilities]
+[0.172s][info][gc] [GCHS : bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs]
+[0.172s][info][gc] [GCHS : bogomips	: 5222.39]
+[0.172s][info][gc] [GCHS : clflush size	: 64]
+[0.172s][info][gc] [GCHS : cache_alignment	: 64]
+[0.172s][info][gc] [GCHS : address sizes	: 39 bits physical, 48 bits virtual]
+[0.172s][info][gc] [GCHS : power management:]
+[0.172s][info][gc] [GCHS : /sys/devices/system/cpu/vulnerabilities]
+[0.172s][info][gc] [GCHS : spectre_v2        : Mitigation: Enhanced IBRS, IBPB: conditional, RSB filling]
+[0.172s][info][gc] [GCHS : itlb_multihit     : Not affected]
+[0.172s][info][gc] [GCHS : mds               : Not affected]
+[0.172s][info][gc] [GCHS : l1tf              : Not affected]
+[0.172s][info][gc] [GCHS : spec_store_bypass : Mitigation: Speculative Store Bypass disabled via prctl and seccomp]
+[0.172s][info][gc] [GCHS : tsx_async_abort   : Not affected]
+[0.172s][info][gc] [GCHS : spectre_v1        : Mitigation: usercopy/swapgs barriers and __user pointer sanitization]
+[0.172s][info][gc] [GCHS : srbds             : Not affected]
+[0.172s][info][gc] [GCHS : meltdown          : Not affected]
+[0.172s][info][gc] [GCHS : /proc/self/limits]
+[0.172s][info][gc] [GCHS : Limit                     Soft Limit           Hard Limit           Units     ]
+[0.172s][info][gc] [GCHS : Max cpu time              unlimited            unlimited            seconds   ]
+[0.172s][info][gc] [GCHS : Max file size             unlimited            unlimited            bytes     ]
+[0.172s][info][gc] [GCHS : Max data size             unlimited            unlimited            bytes     ]
+[0.172s][info][gc] [GCHS : Max stack size            8388608              unlimited            bytes     ]
+[0.172s][info][gc] [GCHS : Max core file size        0                    unlimited            bytes     ]
+[0.172s][info][gc] [GCHS : Max resident set          unlimited            unlimited            bytes     ]
+[0.172s][info][gc] [GCHS : Max processes             101697               101697               processes ]
+[0.172s][info][gc] [GCHS : Max open files            4096                 4096                 files     ]
+[0.172s][info][gc] [GCHS : Max locked memory         65536                65536                bytes     ]
+[0.172s][info][gc] [GCHS : Max address space         unlimited            unlimited            bytes     ]
+[0.172s][info][gc] [GCHS : Max file locks            unlimited            unlimited            locks     ]
+[0.172s][info][gc] [GCHS : Max pending signals       101697               101697               signals   ]
+[0.172s][info][gc] [GCHS : Max msgqueue size         819200               819200               bytes     ]
+[0.172s][info][gc] [GCHS : Max nice priority         0                    0                    ]
+[0.172s][info][gc] [GCHS : Max realtime priority     0                    0                    ]
+[0.172s][info][gc] [GCHS : Max realtime timeout      unlimited            unlimited            us        ]
+[0.172s][info][gc] [GCHS : /proc/self/status]
+[0.172s][info][gc] [GCHS : Cpus_allowed:	ffff]
+[0.172s][info][gc] [GCHS : Cpus_allowed_list:	0-15]
+[0.172s][info][gc] [GCHS : Mems_allowed:	1]
+[0.172s][info][gc] [GCHS : Mems_allowed_list:	0]
+[0.172s][info][gc] [GCHS : /proc/meminfo]
+[0.172s][info][gc] [GCHS : MemTotal:       26039588 kB]
+[0.172s][info][gc] [GCHS : MemFree:        24643432 kB]
+[0.172s][info][gc] [GCHS : MemAvailable:   25354704 kB]
+[0.172s][info][gc] [GCHS : Buffers:           20180 kB]
+[0.172s][info][gc] [GCHS : Cached:          1046168 kB]
+[0.172s][info][gc] [GCHS : SwapCached:            0 kB]
+[0.172s][info][gc] [GCHS : Active:           415928 kB]
+[0.172s][info][gc] [GCHS : Inactive:         801024 kB]
+[0.172s][info][gc] [GCHS : Active(anon):         80 kB]
+[0.172s][info][gc] [GCHS : Inactive(anon):   216132 kB]
+[0.172s][info][gc] [GCHS : Active(file):     415848 kB]
+[0.172s][info][gc] [GCHS : Inactive(file):   584892 kB]
+[0.172s][info][gc] [GCHS : Unevictable:           4 kB]
+[0.172s][info][gc] [GCHS : Mlocked:               4 kB]
+[0.172s][info][gc] [GCHS : SwapTotal:       7340032 kB]
+[0.172s][info][gc] [GCHS : SwapFree:        7340032 kB]
+[0.172s][info][gc] [GCHS : Dirty:                60 kB]
+[0.172s][info][gc] [GCHS : Writeback:             0 kB]
+[0.172s][info][gc] [GCHS : AnonPages:        150652 kB]
+[0.172s][info][gc] [GCHS : Mapped:            45064 kB]
+[0.172s][info][gc] [GCHS : Shmem:             65608 kB]
+[0.172s][info][gc] [GCHS : KReclaimable:      49692 kB]
+[0.172s][info][gc] [GCHS : Slab:              85228 kB]
+[0.172s][info][gc] [GCHS : SReclaimable:      49692 kB]
+[0.172s][info][gc] [GCHS : SUnreclaim:        35536 kB]
+[0.172s][info][gc] [GCHS : KernelStack:        3232 kB]
+[0.172s][info][gc] [GCHS : PageTables:          892 kB]
+[0.172s][info][gc] [GCHS : NFS_Unstable:          0 kB]
+[0.172s][info][gc] [GCHS : Bounce:                0 kB]
+[0.172s][info][gc] [GCHS : WritebackTmp:          0 kB]
+[0.172s][info][gc] [GCHS : CommitLimit:    20359824 kB]
+[0.172s][info][gc] [GCHS : Committed_AS:     207588 kB]
+[0.172s][info][gc] [GCHS : VmallocTotal:   34359738367 kB]
+[0.172s][info][gc] [GCHS : VmallocUsed:       24856 kB]
+[0.172s][info][gc] [GCHS : VmallocChunk:          0 kB]
+[0.172s][info][gc] [GCHS : Percpu:             5376 kB]
+[0.172s][info][gc] [GCHS : AnonHugePages:     69632 kB]
+[0.172s][info][gc] [GCHS : ShmemHugePages:        0 kB]
+[0.172s][info][gc] [GCHS : ShmemPmdMapped:        0 kB]
+[0.172s][info][gc] [GCHS : FileHugePages:         0 kB]
+[0.172s][info][gc] [GCHS : FilePmdMapped:         0 kB]
+[0.172s][info][gc] [GCHS : HugePages_Total:       0]
+[0.172s][info][gc] [GCHS : HugePages_Free:        0]
+[0.172s][info][gc] [GCHS : HugePages_Rsvd:        0]
+[0.172s][info][gc] [GCHS : HugePages_Surp:        0]
+[0.172s][info][gc] [GCHS : Hugepagesize:       2048 kB]
+[0.172s][info][gc] [GCHS : Hugetlb:               0 kB]
+[0.172s][info][gc] [GCHS : DirectMap4k:       17408 kB]
+[0.172s][info][gc] [GCHS : DirectMap2M:     3526656 kB]
+[0.172s][info][gc] [GCHS : DirectMap1G:    23068672 kB]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/admin_reserve_kbytes                                               : 8192]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/block_dump                                                         : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/dirty_background_bytes                                             : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/dirty_background_ratio                                             : 10]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/dirty_bytes                                                        : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/dirty_expire_centisecs                                             : 3000]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/dirty_ratio                                                        : 20]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/dirty_writeback_centisecs                                          : 500]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/extfrag_threshold                                                  : 500]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/hugetlb_shm_group                                                  : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/laptop_mode                                                        : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/legacy_va_layout                                                   : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/lowmem_reserve_ratio                                               : 256	256	32	0	0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/max_map_count                                                      : 65530]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/min_free_kbytes                                                    : 67584]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/mmap_min_addr                                                      : 65536]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/nr_hugepages                                                       : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/nr_overcommit_hugepages                                            : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/oom_dump_tasks                                                     : 1]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/oom_kill_allocating_task                                           : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/overcommit_kbytes                                                  : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/overcommit_memory                                                  : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/overcommit_ratio                                                   : 50]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/page-cluster                                                       : 3]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/panic_on_oom                                                       : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/percpu_pagelist_fraction                                           : 0]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/stat_interval                                                      : 1]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/swappiness                                                         : 60]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/vfs_cache_pressure                                                 : 100]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/user_reserve_kbytes                                                : 131072]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/compact_unevictable_allowed                                        : 1]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/dirtytime_expire_seconds                                           : 43200]
+[0.172s][info][gc] [GCHS : /proc/sys/vm/watermark_scale_factor                                             : 10]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/hugepages/hugepages-2048kB/free_hugepages                        : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/hugepages/hugepages-2048kB/resv_hugepages                        : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/hugepages/hugepages-2048kB/surplus_hugepages                     : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/hugepages/hugepages-2048kB/nr_hugepages                          : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/hugepages/hugepages-2048kB/nr_overcommit_hugepages               : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/hugepages/hugepages-1048576kB/free_hugepages                     : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/hugepages/hugepages-1048576kB/resv_hugepages                     : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/hugepages/hugepages-1048576kB/surplus_hugepages                  : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/hugepages/hugepages-1048576kB/nr_hugepages                       : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/hugepages/hugepages-1048576kB/nr_overcommit_hugepages            : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/defrag                                      : always defer defer+madvise [madvise] never]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/khugepaged/defrag                           : 1]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_shared                  : 256]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/khugepaged/scan_sleep_millisecs             : 10000]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_none                    : 511]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/khugepaged/pages_to_scan                    : 4096]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_swap                    : 64]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/khugepaged/alloc_sleep_millisecs            : 60000]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/khugepaged/pages_collapsed                  : 137]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/khugepaged/full_scans                       : 29]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/enabled                                     : [always] madvise never]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/use_zero_page                               : 1]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/shmem_enabled                               : always within_size advise [never] deny force]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/transparent_hugepage/hpage_pmd_size                              : 2097152]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/stable_node_dups                                             : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/max_page_sharing                                             : 256]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/pages_volatile                                               : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/stable_node_chains_prune_millisecs                           : 2000]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/pages_unshared                                               : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/stable_node_chains                                           : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/pages_shared                                                 : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/use_zero_pages                                               : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/pages_to_scan                                                : 100]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/sleep_millisecs                                              : 20]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/run                                                          : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/full_scans                                                   : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/ksm/pages_sharing                                                : 0]
+[0.172s][info][gc] [GCHS : /sys/kernel/mm/swap/vma_ra_enabled                                              : true]
+[0.172s][info][gc] [GCHS : /sys/devices/system/clocksource/clocksource0/current_clocksource                : tsc]
+[0.172s][info][gc] [GCHS : /sys/devices/system/clocksource/clocksource0/available_clocksource              : tsc hyperv_clocksource_tsc_page ]
+[0.193s][info][gc] [GCH                          : heap usage MB                                                        : gens MB                        : heap info MB                : pages                              : intercycle               intracycle               : gc            : threads  delay       failed      paced       : gc    pause 1   pause 2   pause 3   pause 4   : end]
+[0.193s][info][gc] [GCH type label tot_ct-cyc_ct : max peak cur pcommit ppause upause rss codec_cap codec monitors jsys : new old perm internal gen-peak : live frag found cllctd lmtd : prom reloc noreloc rspike sm md lg : sec alloc-rate perm-rate sec alloc-rate perm-rate : thrds md diag : tot      cnt avg max cnt avg max cnt avg max : start start dur start dur start dur start dur : end]
+[0.193s][info][gc] [SYSINFOH sysMemUsed cacheActiveFile cacheInactiveFile cacheActiveAnon cacheInactiveAnon swapCached buffers unevictable mlocked mapped : totalSysZingMemAcrossPartitions sysZingMemTot sysZingReservableUsed sysZingReservableTot sysZingContMemUsed sysZingContMemTot sysZingPPMemUsed sysZingPPMemTot : swapUsed swapMax : load1 load5 load15 : pageIn pageOut : swapPageIn swapPageOut : majorFaults cMajorFaults : processes procsRunning procsBlocked procsTotal : cgMem_limit_bytes cgMem_usage_bytes cgMem_max_usage_bytes cgMem_total_rss_bytes cgMem_total_shmem_bytes cgMem_total_active_file_bytes cgMem_total_inactive_file_bytes : cgCPU_usage_ms cgCPU_user_usage_ms cgCPU_system_usage_ms cgCPU_throttle_nof_periods cgCPU_throttle_nof_throttle cgCPU_throttle_throttled_ms : end(s) ]
+[0.193s][info][gc] [HUGEPAGESTATH compact_stall compact_success compact_fail compact_pages_moved thp_fault_alloc thp_fault_fallback thp_file_alloc : anon_huge_pages shmem_pmd_mapped shmem_huge_pages : end(s) ]
+[0.193s][info][gc] [OBJCREATH newGen(kB) permGen(kB) oldGen(kB) : end(s)]
+[0.193s][info][gc] [VMACH vmaMax vmaStack vmaHeap vmaOther vmaCount : end(s)]
+[0.193s][info][gc] [HEAPCOMMITH heap(mb) : commit(mb) commitTime(ms) uncommit(mb) uncommitTime(ms) : numDelays avgDelay(ms) maxDelay(ms) : bgPretouch(pages) bgPretouchTime(ms) : end(s) ]
+[0.193s][info][gc] [HMSVH gen : maps mapStomps mapReuses mapMisses cacheHits cacheMisses cachePartFlushes cacheFullFlushes : watermark cached cachedMin cachedMax : end(s)]
+[0.193s][info][gc] [HMSPH maps : mapped unmapped : end(s)]
+[0.193s][info][gc] [GPGC-HH Model MB/sec . .             : KIDRate : EstTime secs : Throttled GC Threads EstTime secs                    : CPU EstTime secs                                                      : Pause EstTime secs : EstTime percent : Sizes MB . .        : KIDCount  : Target MB   : Time(secs) : Heuristic ]
+[0.193s][info][gc] [GPGC-HH NewGen OldGen PermGen Direct : KID/sec : NewGC OldGC  : NewGC_Model1 OldGC_Model1 NewGC_Model2 OldGC_Model2  : NewCPU OldCPU NewCPU_Model1 OldCPU_Model1 NewCPU_Model2 OldCPU_Model2 : NewGC_pause1       : NewGC_time      : New Old Perm Direct : KID       : Heap NewGen : Time       : ReasonCode ReasonString ]
+[0.193s][info][gc] [COMPSTATSH      : Threads      : CompQueue   : StashQueue  : CompileCounts                                                                                                : StashCounts                                                                                              : TotalTimes ms                         : WaitTimes Histogram                                               : CompileTimes Histogram ]
+[0.193s][info][gc] [COMPSTATSH Tier : Total Active : Peak Active : Peak Active : FullMethodCompiles OSRMethodCompiles MethodFailToInstall OSRFailToInstall FullMethodEvicted OSRMethodEvicted : MethodStashCompiles OSRStashCompiles MethodStashFailed OSRStashFailed MethodStashEvicted OSRStashEvicted : CPUTime WallClockTime WaitInQueueTime : 0-9 10-99 100-999 1000-9999 10000-99999 100000-999999 1000000-INF : 0-9 10-99 100-999 1000-9999 10000-99999 100000-999999 1000000-INF ]
+[0.193s][info][gc] [DEOPTSTATSH : deoptimization : deoptimization_frame : deopt_on_throw : unloaded : cha : non_static_final_fields : unreached_if : unreached_call : athrow : null_check : div0_check : range_check : range_check_widened : cast_check : unhandled : predicate : loop_limit_check : array_store_check : uninitialized : unloaded_array_class : unexpected_klass_mono : unexpected_klass_bi : unexpected_klass_tri : unexpected_null_cast : intrinsic_check : Reason_fast_intrinsic_check : install_async_ex : new_exception : jvmti : static_in_clinit : stuck_in_loop : tier1_patch_volatile_field : too_many_compiles : deopt_a_lot : uncounted_loop_speculation_failed : loop_nest_speculation_failed : inacc_field_null_rcvr : new_gen_oop_assumption_failed : Reason_devirt_no_profile : unreached_jump : effectively_final_fields : unreached_switch_case ]
+[0.193s][info][gc] [DEOPTSTATSH Tier : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr : Entr NonEntr ]
+[0.198s][info][gc] [CCFH queuedForFlush queuedForFlushSize flushed flushedSize freedTotal freedTotalSize : bytesAllTypes : c2i2cAdapters c2i2cAdaptersBytes : methodStubs methodStubsBytes : nativeWrappers nativeWrappersBytes : tier1Compiles tier1CompilesBytes : tier2Compiles tier2CompilesBytes : objMonitors objMonitorsBytes : vtables vtablesBytes : mhAdapters mhAdaptersBytes ]
+[0.199s][info][gc] [SYSINFO 1363 406 571 0 211 0 19 0 0 44 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 8 0 : 2412 1 0 185 : - 1246216192 989708288 154599424 66908160 424697856 598929408 : 140674204 13574660 391480 0 0 0 : 0.199183 ]
+[0.199s][info][gc] [HUGEPAGESTAT 0 0 0 - 27732 0 0 : 69632 0 0 : 0.199183 ]
+[0.626s][info][gc] [COMPSTATS 1 : 5 1 : 5 1 : 0 0 : 100 0 0 0 0 0 : 0 0 0 0 0 0 : 37 39 0 : 100 0 0 0 0 0 0 : 99 0 0 0 0 0 0 ]
+[0.626s][info][gc] [COMPSTATS 2 : 5 3 : 5 3 : 0 0 : 9 0 0 0 0 0 : 0 0 0 0 0 0 : 366 423 0 : 9 0 0 0 0 0 0 : 0 5 1 0 0 0 0 ]
+[0.626s][info][gc] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[0.626s][info][gc] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[0.950s][info][gc] [COMPSTATS 1 : 5 1 : 29 2 : 0 0 : 300 0 0 0 0 0 : 0 0 0 0 0 0 : 144 150 19 : 300 0 0 0 0 0 0 : 299 0 0 0 0 0 0 ]
+[0.950s][info][gc] [COMPSTATS 2 : 5 5 : 11 5 : 0 0 : 28 0 0 0 0 0 : 0 0 0 0 0 0 : 1388 1472 660 : 20 4 4 0 0 0 0 : 0 18 5 0 0 0 0 ]
+[0.950s][info][gc] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[0.950s][info][gc] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 3 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[0.993s][info][safepoint] Application time: 0.0000000 seconds
+[0.994s][info][safepoint] Total time for which application threads were stopped: 0.0000261 seconds, Stopping threads took: 0.0000007 seconds
+[0.994s][info][gc       ] [SPSH lock suspend gclocker notify wait resuspend cleanup op_time wakeup total(ms) op_name end(s) ]
+[0.994s][info][gc       ] [SPS 0.000 0.002 0.000 0.012 0.001 0.001 0.001 0.004 0.008 0.026 Deoptimize 0.993291 ]
+[1.175s][info][gc       ] [GPGC-H  0.0 0.0 0.0 0.0 : 0.0 : 0.000 0.000 : 0.000 0.000 0.000 0.000 : 0.000 0.000 0.000 0.000 0.000 0.000 : 0.000 : 0.000 : 30 0 24 0 : 2273 : 460 432 : 1.174806 : 6 Heap_use_crossed_first_gc_percent ]
+[1.178s][info][safepoint] Application time: 0.0626337 seconds
+[1.178s][info][safepoint] Total time for which application threads were stopped: 0.0005416 seconds, Stopping threads took: 0.0000007 seconds
+[1.179s][info][gc       ] [SPS 0.000 0.001 0.006 0.012 0.001 0.001 0.001 0.474 0.053 0.542 NewGC_pause1 1.178006 ]
+[1.200s][info][safepoint] Application time: 0.0216547 seconds
+[1.200s][info][safepoint] Total time for which application threads were stopped: 0.0001858 seconds, Stopping threads took: 0.0000009 seconds
+[1.201s][info][gc       ] [SPS 0.000 0.002 0.000 0.031 0.001 0.002 0.001 0.104 0.048 0.186 NewGC_pause2 1.199847 ]
+[1.202s][info][safepoint] Application time: 0.0019111 seconds
+[1.202s][info][safepoint] Total time for which application threads were stopped: 0.0002585 seconds, Stopping threads took: 0.0000010 seconds
+[1.202s][info][gc       ] [SPS 0.000 0.001 0.000 0.017 0.001 0.002 0.001 0.162 0.076 0.259 NewGC_pause3 1.202017 ]
+[1.205s][info][safepoint] Application time: 0.0025754 seconds
+[1.205s][info][safepoint] Total time for which application threads were stopped: 0.0002999 seconds, Stopping threads took: 0.0000010 seconds
+[1.205s][info][gc       ] [SPS 0.000 0.017 0.006 0.016 0.001 0.002 0.001 0.159 0.122 0.300 NewGC_pause4 1.204893 ]
+[1.214s][info][gc       ] [GC NTO Max 1-1 : 512 102 86 512 - - 209 20 2 2 - : 32 0 26 28 52 : 22 7 11 11 0 : 0 7 6 1 14 - 2 : 1.133974 26.5 21.2 0.038283 470.2 52.2 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 1.175106 1.177465 0.000436 1.199662 0.000132 1.201758 0.000170 1.204592 0.000091 : 1.213389 ]
+[1.214s][info][gc       ] [SYSINFO 1879 411 565 0 720 0 19 0 0 583 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 8 0 213 : - 1781014528 989708288 219688960 536752128 430645248 593117184 : 140674204 13578770 392150 0 0 0 : 1.214104 ]
+[1.214s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27734 0 0 : 77824 0 0 : 1.214104 ]
+[1.214s][info][gc       ] [OBJCREAT 35514 24293 - : 1.214226 ]
+[1.214s][info][gc       ] [HMSV All : 0 0 0 0 0 0 0 0 : 102 0 0 0 : 1.214270 ]
+[1.214s][info][gc       ] [HMSP 8 : 50848 0 : 1.214270 ]
+[1.215s][info][gc       ] [VMAC 65530 170 24 430 624 : 1.215144 ]
+[1.219s][info][safepoint] Application time: 0.0115079 seconds
+[1.220s][info][safepoint] Total time for which application threads were stopped: 0.0027957 seconds, Stopping threads took: 0.0008692 seconds
+[1.220s][info][gc       ] [SPS 0.000 0.001 0.000 0.016 0.869 0.002 0.001 1.771 0.138 2.796 OldGC_pause2 1.219197 ]
+[1.226s][info][safepoint] Application time: 0.0069665 seconds
+[1.227s][info][safepoint] Total time for which application threads were stopped: 0.0002629 seconds, Stopping threads took: 0.0000015 seconds
+[1.227s][info][gc       ] [SPS 0.000 0.002 0.000 0.024 0.002 0.003 0.001 0.108 0.125 0.263 OldGC_pause3 1.226427 ]
+[1.247s][info][safepoint] Application time: 0.0203378 seconds
+[1.247s][info][safepoint] Total time for which application threads were stopped: 0.0002044 seconds, Stopping threads took: 0.0000010 seconds
+[1.248s][info][gc       ] [SPS 0.000 0.005 0.005 0.016 0.001 0.001 0.001 0.102 0.084 0.204 OldGC_pause4 1.246969 ]
+[1.256s][info][gc       ] [GC Old Max 2-1 : 512 112 112 512 - - 209 20 2 2 - : 56 0 28 28 30 : 25 4 0 0 0 : 0 5 1 1 14 - 0 : 1.135709 0.0 21.1 0.078024 0.0 25.6 : 1 --c 0000 : 23   -    -    -    -    -    -    -    -    -  : 1.176841 1.177465 0.000436 1.216401 0.002641 1.226164 0.000107 1.246765 0.000106 : 1.254865 ]
+[1.256s][info][gc       ] [SYSINFO 1879 411 565 0 721 0 19 0 0 583 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 7 0 213 : - 1781014528 989708288 219688960 536752128 430645248 593117184 : 140674204 13579030 392160 0 0 0 : 1.255530 ]
+[1.256s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27734 0 0 : 77824 0 0 : 1.255530 ]
+[1.256s][info][gc       ] [OBJCREAT 60232 24293 - : 1.255637 ]
+[1.256s][info][gc       ] [HMSV All : 0 0 1 0 0 0 0 0 : 4706 0 0 0 : 1.255662 ]
+[1.256s][info][gc       ] [HMSP 8 : 50848 0 : 1.255662 ]
+[1.256s][info][gc       ] [COMPSTATS 1 : 5 0 : 5 0 : 0 0 : 368 1 0 0 0 0 : 0 0 0 0 0 0 : 178 185 19 : 369 0 0 0 0 0 0 : 369 0 0 0 0 0 0 ]
+[1.256s][info][gc       ] [COMPSTATS 2 : 5 5 : 16 5 : 0 0 : 47 1 0 0 0 0 : 0 0 0 0 0 0 : 2933 3026 1416 : 28 16 4 0 0 0 0 : 1 33 9 0 0 0 0 ]
+[1.256s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[1.256s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 5 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[1.257s][info][gc       ] [VMAC 65530 170 24 430 624 : 1.256738 ]
+[1.257s][info][gc       ] [CCF 0 0 0 0 6 18944: 2457600 : 377 195072 : 2 32768 : 312 306176 :  368 484864 : 38 56832 : 0 0 : 14 1146880 : 1 2048]
+[1.276s][info][gc       ] [GPGC-H  17.3 0.0 21.4 0.0 : 2058.7 : 0.000 0.000 : 0.000 0.000 0.038 0.078 : 0.000 0.000 0.000 0.000 0.052 0.035 : 0.000 : 3.266 : 78 0 28 0 : 2273 : 460 432 : 1.276233 : 7 Heap_use_crossed_incremental_gc_percent ]
+[1.279s][info][safepoint] Application time: 0.0319284 seconds
+[1.280s][info][safepoint] Total time for which application threads were stopped: 0.0004209 seconds, Stopping threads took: 0.0000009 seconds
+[1.280s][info][gc       ] [SPS 0.000 0.001 0.007 0.015 0.001 0.002 0.001 0.316 0.087 0.421 NewGC_pause1 1.279319 ]
+[1.318s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[1.318s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 5 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[1.333s][info][safepoint] Application time: 0.0539602 seconds
+[1.334s][info][safepoint] Total time for which application threads were stopped: 0.0001843 seconds, Stopping threads took: 0.0000007 seconds
+[1.334s][info][gc       ] [SPS 0.000 0.001 0.000 0.010 0.001 0.001 0.001 0.127 0.045 0.184 NewGC_pause2 1.333463 ]
+[1.335s][info][safepoint] Application time: 0.0018454 seconds
+[1.336s][info][safepoint] Total time for which application threads were stopped: 0.0001487 seconds, Stopping threads took: 0.0000009 seconds
+[1.336s][info][gc       ] [SPS 0.000 0.001 0.004 0.015 0.001 0.002 0.001 0.086 0.044 0.149 NewGC_pause3 1.335458 ]
+[1.339s][info][safepoint] Application time: 0.0036371 seconds
+[1.340s][info][safepoint] Total time for which application threads were stopped: 0.0001975 seconds, Stopping threads took: 0.0000007 seconds
+[1.340s][info][gc       ] [SPS 0.000 0.653 0.004 0.010 0.001 0.001 0.000 0.159 0.026 0.198 NewGC_pause4 1.339293 ]
+[1.352s][info][gc       ] [GC NTO Max 3-2 : 512 170 158 512 - - 210 20 2 2 - : 100 0 30 28 114 : 76 10 27 27 10 : 0 10 16 0 43 - 7 : 0.063358 726.0 0.0 0.074302 538.3 26.9 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 1.276747 1.278898 0.000272 1.333279 0.000137 1.335309 0.000076 1.339095 0.000132 : 1.351049 ]
+[1.352s][info][gc       ] [SYSINFO 1880 411 565 0 721 0 19 0 0 583 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 5 0 213 : - 1781960704 989708288 220635136 536752128 430645248 593117184 : 140674204 13579690 392230 0 0 0 : 1.351461 ]
+[1.352s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27734 0 0 : 77824 0 0 : 1.351461 ]
+[1.352s][info][gc       ] [OBJCREAT 115616 24363 - : 1.351551 ]
+[1.352s][info][gc       ] [HMSV All : 0 0 3 0 0 0 0 0 : 4720 0 0 0 : 1.351580 ]
+[1.352s][info][gc       ] [HMSP 8 : 50848 0 : 1.351580 ]
+[1.352s][info][gc       ] [VMAC 65530 170 24 430 624 : 1.352443 ]
+[1.353s][info][safepoint] Application time: 0.0121633 seconds
+[1.353s][info][safepoint] Total time for which application threads were stopped: 0.0014463 seconds, Stopping threads took: 0.0000010 seconds
+[1.354s][info][gc       ] [SPS 0.000 0.001 0.000 0.015 0.001 0.002 0.001 1.288 0.141 1.447 OldGC_pause2 1.352903 ]
+[1.357s][info][safepoint] Application time: 0.0040890 seconds
+[1.358s][info][safepoint] Total time for which application threads were stopped: 0.0002769 seconds, Stopping threads took: 0.0000009 seconds
+[1.358s][info][gc       ] [SPS 0.000 0.001 0.000 0.014 0.001 0.002 0.001 0.192 0.068 0.277 OldGC_pause3 1.357269 ]
+[1.374s][info][safepoint] Application time: 0.0167044 seconds
+[1.375s][info][safepoint] Total time for which application threads were stopped: 0.0001981 seconds, Stopping threads took: 0.0000007 seconds
+[1.375s][info][gc       ] [SPS 0.000 0.003 0.003 0.011 0.001 0.001 0.000 0.135 0.050 0.198 OldGC_pause4 1.374172 ]
+[1.377s][info][gc       ] [GC Old Max 4-2 : 512 178 176 512 - - 210 20 2 2 - : 118 0 30 28 36 : 25 6 0 0 0 : 0 3 1 2 15 - 0 : 0.023432 0.0 0.0 0.098350 0.0 20.3 : 1 --c 0000 : 23   -    -    -    -    -    -    -    -    -  : 1.278296 1.278898 0.000272 1.351456 0.001178 1.356992 0.000102 1.373974 0.000081 : 1.376646 ]
+[1.377s][info][gc       ] [SYSINFO 1880 411 565 0 721 0 19 0 0 583 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 4 0 213 : - 1781960704 989708288 220635136 536752128 430645248 593117184 : 140674204 13579800 392240 0 0 0 : 1.377053 ]
+[1.377s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27734 0 0 : 77824 0 0 : 1.377053 ]
+[1.377s][info][gc       ] [OBJCREAT 133463 24363 - : 1.377152 ]
+[1.377s][info][gc       ] [HMSV All : 0 0 3 0 0 0 0 0 : 4720 0 0 0 : 1.377183 ]
+[1.377s][info][gc       ] [HMSP 8 : 50848 0 : 1.377183 ]
+[1.377s][info][gc       ] [COMPSTATS 1 : 5 0 : 2 0 : 0 0 : 373 1 0 0 0 0 : 0 0 0 0 0 0 : 180 187 20 : 374 0 0 0 0 0 0 : 374 0 0 0 0 0 0 ]
+[1.377s][info][gc       ] [COMPSTATS 2 : 5 2 : 5 2 : 0 0 : 47 1 0 0 0 0 : 0 0 0 0 0 0 : 3128 3222 1416 : 28 16 4 0 0 0 0 : 1 36 9 0 0 0 0 ]
+[1.377s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[1.377s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 5 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[1.379s][info][gc       ] [CCF 0 0 0 0 7 19968: 2464256 : 377 195072 : 2 32768 : 312 306176 :  373 487424 : 40 60928 : 0 0 : 14 1146880 : 1 2048]
+[1.378s][info][gc       ] [VMAC 65530 170 24 430 624 : 1.377924 ]
+[1.393s][info][gc       ] [GPGC-H  17.3 0.0 21.4 0.0 : 2058.7 : 0.000 0.000 : 0.000 0.000 0.074 0.098 : 0.000 0.000 0.000 0.000 0.102 0.035 : 0.000 : 53.975 : 142 0 30 0 : 2273 : 460 432 : 1.392663 : 7 Heap_use_crossed_incremental_gc_percent ]
+[1.399s][info][safepoint] Application time: 0.0239360 seconds
+[1.399s][info][safepoint] Total time for which application threads were stopped: 0.0009465 seconds, Stopping threads took: 0.0006197 seconds
+[1.399s][info][gc       ] [SPS 0.000 0.002 0.024 0.012 0.620 0.001 0.001 0.244 0.069 0.947 NewGC_pause1 1.399055 ]
+[1.476s][info][safepoint] Application time: 0.0769875 seconds
+[1.477s][info][safepoint] Total time for which application threads were stopped: 0.0003243 seconds, Stopping threads took: 0.0000007 seconds
+[1.477s][info][gc       ] [SPS 0.000 0.001 0.000 0.011 0.001 0.001 0.000 0.270 0.041 0.325 NewGC_pause2 1.476367 ]
+[1.478s][info][safepoint] Application time: 0.0018868 seconds
+[1.479s][info][safepoint] Total time for which application threads were stopped: 0.0001343 seconds, Stopping threads took: 0.0000006 seconds
+[1.479s][info][gc       ] [SPS 0.000 0.001 0.000 0.010 0.001 0.001 0.000 0.071 0.051 0.134 NewGC_pause3 1.478388 ]
+[1.483s][info][safepoint] Application time: 0.0039468 seconds
+[1.484s][info][safepoint] Total time for which application threads were stopped: 0.0011565 seconds, Stopping threads took: 0.0000006 seconds
+[1.484s][info][gc       ] [SPS 0.000 0.001 0.000 0.010 0.001 0.001 0.000 1.081 0.064 1.157 OldGC_pause2 1.483491 ]
+[1.488s][info][safepoint] Application time: 0.0042398 seconds
+[1.488s][info][safepoint] Total time for which application threads were stopped: 0.0002726 seconds, Stopping threads took: 0.0000015 seconds
+[1.489s][info][gc       ] [SPS 0.000 0.005 0.005 0.021 0.002 0.003 0.001 0.128 0.118 0.273 NewGC_pause4 1.488005 ]
+[1.499s][info][gc       ] [GC NTO Max 5-3 : 512 324 322 512 - - 217 20 2 2 - : 262 0 32 28 268 : 190 10 38 38 24 : 0 10 48 0 114 - 17 : 0.042186 995.6 0.0 0.105006 1295.2 19.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 1.393234 1.398108 0.000864 1.476042 0.000085 1.478254 0.000077 1.487732 0.000139 : 1.498240 ]
+[1.499s][info][gc       ] [SYSINFO 1888 411 565 0 729 0 19 0 0 583 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 4 0 213 : - 1789665280 989708288 228339712 536752128 430780416 593117184 : 140674204 13580330 392290 0 0 0 : 1.498586 ]
+[1.499s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27734 0 0 : 77824 0 0 : 1.498586 ]
+[1.499s][info][gc       ] [OBJCREAT 290852 24429 - : 1.498661 ]
+[1.499s][info][gc       ] [HMSV All : 0 0 5 0 0 0 0 0 : 4746 0 0 0 : 1.498687 ]
+[1.499s][info][gc       ] [HMSP 8 : 50848 0 : 1.498687 ]
+[1.499s][info][safepoint] Application time: 0.0111513 seconds
+[1.500s][info][safepoint] Total time for which application threads were stopped: 0.0001723 seconds, Stopping threads took: 0.0000253 seconds
+[1.499s][info][gc       ] [GPGC-H  17.3 0.0 21.4 0.0 : 2058.7 : 0.000 0.000 : 0.000 0.000 0.105 0.098 : 0.000 0.000 0.000 0.000 0.143 0.035 : 0.000 : 71.340 : 266 0 32 0 : 2273 : 460 432 : 1.499505 : 7 Heap_use_crossed_incremental_gc_percent ]
+[1.500s][info][gc       ] [VMAC 65530 170 24 430 624 : 1.499800 ]
+[1.500s][info][gc       ] [SPS 0.000 0.001 0.000 0.012 0.025 0.001 0.001 0.102 0.031 0.172 OldGC_pause3 1.499328 ]
+[1.509s][info][safepoint] Application time: 0.0088013 seconds
+[1.509s][info][safepoint] Total time for which application threads were stopped: 0.0003938 seconds, Stopping threads took: 0.0000007 seconds
+[1.509s][info][gc       ] [SPS 0.011 0.237 0.005 0.010 0.001 0.001 0.000 0.310 0.071 0.393 NewGC_pause1 1.508523 ]
+[1.688s][info][safepoint] Application time: 0.1790170 seconds
+[1.688s][info][safepoint] Total time for which application threads were stopped: 0.0002441 seconds, Stopping threads took: 0.0000006 seconds
+[1.689s][info][gc       ] [SPS 0.000 0.001 0.000 0.011 0.001 0.001 0.001 0.209 0.022 0.244 NewGC_pause2 1.687785 ]
+[1.691s][info][safepoint] Application time: 0.0028959 seconds
+[1.691s][info][safepoint] Total time for which application threads were stopped: 0.0002748 seconds, Stopping threads took: 0.0000006 seconds
+[1.692s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.249 0.014 0.275 NewGC_pause3 1.690956 ]
+[1.695s][info][safepoint] Application time: 0.0033000 seconds
+[1.695s][info][safepoint] Total time for which application threads were stopped: 0.0002381 seconds, Stopping threads took: 0.0000031 seconds
+[1.695s][info][gc       ] [SPS 0.000 0.008 0.004 0.010 0.003 0.001 0.000 0.190 0.033 0.238 NewGC_pause4 1.694494 ]
+[1.704s][info][gc       ] [GC New Max 7-4 : 576 534 522 576 - - 233 20 2 2 - : 462 0 32 28 480 : 351 12 96 96 69 : 0 11 83 0 195 - 36 : 0.005967 3016.8 0.0 0.199002 1055.3 0.0 : 3 --c 0000 : 23 288 0.000 0.026 0 0.000 0.000 288 0.000 0.026 : 1.504206 1.508130 0.000246 1.687541 0.000155 1.690681 0.000207 1.694256 0.000140 : 1.703208 ]
+[1.704s][info][gc       ] [SYSINFO 1969 411 565 0 808 0 19 0 0 647 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 3 0 213 : - 1872990208 989708288 244621312 603795456 430780416 593117184 : 140674204 13581280 392440 0 0 0 : 1.703655 ]
+[1.704s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27736 0 0 : 81920 0 0 : 1.703655 ]
+[1.704s][info][gc       ] [OBJCREAT 511237 24429 - : 1.703725 ]
+[1.704s][info][gc       ] [HMSV All : 0 0 7 0 0 0 0 0 : 4836 0 0 0 : 1.703779 ]
+[1.704s][info][gc       ] [HMSP 8 : 50848 0 : 1.703779 ]
+[1.704s][info][gc       ] [GPGC-H  296.2 0.0 21.4 0.0 : 2058.7 : 0.000 0.000 : 0.000 0.000 0.199 0.098 : 0.000 0.000 0.000 0.000 0.239 0.035 : 0.000 : 99.021 : 462 0 32 0 : 2273 : 518 490 : 1.704503 : 3 Heap_use_exceeded_committed ]
+[1.705s][info][gc       ] [VMAC 65530 170 24 432 626 : 1.704553 ]
+[1.707s][info][safepoint] Application time: 0.0125686 seconds
+[1.707s][info][safepoint] Total time for which application threads were stopped: 0.0001702 seconds, Stopping threads took: 0.0000512 seconds
+[1.708s][info][gc       ] [SPS 0.000 0.004 0.003 0.012 0.051 0.001 0.001 0.080 0.025 0.170 OldGC_pause4 1.707233 ]
+[1.708s][info][gc       ] [GC Old Max 6-3 : 576 534 518 576 - - 233 20 2 2 - : 462 0 28 28 34 : 25 4 0 0 0 : 0 1 1 0 14 - 0 : 0.020797 0.0 0.0 0.310157 0.0 6.4 : 1 --c 0000 : 23   -    -    -    -    -    -    -    -    -  : 1.397443 1.398108 0.000864 1.482335 0.001084 1.499156 0.000139 1.707063 0.000137 : 1.707599 ]
+[1.708s][info][gc       ] [SYSINFO 1969 411 565 0 808 0 19 0 0 647 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 3 0 213 : - 1872990208 989708288 244621312 603795456 430780416 593117184 : 140674204 13581300 392450 0 0 0 : 1.707864 ]
+[1.708s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27736 0 0 : 81920 0 0 : 1.707864 ]
+[1.708s][info][gc       ] [OBJCREAT 511237 24429 - : 1.707922 ]
+[1.708s][info][gc       ] [HMSV All : 0 0 7 0 0 0 0 0 : 4836 0 0 0 : 1.707943 ]
+[1.708s][info][gc       ] [HMSP 8 : 50848 0 : 1.707943 ]
+[1.708s][info][gc       ] [COMPSTATS 1 : 5 0 : 1 0 : 0 0 : 374 1 0 0 0 0 : 0 0 0 0 0 0 : 180 187 20 : 375 0 0 0 0 0 0 : 375 0 0 0 0 0 0 ]
+[1.708s][info][gc       ] [COMPSTATS 2 : 5 1 : 2 1 : 0 0 : 47 2 0 0 0 0 : 0 0 0 0 0 0 : 3445 3542 1416 : 29 16 4 0 0 0 0 : 1 36 11 0 0 0 0 ]
+[1.708s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 1 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[1.708s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 5 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[1.709s][info][gc       ] [CCF 0 0 0 0 7 19968: 2468864 : 377 195072 : 2 32768 : 312 306176 :  374 487936 : 42 65024 : 0 0 : 14 1146880 : 1 2048]
+[1.709s][info][gc       ] [VMAC 65530 170 24 432 626 : 1.708714 ]
+[1.713s][info][safepoint] Application time: 0.0048450 seconds
+[1.713s][info][safepoint] Total time for which application threads were stopped: 0.0006615 seconds, Stopping threads took: 0.0002958 seconds
+[1.713s][info][gc       ] [SPS 0.000 0.002 0.003 0.010 0.296 0.001 0.000 0.310 0.044 0.662 NewGC_pause1 1.712740 ]
+[1.947s][info][gc       ] [HEAPCOMMIT 896 : 384 46.144 0 0.000 : 0 0.000 0.000 : 1184 205 : 1.947202 ]
+[1.986s][info][safepoint] Application time: 0.2733260 seconds
+[1.987s][info][safepoint] Total time for which application threads were stopped: 0.0001911 seconds, Stopping threads took: 0.0000008 seconds
+[1.987s][info][gc       ] [SPS 0.000 0.001 0.000 0.016 0.001 0.001 0.001 0.153 0.020 0.191 NewGC_pause2 1.986257 ]
+[1.988s][info][safepoint] Application time: 0.0017926 seconds
+[1.988s][info][safepoint] Total time for which application threads were stopped: 0.0001427 seconds, Stopping threads took: 0.0000008 seconds
+[1.989s][info][gc       ] [SPS 0.000 0.001 0.000 0.016 0.001 0.001 0.001 0.069 0.055 0.143 NewGC_pause3 1.988193 ]
+[1.993s][info][safepoint] Application time: 0.0046234 seconds
+[1.993s][info][safepoint] Total time for which application threads were stopped: 0.0001624 seconds, Stopping threads took: 0.0000008 seconds
+[1.994s][info][gc       ] [SPS 0.000 0.004 0.006 0.017 0.001 0.009 0.000 0.099 0.037 0.163 NewGC_pause4 1.992979 ]
+[2.011s][info][gc       ] [GC New Max 8-5 : 896 788 756 896 - - 252 20 2 2 - : 700 0 28 28 732 : 584 12 137 137 104 : 0 18 135 0 297 - 53 : 0.005710 0.0 0.0 0.301670 901.6 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 1.708918 1.712078 0.000548 1.986066 0.000166 1.988050 0.000080 1.992816 0.000116 : 2.010589 ]
+[2.011s][info][gc       ] [SYSINFO 2314 411 565 0 1148 0 19 0 0 958 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 5 0 213 : - 2229039104 989708288 265048064 939282432 430780416 593117184 : 140674204 13582640 392830 0 0 0 : 2.010951 ]
+[2.011s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27744 0 0 : 90112 0 0 : 2.010951 ]
+[2.011s][info][gc       ] [OBJCREAT 781049 24429 - : 2.011021 ]
+[2.011s][info][gc       ] [HMSV All : 0 0 8 0 0 0 0 0 : 4886 0 0 0 : 2.011047 ]
+[2.011s][info][gc       ] [HMSP 8 : 50848 0 : 2.011047 ]
+[2.012s][info][gc       ] [VMAC 65530 170 24 432 626 : 2.011840 ]
+[2.012s][info][gc       ] [GPGC-H  296.2 0.0 21.4 0.0 : 2058.7 : 0.000 0.000 : 0.000 0.000 0.301 0.310 : 0.000 0.000 0.000 0.000 0.358 0.035 : 0.000 : 99.436 : 700 0 28 0 : 2273 : 806 778 : 2.011856 : 7 Heap_use_crossed_incremental_gc_percent ]
+[2.016s][info][safepoint] Application time: 0.0224282 seconds
+[2.019s][info][safepoint] Total time for which application threads were stopped: 0.0006415 seconds, Stopping threads took: 0.0000009 seconds
+[2.019s][info][gc       ] [SPS 0.000 0.001 0.006 0.015 0.001 0.001 0.001 0.555 0.070 0.642 NewGC_pause1 2.016049 ]
+[2.353s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 3 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[2.353s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 9 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 2 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[2.463s][info][safepoint] Application time: 0.4469342 seconds
+[2.464s][info][safepoint] Total time for which application threads were stopped: 0.0001779 seconds, Stopping threads took: 0.0000007 seconds
+[2.464s][info][gc       ] [SPS 0.000 0.017 0.000 0.013 0.001 0.001 0.001 0.093 0.069 0.178 NewGC_pause2 2.463161 ]
+[2.465s][info][safepoint] Application time: 0.0014690 seconds
+[2.465s][info][safepoint] Total time for which application threads were stopped: 0.0001363 seconds, Stopping threads took: 0.0000006 seconds
+[2.465s][info][gc       ] [SPS 0.000 0.001 0.000 0.011 0.001 0.001 0.000 0.075 0.049 0.136 NewGC_pause3 2.464766 ]
+[2.471s][info][safepoint] Application time: 0.0051967 seconds
+[2.471s][info][safepoint] Total time for which application threads were stopped: 0.0011985 seconds, Stopping threads took: 0.0000007 seconds
+[2.472s][info][gc       ] [SPS 0.000 0.001 0.000 0.013 0.001 0.001 0.000 1.113 0.078 1.206 OldGC_pause2 2.471169 ]
+[2.476s][info][safepoint] Application time: 0.0042377 seconds
+[2.476s][info][safepoint] Total time for which application threads were stopped: 0.0002132 seconds, Stopping threads took: 0.0000009 seconds
+[2.476s][info][gc       ] [SPS 0.000 0.011 0.004 0.013 0.001 0.002 0.000 0.144 0.061 0.221 NewGC_pause4 2.475621 ]
+[2.498s][info][gc       ] [GC NTO Max 9-6 : 1084 918 864 1084 - - 293 20 2 2 - : 802 0 30 32 856 : 678 16 168 168 92 : 0 20 78 0 365 - 36 : 0.002125 0.0 0.0 0.484285 367.6 4.1 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 2.012714 2.015407 0.000497 2.462983 0.000077 2.464630 0.000082 2.475400 0.000157 : 2.496999 ]
+[2.498s][info][gc       ] [SYSINFO 2546 411 565 0 1377 0 19 0 0 1155 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 6 0 213 : - 2469019648 989708288 307953664 1136492544 430780416 593117184 : 140674204 13585410 393250 0 0 0 : 2.497460 ]
+[2.498s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 2.497460 ]
+[2.498s][info][gc       ] [OBJCREAT 952691 24512 - : 2.497542 ]
+[2.498s][info][gc       ] [HMSV All : 0 0 11 0 0 0 0 0 : 4886 0 0 0 : 2.497567 ]
+[2.498s][info][gc       ] [HMSP 10 : 50852 0 : 2.497567 ]
+[2.498s][info][gc       ] [GPGC-H  296.2 0.0 21.4 0.0 : 2058.7 : 0.000 0.000 : 0.000 0.000 0.484 0.310 : 0.000 0.000 0.000 0.000 0.624 0.035 : 0.000 : 99.563 : 802 0 30 0 : 2274 : 975 943 : 2.498206 : 9 Next_heuristic_check_may_be_too_late ]
+[2.499s][info][gc       ] [VMAC 65530 170 24 434 628 : 2.498680 ]
+[2.499s][info][safepoint] Application time: 0.0222180 seconds
+[2.499s][info][safepoint] Total time for which application threads were stopped: 0.0008989 seconds, Stopping threads took: 0.0006750 seconds
+[2.499s][info][gc       ] [SPS 0.001 0.001 0.000 0.016 0.675 0.002 0.001 0.132 0.074 0.899 OldGC_pause3 2.498731 ]
+[2.508s][info][safepoint] Application time: 0.0090043 seconds
+[2.509s][info][safepoint] Total time for which application threads were stopped: 0.0006053 seconds, Stopping threads took: 0.0002561 seconds
+[2.509s][info][gc       ] [SPS 0.000 1.908 0.005 0.024 0.256 0.005 0.001 0.284 0.035 0.605 NewGC_pause1 2.508340 ]
+[2.574s][info][gc       ] [HEAPCOMMIT 1340 : 444 67.439 0 0.000 : 0 0.000 0.000 : 1104 259 : 2.574222 ]
+[2.889s][info][gc       ] [HEAPCOMMIT 1744 : 404 55.630 0 0.000 : 0 0.000 0.000 : 0 0 : 2.889492 ]
+[3.027s][info][safepoint] Application time: 0.5188252 seconds
+[3.028s][info][safepoint] Total time for which application threads were stopped: 0.0000902 seconds, Stopping threads took: 0.0000007 seconds
+[3.028s][info][gc       ] [SPS 0.000 0.002 0.000 0.012 0.001 0.001 0.001 0.054 0.021 0.090 NewGC_pause2 3.027256 ]
+[3.029s][info][safepoint] Application time: 0.0012264 seconds
+[3.029s][info][safepoint] Total time for which application threads were stopped: 0.0000868 seconds, Stopping threads took: 0.0000006 seconds
+[3.029s][info][gc       ] [SPS 0.000 0.001 0.000 0.013 0.001 0.001 0.000 0.051 0.021 0.087 NewGC_pause3 3.028569 ]
+[3.042s][info][safepoint] Application time: 0.0131361 seconds
+[3.042s][info][safepoint] Total time for which application threads were stopped: 0.0001364 seconds, Stopping threads took: 0.0000008 seconds
+[3.042s][info][gc       ] [SPS 0.000 0.004 0.008 0.015 0.001 0.001 0.000 0.076 0.043 0.136 NewGC_pause4 3.041842 ]
+[3.096s][info][gc       ] [GC New Max 11-7 : 1966 1684 1616 1966 - - 305 20 2 2 - : 1496 14 30 76 1578 : 1343 17 205 205 109 : 7 50 380 0 650 - 98 : 0.005545 0.0 0.0 0.592390 1350.5 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 2.502544 2.507735 0.000561 3.027166 0.000063 3.028482 0.000060 3.041705 0.000086 : 3.094934 ]
+[3.096s][info][gc       ] [SYSINFO 3450 411 565 0 2271 0 19 0 0 1996 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 3 0 213 : - 3406004224 989708288 320118784 2061312000 430780416 593117184 : 140674204 13588890 394190 0 0 0 : 3.095472 ]
+[3.096s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 3.095472 ]
+[3.096s][info][gc       ] [OBJCREAT 1744206 24512 14336 : 3.095572 ]
+[3.096s][info][gc       ] [HMSV All : 0 0 16 0 0 0 0 0 : 4970 0 0 0 : 3.095607 ]
+[3.096s][info][gc       ] [HMSP 26 : 50896 0 : 3.095607 ]
+[3.096s][info][gc       ] [GPGC-H  296.2 0.0 21.4 0.0 : 2058.7 : 0.000 0.000 : 0.000 0.000 0.589 0.310 : 0.000 0.000 0.000 0.000 0.934 0.035 : 0.000 : 99.740 : 1496 14 30 0 : 2274 : 1769 1693 : 3.096303 : 7 Heap_use_crossed_incremental_gc_percent ]
+[3.096s][info][gc       ] [VMAC 65530 170 24 450 644 : 3.096463 ]
+[3.097s][info][safepoint] Application time: 0.0555115 seconds
+[3.098s][info][safepoint] Total time for which application threads were stopped: 0.0001010 seconds, Stopping threads took: 0.0000007 seconds
+[3.098s][info][gc       ] [SPS 0.000 0.004 0.006 0.012 0.001 0.001 0.000 0.063 0.023 0.101 OldGC_pause4 3.097454 ]
+[3.099s][info][gc       ] [GC Old Max 10-4 : 1966 1684 1614 1966 - - 305 20 2 2 - : 1496 14 28 76 48 : 39 11 0 0 0 : 0 2 8 1 21 - 0 : 0.306838 0.0 0.0 1.084626 12.9 1.8 : 1 --c 0000 : 23   -    -    -    -    -    -    -    -    -  : 2.014437 2.015407 0.000497 2.469963 0.001105 2.497831 0.000816 3.097354 0.000071 : 3.099063 ]
+[3.099s][info][gc       ] [SYSINFO 3450 411 565 0 2271 0 19 0 0 1996 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 3 0 213 : - 3406004224 989708288 320118784 2061312000 430780416 593117184 : 140674204 13588900 394220 0 0 0 : 3.099354 ]
+[3.099s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 3.099354 ]
+[3.099s][info][gc       ] [OBJCREAT 1744206 24512 14336 : 3.099410 ]
+[3.099s][info][gc       ] [HMSV All : 0 0 16 0 0 0 0 0 : 4970 0 0 0 : 3.099429 ]
+[3.099s][info][gc       ] [HMSP 26 : 50896 0 : 3.099429 ]
+[3.099s][info][gc       ] [COMPSTATS 1 : 5 0 : 11 0 : 0 0 : 397 3 0 0 0 0 : 0 0 0 0 0 0 : 198 208 25 : 400 0 0 0 0 0 0 : 400 0 0 0 0 0 0 ]
+[3.099s][info][gc       ] [COMPSTATS 2 : 5 0 : 3 0 : 0 0 : 52 7 0 0 0 0 : 0 0 0 0 0 0 : 5829 5952 1416 : 39 16 4 0 0 0 0 : 1 42 16 0 0 0 0 ]
+[3.099s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 4 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[3.099s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 9 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 3 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[3.100s][info][gc       ] [CCF 0 0 0 0 7 19968: 2547200 : 377 195072 : 2 32768 : 312 306176 :  399 525824 : 53 105472 : 0 0 : 14 1146880 : 1 2048]
+[3.101s][info][gc       ] [VMAC 65530 170 24 450 644 : 3.100584 ]
+[3.104s][info][safepoint] Application time: 0.0063413 seconds
+[3.104s][info][safepoint] Total time for which application threads were stopped: 0.0002092 seconds, Stopping threads took: 0.0000009 seconds
+[3.104s][info][gc       ] [SPS 0.000 0.004 0.005 0.015 0.001 0.001 0.001 0.165 0.026 0.209 NewGC_pause1 3.104005 ]
+[3.159s][info][gc       ] [HEAPCOMMIT 2222 : 478 59.669 0 0.000 : 0 0.000 0.000 : 0 0 : 3.158873 ]
+[3.377s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 5 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[3.378s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 9 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 3 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[4.036s][info][safepoint] Application time: 0.9321440 seconds
+[4.037s][info][safepoint] Total time for which application threads were stopped: 0.0001548 seconds, Stopping threads took: 0.0000005 seconds
+[4.037s][info][gc       ] [SPS 0.000 0.002 0.000 0.007 0.001 0.001 0.000 0.136 0.009 0.155 NewGC_pause2 4.036304 ]
+[4.039s][info][safepoint] Application time: 0.0021007 seconds
+[4.039s][info][safepoint] Total time for which application threads were stopped: 0.0002016 seconds, Stopping threads took: 0.0000005 seconds
+[4.039s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.000 0.001 0.000 0.185 0.007 0.202 NewGC_pause3 4.038607 ]
+[4.050s][info][safepoint] Application time: 0.0114541 seconds
+[4.051s][info][safepoint] Total time for which application threads were stopped: 0.0002691 seconds, Stopping threads took: 0.0000006 seconds
+[4.051s][info][gc       ] [SPS 0.000 0.006 0.010 0.009 0.001 0.001 0.000 0.190 0.067 0.269 NewGC_pause4 4.050330 ]
+[4.110s][info][gc       ] [GC New Max 12-8 : 2294 2124 2122 2294 - - 333 20 2 2 - : 1984 18 28 92 1992 : 1529 21 450 450 289 : 2 46 247 0 890 - 102 : 0.005701 0.0 0.0 1.008561 646.5 0.0 : 3 --c 0000 : 23 2540 0.000 0.073 0 0.000 0.000 2540 0.000 0.073 : 3.100635 3.103796 0.000176 4.036149 0.000099 4.038405 0.000194 4.050061 0.000143 : 4.109196 ]
+[4.110s][info][gc       ] [SYSINFO 3818 411 565 0 2628 0 19 0 0 2365 : - - - - - - - - : 0 7168 : 0.56 3.09 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 2 0 213 : - 3780014080 989708288 350126080 2405314560 430780416 593117184 : 140674204 13593600 394780 0 0 0 : 4.109540 ]
+[4.110s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 4.109540 ]
+[4.110s][info][gc       ] [OBJCREAT 2386087 24512 18432 : 4.109595 ]
+[4.110s][info][gc       ] [HMSV All : 0 0 23 0 0 0 0 0 : 5038 0 0 0 : 4.109615 ]
+[4.110s][info][gc       ] [HMSP 30 : 50912 0 : 4.109615 ]
+[4.110s][info][gc       ] [GPGC-H  884.6 6.2 18.7 0.0 : 1801.1 : 0.000 0.000 : 0.000 0.000 1.006 1.085 : 0.000 0.000 0.000 0.000 1.475 0.035 : 0.000 : 99.832 : 1990 18 28 0 : 2274 : 2064 1972 : 4.110286 : 3 Heap_use_exceeded_committed ]
+[4.110s][info][gc       ] [VMAC 65530 170 24 456 650 : 4.110478 ]
+[4.116s][info][safepoint] Application time: 0.0648700 seconds
+[4.116s][info][safepoint] Total time for which application threads were stopped: 0.0004155 seconds, Stopping threads took: 0.0000032 seconds
+[4.117s][info][gc       ] [SPS 0.000 0.001 0.007 0.012 0.003 0.001 0.001 0.371 0.026 0.415 NewGC_pause1 4.115616 ]
+[4.151s][info][gc       ] [HEAPCOMMIT 2550 : 328 50.051 0 0.000 : 0 0.000 0.000 : 4840 901 : 4.151156 ]
+[4.208s][info][gc       ] [HEAPCOMMIT 3062 : 512 55.804 0 0.000 : 0 0.000 0.000 : 0 0 : 4.208321 ]
+[4.272s][info][gc       ] [HEAPCOMMIT 3574 : 512 63.139 0 0.000 : 0 0.000 0.000 : 0 0 : 4.272382 ]
+[4.323s][info][gc       ] [HEAPCOMMIT 4086 : 512 49.518 0 0.000 : 0 0.000 0.000 : 0 0 : 4.322548 ]
+[4.377s][info][gc       ] [HEAPCOMMIT 4556 : 470 53.566 0 0.000 : 0 0.000 0.000 : 0 0 : 4.376786 ]
+[4.515s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 6 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[4.515s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 11 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 3 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[4.885s][info][safepoint] Application time: 0.7696579 seconds
+[4.886s][info][safepoint] Total time for which application threads were stopped: 0.0001366 seconds, Stopping threads took: 0.0000007 seconds
+[4.886s][info][gc       ] [SPS 0.000 0.002 0.000 0.013 0.001 0.001 0.001 0.065 0.056 0.137 NewGC_pause2 4.885411 ]
+[4.887s][info][safepoint] Application time: 0.0011697 seconds
+[4.887s][info][safepoint] Total time for which application threads were stopped: 0.0001086 seconds, Stopping threads took: 0.0000008 seconds
+[4.887s][info][gc       ] [SPS 0.000 0.001 0.000 0.014 0.001 0.001 0.000 0.066 0.027 0.109 NewGC_pause3 4.886689 ]
+[4.912s][info][safepoint] Application time: 0.0239896 seconds
+[4.912s][info][safepoint] Total time for which application threads were stopped: 0.0011872 seconds, Stopping threads took: 0.0000008 seconds
+[4.913s][info][gc       ] [SPS 0.000 0.002 0.000 0.019 0.001 0.001 0.001 1.122 0.044 1.188 OldGC_pause2 4.911867 ]
+[4.914s][info][gc       ] [COMPSTATS 1 : 5 3 : 3 3 : 0 0 : 400 3 0 0 0 0 : 0 0 0 0 0 0 : 198 208 25 : 403 0 0 0 0 0 0 : 400 0 0 0 0 0 0 ]
+[4.914s][info][gc       ] [COMPSTATS 2 : 5 1 : 1 1 : 0 0 : 52 12 0 0 0 0 : 0 0 0 0 0 0 : 6772 6895 1416 : 44 16 4 0 0 0 0 : 1 42 20 0 0 0 0 ]
+[4.914s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[4.914s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 11 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 3 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[4.914s][info][gc       ] [COMPSTATS 1 : 5 2 : 3 2 : 0 0 : 400 3 0 0 0 0 : 0 0 0 0 0 0 : 199 208 25 : 403 0 0 0 0 0 0 : 401 0 0 0 0 0 0 ]
+[4.914s][info][gc       ] [COMPSTATS 2 : 5 1 : 1 1 : 0 0 : 52 12 0 0 0 0 : 0 0 0 0 0 0 : 6772 6895 1416 : 44 16 4 0 0 0 0 : 1 42 20 0 0 0 0 ]
+[4.914s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[4.914s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 11 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 3 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[4.914s][info][gc       ] [COMPSTATS 1 : 5 2 : 3 2 : 0 0 : 400 3 0 0 0 0 : 0 0 0 0 0 0 : 199 208 25 : 403 0 0 0 0 0 0 : 401 0 0 0 0 0 0 ]
+[4.914s][info][gc       ] [COMPSTATS 2 : 5 1 : 1 1 : 0 0 : 52 12 0 0 0 0 : 0 0 0 0 0 0 : 6772 6895 1416 : 44 16 4 0 0 0 0 : 1 42 20 0 0 0 0 ]
+[4.914s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[4.914s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 11 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 3 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[4.916s][info][safepoint] Application time: 0.0039007 seconds
+[4.916s][info][safepoint] Total time for which application threads were stopped: 0.0001716 seconds, Stopping threads took: 0.0000008 seconds
+[4.916s][info][gc       ] [SPS 0.000 0.001 0.000 0.016 0.001 0.001 0.001 0.087 0.066 0.172 OldGC_pause3 4.915939 ]
+[4.925s][info][safepoint] Application time: 0.0087098 seconds
+[4.925s][info][safepoint] Total time for which application threads were stopped: 0.0001635 seconds, Stopping threads took: 0.0000008 seconds
+[4.925s][info][gc       ] [SPS 0.000 7.526 0.020 0.013 0.001 0.001 0.001 0.097 0.050 0.163 NewGC_pause4 4.924813 ]
+[5.257s][info][gc       ] [GC NTO Max 13-9 : 4574 2708 2224 4574 - - 342 20 2 2 - : 1706 282 30 204 2456 : 1361 17 1085 1085 163 : 132 0 226 0 760 - 94 : 0.001348 5935.9 0.0 1.146247 786.9 1.7 : 3 --c 0000 : 23 93 0.000 0.000 0 0.000 0.000 93 0.000 0.000 : 4.110544 4.115201 0.000368 4.885274 0.000065 4.886580 0.000071 4.924649 0.000097 : 5.256790 ]
+[5.257s][info][gc       ] [SYSINFO 6132 411 565 0 4917 0 19 0 0 4246 : - - - - - - - - : 0 7168 : 0.99 3.14 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 4 0 213 : - 6180192256 989708288 359587840 4795895808 430780416 593117184 : 140674204 13598380 396560 0 0 0 : 5.257228 ]
+[5.257s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 5.257228 ]
+[5.257s][info][gc       ] [OBJCREAT 3280678 24611 288768 : 5.257311 ]
+[5.257s][info][gc       ] [HMSV All : 0 0 31 0 0 0 0 0 : 5226 0 0 0 : 5.257331 ]
+[5.257s][info][gc       ] [HMSP 48 : 51024 0 : 5.257331 ]
+[5.258s][info][gc       ] [VMAC 65530 170 24 474 668 : 5.258392 ]
+[5.268s][info][safepoint] Application time: 0.3431265 seconds
+[5.268s][info][safepoint] Total time for which application threads were stopped: 0.0000958 seconds, Stopping threads took: 0.0000036 seconds
+[5.269s][info][gc       ] [SPS 0.000 0.003 0.007 0.011 0.004 0.001 0.000 0.060 0.020 0.096 OldGC_pause4 5.268035 ]
+[5.280s][info][gc       ] [GC Old Max 14-5 : 4574 2708 2278 4574 - - 343 20 2 2 - : 1764 280 30 204 320 : 299 17 0 0 0 : 0 7 133 2 130 - 25 : 1.013701 3.9 0.0 1.167210 226.2 1.7 : 1 --c 0000 : 23   -    -    -    -    -    -    -    -    -  : 4.112764 4.115201 0.000368 4.910679 0.001135 4.915767 0.000096 5.267939 0.000066 : 5.279974 ]
+[5.280s][info][gc       ] [SYSINFO 6133 411 565 0 4917 0 19 0 0 4316 : - - - - - - - - : 0 7168 : 0.99 3.14 5.03 : 250714 5554324 : 0 0 : 9 0 : 2440 3 0 213 : - 6180732928 989708288 360128512 4795895808 430780416 593117184 : 140674204 13598390 396600 0 0 0 : 5.280450 ]
+[5.281s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 5.280450 ]
+[5.281s][info][gc       ] [OBJCREAT 3336251 24611 288768 : 5.280514 ]
+[5.281s][info][gc       ] [HMSV All : 0 0 32 0 0 0 0 0 : 5276 0 0 0 : 5.280541 ]
+[5.281s][info][gc       ] [HMSP 48 : 51024 0 : 5.280541 ]
+[5.281s][info][gc       ] [COMPSTATS 1 : 5 0 : 2 0 : 0 0 : 400 3 0 0 0 0 : 0 0 0 0 0 0 : 201 210 25 : 403 0 0 0 0 0 0 : 403 0 0 0 0 0 0 ]
+[5.281s][info][gc       ] [COMPSTATS 2 : 5 0 : 1 0 : 0 0 : 52 12 0 0 0 0 : 0 0 0 0 0 0 : 7296 7430 1416 : 44 16 4 0 0 0 0 : 1 42 21 0 0 0 0 ]
+[5.281s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[5.281s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 11 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 3 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[5.282s][info][gc       ] [CCF 0 0 0 0 7 19968: 2578944 : 377 195072 : 2 32768 : 312 306176 :  402 533504 : 58 129536 : 0 0 : 14 1146880 : 1 2048]
+[5.281s][info][gc       ] [VMAC 65530 170 24 474 668 : 5.281428 ]
+[5.371s][info][gc       ] [HEAPCOMMIT 5086 : 530 67.338 0 0.000 : 0 0.000 0.000 : 0 0 : 5.370790 ]
+[5.536s][info][gc       ] [HEAPCOMMIT 5418 : 332 30.912 0 0.000 : 0 0.000 0.000 : 0 0 : 5.535511 ]
+[5.601s][info][gc       ] [GPGC-H  911.4 6.2 18.7 0.0 : 1801.1 : 0.000 0.000 : 0.000 0.000 1.003 1.167 : 0.000 0.000 0.000 0.000 1.981 0.036 : 0.000 : 99.883 : 2332 280 30 0 : 2274 : 4971 4719 : 5.601004 : 7 Heap_use_crossed_incremental_gc_percent ]
+[5.610s][info][safepoint] Application time: 0.3413397 seconds
+[5.610s][info][safepoint] Total time for which application threads were stopped: 0.0003409 seconds, Stopping threads took: 0.0000010 seconds
+[5.611s][info][gc       ] [SPS 0.000 0.002 0.007 0.017 0.001 0.002 0.001 0.294 0.026 0.341 NewGC_pause1 5.609716 ]
+[5.762s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[5.762s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 11 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 4 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[5.783s][info][gc       ] [HEAPCOMMIT 5750 : 332 38.207 0 0.000 : 0 0.000 0.000 : 0 0 : 5.783460 ]
+[6.065s][info][safepoint] Application time: 0.4553552 seconds
+[6.066s][info][safepoint] Total time for which application threads were stopped: 0.0002685 seconds, Stopping threads took: 0.0000007 seconds
+[6.067s][info][gc       ] [SPS 0.000 0.001 0.000 0.012 0.001 0.001 0.001 0.221 0.033 0.269 NewGC_pause2 6.065340 ]
+[6.070s][info][safepoint] Application time: 0.0033620 seconds
+[6.070s][info][safepoint] Total time for which application threads were stopped: 0.0009330 seconds, Stopping threads took: 0.0000015 seconds
+[6.070s][info][gc       ] [SPS 0.000 0.001 0.000 0.515 0.001 0.002 0.007 0.351 0.056 0.933 NewGC_pause3 6.069635 ]
+[6.074s][info][safepoint] Application time: 0.0031079 seconds
+[6.074s][info][safepoint] Total time for which application threads were stopped: 0.0012848 seconds, Stopping threads took: 0.0000008 seconds
+[6.075s][info][gc       ] [SPS 0.000 0.001 0.000 0.013 0.001 0.001 0.000 1.201 0.068 1.285 OldGC_pause2 6.074028 ]
+[6.080s][info][safepoint] Application time: 0.0057086 seconds
+[6.080s][info][safepoint] Total time for which application threads were stopped: 0.0003167 seconds, Stopping threads took: 0.0000008 seconds
+[6.081s][info][gc       ] [SPS 0.000 0.002 0.000 0.028 0.001 0.002 0.002 0.246 0.039 0.317 OldGC_pause3 6.080054 ]
+[6.097s][info][safepoint] Application time: 0.0170727 seconds
+[6.098s][info][safepoint] Total time for which application threads were stopped: 0.0002314 seconds, Stopping threads took: 0.0000007 seconds
+[6.098s][info][gc       ] [SPS 0.000 0.200 0.012 0.015 0.001 0.001 0.001 0.174 0.040 0.231 NewGC_pause4 6.097359 ]
+[6.360s][info][gc       ] [GC NTO Max 15-10 : 5938 3744 2468 5938 - - 402 20 2 2 - : 1666 498 32 272 3160 : 1326 20 1833 1833 84 : 109 0 405 0 703 - 130 : 0.344748 1821.6 0.0 0.757965 1712.5 2.6 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 5.601538 5.609375 0.000301 6.065071 0.000166 6.068702 0.000827 6.097127 0.000111 : 6.359503 ]
+[6.360s][info][gc       ] [SYSINFO 7580 411 565 0 6340 0 19 0 0 5819 : - - - - - - - - : 0 7168 : 0.99 3.14 5.03 : 250714 5554352 : 0 0 : 9 0 : 2440 3 0 213 : - 7672987648 989708288 422035456 6226108416 430915584 593117184 : 140674204 13601730 398170 0 0 0 : 6.359899 ]
+[6.360s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 6.359899 ]
+[6.360s][info][gc       ] [OBJCREAT 5172561 24686 512000 : 6.359972 ]
+[6.360s][info][gc       ] [HMSV All : 0 0 48 0 0 0 0 0 : 5500 0 0 0 : 6.360000 ]
+[6.360s][info][gc       ] [HMSP 66 : 51092 0 : 6.360000 ]
+[6.361s][info][gc       ] [VMAC 65530 170 24 492 686 : 6.360866 ]
+[6.406s][info][gc       ] [HEAPCOMMIT 6194 : 444 43.970 0 0.000 : 0 0.000 0.000 : 0 0 : 6.406210 ]
+[6.467s][info][safepoint] Application time: 0.3692448 seconds
+[6.468s][info][safepoint] Total time for which application threads were stopped: 0.0003780 seconds, Stopping threads took: 0.0000015 seconds
+[6.471s][info][gc       ] [SPS 0.000 0.007 0.012 0.021 0.002 0.002 0.001 0.295 0.058 0.378 OldGC_pause4 6.466982 ]
+[6.471s][info][gc       ] [GC Old Max 16-6 : 6356 3744 2302 6356 - - 402 20 2 2 - : 1752 228 30 292 532 : 246 13 269 269 0 : 0 6 110 0 129 - 0 : 0.325289 0.0 0.0 0.865465 251.9 2.3 : 1 --c 0000 : 23   -    -    -    -    -    -    -    -    -  : 5.605263 5.609375 0.000301 6.072743 0.001186 6.079737 0.000171 6.466604 0.000220 : 6.470728 ]
+[6.471s][info][gc       ] [SYSINFO 8001 411 565 0 6758 0 19 0 0 5941 : - - - - - - - - : 0 7168 : 0.99 3.14 5.03 : 250714 5554352 : 0 0 : 9 0 : 2440 3 0 213 : - 8111202304 989708288 422035456 6664458240 430915584 593117184 : 140674204 13601840 398360 0 0 0 : 6.471189 ]
+[6.471s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 6.471189 ]
+[6.471s][info][gc       ] [OBJCREAT 5259042 24686 512000 : 6.471283 ]
+[6.471s][info][gc       ] [HMSV All : 0 0 48 0 0 0 0 0 : 5500 0 0 0 : 6.471310 ]
+[6.471s][info][gc       ] [HMSP 70 : 51112 0 : 6.471310 ]
+[6.471s][info][gc       ] [COMPSTATS 1 : 5 0 : 1 0 : 0 0 : 401 3 0 0 0 0 : 0 0 0 0 0 0 : 201 210 25 : 404 0 0 0 0 0 0 : 404 0 0 0 0 0 0 ]
+[6.471s][info][gc       ] [COMPSTATS 2 : 5 0 : 1 0 : 0 0 : 52 12 0 0 0 0 : 0 0 0 0 0 0 : 7296 7430 1416 : 44 16 4 0 0 0 0 : 1 42 21 0 0 0 0 ]
+[6.471s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[6.471s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 11 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 4 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[6.473s][info][gc       ] [CCF 0 0 0 0 7 19968: 2668544 : 381 197120 : 2 32768 : 316 310784 :  403 534528 : 58 129536 : 0 0 : 15 1228800 : 1 2048]
+[6.472s][info][gc       ] [VMAC 65530 170 24 496 690 : 6.472094 ]
+[6.865s][info][gc       ] [GPGC-H  1203.1 214.2 16.9 0.0 : 1623.3 : 0.000 0.000 : 0.000 0.000 0.984 1.151 : 0.000 0.000 0.000 0.000 2.239 0.041 : 0.000 : 98.335 : 3076 228 30 0 : 2277 : 5720 5428 : 6.865094 : 7 Heap_use_crossed_incremental_gc_percent ]
+[6.875s][info][safepoint] Application time: 0.4070235 seconds
+[6.877s][info][safepoint] Total time for which application threads were stopped: 0.0005056 seconds, Stopping threads took: 0.0000007 seconds
+[6.877s][info][gc       ] [SPS 0.000 0.001 0.023 0.014 0.001 0.001 0.001 0.452 0.037 0.506 NewGC_pause1 6.874511 ]
+[7.145s][info][safepoint] Application time: 0.2702221 seconds
+[7.145s][info][safepoint] Total time for which application threads were stopped: 0.0002349 seconds, Stopping threads took: 0.0000005 seconds
+[7.146s][info][gc       ] [SPS 0.000 0.001 0.000 0.008 0.001 0.001 0.000 0.198 0.027 0.235 NewGC_pause2 7.144968 ]
+[7.147s][info][safepoint] Application time: 0.0022055 seconds
+[7.148s][info][safepoint] Total time for which application threads were stopped: 0.0001525 seconds, Stopping threads took: 0.0000006 seconds
+[7.148s][info][gc       ] [SPS 0.000 0.001 0.000 0.008 0.001 0.001 0.000 0.115 0.027 0.153 NewGC_pause3 7.147327 ]
+[7.153s][info][safepoint] Application time: 0.0042216 seconds
+[7.153s][info][safepoint] Total time for which application threads were stopped: 0.0011727 seconds, Stopping threads took: 0.0000007 seconds
+[7.153s][info][gc       ] [SPS 0.000 0.002 0.000 0.014 0.001 0.001 0.001 1.118 0.039 1.173 OldGC_pause2 7.152721 ]
+[7.158s][info][safepoint] Application time: 0.0048158 seconds
+[7.158s][info][safepoint] Total time for which application threads were stopped: 0.0004049 seconds, Stopping threads took: 0.0000017 seconds
+[7.159s][info][gc       ] [SPS 0.000 0.002 0.000 0.021 0.002 0.003 0.001 0.264 0.115 0.405 OldGC_pause3 7.157943 ]
+[7.164s][info][safepoint] Application time: 0.0059642 seconds
+[7.165s][info][safepoint] Total time for which application threads were stopped: 0.0001723 seconds, Stopping threads took: 0.0000006 seconds
+[7.165s][info][gc       ] [SPS 0.000 4.908 0.005 0.014 0.001 0.001 0.000 0.123 0.033 0.172 NewGC_pause4 7.164079 ]
+[7.204s][info][gc       ] [GC NTO Max 17-11 : 6356 4284 1838 6356 - - 403 20 2 2 - : 1252 264 30 292 3734 : 999 23 2730 2730 0 : 18 3 306 0 532 - 94 : 0.506439 2796.0 0.0 0.338006 2437.8 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 6.865942 6.874005 0.000439 7.144733 0.000170 7.147174 0.000077 7.163907 0.000089 : 7.203948 ]
+[7.204s][info][gc       ] [SYSINFO 8023 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.14 5.03 : 250714 5554352 : 0 0 : 9 0 : 2440 3 0 213 : - 8112553984 989708288 423387136 6664458240 430915584 593117184 : 140674204 13603610 399030 0 0 0 : 7.204291 ]
+[7.204s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 7.204291 ]
+[7.204s][info][gc       ] [OBJCREAT 7372229 24821 548864 : 7.204352 ]
+[7.204s][info][gc       ] [HMSV All : 0 0 71 0 0 0 0 0 : 5572 0 0 0 : 7.204388 ]
+[7.204s][info][gc       ] [HMSP 70 : 51112 0 : 7.204388 ]
+[7.205s][info][gc       ] [VMAC 65530 170 24 496 690 : 7.205140 ]
+[7.215s][info][safepoint] Application time: 0.0499045 seconds
+[7.215s][info][safepoint] Total time for which application threads were stopped: 0.0005425 seconds, Stopping threads took: 0.0003270 seconds
+[7.215s][info][gc       ] [SPS 0.000 0.003 0.008 0.012 0.327 0.002 0.001 0.181 0.021 0.543 OldGC_pause4 7.214527 ]
+[7.216s][info][gc       ] [GC Old Max 18-7 : 6356 4284 1618 6356 - - 403 20 2 2 - : 1252 46 28 292 298 : 62 10 219 219 0 : 0 5 18 0 37 - 0 : 0.399474 0.0 0.0 0.345439 104.2 0.0 : 1 --c 0000 : 23   -    -    -    -    -    -    -    -    -  : 6.870201 6.874005 0.000439 7.151549 0.001118 7.157538 0.000249 7.213984 0.000494 : 7.215640 ]
+[7.216s][info][gc       ] [SYSINFO 8023 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.14 5.03 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8112553984 989708288 423387136 6664458240 430915584 593117184 : 140674204 13603650 399040 0 0 0 : 7.216130 ]
+[7.216s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 7.216130 ]
+[7.216s][info][gc       ] [OBJCREAT 7372229 24821 548864 : 7.216200 ]
+[7.216s][info][gc       ] [HMSV All : 0 0 71 0 0 0 0 0 : 5572 0 0 0 : 7.216228 ]
+[7.216s][info][gc       ] [HMSP 70 : 51112 0 : 7.216228 ]
+[7.216s][info][gc       ] [COMPSTATS 1 : 5 0 : 1 0 : 0 0 : 401 3 0 0 0 0 : 0 0 0 0 0 0 : 201 210 25 : 404 0 0 0 0 0 0 : 404 0 0 0 0 0 0 ]
+[7.216s][info][gc       ] [COMPSTATS 2 : 5 0 : 1 0 : 0 0 : 52 12 0 0 0 0 : 0 0 0 0 0 0 : 7296 7430 1416 : 44 16 4 0 0 0 0 : 1 42 21 0 0 0 0 ]
+[7.216s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[7.216s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 11 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 4 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 ]
+[7.217s][info][gc       ] [VMAC 65530 170 24 496 690 : 7.216745 ]
+[7.217s][info][gc       ] [CCF 0 0 0 0 19 56832: 2631680 : 381 197120 : 2 32768 : 316 310784 :  403 534528 : 46 92672 : 0 0 : 15 1228800 : 1 2048]
+[7.950s][info][gc       ] [GPGC-H  1203.1 214.2 16.9 0.0 : 1623.3 : 0.000 0.000 : 0.000 0.000 0.956 1.124 : 0.000 0.000 0.000 0.000 2.235 0.041 : 0.000 : 96.104 : 3846 46 28 0 : 2277 : 5720 5428 : 7.949930 : 9 Next_heuristic_check_may_be_too_late ]
+[7.957s][info][safepoint] Application time: 0.7419441 seconds
+[7.957s][info][safepoint] Total time for which application threads were stopped: 0.0003540 seconds, Stopping threads took: 0.0000006 seconds
+[7.958s][info][gc       ] [SPS 0.000 0.004 0.004 0.009 0.001 0.001 0.000 0.267 0.093 0.372 NewGC_pause1 7.956843 ]
+[8.165s][info][safepoint] Application time: 0.2076679 seconds
+[8.165s][info][safepoint] Total time for which application threads were stopped: 0.0002159 seconds, Stopping threads took: 0.0000006 seconds
+[8.166s][info][gc       ] [SPS 0.001 0.002 0.000 0.009 0.001 0.001 0.000 0.164 0.041 0.216 NewGC_pause2 8.164726 ]
+[8.167s][info][safepoint] Application time: 0.0022669 seconds
+[8.168s][info][safepoint] Total time for which application threads were stopped: 0.0002886 seconds, Stopping threads took: 0.0000005 seconds
+[8.168s][info][gc       ] [SPS 0.000 0.006 0.000 0.009 0.001 0.001 0.000 0.250 0.028 0.289 NewGC_pause3 8.167282 ]
+[8.170s][info][safepoint] Application time: 0.0027370 seconds
+[8.171s][info][safepoint] Total time for which application threads were stopped: 0.0002398 seconds, Stopping threads took: 0.0000008 seconds
+[8.171s][info][gc       ] [SPS 0.000 0.004 0.003 0.012 0.001 0.001 0.000 0.162 0.064 0.240 NewGC_pause4 8.170259 ]
+[8.172s][info][gc       ] [GC New Max 19-12 : 6356 4644 1194 6356 - - 403 20 2 2 - : 826 48 28 292 4278 : 719 11 3556 3556 0 : 1 2 207 0 369 - 44 : 0.746283 3475.9 0.0 0.221015 2008.9 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 7.950231 7.956471 0.000149 8.164511 0.000108 8.166993 0.000214 8.170019 0.000124 : 8.171247 ]
+[8.172s][info][gc       ] [SYSINFO 8023 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.14 5.03 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8112553984 989708288 423387136 6664458240 430915584 593117184 : 140674204 13605230 399120 0 0 0 : 8.171714 ]
+[8.172s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 8.171714 ]
+[8.172s][info][gc       ] [OBJCREAT 10362264 24821 550912 : 8.171810 ]
+[8.172s][info][gc       ] [HMSV All : 0 0 96 0 0 0 0 0 : 5656 0 0 0 : 8.171832 ]
+[8.172s][info][gc       ] [HMSP 70 : 51112 0 : 8.171832 ]
+[8.172s][info][gc       ] [VMAC 65530 170 24 496 690 : 8.172464 ]
+[8.455s][info][gc       ] [GPGC-H  2881.7 196.8 15.4 0.0 : 1479.1 : 0.000 0.000 : 0.000 0.000 0.924 1.124 : 0.000 0.000 0.000 0.000 2.221 0.041 : 0.000 : 92.901 : 1760 48 28 0 : 2277 : 5720 5428 : 8.455139 : 9 Next_heuristic_check_may_be_too_late ]
+[8.461s][info][safepoint] Application time: 0.2901153 seconds
+[8.462s][info][safepoint] Total time for which application threads were stopped: 0.0006574 seconds, Stopping threads took: 0.0000012 seconds
+[8.462s][info][gc       ] [SPS 0.000 0.006 0.005 0.015 0.001 0.002 0.001 0.563 0.075 0.658 NewGC_pause1 8.461032 ]
+[8.525s][info][safepoint] Application time: 0.0638785 seconds
+[8.526s][info][safepoint] Total time for which application threads were stopped: 0.0002334 seconds, Stopping threads took: 0.0000006 seconds
+[8.526s][info][gc       ] [SPS 0.000 0.002 0.000 0.016 0.001 0.001 0.001 0.170 0.046 0.233 NewGC_pause2 8.525144 ]
+[8.528s][info][safepoint] Application time: 0.0027287 seconds
+[8.529s][info][safepoint] Total time for which application threads were stopped: 0.0003922 seconds, Stopping threads took: 0.0000014 seconds
+[8.529s][info][gc       ] [SPS 0.000 0.001 0.000 0.021 0.001 0.003 0.001 0.300 0.066 0.393 NewGC_pause3 8.528266 ]
+[8.531s][info][safepoint] Application time: 0.0021017 seconds
+[8.531s][info][safepoint] Total time for which application threads were stopped: 0.0002278 seconds, Stopping threads took: 0.0000006 seconds
+[8.531s][info][gc       ] [SPS 0.000 0.004 0.003 0.009 0.001 0.001 0.000 0.167 0.050 0.228 NewGC_pause4 8.530595 ]
+[8.533s][info][gc       ] [GC New Max 20-13 : 6356 2414 752 6356 - - 403 20 2 2 - : 384 48 28 292 2046 : 340 11 1702 1702 0 : 0 3 132 0 164 - 28 : 0.284590 3288.9 0.0 0.076531 3867.7 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 8.455837 8.460375 0.000521 8.524911 0.000131 8.527873 0.000201 8.530367 0.000106 : 8.532368 ]
+[8.533s][info][gc       ] [SYSINFO 8023 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.14 5.03 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8112553984 989708288 423387136 6664458240 430915584 593117184 : 140674204 13605790 399230 0 0 0 : 8.532832 ]
+[8.533s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 8.532832 ]
+[8.533s][info][gc       ] [OBJCREAT 11574836 24821 550912 : 8.532912 ]
+[8.533s][info][gc       ] [HMSV All : 0 0 110 0 0 0 0 0 : 5656 0 0 0 : 8.532929 ]
+[8.533s][info][gc       ] [HMSP 70 : 51112 0 : 8.532929 ]
+[8.534s][info][gc       ] [VMAC 65530 170 24 496 690 : 8.534247 ]
+[8.978s][info][gc       ] [GPGC-H  2881.7 196.8 15.4 0.0 : 1479.1 : 0.000 0.000 : 0.000 0.000 0.910 1.124 : 0.000 0.000 0.000 0.000 2.206 0.041 : 0.000 : 91.715 : 1844 48 28 0 : 2277 : 5720 5428 : 8.977990 : 9 Next_heuristic_check_may_be_too_late ]
+[8.983s][info][safepoint] Application time: 0.4523685 seconds
+[8.984s][info][safepoint] Total time for which application threads were stopped: 0.0002829 seconds, Stopping threads took: 0.0000007 seconds
+[8.984s][info][gc       ] [SPS 0.001 0.005 0.007 0.010 0.001 0.001 0.000 0.232 0.039 0.283 NewGC_pause1 8.983247 ]
+[9.053s][info][safepoint] Application time: 0.0692605 seconds
+[9.053s][info][safepoint] Total time for which application threads were stopped: 0.0002027 seconds, Stopping threads took: 0.0000006 seconds
+[9.053s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.162 0.031 0.203 NewGC_pause2 9.052711 ]
+[9.055s][info][safepoint] Application time: 0.0018408 seconds
+[9.055s][info][safepoint] Total time for which application threads were stopped: 0.0001518 seconds, Stopping threads took: 0.0000006 seconds
+[9.055s][info][gc       ] [SPS 0.000 0.001 0.000 0.008 0.001 0.001 0.000 0.113 0.029 0.152 NewGC_pause3 9.054703 ]
+[9.057s][info][safepoint] Application time: 0.0023085 seconds
+[9.058s][info][safepoint] Total time for which application threads were stopped: 0.0003262 seconds, Stopping threads took: 0.0000016 seconds
+[9.058s][info][gc       ] [SPS 0.000 0.006 0.006 0.021 0.002 0.003 0.001 0.220 0.080 0.327 NewGC_pause4 9.057339 ]
+[9.059s][info][gc       ] [GC New Max 21-14 : 6356 2478 750 6356 - - 403 20 2 2 - : 380 48 28 292 2110 : 336 5 1774 1774 0 : 0 2 120 0 166 - 24 : 0.446536 3301.0 0.0 0.080089 3296.3 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 8.978904 8.982964 0.000158 9.052508 0.000116 9.054551 0.000074 9.057012 0.000147 : 9.058992 ]
+[9.059s][info][gc       ] [SYSINFO 8023 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.14 5.03 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8112553984 989708288 423387136 6664458240 430915584 593117184 : 140674204 13606530 399280 0 0 0 : 9.059281 ]
+[9.059s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 9.059281 ]
+[9.059s][info][gc       ] [OBJCREAT 13285369 24821 550912 : 9.059331 ]
+[9.059s][info][gc       ] [HMSV All : 0 0 126 0 0 0 0 0 : 5656 0 0 0 : 9.059350 ]
+[9.059s][info][gc       ] [HMSP 70 : 51112 0 : 9.059350 ]
+[9.061s][info][gc       ] [VMAC 65530 170 24 496 690 : 9.060686 ]
+[9.543s][info][gc       ] [GPGC-H  2881.7 196.8 15.4 0.0 : 1479.1 : 0.000 0.000 : 0.000 0.000 0.890 1.124 : 0.000 0.000 0.000 0.000 2.172 0.041 : 0.000 : 89.875 : 1926 48 28 0 : 2277 : 5720 5428 : 9.543453 : 9 Next_heuristic_check_may_be_too_late ]
+[9.548s][info][safepoint] Application time: 0.4904501 seconds
+[9.549s][info][safepoint] Total time for which application threads were stopped: 0.0003777 seconds, Stopping threads took: 0.0000007 seconds
+[9.549s][info][gc       ] [SPS 0.000 0.004 0.006 0.010 0.001 0.001 0.000 0.294 0.072 0.379 NewGC_pause1 9.548168 ]
+[9.653s][info][safepoint] Application time: 0.1042167 seconds
+[9.653s][info][safepoint] Total time for which application threads were stopped: 0.0003163 seconds, Stopping threads took: 0.0000006 seconds
+[9.654s][info][gc       ] [SPS 0.000 0.001 0.000 0.010 0.001 0.001 0.000 0.274 0.031 0.317 NewGC_pause2 9.652700 ]
+[9.656s][info][safepoint] Application time: 0.0028115 seconds
+[9.656s][info][safepoint] Total time for which application threads were stopped: 0.0002084 seconds, Stopping threads took: 0.0000006 seconds
+[9.657s][info][gc       ] [SPS 0.000 0.001 0.000 0.010 0.001 0.001 0.000 0.119 0.077 0.208 NewGC_pause3 9.655720 ]
+[9.658s][info][safepoint] Application time: 0.0021597 seconds
+[9.659s][info][safepoint] Total time for which application threads were stopped: 0.0002637 seconds, Stopping threads took: 0.0000008 seconds
+[9.659s][info][gc       ] [SPS 0.000 0.004 0.003 0.011 0.001 0.001 0.000 0.199 0.051 0.264 NewGC_pause4 9.658144 ]
+[9.660s][info][gc       ] [GC New Max 22-15 : 6356 2754 1012 6356 - - 403 20 2 2 - : 644 48 28 292 2386 : 592 9 1791 1791 0 : 0 1 220 0 261 - 61 : 0.484791 3193.1 0.0 0.115375 3969.7 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 9.543783 9.547789 0.000167 9.652384 0.000226 9.655512 0.000121 9.657880 0.000154 : 9.659159 ]
+[9.660s][info][gc       ] [SYSINFO 8023 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.10 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 3 0 213 : - 8112553984 989708288 423387136 6664458240 430915584 593117184 : 140674204 13607460 399430 0 0 0 : 9.659576 ]
+[9.660s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 106496 0 0 : 9.659576 ]
+[9.660s][info][gc       ] [OBJCREAT 15255240 24821 550912 : 9.659668 ]
+[9.660s][info][gc       ] [HMSV All : 0 0 144 0 0 0 0 0 : 5656 0 0 0 : 9.659689 ]
+[9.660s][info][gc       ] [HMSP 70 : 51112 0 : 9.659689 ]
+[9.660s][info][gc       ] [VMAC 65530 170 24 496 690 : 9.660457 ]
+[10.225s][info][gc       ] [GPGC-H  2881.7 196.8 15.4 0.0 : 1479.1 : 0.000 0.000 : 0.000 0.000 0.869 1.124 : 0.000 0.000 0.000 0.000 2.124 0.041 : 0.000 : 87.943 : 1974 48 28 0 : 2277 : 5720 5428 : 10.224973 : 9 Next_heuristic_check_may_be_too_late ]
+[10.229s][info][safepoint] Application time: 0.5703546 seconds
+[10.230s][info][safepoint] Total time for which application threads were stopped: 0.0004971 seconds, Stopping threads took: 0.0000005 seconds
+[10.230s][info][gc       ] [SPS 0.000 0.004 0.004 0.009 0.001 0.001 0.000 0.446 0.040 0.497 NewGC_pause1 10.228996 ]
+[10.379s][info][safepoint] Application time: 0.1495530 seconds
+[10.379s][info][safepoint] Total time for which application threads were stopped: 0.0002762 seconds, Stopping threads took: 0.0000015 seconds
+[10.380s][info][gc       ] [SPS 0.000 0.002 0.000 0.022 0.001 0.003 0.001 0.221 0.028 0.276 NewGC_pause2 10.378825 ]
+[10.382s][info][safepoint] Application time: 0.0023451 seconds
+[10.383s][info][safepoint] Total time for which application threads were stopped: 0.0012617 seconds, Stopping threads took: 0.0009199 seconds
+[10.383s][info][gc       ] [SPS 0.000 0.001 0.000 0.013 0.920 0.001 0.000 0.276 0.052 1.262 NewGC_pause3 10.382433 ]
+[10.461s][info][safepoint] Application time: 0.0779934 seconds
+[10.461s][info][safepoint] Total time for which application threads were stopped: 0.0004082 seconds, Stopping threads took: 0.0000015 seconds
+[10.461s][info][gc       ] [SPS 0.000 0.008 0.014 0.022 0.001 0.003 0.001 0.292 0.089 0.409 NewGC_pause4 10.460836 ]
+[10.477s][info][gc       ] [GC New Max 23-16 : 6356 2944 1340 6356 - - 403 20 2 2 - : 972 48 28 292 2576 : 779 18 1792 1792 0 : 0 3 286 0 409 - 77 : 0.566447 2355.0 0.0 0.250670 2904.2 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 10.225606 10.228499 0.000439 10.378550 0.000186 10.381171 0.001131 10.460427 0.000226 : 10.476276 ]
+[10.477s][info][gc       ] [SYSINFO 8024 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.10 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 3 0 213 : - 8112648192 989708288 423481344 6664458240 430915584 593117184 : 140674204 13608810 399480 0 0 0 : 10.476731 ]
+[10.477s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 10.476731 ]
+[10.477s][info][gc       ] [OBJCREAT 17276644 24821 550912 : 10.476839 ]
+[10.477s][info][gc       ] [HMSV All : 0 0 164 0 0 0 0 0 : 5656 0 0 0 : 10.476873 ]
+[10.477s][info][gc       ] [HMSP 70 : 51112 0 : 10.476873 ]
+[10.478s][info][gc       ] [VMAC 65530 170 24 496 690 : 10.477957 ]
+[10.760s][info][gc       ] [GPGC-H  2879.8 178.6 14.0 0.0 : 1342.1 : 0.000 0.000 : 0.000 0.000 0.846 1.124 : 0.000 0.000 0.000 0.000 2.058 0.041 : 0.000 : 85.821 : 2152 48 30 0 : 2277 : 5720 5428 : 10.760464 : 9 Next_heuristic_check_may_be_too_late ]
+[10.765s][info][safepoint] Application time: 0.3039595 seconds
+[10.766s][info][safepoint] Total time for which application threads were stopped: 0.0005001 seconds, Stopping threads took: 0.0000006 seconds
+[10.766s][info][gc       ] [SPS 0.000 0.004 0.004 0.010 0.001 0.001 0.000 0.440 0.048 0.500 NewGC_pause1 10.765295 ]
+[10.982s][info][safepoint] Application time: 0.2170124 seconds
+[10.983s][info][safepoint] Total time for which application threads were stopped: 0.0001489 seconds, Stopping threads took: 0.0000005 seconds
+[10.983s][info][gc       ] [SPS 0.000 0.001 0.000 0.013 0.001 0.001 0.000 0.119 0.015 0.149 NewGC_pause2 10.982456 ]
+[10.984s][info][safepoint] Application time: 0.0015548 seconds
+[10.985s][info][safepoint] Total time for which application threads were stopped: 0.0001908 seconds, Stopping threads took: 0.0000006 seconds
+[10.985s][info][gc       ] [SPS 0.000 0.001 0.000 0.008 0.001 0.001 0.000 0.138 0.043 0.191 NewGC_pause3 10.984202 ]
+[10.986s][info][safepoint] Application time: 0.0020197 seconds
+[10.987s][info][safepoint] Total time for which application threads were stopped: 0.0001498 seconds, Stopping threads took: 0.0000050 seconds
+[10.987s][info][gc       ] [SPS 0.000 0.004 0.021 0.007 0.005 0.001 0.000 0.118 0.018 0.150 NewGC_pause4 10.986371 ]
+[10.989s][info][gc       ] [GC New Max 24-17 : 6356 3190 1434 6356 - - 403 20 2 2 - : 1062 48 30 292 2820 : 956 15 1860 1860 0 : 0 3 328 0 465 - 66 : 0.284759 4143.9 7.0 0.227635 2987.2 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 10.761035 10.764795 0.000390 10.982307 0.000130 10.984011 0.000101 10.986222 0.000126 : 10.988670 ]
+[10.989s][info][gc       ] [SYSINFO 8024 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.10 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8112648192 989708288 423481344 6664458240 430915584 593117184 : 140674204 13609990 399630 0 0 0 : 10.988992 ]
+[10.989s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 10.988992 ]
+[10.989s][info][gc       ] [OBJCREAT 19111966 24821 550912 : 10.989046 ]
+[10.989s][info][gc       ] [HMSV All : 0 0 181 0 0 0 0 0 : 5656 0 0 0 : 10.989065 ]
+[10.989s][info][gc       ] [HMSP 70 : 51112 0 : 10.989065 ]
+[10.990s][info][gc       ] [VMAC 65530 170 24 496 690 : 10.989752 ]
+[11.312s][info][gc       ] [GPGC-H  2879.8 178.6 14.0 0.0 : 1342.1 : 0.000 0.000 : 0.000 0.000 0.832 1.124 : 0.000 0.000 0.000 0.000 2.018 0.041 : 0.000 : 84.852 : 2160 48 30 0 : 2277 : 5720 5428 : 11.311822 : 9 Next_heuristic_check_may_be_too_late ]
+[11.317s][info][safepoint] Application time: 0.3302899 seconds
+[11.318s][info][safepoint] Total time for which application threads were stopped: 0.0005688 seconds, Stopping threads took: 0.0000011 seconds
+[11.318s][info][gc       ] [SPS 0.000 0.006 0.007 0.016 0.001 0.002 0.001 0.500 0.050 0.569 NewGC_pause1 11.317231 ]
+[11.534s][info][safepoint] Application time: 0.2163431 seconds
+[11.534s][info][safepoint] Total time for which application threads were stopped: 0.0002274 seconds, Stopping threads took: 0.0000011 seconds
+[11.535s][info][gc       ] [SPS 0.000 0.002 0.000 0.017 0.001 0.002 0.001 0.180 0.027 0.227 NewGC_pause2 11.533801 ]
+[11.536s][info][safepoint] Application time: 0.0020127 seconds
+[11.536s][info][safepoint] Total time for which application threads were stopped: 0.0002410 seconds, Stopping threads took: 0.0000007 seconds
+[11.537s][info][gc       ] [SPS 0.006 0.006 0.000 0.013 0.001 0.001 0.000 0.178 0.049 0.241 NewGC_pause3 11.536055 ]
+[11.547s][info][safepoint] Application time: 0.0107772 seconds
+[11.547s][info][safepoint] Total time for which application threads were stopped: 0.0002137 seconds, Stopping threads took: 0.0000007 seconds
+[11.548s][info][gc       ] [SPS 0.000 0.004 0.006 0.011 0.001 0.001 0.000 0.162 0.039 0.214 NewGC_pause4 11.547047 ]
+[11.565s][info][gc       ] [GC New Max 25-18 : 6356 3130 1534 6356 - - 403 20 2 2 - : 1164 48 30 292 2760 : 924 17 1834 1834 0 : 0 4 293 0 505 - 77 : 0.323794 3397.2 0.0 0.252179 2910.6 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 11.312464 11.316662 0.000457 11.533574 0.000152 11.535814 0.000106 11.546833 0.000125 : 11.564643 ]
+[11.565s][info][gc       ] [SYSINFO 8024 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.10 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8112648192 989708288 423481344 6664458240 430915584 593117184 : 140674204 13611250 399680 0 0 0 : 11.565071 ]
+[11.565s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 11.565071 ]
+[11.565s][info][gc       ] [OBJCREAT 20913439 24821 550912 : 11.565161 ]
+[11.565s][info][gc       ] [HMSV All : 0 0 198 0 0 0 0 0 : 5656 0 0 0 : 11.565194 ]
+[11.565s][info][gc       ] [HMSP 70 : 51112 0 : 11.565194 ]
+[11.566s][info][gc       ] [VMAC 65530 170 24 496 690 : 11.566230 ]
+[11.888s][info][gc       ] [GPGC-H  2879.8 178.6 14.0 0.0 : 1342.1 : 0.000 0.000 : 0.000 0.000 0.816 1.124 : 0.000 0.000 0.000 0.000 1.977 0.041 : 0.000 : 83.774 : 2210 48 30 0 : 2277 : 5720 5428 : 11.888249 : 9 Next_heuristic_check_may_be_too_late ]
+[11.893s][info][safepoint] Application time: 0.3453663 seconds
+[11.893s][info][safepoint] Total time for which application threads were stopped: 0.0004280 seconds, Stopping threads took: 0.0000006 seconds
+[11.894s][info][gc       ] [SPS 0.000 0.004 0.006 0.010 0.001 0.001 0.000 0.365 0.051 0.428 NewGC_pause1 11.892841 ]
+[12.163s][info][safepoint] Application time: 0.2696402 seconds
+[12.163s][info][safepoint] Total time for which application threads were stopped: 0.0003079 seconds, Stopping threads took: 0.0000007 seconds
+[12.164s][info][gc       ] [SPS 0.000 0.002 0.000 0.011 0.001 0.001 0.001 0.231 0.063 0.308 NewGC_pause2 12.162790 ]
+[12.166s][info][safepoint] Application time: 0.0026307 seconds
+[12.166s][info][safepoint] Total time for which application threads were stopped: 0.0003318 seconds, Stopping threads took: 0.0000007 seconds
+[12.167s][info][gc       ] [SPS 0.004 0.001 0.000 0.010 0.001 0.001 0.000 0.282 0.037 0.332 NewGC_pause3 12.165752 ]
+[12.171s][info][safepoint] Application time: 0.0048401 seconds
+[12.171s][info][safepoint] Total time for which application threads were stopped: 0.0001960 seconds, Stopping threads took: 0.0000006 seconds
+[12.171s][info][gc       ] [SPS 0.000 0.005 0.003 0.010 0.001 0.001 0.000 0.143 0.041 0.196 NewGC_pause4 12.170789 ]
+[12.176s][info][gc       ] [GC New Max 26-19 : 6356 3416 1728 6356 - - 403 20 2 2 - : 1358 48 30 292 3046 : 1195 18 1846 1846 0 : 0 4 409 0 585 - 94 : 0.324216 3232.4 0.0 0.286700 3062.4 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 11.888859 11.892413 0.000330 12.162482 0.000231 12.165420 0.000139 12.170592 0.000111 : 12.175559 ]
+[12.176s][info][gc       ] [SYSINFO 8024 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.10 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8112648192 989708288 423481344 6664458240 430915584 593117184 : 140674204 13612680 399850 0 0 0 : 12.176106 ]
+[12.176s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 12.176106 ]
+[12.176s][info][gc       ] [OBJCREAT 22807706 24821 550912 : 12.176214 ]
+[12.176s][info][gc       ] [HMSV All : 0 0 215 0 0 0 0 0 : 5656 0 0 0 : 12.176240 ]
+[12.176s][info][gc       ] [HMSP 70 : 51112 0 : 12.176240 ]
+[12.177s][info][gc       ] [VMAC 65530 170 24 496 690 : 12.177276 ]
+[12.601s][info][gc       ] [GPGC-H  2877.6 162.8 12.7 0.0 : 1223.5 : 0.000 0.000 : 0.000 0.000 0.802 1.124 : 0.000 0.000 0.000 0.000 1.938 0.041 : 0.000 : 82.748 : 2446 48 30 0 : 2277 : 5720 5428 : 12.600604 : 9 Next_heuristic_check_may_be_too_late ]
+[12.662s][info][safepoint] Application time: 0.4905795 seconds
+[12.662s][info][safepoint] Total time for which application threads were stopped: 0.0003184 seconds, Stopping threads took: 0.0000006 seconds
+[12.663s][info][gc       ] [SPS 0.000 0.006 0.008 0.009 0.001 0.001 0.000 0.274 0.033 0.319 NewGC_pause1 12.661687 ]
+[12.674s][info][safepoint] Application time: 0.0123547 seconds
+[12.675s][info][safepoint] Total time for which application threads were stopped: 0.0002675 seconds, Stopping threads took: 0.0000009 seconds
+[12.675s][info][gc       ] [SPS 0.000 0.001 0.000 0.013 0.001 0.002 0.001 0.208 0.043 0.267 NewGC_pause2 12.674309 ]
+[12.676s][info][safepoint] Application time: 0.0017754 seconds
+[12.677s][info][safepoint] Total time for which application threads were stopped: 0.0001883 seconds, Stopping threads took: 0.0000005 seconds
+[12.677s][info][gc       ] [SPS 0.000 0.001 0.000 0.008 0.000 0.001 0.000 0.149 0.029 0.189 NewGC_pause3 12.676273 ]
+[12.680s][info][safepoint] Application time: 0.0033329 seconds
+[12.680s][info][safepoint] Total time for which application threads were stopped: 0.0003045 seconds, Stopping threads took: 0.0000009 seconds
+[12.681s][info][gc       ] [SPS 0.000 0.007 0.006 0.012 0.001 0.001 0.000 0.251 0.039 0.305 NewGC_pause4 12.679911 ]
+[12.682s][info][gc       ] [GC New Max 27-20 : 6356 2988 478 6356 - - 403 20 2 2 - : 106 48 30 292 2618 : 87 13 2530 2530 0 : 0 3 37 0 43 - 11 : 0.425472 2561.9 0.0 0.080168 2220.3 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 12.601032 12.661368 0.000264 12.674042 0.000166 12.676085 0.000086 12.679606 0.000180 : 12.681200 ]
+[12.682s][info][gc       ] [SYSINFO 8024 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.10 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8112648192 989708288 423481344 6664458240 430915584 593117184 : 140674204 13613230 399910 0 0 0 : 12.681597 ]
+[12.682s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 12.681597 ]
+[12.682s][info][gc       ] [OBJCREAT 24055049 24821 550912 : 12.681680 ]
+[12.682s][info][gc       ] [HMSV All : 0 0 227 0 0 0 0 0 : 5656 0 0 0 : 12.681710 ]
+[12.682s][info][gc       ] [HMSP 70 : 51112 0 : 12.681710 ]
+[12.683s][info][gc       ] [VMAC 65530 170 24 496 690 : 12.683224 ]
+[13.186s][info][gc       ] [GPGC-H  2877.6 162.8 12.7 0.0 : 1223.5 : 0.000 0.000 : 0.000 0.000 0.785 1.124 : 0.000 0.000 0.000 0.000 1.905 0.041 : 0.000 : 81.203 : 2314 48 30 0 : 2277 : 5720 5428 : 13.186232 : 9 Next_heuristic_check_may_be_too_late ]
+[13.191s][info][safepoint] Application time: 0.5108010 seconds
+[13.192s][info][safepoint] Total time for which application threads were stopped: 0.0003156 seconds, Stopping threads took: 0.0000006 seconds
+[13.192s][info][gc       ] [SPS 0.000 0.004 0.006 0.011 0.001 0.001 0.000 0.253 0.050 0.316 NewGC_pause1 13.191028 ]
+[13.451s][info][safepoint] Application time: 0.2595171 seconds
+[13.451s][info][safepoint] Total time for which application threads were stopped: 0.0001036 seconds, Stopping threads took: 0.0000006 seconds
+[13.451s][info][gc       ] [SPS 0.000 0.002 0.000 0.009 0.001 0.001 0.000 0.063 0.029 0.103 NewGC_pause2 13.450649 ]
+[13.452s][info][safepoint] Application time: 0.0016291 seconds
+[13.453s][info][safepoint] Total time for which application threads were stopped: 0.0000889 seconds, Stopping threads took: 0.0000006 seconds
+[13.453s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.062 0.016 0.089 NewGC_pause3 13.452367 ]
+[13.456s][info][safepoint] Application time: 0.0030293 seconds
+[13.456s][info][safepoint] Total time for which application threads were stopped: 0.0002004 seconds, Stopping threads took: 0.0000006 seconds
+[13.456s][info][gc       ] [SPS 0.000 0.004 0.003 0.010 0.001 0.001 0.000 0.156 0.033 0.201 NewGC_pause4 13.455597 ]
+[13.462s][info][gc       ] [GC New Max 28-21 : 6356 3488 1724 6356 - - 403 20 2 2 - : 1352 50 30 292 3118 : 1185 18 1927 1927 0 : 1 6 394 0 582 - 94 : 0.505505 4371.9 0.0 0.274949 3069.7 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 13.186705 13.190712 0.000169 13.450546 0.000069 13.452278 0.000069 13.455396 0.000092 : 13.461654 ]
+[13.462s][info][gc       ] [SYSINFO 8024 411 565 0 6760 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.10 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 3 0 213 : - 8112648192 989708288 423481344 6664458240 430915584 593117184 : 140674204 13614820 400050 0 0 0 : 13.462306 ]
+[13.462s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 13.462306 ]
+[13.462s][info][gc       ] [OBJCREAT 27060816 24821 552960 : 13.462498 ]
+[13.463s][info][gc       ] [HMSV All : 0 0 255 0 0 0 0 0 : 5656 0 0 0 : 13.462544 ]
+[13.463s][info][gc       ] [HMSP 70 : 51112 0 : 13.462544 ]
+[13.464s][info][gc       ] [VMAC 65530 170 24 496 690 : 13.463529 ]
+[13.859s][info][gc       ] [GPGC-H  2877.6 162.8 12.7 0.0 : 1223.5 : 0.000 0.000 : 0.000 0.000 0.767 1.124 : 0.000 0.000 0.000 0.000 1.857 0.041 : 0.000 : 79.575 : 2422 50 30 0 : 2277 : 5720 5428 : 13.859364 : 9 Next_heuristic_check_may_be_too_late ]
+[13.865s][info][safepoint] Application time: 0.4090081 seconds
+[13.866s][info][safepoint] Total time for which application threads were stopped: 0.0004383 seconds, Stopping threads took: 0.0000008 seconds
+[13.866s][info][gc       ] [SPS 0.000 0.005 0.005 0.011 0.001 0.001 0.015 0.365 0.045 0.439 NewGC_pause1 13.865044 ]
+[13.867s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[13.867s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 11 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 4 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 ]
+[14.248s][info][safepoint] Application time: 0.3824619 seconds
+[14.249s][info][safepoint] Total time for which application threads were stopped: 0.0003041 seconds, Stopping threads took: 0.0000006 seconds
+[14.249s][info][gc       ] [SPS 0.000 0.007 0.000 0.010 0.001 0.001 0.001 0.261 0.031 0.304 NewGC_pause2 14.247810 ]
+[14.251s][info][safepoint] Application time: 0.0032936 seconds
+[14.252s][info][safepoint] Total time for which application threads were stopped: 0.0003353 seconds, Stopping threads took: 0.0000005 seconds
+[14.252s][info][gc       ] [SPS 0.001 0.001 0.000 0.011 0.000 0.001 0.000 0.246 0.077 0.336 NewGC_pause3 14.251440 ]
+[14.265s][info][safepoint] Application time: 0.0134479 seconds
+[14.266s][info][safepoint] Total time for which application threads were stopped: 0.0003299 seconds, Stopping threads took: 0.0000006 seconds
+[14.266s][info][gc       ] [SPS 0.000 0.005 0.010 0.010 0.001 0.001 0.000 0.257 0.060 0.330 NewGC_pause4 14.265218 ]
+[14.321s][info][gc       ] [GC New Max 29-22 : 6356 3804 2104 6356 - - 406 20 2 2 - : 1732 50 30 292 3432 : 1508 24 1922 1922 0 : 0 52 495 0 748 - 118 : 0.398183 2692.2 0.0 0.461277 2397.7 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 13.859836 13.864605 0.000354 14.247506 0.000224 14.251104 0.000113 14.264888 0.000234 : 14.321113 ]
+[14.321s][info][gc       ] [SYSINFO 8026 411 565 0 6763 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 0.99 3.10 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8115486720 989708288 426319872 6664458240 430915584 593117184 : 140674204 13617310 400150 0 0 0 : 14.321441 ]
+[14.321s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 14.321441 ]
+[14.321s][info][gc       ] [OBJCREAT 29195905 24821 552960 : 14.321505 ]
+[14.322s][info][gc       ] [HMSV All : 0 0 276 0 0 0 0 0 : 5656 0 0 0 : 14.321527 ]
+[14.322s][info][gc       ] [HMSP 70 : 51112 0 : 14.321527 ]
+[14.322s][info][gc       ] [VMAC 65530 170 24 496 690 : 14.322255 ]
+[14.565s][info][gc       ] [GPGC-H  3285.0 148.5 11.6 0.0 : 1115.2 : 0.000 0.000 : 0.000 0.000 0.755 1.124 : 0.000 0.000 0.000 0.000 1.812 0.041 : 0.000 : 78.566 : 2732 50 30 0 : 2277 : 5720 5428 : 14.565459 : 9 Next_heuristic_check_may_be_too_late ]
+[14.571s][info][safepoint] Application time: 0.3052715 seconds
+[14.571s][info][safepoint] Total time for which application threads were stopped: 0.0005004 seconds, Stopping threads took: 0.0000018 seconds
+[14.572s][info][gc       ] [SPS 0.000 0.005 0.006 0.010 0.002 0.001 0.000 0.457 0.031 0.501 NewGC_pause1 14.570990 ]
+[14.777s][info][safepoint] Application time: 0.2057103 seconds
+[14.778s][info][safepoint] Total time for which application threads were stopped: 0.0001626 seconds, Stopping threads took: 0.0000006 seconds
+[14.778s][info][gc       ] [SPS 0.000 0.001 0.000 0.008 0.001 0.001 0.000 0.119 0.034 0.163 NewGC_pause2 14.776863 ]
+[14.780s][info][safepoint] Application time: 0.0026903 seconds
+[14.781s][info][safepoint] Total time for which application threads were stopped: 0.0003404 seconds, Stopping threads took: 0.0000015 seconds
+[14.781s][info][gc       ] [SPS 0.000 0.002 0.000 0.021 0.001 0.003 0.001 0.285 0.028 0.340 NewGC_pause3 14.779894 ]
+[14.783s][info][safepoint] Application time: 0.0032818 seconds
+[14.784s][info][safepoint] Total time for which application threads were stopped: 0.0000878 seconds, Stopping threads took: 0.0000006 seconds
+[14.784s][info][gc       ] [SPS 0.000 0.004 0.003 0.010 0.001 0.001 0.000 0.057 0.019 0.088 NewGC_pause4 14.783264 ]
+[14.786s][info][gc       ] [GC New Max 30-23 : 6356 3718 1248 6356 - - 406 20 2 2 - : 876 50 30 292 3346 : 799 13 2550 2550 0 : 0 2 296 0 373 - 65 : 0.245038 4097.3 0.0 0.219554 2869.4 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 14.566151 14.570489 0.000395 14.776700 0.000054 14.779554 0.000252 14.783176 0.000062 : 14.785705 ]
+[14.786s][info][gc       ] [SYSINFO 8026 411 565 0 6763 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.24 3.12 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8115486720 989708288 426319872 6664458240 430915584 593117184 : 140674204 13618230 400160 0 0 0 : 14.786098 ]
+[14.786s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 14.786098 ]
+[14.786s][info][gc       ] [OBJCREAT 30803110 24821 552960 : 14.786153 ]
+[14.786s][info][gc       ] [HMSV All : 0 0 289 0 0 0 0 0 : 5656 0 0 0 : 14.786173 ]
+[14.786s][info][gc       ] [HMSP 70 : 51112 0 : 14.786173 ]
+[14.787s][info][gc       ] [VMAC 65530 170 24 496 690 : 14.787014 ]
+[15.031s][info][gc       ] [GPGC-H  3285.0 148.5 11.6 0.0 : 1115.2 : 0.000 0.000 : 0.000 0.000 0.744 1.124 : 0.000 0.000 0.000 0.000 1.787 0.041 : 0.000 : 77.901 : 2052 50 30 0 : 2277 : 5720 5428 : 15.030595 : 9 Next_heuristic_check_may_be_too_late ]
+[15.036s][info][safepoint] Application time: 0.2520381 seconds
+[15.036s][info][safepoint] Total time for which application threads were stopped: 0.0005049 seconds, Stopping threads took: 0.0000012 seconds
+[15.037s][info][gc       ] [SPS 0.000 0.007 0.008 0.018 0.001 0.002 0.001 0.434 0.049 0.505 NewGC_pause1 15.035807 ]
+[15.203s][info][safepoint] Application time: 0.1664562 seconds
+[15.203s][info][safepoint] Total time for which application threads were stopped: 0.0002834 seconds, Stopping threads took: 0.0000007 seconds
+[15.203s][info][gc       ] [SPS 0.000 0.002 0.000 0.009 0.001 0.001 0.000 0.244 0.028 0.284 NewGC_pause2 15.202547 ]
+[15.204s][info][safepoint] Application time: 0.0016282 seconds
+[15.205s][info][safepoint] Total time for which application threads were stopped: 0.0002696 seconds, Stopping threads took: 0.0000005 seconds
+[15.205s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.213 0.046 0.270 NewGC_pause3 15.204445 ]
+[15.207s][info][safepoint] Application time: 0.0018913 seconds
+[15.207s][info][safepoint] Total time for which application threads were stopped: 0.0002121 seconds, Stopping threads took: 0.0000007 seconds
+[15.207s][info][gc       ] [SPS 0.000 0.004 0.003 0.010 0.001 0.001 0.000 0.165 0.035 0.213 NewGC_pause4 15.206549 ]
+[15.209s][info][gc       ] [GC New Max 31-24 : 6356 2964 1232 6356 - - 406 20 2 2 - : 860 50 30 292 2590 : 766 12 1823 1823 0 : 0 3 260 0 373 - 57 : 0.245532 4797.7 0.0 0.177671 3106.9 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 15.031238 15.035302 0.000429 15.202263 0.000177 15.204175 0.000145 15.206336 0.000098 : 15.208908 ]
+[15.209s][info][gc       ] [SYSINFO 8026 411 565 0 6763 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.24 3.12 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8115486720 989708288 426319872 6664458240 430915584 593117184 : 140674204 13619110 400190 0 0 0 : 15.209221 ]
+[15.209s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 15.209221 ]
+[15.209s][info][gc       ] [OBJCREAT 32506242 24821 552960 : 15.209278 ]
+[15.209s][info][gc       ] [HMSV All : 0 0 305 0 0 0 0 0 : 5656 0 0 0 : 15.209294 ]
+[15.209s][info][gc       ] [HMSP 70 : 51112 0 : 15.209294 ]
+[15.210s][info][gc       ] [VMAC 65530 170 24 496 690 : 15.210010 ]
+[15.472s][info][gc       ] [GPGC-H  3285.0 148.5 11.6 0.0 : 1115.2 : 0.000 0.000 : 0.000 0.000 0.733 1.124 : 0.000 0.000 0.000 0.000 1.764 0.041 : 0.000 : 77.205 : 2164 50 30 0 : 2277 : 5720 5428 : 15.471657 : 9 Next_heuristic_check_may_be_too_late ]
+[15.477s][info][safepoint] Application time: 0.2696313 seconds
+[15.477s][info][safepoint] Total time for which application threads were stopped: 0.0003662 seconds, Stopping threads took: 0.0000006 seconds
+[15.478s][info][gc       ] [SPS 0.000 0.005 0.006 0.009 0.001 0.001 0.000 0.264 0.091 0.367 NewGC_pause1 15.476547 ]
+[15.712s][info][safepoint] Application time: 0.2350870 seconds
+[15.712s][info][safepoint] Total time for which application threads were stopped: 0.0002869 seconds, Stopping threads took: 0.0000008 seconds
+[15.713s][info][gc       ] [SPS 0.000 0.002 0.000 0.009 0.001 0.001 0.001 0.225 0.059 0.297 NewGC_pause2 15.711931 ]
+[15.715s][info][safepoint] Application time: 0.0028275 seconds
+[15.715s][info][safepoint] Total time for which application threads were stopped: 0.0001821 seconds, Stopping threads took: 0.0000007 seconds
+[15.716s][info][gc       ] [SPS 0.000 0.001 0.000 0.010 0.001 0.001 0.000 0.140 0.030 0.182 NewGC_pause3 15.714931 ]
+[15.718s][info][safepoint] Application time: 0.0023980 seconds
+[15.718s][info][safepoint] Total time for which application threads were stopped: 0.0001904 seconds, Stopping threads took: 0.0000006 seconds
+[15.718s][info][gc       ] [SPS 0.000 0.003 0.003 0.008 0.001 0.001 0.000 0.148 0.032 0.191 NewGC_pause4 15.717520 ]
+[15.721s][info][gc       ] [GC New Max 32-25 : 6356 3374 1634 6356 - - 406 20 2 2 - : 1262 50 30 292 3002 : 1143 18 1855 1855 0 : 0 4 408 0 537 - 94 : 0.263159 4962.8 0.0 0.248939 3422.5 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 15.472067 15.476180 0.000153 15.711634 0.000226 15.714749 0.000136 15.717329 0.000113 : 15.721006 ]
+[15.721s][info][gc       ] [SYSINFO 8026 411 565 0 6763 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.24 3.12 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8115486720 989708288 426319872 6664458240 430915584 593117184 : 140674204 13620350 400300 0 0 0 : 15.721306 ]
+[15.721s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 15.721306 ]
+[15.721s][info][gc       ] [OBJCREAT 34628547 24821 552960 : 15.721367 ]
+[15.721s][info][gc       ] [HMSV All : 0 0 327 0 0 0 0 0 : 5656 0 0 0 : 15.721388 ]
+[15.721s][info][gc       ] [HMSP 70 : 51112 0 : 15.721388 ]
+[15.722s][info][gc       ] [VMAC 65530 170 24 496 690 : 15.722078 ]
+[16.085s][info][gc       ] [GPGC-H  3285.0 148.5 11.6 0.0 : 1115.2 : 0.000 0.000 : 0.000 0.000 0.721 1.124 : 0.000 0.000 0.000 0.000 1.739 0.041 : 0.000 : 76.537 : 2396 50 30 0 : 2277 : 5720 5428 : 16.085328 : 9 Next_heuristic_check_may_be_too_late ]
+[16.090s][info][safepoint] Application time: 0.3726885 seconds
+[16.091s][info][safepoint] Total time for which application threads were stopped: 0.0002561 seconds, Stopping threads took: 0.0000009 seconds
+[16.091s][info][gc       ] [SPS 0.000 0.005 0.010 0.014 0.001 0.002 0.001 0.173 0.065 0.256 NewGC_pause1 16.090465 ]
+[16.439s][info][safepoint] Application time: 0.3480469 seconds
+[16.439s][info][safepoint] Total time for which application threads were stopped: 0.0002881 seconds, Stopping threads took: 0.0000006 seconds
+[16.440s][info][gc       ] [SPS 0.007 0.013 0.000 0.010 0.001 0.001 0.000 0.214 0.062 0.288 NewGC_pause2 16.438800 ]
+[16.441s][info][safepoint] Application time: 0.0019315 seconds
+[16.441s][info][safepoint] Total time for which application threads were stopped: 0.0002039 seconds, Stopping threads took: 0.0000005 seconds
+[16.441s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.000 0.001 0.000 0.164 0.029 0.204 NewGC_pause3 16.440935 ]
+[16.454s][info][safepoint] Application time: 0.0127694 seconds
+[16.454s][info][safepoint] Total time for which application threads were stopped: 0.0002343 seconds, Stopping threads took: 0.0000005 seconds
+[16.455s][info][gc       ] [SPS 0.000 0.007 0.013 0.009 0.000 0.001 0.001 0.184 0.039 0.234 NewGC_pause4 16.453939 ]
+[16.503s][info][gc       ] [GC New Max 33-26 : 6356 3902 2272 6356 - - 416 20 2 2 - : 1900 50 30 292 3530 : 1614 24 1917 1917 0 : 0 42 558 0 813 - 137 : 0.364713 3114.8 0.0 0.417157 3106.7 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 16.085720 16.090209 0.000170 16.438512 0.000172 16.440731 0.000101 16.453705 0.000127 : 16.502877 ]
+[16.503s][info][gc       ] [SYSINFO 8036 411 565 0 6772 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.24 3.12 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8125759488 989708288 436592640 6664458240 430915584 593117184 : 140674204 13622370 400340 0 0 0 : 16.503382 ]
+[16.503s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 16.503382 ]
+[16.503s][info][gc       ] [OBJCREAT 37015718 24821 552960 : 16.503446 ]
+[16.503s][info][gc       ] [HMSV All : 0 0 350 0 0 0 0 0 : 5656 0 0 0 : 16.503469 ]
+[16.503s][info][gc       ] [HMSP 70 : 51112 0 : 16.503469 ]
+[16.504s][info][gc       ] [VMAC 65530 170 24 496 690 : 16.504227 ]
+[16.727s][info][gc       ] [GPGC-H  3451.6 135.2 10.6 0.0 : 1015.8 : 0.000 0.000 : 0.000 0.000 0.710 1.124 : 0.000 0.000 0.000 0.000 1.705 0.041 : 0.000 : 75.714 : 2834 50 30 0 : 2277 : 5720 5428 : 16.726928 : 9 Next_heuristic_check_may_be_too_late ]
+[16.733s][info][safepoint] Application time: 0.2782587 seconds
+[16.733s][info][safepoint] Total time for which application threads were stopped: 0.0005367 seconds, Stopping threads took: 0.0000006 seconds
+[16.734s][info][gc       ] [SPS 0.000 0.005 0.006 0.009 0.001 0.001 0.000 0.409 0.117 0.537 NewGC_pause1 16.732736 ]
+[16.940s][info][safepoint] Application time: 0.2070600 seconds
+[16.941s][info][safepoint] Total time for which application threads were stopped: 0.0002404 seconds, Stopping threads took: 0.0000005 seconds
+[16.941s][info][gc       ] [SPS 0.000 0.002 0.000 0.009 0.001 0.001 0.000 0.201 0.029 0.241 NewGC_pause2 16.940036 ]
+[16.942s][info][safepoint] Application time: 0.0022612 seconds
+[16.943s][info][safepoint] Total time for which application threads were stopped: 0.0001038 seconds, Stopping threads took: 0.0000072 seconds
+[16.943s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.007 0.001 0.000 0.066 0.021 0.104 NewGC_pause3 16.942401 ]
+[16.945s][info][safepoint] Application time: 0.0027088 seconds
+[16.945s][info][safepoint] Total time for which application threads were stopped: 0.0001279 seconds, Stopping threads took: 0.0000006 seconds
+[16.946s][info][gc       ] [SPS 0.000 0.004 0.003 0.008 0.001 0.001 0.000 0.089 0.028 0.128 NewGC_pause4 16.945238 ]
+[16.947s][info][gc       ] [GC New Max 34-27 : 6356 3840 1344 6356 - - 416 20 2 2 - : 972 50 30 292 3468 : 873 16 2594 2594 0 : 0 2 304 0 417 - 69 : 0.224650 4175.4 0.0 0.219029 2940.3 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 16.727526 16.732198 0.000395 16.939796 0.000171 16.942297 0.000075 16.945110 0.000086 : 16.946555 ]
+[16.947s][info][gc       ] [SYSINFO 8036 411 565 0 6772 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.24 3.12 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8125759488 989708288 436592640 6664458240 430915584 593117184 : 140674204 13623470 400340 0 0 0 : 16.946895 ]
+[16.947s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 16.946895 ]
+[16.947s][info][gc       ] [OBJCREAT 38571674 24821 552960 : 16.946956 ]
+[16.947s][info][gc       ] [HMSV All : 0 0 364 0 0 0 0 0 : 5656 0 0 0 : 16.946978 ]
+[16.947s][info][gc       ] [HMSP 70 : 51112 0 : 16.946978 ]
+[16.948s][info][gc       ] [VMAC 65530 170 24 496 690 : 16.947816 ]
+[16.988s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[16.988s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 12 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 4 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 ]
+[17.250s][info][gc       ] [GPGC-H  3451.6 135.2 10.6 0.0 : 1015.8 : 0.000 0.000 : 0.000 0.000 0.700 1.124 : 0.000 0.000 0.000 0.000 1.684 0.041 : 0.000 : 75.179 : 2080 50 30 0 : 2277 : 5720 5428 : 17.250113 : 9 Next_heuristic_check_may_be_too_late ]
+[17.255s][info][safepoint] Application time: 0.3090720 seconds
+[17.255s][info][safepoint] Total time for which application threads were stopped: 0.0005153 seconds, Stopping threads took: 0.0000036 seconds
+[17.256s][info][gc       ] [SPS 0.000 0.004 0.003 0.009 0.004 0.001 0.000 0.470 0.031 0.515 NewGC_pause1 17.254826 ]
+[17.443s][info][safepoint] Application time: 0.1882040 seconds
+[17.444s][info][safepoint] Total time for which application threads were stopped: 0.0002944 seconds, Stopping threads took: 0.0000009 seconds
+[17.444s][info][gc       ] [SPS 0.000 0.002 0.000 0.013 0.001 0.002 0.001 0.223 0.056 0.295 NewGC_pause2 17.443325 ]
+[17.446s][info][safepoint] Application time: 0.0024966 seconds
+[17.446s][info][safepoint] Total time for which application threads were stopped: 0.0002325 seconds, Stopping threads took: 0.0000014 seconds
+[17.447s][info][gc       ] [SPS 0.000 0.002 0.000 0.022 0.001 0.003 0.017 0.161 0.028 0.233 NewGC_pause3 17.446054 ]
+[17.450s][info][safepoint] Application time: 0.0032349 seconds
+[17.450s][info][safepoint] Total time for which application threads were stopped: 0.0003184 seconds, Stopping threads took: 0.0000011 seconds
+[17.450s][info][gc       ] [SPS 0.000 0.006 0.005 0.016 0.001 0.002 0.001 0.244 0.055 0.319 NewGC_pause4 17.449608 ]
+[17.455s][info][gc       ] [GC New Max 35-28 : 6356 3094 1394 6356 - - 416 20 2 2 - : 1022 50 30 292 2722 : 900 19 1820 1820 0 : 0 4 311 0 434 - 77 : 0.304226 3655.2 0.0 0.203254 3306.2 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 17.250781 17.254310 0.000402 17.443030 0.000178 17.445822 0.000178 17.449289 0.000195 : 17.454036 ]
+[17.455s][info][gc       ] [SYSINFO 8036 411 565 0 6773 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.24 3.12 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 3 0 213 : - 8125759488 989708288 436592640 6664458240 430915584 593117184 : 140674204 13624560 400370 0 0 0 : 17.454433 ]
+[17.455s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 17.454433 ]
+[17.455s][info][gc       ] [OBJCREAT 40321961 24821 552960 : 17.454639 ]
+[17.455s][info][gc       ] [HMSV All : 0 0 381 0 0 0 0 0 : 5656 0 0 0 : 17.454698 ]
+[17.455s][info][gc       ] [HMSP 70 : 51112 0 : 17.454698 ]
+[17.456s][info][gc       ] [VMAC 65530 170 24 496 690 : 17.456430 ]
+[17.738s][info][gc       ] [GPGC-H  3451.6 135.2 10.6 0.0 : 1015.8 : 0.000 0.000 : 0.000 0.000 0.689 1.124 : 0.000 0.000 0.000 0.000 1.661 0.041 : 0.000 : 74.365 : 2206 50 30 0 : 2277 : 5720 5428 : 17.738260 : 9 Next_heuristic_check_may_be_too_late ]
+[17.743s][info][safepoint] Application time: 0.2929047 seconds
+[17.744s][info][safepoint] Total time for which application threads were stopped: 0.0005211 seconds, Stopping threads took: 0.0000007 seconds
+[17.744s][info][gc       ] [SPS 0.000 0.005 0.007 0.012 0.001 0.001 0.001 0.459 0.048 0.521 NewGC_pause1 17.743034 ]
+[17.966s][info][safepoint] Application time: 0.2230010 seconds
+[17.967s][info][safepoint] Total time for which application threads were stopped: 0.0002357 seconds, Stopping threads took: 0.0000016 seconds
+[17.967s][info][gc       ] [SPS 0.000 0.002 0.000 0.022 0.002 0.003 0.001 0.169 0.040 0.236 NewGC_pause2 17.966271 ]
+[17.969s][info][safepoint] Application time: 0.0027645 seconds
+[17.970s][info][safepoint] Total time for which application threads were stopped: 0.0002360 seconds, Stopping threads took: 0.0000006 seconds
+[17.970s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.185 0.040 0.236 NewGC_pause3 17.969272 ]
+[17.972s][info][safepoint] Application time: 0.0027276 seconds
+[17.973s][info][safepoint] Total time for which application threads were stopped: 0.0002124 seconds, Stopping threads took: 0.0000024 seconds
+[17.973s][info][gc       ] [SPS 0.000 0.035 0.003 0.008 0.002 0.001 0.000 0.156 0.045 0.213 NewGC_pause4 17.972212 ]
+[17.977s][info][gc       ] [GC New Max 36-29 : 6356 3372 1618 6356 - - 416 20 2 2 - : 1246 50 30 292 3000 : 1132 19 1864 1864 0 : 0 5 387 0 529 - 94 : 0.284783 4171.6 0.0 0.238106 3317.9 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 17.738819 17.742513 0.000424 17.966036 0.000187 17.969036 0.000153 17.971999 0.000111 : 17.976925 ]
+[17.977s][info][gc       ] [SYSINFO 8036 411 565 0 6773 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.24 3.12 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8125759488 989708288 436592640 6664458240 430915584 593117184 : 140674204 13625740 400400 0 0 0 : 17.977230 ]
+[17.977s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 17.977230 ]
+[17.977s][info][gc       ] [OBJCREAT 42270658 24821 552960 : 17.977286 ]
+[17.977s][info][gc       ] [HMSV All : 0 0 399 0 0 0 0 0 : 5656 0 0 0 : 17.977308 ]
+[17.977s][info][gc       ] [HMSP 70 : 51112 0 : 17.977308 ]
+[17.978s][info][gc       ] [VMAC 65530 170 24 496 690 : 17.978005 ]
+[18.340s][info][gc       ] [GPGC-H  3451.6 135.2 10.6 0.0 : 1015.8 : 0.000 0.000 : 0.000 0.000 0.678 1.124 : 0.000 0.000 0.000 0.000 1.639 0.041 : 0.000 : 73.677 : 2334 50 30 0 : 2277 : 5720 5428 : 18.340051 : 9 Next_heuristic_check_may_be_too_late ]
+[18.345s][info][safepoint] Application time: 0.3723683 seconds
+[18.346s][info][safepoint] Total time for which application threads were stopped: 0.0005657 seconds, Stopping threads took: 0.0000011 seconds
+[18.346s][info][gc       ] [SPS 0.000 0.006 0.006 0.017 0.001 0.002 0.001 0.465 0.079 0.566 NewGC_pause1 18.345147 ]
+[18.642s][info][safepoint] Application time: 0.2964664 seconds
+[18.643s][info][safepoint] Total time for which application threads were stopped: 0.0004232 seconds, Stopping threads took: 0.0000017 seconds
+[18.643s][info][gc       ] [SPS 0.000 0.002 0.000 0.026 0.002 0.003 0.001 0.336 0.055 0.423 NewGC_pause2 18.642037 ]
+[18.644s][info][safepoint] Application time: 0.0022357 seconds
+[18.645s][info][safepoint] Total time for which application threads were stopped: 0.0001748 seconds, Stopping threads took: 0.0000005 seconds
+[18.645s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.134 0.030 0.175 NewGC_pause3 18.644447 ]
+[18.650s][info][safepoint] Application time: 0.0053750 seconds
+[18.650s][info][safepoint] Total time for which application threads were stopped: 0.0002349 seconds, Stopping threads took: 0.0000005 seconds
+[18.651s][info][gc       ] [SPS 0.000 0.004 0.007 0.009 0.001 0.001 0.000 0.186 0.038 0.235 NewGC_pause4 18.650057 ]
+[18.666s][info][gc       ] [GC New Max 37-30 : 6356 3276 1608 6356 - - 416 20 2 2 - : 1236 50 30 292 2904 : 1039 17 1862 1862 0 : 0 16 286 0 524 - 94 : 0.363667 2991.8 0.0 0.324981 1981.7 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 18.340591 18.344581 0.000408 18.641614 0.000233 18.644272 0.000100 18.649822 0.000120 : 18.665573 ]
+[18.666s][info][gc       ] [SYSINFO 8036 411 565 0 6773 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.24 3.12 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8125759488 989708288 436592640 6664458240 430915584 593117184 : 140674204 13627390 400540 0 0 0 : 18.666055 ]
+[18.666s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 18.666055 ]
+[18.666s][info][gc       ] [OBJCREAT 43973630 24821 552960 : 18.666126 ]
+[18.666s][info][gc       ] [HMSV All : 0 0 415 0 0 0 0 0 : 5656 0 0 0 : 18.666144 ]
+[18.666s][info][gc       ] [HMSP 70 : 51112 0 : 18.666144 ]
+[18.667s][info][gc       ] [VMAC 65530 170 24 496 690 : 18.667127 ]
+[19.030s][info][gc       ] [GPGC-H  3422.3 122.4 9.6 0.0 : 919.2 : 0.000 0.000 : 0.000 0.000 0.667 1.124 : 0.000 0.000 0.000 0.000 1.612 0.041 : 0.000 : 72.847 : 2324 50 30 0 : 2277 : 5720 5428 : 19.030169 : 9 Next_heuristic_check_may_be_too_late ]
+[19.034s][info][safepoint] Application time: 0.3840627 seconds
+[19.035s][info][safepoint] Total time for which application threads were stopped: 0.0003651 seconds, Stopping threads took: 0.0000006 seconds
+[19.035s][info][gc       ] [SPS 0.000 0.004 0.003 0.009 0.001 0.001 0.000 0.314 0.041 0.366 NewGC_pause1 19.034486 ]
+[19.260s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[19.260s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 13 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 4 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 ]
+[19.320s][info][safepoint] Application time: 0.2850408 seconds
+[19.321s][info][safepoint] Total time for which application threads were stopped: 0.0004112 seconds, Stopping threads took: 0.0000015 seconds
+[19.321s][info][gc       ] [SPS 0.000 0.002 0.000 0.046 0.001 0.003 0.001 0.299 0.061 0.411 NewGC_pause2 19.319938 ]
+[19.323s][info][safepoint] Application time: 0.0030170 seconds
+[19.324s][info][safepoint] Total time for which application threads were stopped: 0.0003392 seconds, Stopping threads took: 0.0000015 seconds
+[19.324s][info][gc       ] [SPS 0.000 0.001 0.000 0.021 0.001 0.003 0.001 0.282 0.031 0.339 NewGC_pause3 19.323295 ]
+[19.337s][info][safepoint] Application time: 0.0136390 seconds
+[19.337s][info][safepoint] Total time for which application threads were stopped: 0.0002147 seconds, Stopping threads took: 0.0000005 seconds
+[19.338s][info][gc       ] [SPS 0.000 0.005 0.007 0.010 0.001 0.001 0.000 0.173 0.031 0.215 NewGC_pause4 19.337149 ]
+[19.361s][info][gc       ] [GC New Max 38-31 : 6356 3282 1704 6356 - - 416 20 2 2 - : 1332 50 30 292 2910 : 1021 18 1886 1886 0 : 0 14 293 0 589 - 77 : 0.365067 2980.3 0.0 0.329770 2341.0 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 19.030640 19.034120 0.000277 19.319527 0.000225 19.322956 0.000268 19.336934 0.000132 : 19.360410 ]
+[19.361s][info][gc       ] [SYSINFO 8036 411 565 0 6773 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.24 3.12 5.01 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8125759488 989708288 436592640 6664458240 430915584 593117184 : 140674204 13629100 400670 0 0 0 : 19.360762 ]
+[19.361s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 19.360762 ]
+[19.361s][info][gc       ] [OBJCREAT 45801601 24821 552960 : 19.360825 ]
+[19.361s][info][gc       ] [HMSV All : 0 0 431 0 0 0 0 0 : 5656 0 0 0 : 19.360848 ]
+[19.361s][info][gc       ] [HMSP 70 : 51112 0 : 19.360848 ]
+[19.362s][info][gc       ] [VMAC 65530 170 24 496 690 : 19.361687 ]
+[19.705s][info][gc       ] [GPGC-H  3422.3 122.4 9.6 0.0 : 919.2 : 0.000 0.000 : 0.000 0.000 0.656 1.124 : 0.000 0.000 0.000 0.000 1.583 0.041 : 0.000 : 72.045 : 2370 50 30 0 : 2277 : 5720 5428 : 19.704747 : 9 Next_heuristic_check_may_be_too_late ]
+[19.709s][info][safepoint] Application time: 0.3717439 seconds
+[19.710s][info][safepoint] Total time for which application threads were stopped: 0.0004806 seconds, Stopping threads took: 0.0000005 seconds
+[19.710s][info][gc       ] [SPS 0.000 0.005 0.007 0.009 0.001 0.001 0.000 0.440 0.030 0.481 NewGC_pause1 19.709374 ]
+[20.071s][info][safepoint] Application time: 0.3602329 seconds
+[20.071s][info][safepoint] Total time for which application threads were stopped: 0.0010581 seconds, Stopping threads took: 0.0008104 seconds
+[20.072s][info][gc       ] [SPS 0.000 0.002 0.000 0.009 0.810 0.001 0.000 0.199 0.038 1.058 NewGC_pause2 20.070665 ]
+[20.091s][info][safepoint] Application time: 0.0198831 seconds
+[20.091s][info][safepoint] Total time for which application threads were stopped: 0.0002821 seconds, Stopping threads took: 0.0000009 seconds
+[20.092s][info][gc       ] [SPS 0.000 0.001 0.000 0.014 0.001 0.002 0.001 0.221 0.045 0.283 NewGC_pause3 20.090831 ]
+[20.110s][info][safepoint] Application time: 0.0191262 seconds
+[20.126s][info][safepoint] Total time for which application threads were stopped: 0.0003287 seconds, Stopping threads took: 0.0000009 seconds
+[20.126s][info][gc       ] [SPS 0.000 0.025 0.013 0.015 0.001 0.002 0.001 0.258 0.052 0.329 NewGC_pause4 20.110286 ]
+[20.169s][info][gc       ] [GC New Max 39-32 : 6356 3732 2266 6356 - - 417 20 2 2 - : 1872 50 30 292 3360 : 1479 26 1879 1879 0 : 0 52 484 0 810 - 126 : 0.344958 3020.7 0.0 0.463361 2710.6 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 19.705368 19.708893 0.000407 20.069607 0.000981 20.090548 0.000183 20.109957 0.000213 : 20.168729 ]
+[20.169s][info][gc       ] [SYSINFO 8037 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.30 3.10 4.99 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8126705664 989708288 437538816 6664458240 430915584 593117184 : 140674204 13631160 400780 0 0 0 : 20.169078 ]
+[20.169s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 20.169078 ]
+[20.169s][info][gc       ] [OBJCREAT 48079415 24821 552960 : 20.169139 ]
+[20.169s][info][gc       ] [HMSV All : 0 0 454 0 0 0 0 0 : 5656 0 0 0 : 20.169161 ]
+[20.169s][info][gc       ] [HMSP 70 : 51112 0 : 20.169161 ]
+[20.170s][info][gc       ] [VMAC 65530 170 24 496 690 : 20.170400 ]
+[20.372s][info][gc       ] [GPGC-H  3422.3 122.4 9.6 0.0 : 919.2 : 0.000 0.000 : 0.000 0.000 0.649 1.124 : 0.000 0.000 0.000 0.000 1.556 0.041 : 0.000 : 71.506 : 2794 50 30 0 : 2277 : 5720 5428 : 20.371618 : 9 Next_heuristic_check_may_be_too_late ]
+[20.377s][info][safepoint] Application time: 0.2663698 seconds
+[20.378s][info][safepoint] Total time for which application threads were stopped: 0.0003793 seconds, Stopping threads took: 0.0000011 seconds
+[20.378s][info][gc       ] [SPSH lock suspend gclocker notify wait resuspend cleanup op_time wakeup total(ms) op_name end(s) ]
+[20.378s][info][gc       ] [SPS 0.000 0.004 0.006 0.016 0.001 0.002 0.001 0.293 0.067 0.379 NewGC_pause1 20.377036 ]
+[20.535s][info][safepoint] Application time: 0.1573486 seconds
+[20.535s][info][safepoint] Total time for which application threads were stopped: 0.0002826 seconds, Stopping threads took: 0.0000005 seconds
+[20.536s][info][gc       ] [SPS 0.000 0.002 0.000 0.009 0.001 0.001 0.000 0.245 0.028 0.283 NewGC_pause2 20.534667 ]
+[20.596s][info][safepoint] Application time: 0.0608561 seconds
+[20.596s][info][safepoint] Total time for which application threads were stopped: 0.0001451 seconds, Stopping threads took: 0.0000011 seconds
+[20.597s][info][gc       ] [SPS 0.000 0.002 0.000 0.017 0.001 0.002 0.001 0.080 0.045 0.145 NewGC_pause3 20.595668 ]
+[20.599s][info][safepoint] Application time: 0.0028364 seconds
+[20.599s][info][safepoint] Total time for which application threads were stopped: 0.0002435 seconds, Stopping threads took: 0.0000006 seconds
+[20.599s][info][gc       ] [SPS 0.000 0.006 0.005 0.009 0.001 0.001 0.000 0.173 0.059 0.244 NewGC_pause4 20.598748 ]
+[20.601s][info][gc       ] [GC New Max 40-33 : 6356 3706 1214 6356 - - 417 20 2 2 - : 842 50 30 292 3334 : 752 10 2580 2580 0 : 0 2 258 0 367 - 54 : 0.203322 4554.3 0.0 0.228355 2408.5 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 20.372052 20.376656 0.000209 20.534384 0.000216 20.595523 0.000090 20.598505 0.000115 : 20.600407 ]
+[20.601s][info][gc       ] [SYSINFO 8037 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.30 3.10 4.99 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8126705664 989708288 437538816 6664458240 430915584 593117184 : 140674204 13632050 400900 0 0 0 : 20.600716 ]
+[20.601s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 20.600716 ]
+[20.601s][info][gc       ] [OBJCREAT 49515823 24821 552960 : 20.600769 ]
+[20.601s][info][gc       ] [HMSV All : 0 0 464 0 0 0 0 0 : 5656 0 0 0 : 20.600789 ]
+[20.601s][info][gc       ] [HMSP 70 : 51112 0 : 20.600789 ]
+[20.602s][info][gc       ] [VMAC 65530 170 24 496 690 : 20.601928 ]
+[20.904s][info][gc       ] [GPGC-H  3377.5 111.5 8.7 0.0 : 837.5 : 0.000 0.000 : 0.000 0.000 0.641 1.124 : 0.000 0.000 0.000 0.000 1.541 0.041 : 0.000 : 71.138 : 2440 50 30 0 : 2277 : 5720 5428 : 20.903616 : 9 Next_heuristic_check_may_be_too_late ]
+[20.908s][info][safepoint] Application time: 0.3088495 seconds
+[20.908s][info][safepoint] Total time for which application threads were stopped: 0.0003763 seconds, Stopping threads took: 0.0000006 seconds
+[20.909s][info][gc       ] [SPS 0.000 0.005 0.007 0.009 0.001 0.001 0.000 0.325 0.041 0.376 NewGC_pause1 20.907975 ]
+[21.247s][info][safepoint] Application time: 0.3389763 seconds
+[21.248s][info][safepoint] Total time for which application threads were stopped: 0.0002863 seconds, Stopping threads took: 0.0000005 seconds
+[21.248s][info][gc       ] [SPS 0.000 0.001 0.000 0.008 0.001 0.001 0.000 0.248 0.029 0.287 NewGC_pause2 21.247238 ]
+[21.250s][info][safepoint] Application time: 0.0022065 seconds
+[21.250s][info][safepoint] Total time for which application threads were stopped: 0.0001986 seconds, Stopping threads took: 0.0000006 seconds
+[21.250s][info][gc       ] [SPS 0.000 0.001 0.000 0.008 0.001 0.001 0.000 0.163 0.025 0.199 NewGC_pause3 21.249643 ]
+[21.260s][info][safepoint] Application time: 0.0099223 seconds
+[21.260s][info][safepoint] Total time for which application threads were stopped: 0.0002571 seconds, Stopping threads took: 0.0000006 seconds
+[21.260s][info][gc       ] [SPS 0.001 0.005 0.010 0.010 0.001 0.001 0.000 0.196 0.050 0.257 NewGC_pause4 21.259823 ]
+[21.307s][info][gc       ] [GC New Max 41-34 : 6356 3444 1778 6356 - - 417 20 2 2 - : 1406 50 30 292 3072 : 1124 21 1944 1944 0 : 0 49 305 0 601 - 102 : 0.303737 5274.3 0.0 0.402671 1932.1 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 20.904144 20.907598 0.000318 21.246951 0.000211 21.249444 0.000121 21.259565 0.000150 : 21.306815 ]
+[21.307s][info][gc       ] [SYSINFO 8037 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.30 3.10 4.99 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8126705664 989708288 437538816 6664458240 430915584 593117184 : 140674204 13633960 400950 0 0 0 : 21.307423 ]
+[21.307s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 21.307423 ]
+[21.307s][info][gc       ] [OBJCREAT 51852512 24821 552960 : 21.307482 ]
+[21.307s][info][gc       ] [HMSV All : 0 0 488 0 0 0 0 0 : 5656 0 0 0 : 21.307503 ]
+[21.307s][info][gc       ] [HMSP 70 : 51112 0 : 21.307503 ]
+[21.309s][info][gc       ] [VMAC 65530 170 24 496 690 : 21.308777 ]
+[21.712s][info][gc       ] [GPGC-H  3377.5 111.5 8.7 0.0 : 837.5 : 0.000 0.000 : 0.000 0.000 0.633 1.124 : 0.000 0.000 0.000 0.000 1.521 0.041 : 0.000 : 70.684 : 2422 50 30 0 : 2277 : 5720 5428 : 21.711828 : 9 Next_heuristic_check_may_be_too_late ]
+[21.747s][info][safepoint] Application time: 0.4867373 seconds
+[21.748s][info][safepoint] Total time for which application threads were stopped: 0.0004794 seconds, Stopping threads took: 0.0000009 seconds
+[21.748s][info][gc       ] [SPS 0.000 0.005 0.006 0.014 0.001 0.002 0.001 0.426 0.036 0.480 NewGC_pause1 21.747040 ]
+[21.757s][info][safepoint] Application time: 0.0098864 seconds
+[21.758s][info][safepoint] Total time for which application threads were stopped: 0.0002657 seconds, Stopping threads took: 0.0000009 seconds
+[21.758s][info][gc       ] [SPS 0.000 0.002 0.000 0.013 0.001 0.002 0.001 0.185 0.065 0.266 NewGC_pause2 21.757192 ]
+[21.760s][info][safepoint] Application time: 0.0022997 seconds
+[21.760s][info][safepoint] Total time for which application threads were stopped: 0.0002304 seconds, Stopping threads took: 0.0000008 seconds
+[21.760s][info][gc       ] [SPS 0.000 0.001 0.000 0.013 0.001 0.002 0.001 0.169 0.046 0.231 NewGC_pause3 21.759723 ]
+[21.762s][info][safepoint] Application time: 0.0021825 seconds
+[21.763s][info][safepoint] Total time for which application threads were stopped: 0.0003439 seconds, Stopping threads took: 0.0000017 seconds
+[21.763s][info][gc       ] [SPS 0.000 0.004 0.004 0.051 0.002 0.002 0.001 0.232 0.057 0.344 NewGC_pause4 21.762249 ]
+[21.765s][info][gc       ] [GC New Max 42-35 : 6356 2886 436 6356 - - 417 20 2 2 - : 64 50 30 292 2514 : 51 7 2465 2465 0 : 0 1 23 0 25 - 7 : 0.405501 2505.5 0.0 0.051958 2001.6 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 21.712316 21.746560 0.000431 21.756926 0.000144 21.759492 0.000119 21.761905 0.000273 : 21.764274 ]
+[21.765s][info][gc       ] [SYSINFO 8037 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.30 3.10 4.99 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8126705664 989708288 437538816 6664458240 430915584 593117184 : 140674204 13634460 400980 0 0 0 : 21.764699 ]
+[21.765s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 21.764699 ]
+[21.765s][info][gc       ] [OBJCREAT 52952861 24821 552960 : 21.764781 ]
+[21.765s][info][gc       ] [HMSV All : 0 0 498 0 0 0 0 0 : 5656 0 0 0 : 21.764812 ]
+[21.765s][info][gc       ] [HMSP 70 : 51112 0 : 21.764812 ]
+[21.766s][info][gc       ] [VMAC 65530 170 24 496 690 : 21.765833 ]
+[22.250s][info][gc       ] [GPGC-H  3377.5 111.5 8.7 0.0 : 837.5 : 0.000 0.000 : 0.000 0.000 0.621 1.124 : 0.000 0.000 0.000 0.000 1.504 0.041 : 0.000 : 69.443 : 2474 50 30 0 : 2277 : 5720 5428 : 22.249770 : 9 Next_heuristic_check_may_be_too_late ]
+[22.254s][info][safepoint] Application time: 0.4912975 seconds
+[22.255s][info][safepoint] Total time for which application threads were stopped: 0.0006402 seconds, Stopping threads took: 0.0000013 seconds
+[22.255s][info][gc       ] [SPS 0.000 0.005 0.014 0.014 0.001 0.001 0.001 0.579 0.044 0.640 NewGC_pause1 22.254187 ]
+[22.621s][info][safepoint] Application time: 0.3669244 seconds
+[22.622s][info][safepoint] Total time for which application threads were stopped: 0.0002048 seconds, Stopping threads took: 0.0000269 seconds
+[22.622s][info][gc       ] [SPS 0.000 0.023 0.001 0.018 0.027 0.002 0.001 0.115 0.043 0.205 NewGC_pause2 22.621317 ]
+[22.624s][info][safepoint] Application time: 0.0020958 seconds
+[22.624s][info][safepoint] Total time for which application threads were stopped: 0.0001088 seconds, Stopping threads took: 0.0000008 seconds
+[22.624s][info][gc       ] [SPS 0.000 0.001 0.000 0.012 0.001 0.001 0.000 0.067 0.027 0.109 NewGC_pause3 22.623522 ]
+[22.636s][info][safepoint] Application time: 0.0118435 seconds
+[22.636s][info][safepoint] Total time for which application threads were stopped: 0.0002415 seconds, Stopping threads took: 0.0000006 seconds
+[22.636s][info][gc       ] [SPS 0.000 0.008 0.012 0.012 0.001 0.001 0.000 0.174 0.053 0.242 NewGC_pause4 22.635607 ]
+[22.670s][info][gc       ] [GC New Max 43-36 : 6356 3852 2152 6356 - - 417 20 2 2 - : 1780 50 30 292 3480 : 1488 24 1988 1988 0 : 0 34 496 0 772 - 118 : 0.486058 4962.4 0.0 0.419653 2773.7 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 22.250332 22.253547 0.000536 22.621112 0.000126 22.623413 0.000072 22.635366 0.000127 : 22.669985 ]
+[22.671s][info][gc       ] [SYSINFO 8037 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.30 3.10 4.99 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8126976000 989708288 437809152 6664458240 430915584 593117184 : 140674204 13636440 401050 0 0 0 : 22.670422 ]
+[22.671s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 22.670422 ]
+[22.671s][info][gc       ] [OBJCREAT 56469566 24821 552960 : 22.670525 ]
+[22.671s][info][gc       ] [HMSV All : 0 0 532 0 0 0 0 0 : 5656 0 0 0 : 22.670546 ]
+[22.671s][info][gc       ] [HMSP 70 : 51112 0 : 22.670546 ]
+[22.672s][info][gc       ] [VMAC 65530 170 24 496 690 : 22.671689 ]
+[22.874s][info][gc       ] [GPGC-H  3362.9 101.6 7.9 0.0 : 763.2 : 0.000 0.000 : 0.000 0.000 0.613 1.124 : 0.000 0.000 0.000 0.000 1.473 0.041 : 0.000 : 68.496 : 2786 50 30 0 : 2277 : 5720 5428 : 22.873817 : 9 Next_heuristic_check_may_be_too_late ]
+[22.879s][info][safepoint] Application time: 0.2429918 seconds
+[22.880s][info][safepoint] Total time for which application threads were stopped: 0.0005567 seconds, Stopping threads took: 0.0000006 seconds
+[22.880s][info][gc       ] [SPS 0.000 0.005 0.006 0.009 0.001 0.001 0.000 0.508 0.038 0.557 NewGC_pause1 22.879156 ]
+[23.056s][info][safepoint] Application time: 0.1770565 seconds
+[23.057s][info][safepoint] Total time for which application threads were stopped: 0.0001801 seconds, Stopping threads took: 0.0000007 seconds
+[23.057s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.152 0.017 0.180 NewGC_pause2 23.056393 ]
+[23.058s][info][safepoint] Application time: 0.0017451 seconds
+[23.059s][info][safepoint] Total time for which application threads were stopped: 0.0001684 seconds, Stopping threads took: 0.0000006 seconds
+[23.059s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.131 0.026 0.168 NewGC_pause3 23.058306 ]
+[23.061s][info][safepoint] Application time: 0.0023460 seconds
+[23.061s][info][safepoint] Total time for which application threads were stopped: 0.0002328 seconds, Stopping threads took: 0.0000016 seconds
+[23.061s][info][gc       ] [SPS 0.000 0.007 0.006 0.023 0.002 0.003 0.001 0.166 0.053 0.248 NewGC_pause4 23.060901 ]
+[23.063s][info][gc       ] [GC New Max 44-37 : 6356 3728 1228 6356 - - 417 20 2 2 - : 856 50 30 292 3356 : 771 12 2585 2585 0 : 0 3 275 0 373 - 55 : 0.204519 4928.6 0.0 0.188046 3105.6 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 22.874503 22.878599 0.000434 23.056213 0.000159 23.058138 0.000134 23.060653 0.000186 : 23.062549 ]
+[23.063s][info][gc       ] [SYSINFO 8037 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.30 3.10 4.99 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8126976000 989708288 437809152 6664458240 430915584 593117184 : 140674204 13637280 401120 0 0 0 : 23.062892 ]
+[23.063s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 23.062892 ]
+[23.063s][info][gc       ] [OBJCREAT 58040409 24821 552960 : 23.062945 ]
+[23.063s][info][gc       ] [HMSV All : 0 0 545 0 0 0 0 0 : 5656 0 0 0 : 23.062964 ]
+[23.063s][info][gc       ] [HMSP 70 : 51112 0 : 23.062964 ]
+[23.064s][info][gc       ] [VMAC 65530 170 24 496 690 : 23.063888 ]
+[23.467s][info][gc       ] [GPGC-H  3362.9 101.6 7.9 0.0 : 763.2 : 0.000 0.000 : 0.000 0.000 0.605 1.124 : 0.000 0.000 0.000 0.000 1.458 0.041 : 0.000 : 68.126 : 2620 50 30 0 : 2277 : 5720 5428 : 23.466823 : 9 Next_heuristic_check_may_be_too_late ]
+[23.471s][info][safepoint] Application time: 0.4097891 seconds
+[23.471s][info][safepoint] Total time for which application threads were stopped: 0.0002533 seconds, Stopping threads took: 0.0000006 seconds
+[23.472s][info][gc       ] [SPS 0.001 0.004 0.010 0.010 0.001 0.001 0.000 0.213 0.029 0.253 NewGC_pause1 23.470928 ]
+[23.507s][info][safepoint] Application time: 0.0361705 seconds
+[23.508s][info][safepoint] Total time for which application threads were stopped: 0.0001826 seconds, Stopping threads took: 0.0000014 seconds
+[23.508s][info][gc       ] [SPS 0.000 0.002 0.000 0.021 0.001 0.003 0.001 0.109 0.046 0.182 NewGC_pause2 23.507282 ]
+[23.509s][info][safepoint] Application time: 0.0018311 seconds
+[23.510s][info][safepoint] Total time for which application threads were stopped: 0.0001766 seconds, Stopping threads took: 0.0000006 seconds
+[23.510s][info][gc       ] [SPS 0.000 0.001 0.000 0.013 0.001 0.001 0.000 0.111 0.052 0.177 NewGC_pause3 23.509290 ]
+[23.511s][info][safepoint] Application time: 0.0015172 seconds
+[23.511s][info][safepoint] Total time for which application threads were stopped: 0.0001782 seconds, Stopping threads took: 0.0000006 seconds
+[23.512s][info][gc       ] [SPS 0.000 0.004 0.003 0.009 0.001 0.001 0.000 0.137 0.031 0.178 NewGC_pause4 23.510985 ]
+[23.512s][info][gc       ] [GC New Max 45-38 : 6356 3190 642 6356 - - 417 20 2 2 - : 270 50 30 292 2818 : 238 11 2577 2577 0 : 0 2 92 0 115 - 20 : 0.404802 4362.6 0.0 0.044722 4606.3 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 23.467351 23.470675 0.000208 23.507099 0.000111 23.509113 0.000064 23.510807 0.000087 : 23.512073 ]
+[23.512s][info][gc       ] [SYSINFO 8037 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.30 3.10 4.99 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8126976000 989708288 437809152 6664458240 430915584 593117184 : 140674204 13637830 401140 0 0 0 : 23.512373 ]
+[23.512s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 23.512373 ]
+[23.512s][info][gc       ] [OBJCREAT 59973194 24821 552960 : 23.512442 ]
+[23.512s][info][gc       ] [HMSV All : 0 0 565 0 0 0 0 0 : 5656 0 0 0 : 23.512464 ]
+[23.512s][info][gc       ] [HMSP 70 : 51112 0 : 23.512464 ]
+[23.514s][info][gc       ] [VMAC 65530 170 24 496 690 : 23.513798 ]
+[24.139s][info][gc       ] [GPGC-H  3362.9 101.6 7.9 0.0 : 763.2 : 0.000 0.000 : 0.000 0.000 0.594 1.124 : 0.000 0.000 0.000 0.000 1.439 0.041 : 0.000 : 66.930 : 2732 50 30 0 : 2277 : 5720 5428 : 24.138725 : 9 Next_heuristic_check_may_be_too_late ]
+[24.144s][info][safepoint] Application time: 0.6326156 seconds
+[24.145s][info][safepoint] Total time for which application threads were stopped: 0.0004106 seconds, Stopping threads took: 0.0000015 seconds
+[24.145s][info][gc       ] [SPS 0.000 0.008 0.012 0.024 0.001 0.039 0.010 0.309 0.027 0.410 NewGC_pause1 24.144012 ]
+[24.216s][info][safepoint] Application time: 0.0722551 seconds
+[24.217s][info][safepoint] Total time for which application threads were stopped: 0.0001579 seconds, Stopping threads took: 0.0000006 seconds
+[24.217s][info][gc       ] [SPS 0.000 0.002 0.000 0.008 0.001 0.001 0.000 0.121 0.026 0.158 NewGC_pause2 24.216425 ]
+[24.218s][info][safepoint] Application time: 0.0017943 seconds
+[24.219s][info][safepoint] Total time for which application threads were stopped: 0.0001703 seconds, Stopping threads took: 0.0000006 seconds
+[24.219s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.115 0.045 0.171 NewGC_pause3 24.218390 ]
+[24.221s][info][safepoint] Application time: 0.0025397 seconds
+[24.221s][info][safepoint] Total time for which application threads were stopped: 0.0001660 seconds, Stopping threads took: 0.0000005 seconds
+[24.222s][info][gc       ] [SPS 0.000 0.004 0.003 0.008 0.001 0.001 0.000 0.124 0.032 0.166 NewGC_pause4 24.221096 ]
+[24.223s][info][gc       ] [GC New Max 46-39 : 6356 3438 846 6356 - - 417 20 2 2 - : 474 50 30 292 3066 : 415 9 2647 2647 0 : 0 1 154 0 196 - 41 : 0.627070 3932.6 0.0 0.083906 4171.3 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 24.139143 24.143601 0.000376 24.216267 0.000085 24.218219 0.000060 24.220929 0.000080 : 24.223049 ]
+[24.223s][info][gc       ] [SYSINFO 8037 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.30 3.10 4.99 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8126976000 989708288 437809152 6664458240 430915584 593117184 : 140674204 13638750 401270 0 0 0 : 24.223340 ]
+[24.223s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 24.223340 ]
+[24.223s][info][gc       ] [OBJCREAT 62742230 24821 552960 : 24.223395 ]
+[24.223s][info][gc       ] [HMSV All : 0 0 591 0 0 0 0 0 : 5656 0 0 0 : 24.223418 ]
+[24.223s][info][gc       ] [HMSP 70 : 51112 0 : 24.223418 ]
+[24.224s][info][gc       ] [VMAC 65530 170 24 496 690 : 24.224239 ]
+[24.768s][info][gc       ] [GPGC-H  3722.5 92.6 7.2 0.0 : 695.3 : 0.000 0.000 : 0.000 0.000 0.577 1.124 : 0.000 0.000 0.000 0.000 1.403 0.041 : 0.000 : 65.148 : 2448 50 30 0 : 2277 : 5720 5428 : 24.768105 : 9 Next_heuristic_check_may_be_too_late ]
+[24.773s][info][safepoint] Application time: 0.5519631 seconds
+[24.774s][info][safepoint] Total time for which application threads were stopped: 0.0004123 seconds, Stopping threads took: 0.0000006 seconds
+[24.775s][info][gc       ] [SPS 0.000 0.005 0.006 0.009 0.001 0.001 0.000 0.371 0.030 0.412 NewGC_pause1 24.773472 ]
+[25.110s][info][safepoint] Application time: 0.3359182 seconds
+[25.111s][info][safepoint] Total time for which application threads were stopped: 0.0004669 seconds, Stopping threads took: 0.0000006 seconds
+[25.111s][info][gc       ] [SPS 0.000 0.002 0.000 0.009 0.001 0.001 0.000 0.414 0.042 0.467 NewGC_pause2 25.109857 ]
+[25.113s][info][safepoint] Application time: 0.0026399 seconds
+[25.113s][info][safepoint] Total time for which application threads were stopped: 0.0001073 seconds, Stopping threads took: 0.0000005 seconds
+[25.113s][info][gc       ] [SPS 0.000 0.001 0.000 0.008 0.000 0.001 0.000 0.076 0.022 0.107 NewGC_pause3 25.112604 ]
+[25.124s][info][safepoint] Application time: 0.0112080 seconds
+[25.125s][info][safepoint] Total time for which application threads were stopped: 0.0003376 seconds, Stopping threads took: 0.0000006 seconds
+[25.125s][info][gc       ] [SPS 0.001 0.011 0.011 0.010 0.001 0.001 0.000 0.272 0.053 0.338 NewGC_pause4 25.124150 ]
+[25.169s][info][gc       ] [GC New Max 47-40 : 6356 3850 2150 6356 - - 417 20 2 2 - : 1778 50 30 292 3478 : 1512 24 1968 1968 0 : 0 39 505 0 771 - 118 : 0.545920 3626.9 0.0 0.399819 2916.3 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 24.768969 24.773059 0.000342 25.109390 0.000375 25.112497 0.000077 25.123812 0.000191 : 25.168788 ]
+[25.169s][info][gc       ] [SYSINFO 8038 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.27 3.06 4.97 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8127246336 989708288 438079488 6664458240 430915584 593117184 : 140674204 13640780 401440 0 0 0 : 25.169204 ]
+[25.169s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 25.169204 ]
+[25.169s][info][gc       ] [OBJCREAT 65834035 24821 552960 : 25.169264 ]
+[25.169s][info][gc       ] [HMSV All : 0 0 620 0 0 0 0 0 : 5656 0 0 0 : 25.169284 ]
+[25.169s][info][gc       ] [HMSP 70 : 51112 0 : 25.169284 ]
+[25.170s][info][gc       ] [VMAC 65530 170 24 496 690 : 25.170142 ]
+[25.372s][info][gc       ] [GPGC-H  3722.5 92.6 7.2 0.0 : 695.3 : 0.000 0.000 : 0.000 0.000 0.570 1.124 : 0.000 0.000 0.000 0.000 1.367 0.041 : 0.000 : 64.170 : 2736 50 30 0 : 2277 : 5720 5428 : 25.371879 : 9 Next_heuristic_check_may_be_too_late ]
+[25.377s][info][safepoint] Application time: 0.2520881 seconds
+[25.377s][info][safepoint] Total time for which application threads were stopped: 0.0003923 seconds, Stopping threads took: 0.0000006 seconds
+[25.378s][info][gc       ] [SPS 0.000 0.005 0.006 0.009 0.001 0.001 0.000 0.335 0.047 0.393 NewGC_pause1 25.376631 ]
+[25.472s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[25.472s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 13 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 4 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 3 : 0 0 : 0 0 ]
+[25.579s][info][safepoint] Application time: 0.2020355 seconds
+[25.580s][info][safepoint] Total time for which application threads were stopped: 0.0002992 seconds, Stopping threads took: 0.0000007 seconds
+[25.580s][info][gc       ] [SPS 0.000 0.001 0.000 0.010 0.001 0.001 0.000 0.256 0.031 0.299 NewGC_pause2 25.578966 ]
+[25.582s][info][safepoint] Application time: 0.0027889 seconds
+[25.582s][info][safepoint] Total time for which application threads were stopped: 0.0002562 seconds, Stopping threads took: 0.0000006 seconds
+[25.583s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.191 0.054 0.256 NewGC_pause3 25.582011 ]
+[25.585s][info][safepoint] Application time: 0.0026677 seconds
+[25.586s][info][safepoint] Total time for which application threads were stopped: 0.0002290 seconds, Stopping threads took: 0.0000006 seconds
+[25.586s][info][gc       ] [SPS 0.000 0.009 0.003 0.010 0.001 0.001 0.000 0.179 0.038 0.229 NewGC_pause4 25.584908 ]
+[25.586s][info][gc       ] [GC New Max 48-41 : 6356 3736 1254 6356 - - 417 20 2 2 - : 882 50 30 292 3364 : 807 14 2556 2556 0 : 0 2 300 0 376 - 65 : 0.203623 4714.6 0.0 0.213493 2997.8 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 25.372411 25.376239 0.000300 25.578667 0.000214 25.581755 0.000145 25.584679 0.000134 : 25.585904 ]
+[25.586s][info][gc       ] [SYSINFO 8038 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.27 3.06 4.97 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8127246336 989708288 438079488 6664458240 430915584 593117184 : 140674204 13641770 401490 0 0 0 : 25.586370 ]
+[25.586s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 25.586370 ]
+[25.586s][info][gc       ] [OBJCREAT 67408838 24821 552960 : 25.586426 ]
+[25.586s][info][gc       ] [HMSV All : 0 0 633 0 0 0 0 0 : 5656 0 0 0 : 25.586448 ]
+[25.586s][info][gc       ] [HMSP 70 : 51112 0 : 25.586448 ]
+[25.587s][info][gc       ] [VMAC 65530 170 24 496 690 : 25.587429 ]
+[25.910s][info][gc       ] [GPGC-H  3722.5 92.6 7.2 0.0 : 695.3 : 0.000 0.000 : 0.000 0.000 0.563 1.124 : 0.000 0.000 0.000 0.000 1.349 0.041 : 0.000 : 63.922 : 2456 50 30 0 : 2277 : 5720 5428 : 25.910272 : 9 Next_heuristic_check_may_be_too_late ]
+[25.916s][info][safepoint] Application time: 0.3301222 seconds
+[25.916s][info][safepoint] Total time for which application threads were stopped: 0.0006532 seconds, Stopping threads took: 0.0000006 seconds
+[25.917s][info][gc       ] [SPS 0.000 0.005 0.006 0.010 0.001 0.001 0.000 0.541 0.100 0.653 NewGC_pause1 25.915684 ]
+[26.289s][info][safepoint] Application time: 0.3728971 seconds
+[26.289s][info][safepoint] Total time for which application threads were stopped: 0.0002407 seconds, Stopping threads took: 0.0000005 seconds
+[26.290s][info][gc       ] [SPS 0.000 0.002 0.000 0.008 0.001 0.001 0.000 0.203 0.027 0.241 NewGC_pause2 26.288822 ]
+[26.292s][info][safepoint] Application time: 0.0028026 seconds
+[26.292s][info][safepoint] Total time for which application threads were stopped: 0.0003027 seconds, Stopping threads took: 0.0000007 seconds
+[26.293s][info][gc       ] [SPS 0.000 0.001 0.000 0.011 0.001 0.001 0.000 0.244 0.046 0.303 NewGC_pause3 26.291928 ]
+[26.303s][info][safepoint] Application time: 0.0106180 seconds
+[26.303s][info][safepoint] Total time for which application threads were stopped: 0.0001806 seconds, Stopping threads took: 0.0000018 seconds
+[26.303s][info][gc       ] [SPS 0.000 0.006 0.010 0.011 0.002 0.001 0.000 0.127 0.039 0.181 NewGC_pause4 26.302727 ]
+[26.366s][info][gc       ] [GC New Max 49-42 : 6356 3834 2202 6356 - - 417 20 2 2 - : 1828 50 30 292 3462 : 1498 28 1962 1962 0 : 0 47 492 0 788 - 126 : 0.325081 4854.2 0.0 0.454697 2643.5 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 25.910985 25.915031 0.000507 26.288581 0.000176 26.291625 0.000179 26.302546 0.000090 : 26.365681 ]
+[26.366s][info][gc       ] [SYSINFO 8038 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.27 3.06 4.97 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8127246336 989708288 438079488 6664458240 430915584 593117184 : 140674204 13643810 401530 0 0 0 : 26.366159 ]
+[26.366s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 26.366159 ]
+[26.366s][info][gc       ] [OBJCREAT 70142170 24821 552960 : 26.366222 ]
+[26.366s][info][gc       ] [HMSV All : 0 0 661 0 0 0 0 0 : 5656 0 0 0 : 26.366243 ]
+[26.366s][info][gc       ] [HMSP 70 : 51112 0 : 26.366243 ]
+[26.367s][info][gc       ] [VMAC 65530 170 24 496 690 : 26.367070 ]
+[26.569s][info][gc       ] [GPGC-H  3722.5 92.6 7.2 0.0 : 695.3 : 0.000 0.000 : 0.000 0.000 0.559 1.124 : 0.000 0.000 0.000 0.000 1.322 0.041 : 0.000 : 63.723 : 2806 50 30 0 : 2277 : 5720 5428 : 26.568860 : 9 Next_heuristic_check_may_be_too_late ]
+[26.574s][info][safepoint] Application time: 0.2711256 seconds
+[26.575s][info][safepoint] Total time for which application threads were stopped: 0.0006042 seconds, Stopping threads took: 0.0000011 seconds
+[26.575s][info][gc       ] [SPS 0.000 0.006 0.006 0.017 0.001 0.002 0.001 0.513 0.070 0.604 NewGC_pause1 26.574457 ]
+[26.751s][info][safepoint] Application time: 0.1758697 seconds
+[26.751s][info][safepoint] Total time for which application threads were stopped: 0.0002345 seconds, Stopping threads took: 0.0000005 seconds
+[26.752s][info][gc       ] [SPS 0.000 0.002 0.000 0.009 0.001 0.013 0.001 0.182 0.030 0.235 NewGC_pause2 26.750561 ]
+[26.754s][info][safepoint] Application time: 0.0028038 seconds
+[26.754s][info][safepoint] Total time for which application threads were stopped: 0.0002124 seconds, Stopping threads took: 0.0000006 seconds
+[26.754s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.160 0.041 0.212 NewGC_pause3 26.753577 ]
+[26.757s][info][safepoint] Application time: 0.0027250 seconds
+[26.757s][info][safepoint] Total time for which application threads were stopped: 0.0002189 seconds, Stopping threads took: 0.0000006 seconds
+[26.757s][info][gc       ] [SPS 0.000 0.004 0.003 0.009 0.001 0.001 0.000 0.150 0.057 0.219 NewGC_pause4 26.756522 ]
+[26.759s][info][gc       ] [GC New Max 50-43 : 6356 3732 1244 6356 - - 417 20 2 2 - : 872 50 30 292 3360 : 775 11 2586 2586 0 : 0 2 267 0 379 - 57 : 0.203877 4806.8 0.0 0.189187 3034.0 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 26.569558 26.573852 0.000440 26.750327 0.000143 26.753365 0.000101 26.756302 0.000106 : 26.758745 ]
+[26.759s][info][gc       ] [SYSINFO 8038 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.27 3.06 4.97 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8127246336 989708288 438079488 6664458240 430915584 593117184 : 140674204 13644710 401540 0 0 0 : 26.759164 ]
+[26.759s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 26.759164 ]
+[26.759s][info][gc       ] [OBJCREAT 71673137 24821 552960 : 26.759247 ]
+[26.759s][info][gc       ] [HMSV All : 0 0 673 0 0 0 0 0 : 5656 0 0 0 : 26.759286 ]
+[26.759s][info][gc       ] [HMSP 70 : 51112 0 : 26.759286 ]
+[26.760s][info][gc       ] [VMAC 65530 170 24 496 690 : 26.759993 ]
+[27.164s][info][gc       ] [GPGC-H  3703.6 84.2 6.6 0.0 : 632.4 : 0.000 0.000 : 0.000 0.000 0.552 1.124 : 0.000 0.000 0.000 0.000 1.310 0.041 : 0.000 : 63.443 : 2528 50 30 0 : 2277 : 5720 5428 : 27.164372 : 9 Next_heuristic_check_may_be_too_late ]
+[27.188s][info][safepoint] Application time: 0.4306725 seconds
+[27.188s][info][safepoint] Total time for which application threads were stopped: 0.0003816 seconds, Stopping threads took: 0.0000010 seconds
+[27.188s][info][gc       ] [SPS 0.000 0.011 0.012 0.016 0.001 0.002 0.001 0.328 0.033 0.380 NewGC_pause1 27.187576 ]
+[27.198s][info][safepoint] Application time: 0.0102074 seconds
+[27.198s][info][safepoint] Total time for which application threads were stopped: 0.0001836 seconds, Stopping threads took: 0.0000008 seconds
+[27.199s][info][gc       ] [SPS 0.000 0.002 0.000 0.011 0.001 0.001 0.001 0.133 0.037 0.184 NewGC_pause2 27.197968 ]
+[27.200s][info][safepoint] Application time: 0.0016201 seconds
+[27.200s][info][safepoint] Total time for which application threads were stopped: 0.0001041 seconds, Stopping threads took: 0.0000007 seconds
+[27.200s][info][gc       ] [SPS 0.000 0.001 0.000 0.011 0.001 0.001 0.001 0.064 0.027 0.104 NewGC_pause3 27.199692 ]
+[27.202s][info][safepoint] Application time: 0.0025194 seconds
+[27.203s][info][safepoint] Total time for which application threads were stopped: 0.0002413 seconds, Stopping threads took: 0.0000007 seconds
+[27.203s][info][gc       ] [SPS 0.000 0.004 0.003 0.010 0.001 0.001 0.000 0.161 0.068 0.242 NewGC_pause4 27.202453 ]
+[27.204s][info][gc       ] [GC New Max 51-44 : 6356 2996 470 6356 - - 417 20 2 2 - : 98 50 30 292 2624 : 71 11 2552 2552 0 : 0 2 32 0 38 - 11 : 0.406095 4082.8 0.0 0.038677 2947.5 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 27.164840 27.187196 0.000335 27.197784 0.000078 27.199588 0.000067 27.202211 0.000078 : 27.203517 ]
+[27.204s][info][gc       ] [SYSINFO 8038 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.27 3.06 4.97 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8127246336 989708288 438079488 6664458240 430915584 593117184 : 140674204 13645220 401540 0 0 0 : 27.203824 ]
+[27.204s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 27.203824 ]
+[27.204s][info][gc       ] [OBJCREAT 73410286 24821 552960 : 27.203884 ]
+[27.204s][info][gc       ] [HMSV All : 0 0 691 0 0 0 0 0 : 5656 0 0 0 : 27.203905 ]
+[27.204s][info][gc       ] [HMSP 70 : 51112 0 : 27.203905 ]
+[27.205s][info][gc       ] [VMAC 65530 170 24 496 690 : 27.205121 ]
+[27.789s][info][gc       ] [GPGC-H  3703.6 84.2 6.6 0.0 : 632.4 : 0.000 0.000 : 0.000 0.000 0.542 1.124 : 0.000 0.000 0.000 0.000 1.297 0.041 : 0.000 : 62.329 : 2574 50 30 0 : 2277 : 5720 5428 : 27.789272 : 9 Next_heuristic_check_may_be_too_late ]
+[27.814s][info][safepoint] Application time: 0.6107494 seconds
+[27.815s][info][safepoint] Total time for which application threads were stopped: 0.0009459 seconds, Stopping threads took: 0.0000009 seconds
+[27.815s][info][gc       ] [SPS 0.000 0.008 0.008 0.014 0.001 0.001 0.001 0.691 0.240 0.948 NewGC_pause1 27.814151 ]
+[27.826s][info][safepoint] Application time: 0.0119214 seconds
+[27.827s][info][safepoint] Total time for which application threads were stopped: 0.0002280 seconds, Stopping threads took: 0.0000006 seconds
+[27.827s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.189 0.028 0.228 NewGC_pause2 27.826299 ]
+[27.828s][info][safepoint] Application time: 0.0014093 seconds
+[27.828s][info][safepoint] Total time for which application threads were stopped: 0.0001783 seconds, Stopping threads took: 0.0000006 seconds
+[27.829s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.136 0.031 0.179 NewGC_pause3 27.827887 ]
+[27.831s][info][safepoint] Application time: 0.0028071 seconds
+[27.831s][info][safepoint] Total time for which application threads were stopped: 0.0002147 seconds, Stopping threads took: 0.0000008 seconds
+[27.832s][info][gc       ] [SPS 0.000 0.004 0.004 0.012 0.001 0.001 0.000 0.168 0.033 0.215 NewGC_pause4 27.830909 ]
+[27.832s][info][gc       ] [GC New Max 52-45 : 6356 3042 458 6356 - - 417 20 2 2 - : 86 50 30 292 2670 : 68 10 2604 2604 0 : 0 2 30 0 36 - 7 : 0.586382 4225.9 0.0 0.042125 2516.3 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 27.789898 27.813203 0.000542 27.826071 0.000110 27.827708 0.000093 27.830694 0.000172 : 27.832024 ]
+[27.832s][info][gc       ] [SYSINFO 8038 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.27 3.06 4.97 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8127246336 989708288 438079488 6664458240 430915584 593117184 : 140674204 13645870 401580 0 0 0 : 27.832399 ]
+[27.832s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 27.832399 ]
+[27.832s][info][gc       ] [OBJCREAT 75954973 24821 552960 : 27.832457 ]
+[27.832s][info][gc       ] [HMSV All : 0 0 714 0 0 0 0 0 : 5656 0 0 0 : 27.832476 ]
+[27.832s][info][gc       ] [HMSP 70 : 51112 0 : 27.832476 ]
+[27.833s][info][gc       ] [VMAC 65530 170 24 496 690 : 27.833487 ]
+[28.418s][info][gc       ] [GPGC-H  3703.6 84.2 6.6 0.0 : 632.4 : 0.000 0.000 : 0.000 0.000 0.528 1.124 : 0.000 0.000 0.000 0.000 1.272 0.041 : 0.000 : 60.737 : 2736 50 30 0 : 2277 : 5720 5428 : 28.418034 : 9 Next_heuristic_check_may_be_too_late ]
+[28.423s][info][safepoint] Application time: 0.5919190 seconds
+[28.424s][info][safepoint] Total time for which application threads were stopped: 0.0005170 seconds, Stopping threads took: 0.0000006 seconds
+[28.424s][info][gc       ] [SPS 0.000 0.004 0.008 0.009 0.001 0.001 0.000 0.473 0.033 0.517 NewGC_pause1 28.423345 ]
+[28.495s][info][safepoint] Application time: 0.0715504 seconds
+[28.496s][info][safepoint] Total time for which application threads were stopped: 0.0002002 seconds, Stopping threads took: 0.0000005 seconds
+[28.496s][info][gc       ] [SPS 0.001 0.002 0.000 0.008 0.001 0.001 0.000 0.156 0.034 0.200 NewGC_pause2 28.495096 ]
+[28.497s][info][safepoint] Application time: 0.0021138 seconds
+[28.498s][info][safepoint] Total time for which application threads were stopped: 0.0002115 seconds, Stopping threads took: 0.0000006 seconds
+[28.498s][info][gc       ] [SPS 0.000 0.001 0.000 0.010 0.001 0.001 0.000 0.163 0.037 0.212 NewGC_pause3 28.497422 ]
+[28.500s][info][safepoint] Application time: 0.0025206 seconds
+[28.501s][info][safepoint] Total time for which application threads were stopped: 0.0002326 seconds, Stopping threads took: 0.0000006 seconds
+[28.501s][info][gc       ] [SPS 0.000 0.004 0.003 0.010 0.001 0.001 0.000 0.169 0.052 0.233 NewGC_pause4 28.500175 ]
+[28.501s][info][gc       ] [GC New Max 53-46 : 6356 3434 826 6356 - - 417 20 2 2 - : 454 50 30 292 3062 : 407 9 2655 2655 0 : 0 1 152 0 186 - 41 : 0.586615 4524.3 0.0 0.082295 4058.6 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 28.418639 28.422828 0.000383 28.494896 0.000118 28.497210 0.000131 28.499942 0.000118 : 28.500934 ]
+[28.501s][info][gc       ] [SYSINFO 8038 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.27 3.06 4.97 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8127246336 989708288 438079488 6664458240 430915584 593117184 : 140674204 13646740 401590 0 0 0 : 28.501362 ]
+[28.501s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 28.501362 ]
+[28.501s][info][gc       ] [OBJCREAT 78894321 24821 552960 : 28.501450 ]
+[28.501s][info][gc       ] [HMSV All : 0 0 743 0 0 0 0 0 : 5656 0 0 0 : 28.501484 ]
+[28.501s][info][gc       ] [HMSP 70 : 51112 0 : 28.501484 ]
+[28.502s][info][gc       ] [VMAC 65530 170 24 496 690 : 28.502141 ]
+[29.168s][info][gc       ] [GPGC-H  3702.7 76.8 6.0 0.0 : 576.5 : 0.000 0.000 : 0.000 0.000 0.514 1.124 : 0.000 0.000 0.000 0.000 1.245 0.041 : 0.000 : 59.263 : 2726 50 30 0 : 2277 : 5720 5428 : 29.167565 : 9 Next_heuristic_check_may_be_too_late ]
+[29.172s][info][safepoint] Application time: 0.6718445 seconds
+[29.173s][info][safepoint] Total time for which application threads were stopped: 0.0004508 seconds, Stopping threads took: 0.0000006 seconds
+[29.174s][info][gc       ] [SPS 0.000 0.004 0.006 0.011 0.001 0.001 0.000 0.407 0.032 0.451 NewGC_pause1 29.172471 ]
+[29.244s][info][safepoint] Application time: 0.0708287 seconds
+[29.244s][info][safepoint] Total time for which application threads were stopped: 0.0004530 seconds, Stopping threads took: 0.0000006 seconds
+[29.245s][info][gc       ] [SPS 0.006 0.002 0.000 0.011 0.001 0.001 0.000 0.369 0.071 0.454 NewGC_pause2 29.243753 ]
+[29.247s][info][safepoint] Application time: 0.0028666 seconds
+[29.247s][info][safepoint] Total time for which application threads were stopped: 0.0003117 seconds, Stopping threads took: 0.0000006 seconds
+[29.248s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.239 0.061 0.312 NewGC_pause3 29.246931 ]
+[29.250s][info][safepoint] Application time: 0.0026710 seconds
+[29.251s][info][safepoint] Total time for which application threads were stopped: 0.0003186 seconds, Stopping threads took: 0.0000017 seconds
+[29.251s][info][gc       ] [SPS 0.000 0.007 0.006 0.021 0.002 0.003 0.001 0.233 0.059 0.319 NewGC_pause4 29.249922 ]
+[29.252s][info][gc       ] [GC New Max 54-47 : 6356 3434 852 6356 - - 417 20 2 2 - : 480 50 30 292 3062 : 424 9 2635 2635 0 : 0 2 156 0 199 - 41 : 0.667071 3408.9 0.0 0.083027 4215.5 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 29.168005 29.172020 0.000363 29.243300 0.000294 29.246619 0.000165 29.249603 0.000166 : 29.251032 ]
+[29.252s][info][gc       ] [SYSINFO 8038 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.27 3.06 4.97 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8127246336 989708288 438079488 6664458240 430915584 593117184 : 140674204 13647720 401650 0 0 0 : 29.251745 ]
+[29.252s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 29.251745 ]
+[29.252s][info][gc       ] [OBJCREAT 81473766 24821 552960 : 29.251894 ]
+[29.252s][info][gc       ] [HMSV All : 0 0 767 0 0 0 0 0 : 5656 0 0 0 : 29.251922 ]
+[29.252s][info][gc       ] [HMSP 70 : 51112 0 : 29.251922 ]
+[29.253s][info][gc       ] [VMAC 65530 170 24 496 690 : 29.252992 ]
+[29.939s][info][gc       ] [GPGC-H  3702.7 76.8 6.0 0.0 : 576.5 : 0.000 0.000 : 0.000 0.000 0.499 1.124 : 0.000 0.000 0.000 0.000 1.208 0.041 : 0.000 : 57.621 : 2802 50 30 0 : 2277 : 5720 5428 : 29.938934 : 9 Next_heuristic_check_may_be_too_late ]
+[29.945s][info][safepoint] Application time: 0.6943418 seconds
+[29.945s][info][safepoint] Total time for which application threads were stopped: 0.0002807 seconds, Stopping threads took: 0.0000005 seconds
+[29.945s][info][gc       ] [SPS 0.000 0.004 0.009 0.010 0.001 0.001 0.000 0.243 0.026 0.281 NewGC_pause1 29.944544 ]
+[30.054s][info][safepoint] Application time: 0.1089126 seconds
+[30.054s][info][safepoint] Total time for which application threads were stopped: 0.0002572 seconds, Stopping threads took: 0.0000024 seconds
+[30.055s][info][gc       ] [SPS 0.000 0.002 0.000 0.009 0.002 0.001 0.001 0.193 0.051 0.257 NewGC_pause2 30.053714 ]
+[30.056s][info][safepoint] Application time: 0.0020642 seconds
+[30.057s][info][safepoint] Total time for which application threads were stopped: 0.0003783 seconds, Stopping threads took: 0.0000006 seconds
+[30.057s][info][gc       ] [SPS 0.000 0.001 0.000 0.009 0.001 0.001 0.000 0.255 0.113 0.379 NewGC_pause3 30.056158 ]
+[30.060s][info][safepoint] Application time: 0.0034792 seconds
+[30.060s][info][safepoint] Total time for which application threads were stopped: 0.0001423 seconds, Stopping threads took: 0.0000114 seconds
+[30.060s][info][gc       ] [SPS 0.000 0.004 0.003 0.008 0.011 0.001 0.000 0.085 0.036 0.142 NewGC_pause4 30.059779 ]
+[30.064s][info][gc       ] [GC New Max 55-48 : 6356 3682 1100 6356 - - 417 20 2 2 - : 728 50 30 292 3310 : 645 13 2661 2661 0 : 0 4 240 0 303 - 61 : 0.688556 3378.1 0.0 0.123414 4278.3 0.0 : 3 --c 0000 : 23 0 0.000 0.000 0 0.000 0.000 0 0.000 0.000 : 29.939588 29.944263 0.000243 30.053457 0.000122 30.055778 0.000147 30.059636 0.000096 : 30.063002 ]
+[30.064s][info][gc       ] [SYSINFO 8038 411 565 0 6774 0 19 0 0 6427 : - - - - - - - - : 0 7168 : 1.25 3.03 4.95 : 250714 5554352 : 0 0 : 9 0 : 2440 2 0 213 : - 8127246336 989708288 438079488 6664458240 430915584 593117184 : 140674204 13648860 401730 0 0 0 : 30.063494 ]
+[30.064s][info][gc       ] [HUGEPAGESTAT 0 0 0 - 27748 0 0 : 108544 0 0 : 30.063494 ]
+[30.064s][info][gc       ] [OBJCREAT 84281961 24821 552960 : 30.063586 ]
+[30.064s][info][gc       ] [HMSV All : 0 0 792 0 0 0 0 0 : 5656 0 0 0 : 30.063653 ]
+[30.064s][info][gc       ] [HMSP 70 : 51112 0 : 30.063653 ]
+[30.065s][info][gc       ] [VMAC 65530 170 24 496 690 : 30.064571 ]
+[30.585s][info][gc       ] [DEOPTSTATS 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 1 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 7 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 ]
+[30.585s][info][gc       ] [DEOPTSTATS 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 14 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 0 0 : 4 0 : 0 0 : 0 0 : 0 0 : 0 2 : 0 0 : 0 0 : 0 0 : 0 0 : 0 3 : 0 0 : 0 0 ]
+[32.046s][info][gc       ] [Safepoint max times: safepoint 7.744 ms, time to safepoint 7.597 ms ]
+[32.047s][info][gc       ] [VM has exited gracefully.]

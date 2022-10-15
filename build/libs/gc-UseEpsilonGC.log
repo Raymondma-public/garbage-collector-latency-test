@@ -1,0 +1,20 @@
+[0.010s][info][gc] Using Epsilon
+[1.158s][info][safepoint] Safepoint "Cleanup", Time since last: 1141445200 ns, Reaching safepoint: 99400 ns, At safepoint: 82500 ns, Total: 181900 ns
+[1.194s][info][gc       ] Heap: 8122M reserved, 507M (6.25%) committed, 408M (5.03%) used
+[1.285s][info][gc       ] Heap: 8122M reserved, 891M (10.98%) committed, 842M (10.37%) used
+[1.441s][info][gc       ] Heap: 8122M reserved, 1275M (15.71%) committed, 1250M (15.40%) used
+[1.560s][info][gc       ] Heap: 8122M reserved, 1787M (22.01%) committed, 1769M (21.79%) used
+[1.715s][info][gc       ] Heap: 8122M reserved, 2299M (28.31%) committed, 2176M (26.80%) used
+[1.833s][info][gc       ] Heap: 8122M reserved, 2811M (34.62%) committed, 2699M (33.24%) used
+[1.989s][info][gc       ] Heap: 8122M reserved, 3195M (39.35%) committed, 3108M (38.27%) used
+[2.106s][info][gc       ] Heap: 8122M reserved, 3707M (45.65%) committed, 3627M (44.66%) used
+[2.259s][info][gc       ] Heap: 8122M reserved, 4091M (50.38%) committed, 4034M (49.67%) used
+[2.376s][info][gc       ] Heap: 8122M reserved, 4603M (56.68%) committed, 4557M (56.11%) used
+[2.527s][info][gc       ] Heap: 8122M reserved, 4987M (61.41%) committed, 4965M (61.14%) used
+[2.631s][info][gc       ] Heap: 8122M reserved, 5499M (67.71%) committed, 5484M (67.53%) used
+[2.770s][info][gc       ] Heap: 8122M reserved, 6011M (74.02%) committed, 5891M (72.54%) used
+[2.876s][info][gc       ] Heap: 8122M reserved, 6523M (80.32%) committed, 6414M (78.97%) used
+[3.015s][info][gc       ] Heap: 8122M reserved, 6907M (85.05%) committed, 6823M (84.01%) used
+[3.119s][info][gc       ] Heap: 8122M reserved, 7419M (91.35%) committed, 7342M (90.40%) used
+[3.159s][info][safepoint] Safepoint "Cleanup", Time since last: 2000333800 ns, Reaching safepoint: 396000 ns, At safepoint: 81700 ns, Total: 477700 ns
+[3.257s][info][gc       ] Heap: 8122M reserved, 7803M (96.08%) committed, 7749M (95.41%) used

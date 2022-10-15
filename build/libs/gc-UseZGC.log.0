@@ -1,0 +1,2 @@
+[0.025s][info][gc] Using The Z Garbage Collector
+[1.303s][info][safepoint] Safepoint "Cleanup", Time since last: 1253854600 ns, Reaching safepoint: 207300 ns, At safepoint: 7801 ns, Total: 215101 ns

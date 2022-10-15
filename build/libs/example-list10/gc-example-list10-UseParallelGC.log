@@ -1,0 +1,9 @@
+[0.004s][info][gc] Using Parallel
+[0.137s][info][safepoint] Safepoint "ICBufferFull", Time since last: 128800873 ns, Reaching safepoint: 71063 ns, At safepoint: 2220 ns, Total: 73283 ns
+[0.268s][info][gc       ] GC(0) Pause Young (Allocation Failure) 99M->74M(381M) 42.749ms
+[0.268s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 87919754 ns, Reaching safepoint: 106718 ns, At safepoint: 43148552 ns, Total: 43255270 ns
+[0.343s][info][gc       ] GC(1) Pause Young (Allocation Failure) 173M->169M(481M) 62.052ms
+[0.343s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 11938359 ns, Reaching safepoint: 102074 ns, At safepoint: 62499645 ns, Total: 62601719 ns
+[0.472s][info][gc       ] GC(2) Pause Young (Allocation Failure) 368M->357M(557M) 100.786ms
+[0.694s][info][gc       ] GC(3) Pause Full (Ergonomics) 357M->355M(896M) 221.357ms
+[0.694s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 27906513 ns, Reaching safepoint: 130443 ns, At safepoint: 323176202 ns, Total: 323306645 ns

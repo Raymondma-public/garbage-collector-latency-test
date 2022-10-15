@@ -1,0 +1,4 @@
+#[Logged with jHiccup version 2.0.10]
+#[Histogram log format version 1.3]
+#[StartTime: 1664116170.322 (seconds since epoch), Sun Sep 25 22:29:30 HKT 2022]
+"StartTimestamp","Interval_Length","Interval_Max","Interval_Compressed_Histogram"

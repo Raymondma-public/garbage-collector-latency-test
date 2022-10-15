@@ -1,0 +1,15 @@
+[0.028s][info][gc] Using The Z Garbage Collector
+[0.170s][info][safepoint] Safepoint "ICBufferFull", Time since last: 137689332 ns, Reaching safepoint: 121957 ns, At safepoint: 1369 ns, Total: 123326 ns
+[0.437s][info][safepoint] Safepoint "ZMarkStart", Time since last: 266018760 ns, Reaching safepoint: 470613 ns, At safepoint: 39303 ns, Total: 509916 ns
+[0.557s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 119636348 ns, Reaching safepoint: 259731 ns, At safepoint: 22998 ns, Total: 282729 ns
+[0.559s][info][safepoint] Safepoint "CleanClassLoaderDataMetaspaces", Time since last: 1691822 ns, Reaching safepoint: 271490 ns, At safepoint: 92328 ns, Total: 363818 ns
+[0.561s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 1868801 ns, Reaching safepoint: 209037 ns, At safepoint: 24453 ns, Total: 233490 ns
+[0.562s][info][gc       ] GC(0) Garbage Collection (Warmup) 734M(12%)->880M(14%)
+[0.837s][info][safepoint] Safepoint "ZMarkStart", Time since last: 275640162 ns, Reaching safepoint: 228417 ns, At safepoint: 20206 ns, Total: 248623 ns
+[1.114s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 276730917 ns, Reaching safepoint: 302749 ns, At safepoint: 39097 ns, Total: 341846 ns
+[1.116s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 2311749 ns, Reaching safepoint: 160279 ns, At safepoint: 16366 ns, Total: 176645 ns
+[1.118s][info][gc       ] GC(1) Garbage Collection (Warmup) 1430M(22%)->1826M(29%)
+[1.137s][info][safepoint] Safepoint "ZMarkStart", Time since last: 20478381 ns, Reaching safepoint: 204342 ns, At safepoint: 18684 ns, Total: 223026 ns
+[1.530s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 392389042 ns, Reaching safepoint: 218548 ns, At safepoint: 40355 ns, Total: 258903 ns
+[1.533s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3158830 ns, Reaching safepoint: 197498 ns, At safepoint: 28670 ns, Total: 226168 ns
+[1.535s][info][gc       ] GC(2) Garbage Collection (Warmup) 1924M(30%)->2016M(32%)

@@ -1,0 +1,111 @@
+[0.069s][info][gc] Using The Z Garbage Collector
+[0.408s][info][safepoint] Safepoint "ICBufferFull", Time since last: 288862942 ns, Reaching safepoint: 248618 ns, At safepoint: 29049 ns, Total: 277667 ns
+[0.941s][info][safepoint] Safepoint "ZMarkStart", Time since last: 532252303 ns, Reaching safepoint: 276427 ns, At safepoint: 53602 ns, Total: 330029 ns
+[1.166s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 225057943 ns, Reaching safepoint: 342568 ns, At safepoint: 45512 ns, Total: 388080 ns
+[1.169s][info][safepoint] Safepoint "CleanClassLoaderDataMetaspaces", Time since last: 1995405 ns, Reaching safepoint: 277351 ns, At safepoint: 84969 ns, Total: 362320 ns
+[1.174s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 4549244 ns, Reaching safepoint: 344226 ns, At safepoint: 41218 ns, Total: 385444 ns
+[1.184s][info][gc       ] GC(0) Garbage Collection (Warmup) 644M(10%)->626M(10%)
+[1.742s][info][safepoint] Safepoint "ZMarkStart", Time since last: 567507248 ns, Reaching safepoint: 441408 ns, At safepoint: 28323 ns, Total: 469731 ns
+[1.965s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 222783400 ns, Reaching safepoint: 210829 ns, At safepoint: 26904 ns, Total: 237733 ns
+[1.968s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3273651 ns, Reaching safepoint: 209673 ns, At safepoint: 22388 ns, Total: 232061 ns
+[1.973s][info][gc       ] GC(1) Garbage Collection (Warmup) 1320M(21%)->638M(10%)
+[2.742s][info][safepoint] Safepoint "ZMarkStart", Time since last: 773044521 ns, Reaching safepoint: 1140172 ns, At safepoint: 41865 ns, Total: 1182037 ns
+[2.977s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 234458784 ns, Reaching safepoint: 263497 ns, At safepoint: 28075 ns, Total: 291572 ns
+[2.981s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3735205 ns, Reaching safepoint: 294733 ns, At safepoint: 23929 ns, Total: 318662 ns
+[2.985s][info][gc       ] GC(2) Garbage Collection (Warmup) 2066M(32%)->664M(10%)
+[5.742s][info][safepoint] Safepoint "ZMarkStart", Time since last: 2759876861 ns, Reaching safepoint: 691485 ns, At safepoint: 60369 ns, Total: 751854 ns
+[5.844s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 101641990 ns, Reaching safepoint: 714787 ns, At safepoint: 32648 ns, Total: 747435 ns
+[5.850s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 4885929 ns, Reaching safepoint: 501559 ns, At safepoint: 61488 ns, Total: 563047 ns
+[5.853s][info][gc       ] GC(3) Garbage Collection (Allocation Rate) 5414M(85%)->250M(4%)
+[6.441s][info][safepoint] Safepoint "ZMarkStart", Time since last: 591547021 ns, Reaching safepoint: 264336 ns, At safepoint: 53199 ns, Total: 317535 ns
+[6.879s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 436554400 ns, Reaching safepoint: 489462 ns, At safepoint: 104707 ns, Total: 594169 ns
+[6.883s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3682954 ns, Reaching safepoint: 247840 ns, At safepoint: 16545 ns, Total: 264385 ns
+[6.886s][info][gc       ] GC(4) Garbage Collection (Allocation Rate) 2240M(35%)->1342M(21%)
+[7.441s][info][safepoint] Safepoint "ZMarkStart", Time since last: 558003314 ns, Reaching safepoint: 330376 ns, At safepoint: 40939 ns, Total: 371315 ns
+[7.700s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 258747608 ns, Reaching safepoint: 275745 ns, At safepoint: 65714 ns, Total: 341459 ns
+[7.704s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3461519 ns, Reaching safepoint: 945642 ns, At safepoint: 24159 ns, Total: 969801 ns
+[7.706s][info][gc       ] GC(5) Garbage Collection (Allocation Rate) 3356M(53%)->816M(13%)
+[8.141s][info][safepoint] Safepoint "ZMarkStart", Time since last: 435957733 ns, Reaching safepoint: 312765 ns, At safepoint: 77538 ns, Total: 390303 ns
+[8.536s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 394649711 ns, Reaching safepoint: 284444 ns, At safepoint: 72278 ns, Total: 356722 ns
+[8.540s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3419770 ns, Reaching safepoint: 312669 ns, At safepoint: 26340 ns, Total: 339009 ns
+[8.541s][info][gc       ] GC(6) Garbage Collection (Allocation Rate) 2842M(45%)->1328M(21%)
+[9.241s][info][safepoint] Safepoint "ZMarkStart", Time since last: 700838903 ns, Reaching safepoint: 546989 ns, At safepoint: 60126 ns, Total: 607115 ns
+[9.422s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 180174164 ns, Reaching safepoint: 469475 ns, At safepoint: 139913 ns, Total: 609388 ns
+[9.426s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 4269644 ns, Reaching safepoint: 237668 ns, At safepoint: 67796 ns, Total: 305464 ns
+[9.428s][info][gc       ] GC(7) Garbage Collection (Allocation Rate) 4084M(64%)->716M(11%)
+[9.941s][info][safepoint] Safepoint "ZMarkStart", Time since last: 514580762 ns, Reaching safepoint: 315203 ns, At safepoint: 70031 ns, Total: 385234 ns
+[10.433s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 491390374 ns, Reaching safepoint: 269711 ns, At safepoint: 43828 ns, Total: 313539 ns
+[10.439s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 5408870 ns, Reaching safepoint: 405800 ns, At safepoint: 85016 ns, Total: 490816 ns
+[10.446s][info][gc       ] GC(8) Garbage Collection (Allocation Rate) 2950M(46%)->1776M(28%)
+[10.542s][info][safepoint] Safepoint "ZMarkStart", Time since last: 102154760 ns, Reaching safepoint: 397712 ns, At safepoint: 48072 ns, Total: 445784 ns
+[10.988s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 445713216 ns, Reaching safepoint: 509559 ns, At safepoint: 107394 ns, Total: 616953 ns
+[10.992s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3703141 ns, Reaching safepoint: 193791 ns, At safepoint: 19121 ns, Total: 212912 ns
+[10.996s][info][gc       ] GC(9) Garbage Collection (Allocation Rate) 2144M(34%)->1190M(19%)
+[11.642s][info][safepoint] Safepoint "ZMarkStart", Time since last: 649362251 ns, Reaching safepoint: 679388 ns, At safepoint: 53508 ns, Total: 732896 ns
+[12.113s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 471077023 ns, Reaching safepoint: 237561 ns, At safepoint: 33699 ns, Total: 271260 ns
+[12.124s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 4272697 ns, Reaching safepoint: 6620543 ns, At safepoint: 31135 ns, Total: 6651678 ns
+[12.130s][info][gc       ] GC(10) Garbage Collection (Allocation Rate) 3660M(58%)->1308M(21%)
+[12.942s][info][safepoint] Safepoint "ZMarkStart", Time since last: 817217736 ns, Reaching safepoint: 427495 ns, At safepoint: 95934 ns, Total: 523429 ns
+[13.152s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 209765353 ns, Reaching safepoint: 354029 ns, At safepoint: 68904 ns, Total: 422933 ns
+[13.157s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 4323004 ns, Reaching safepoint: 485848 ns, At safepoint: 47639 ns, Total: 533487 ns
+[13.158s][info][gc       ] GC(11) Garbage Collection (Allocation Rate) 4138M(65%)->684M(11%)
+[13.846s][info][safepoint] Safepoint "ZMarkStart", Time since last: 684358639 ns, Reaching safepoint: 4870591 ns, At safepoint: 82831 ns, Total: 4953422 ns
+[14.305s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 458041988 ns, Reaching safepoint: 547410 ns, At safepoint: 122150 ns, Total: 669560 ns
+[14.311s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 5381836 ns, Reaching safepoint: 222959 ns, At safepoint: 38548 ns, Total: 261507 ns
+[14.315s][info][gc       ] GC(12) Garbage Collection (Allocation Rate) 3570M(56%)->1838M(29%)
+[14.742s][info][safepoint] Safepoint "ZMarkStart", Time since last: 430630943 ns, Reaching safepoint: 270480 ns, At safepoint: 17572 ns, Total: 288052 ns
+[15.052s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 310267093 ns, Reaching safepoint: 506956 ns, At safepoint: 103666 ns, Total: 610622 ns
+[15.057s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3925587 ns, Reaching safepoint: 423123 ns, At safepoint: 31444 ns, Total: 454567 ns
+[15.058s][info][gc       ] GC(13) Garbage Collection (Allocation Rate) 3440M(54%)->904M(14%)
+[15.741s][info][safepoint] Safepoint "ZMarkStart", Time since last: 684252241 ns, Reaching safepoint: 248758 ns, At safepoint: 51949 ns, Total: 300707 ns
+[16.179s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 437280745 ns, Reaching safepoint: 276964 ns, At safepoint: 47315 ns, Total: 324279 ns
+[16.184s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 4375743 ns, Reaching safepoint: 243920 ns, At safepoint: 22129 ns, Total: 266049 ns
+[16.186s][info][gc       ] GC(14) Garbage Collection (Allocation Rate) 3712M(58%)->1758M(28%)
+[16.641s][info][safepoint] Safepoint "ZMarkStart", Time since last: 457437964 ns, Reaching safepoint: 259837 ns, At safepoint: 28009 ns, Total: 287846 ns
+[17.024s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 382248278 ns, Reaching safepoint: 246712 ns, At safepoint: 44157 ns, Total: 290869 ns
+[17.029s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 5139954 ns, Reaching safepoint: 324749 ns, At safepoint: 62933 ns, Total: 387682 ns
+[17.033s][info][gc       ] GC(15) Garbage Collection (Allocation Rate) 3636M(57%)->1198M(19%)
+[17.841s][info][safepoint] Safepoint "ZMarkStart", Time since last: 811093726 ns, Reaching safepoint: 236517 ns, At safepoint: 26012 ns, Total: 262529 ns
+[18.215s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 373703293 ns, Reaching safepoint: 266520 ns, At safepoint: 74490 ns, Total: 341010 ns
+[18.219s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3594121 ns, Reaching safepoint: 523477 ns, At safepoint: 104001 ns, Total: 627478 ns
+[18.221s][info][gc       ] GC(16) Garbage Collection (Allocation Rate) 4404M(69%)->1320M(21%)
+[18.941s][info][safepoint] Safepoint "ZMarkStart", Time since last: 721874873 ns, Reaching safepoint: 363919 ns, At safepoint: 28483 ns, Total: 392402 ns
+[19.164s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 220797261 ns, Reaching safepoint: 2301572 ns, At safepoint: 58566 ns, Total: 2360138 ns
+[19.169s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3699815 ns, Reaching safepoint: 352714 ns, At safepoint: 48191 ns, Total: 400905 ns
+[19.170s][info][gc       ] GC(17) Garbage Collection (Allocation Rate) 4200M(66%)->928M(15%)
+[19.941s][info][safepoint] Safepoint "ZMarkStart", Time since last: 772239167 ns, Reaching safepoint: 294700 ns, At safepoint: 49511 ns, Total: 344211 ns
+[20.138s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 196262247 ns, Reaching safepoint: 417716 ns, At safepoint: 48757 ns, Total: 466473 ns
+[20.144s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 5768836 ns, Reaching safepoint: 298729 ns, At safepoint: 49890 ns, Total: 348619 ns
+[20.147s][info][gc       ] GC(18) Garbage Collection (Allocation Rate) 4214M(66%)->746M(12%)
+[20.841s][info][safepoint] Safepoint "ZMarkStart", Time since last: 696546557 ns, Reaching safepoint: 263518 ns, At safepoint: 25673 ns, Total: 289191 ns
+[21.296s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 455154573 ns, Reaching safepoint: 351506 ns, At safepoint: 97829 ns, Total: 449335 ns
+[21.301s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3674152 ns, Reaching safepoint: 410046 ns, At safepoint: 98212 ns, Total: 508258 ns
+[21.303s][info][gc       ] GC(19) Garbage Collection (Allocation Rate) 3738M(59%)->1896M(30%)
+[21.548s][info][safepoint] Safepoint "ZMarkStart", Time since last: 240108526 ns, Reaching safepoint: 6957682 ns, At safepoint: 102818 ns, Total: 7060500 ns
+[21.923s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 374362009 ns, Reaching safepoint: 375767 ns, At safepoint: 81785 ns, Total: 457552 ns
+[21.928s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 4614907 ns, Reaching safepoint: 440357 ns, At safepoint: 80278 ns, Total: 520635 ns
+[21.929s][info][gc       ] GC(20) Garbage Collection (Allocation Rate) 2784M(44%)->898M(14%)
+[22.642s][info][safepoint] Safepoint "ZMarkStart", Time since last: 713509594 ns, Reaching safepoint: 584680 ns, At safepoint: 63591 ns, Total: 648271 ns
+[22.709s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 66922513 ns, Reaching safepoint: 269496 ns, At safepoint: 67300 ns, Total: 336796 ns
+[22.713s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3694877 ns, Reaching safepoint: 445329 ns, At safepoint: 73376 ns, Total: 518705 ns
+[22.715s][info][gc       ] GC(21) Garbage Collection (Allocation Rate) 3864M(61%)->280M(4%)
+[23.341s][info][safepoint] Safepoint "ZMarkStart", Time since last: 627153762 ns, Reaching safepoint: 310949 ns, At safepoint: 45691 ns, Total: 356640 ns
+[23.648s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 307263271 ns, Reaching safepoint: 272029 ns, At safepoint: 41859 ns, Total: 313888 ns
+[23.653s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3907680 ns, Reaching safepoint: 239906 ns, At safepoint: 24569 ns, Total: 264475 ns
+[23.655s][info][gc       ] GC(22) Garbage Collection (Allocation Rate) 2972M(47%)->1410M(22%)
+[24.142s][info][safepoint] Safepoint "ZMarkStart", Time since last: 488493215 ns, Reaching safepoint: 343965 ns, At safepoint: 150656 ns, Total: 494621 ns
+[24.334s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 192061792 ns, Reaching safepoint: 585677 ns, At safepoint: 46742 ns, Total: 632419 ns
+[24.338s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3536273 ns, Reaching safepoint: 207489 ns, At safepoint: 29735 ns, Total: 237224 ns
+[24.340s][info][gc       ] GC(23) Garbage Collection (Allocation Rate) 3340M(53%)->788M(12%)
+[24.841s][info][safepoint] Safepoint "ZMarkStart", Time since last: 503047964 ns, Reaching safepoint: 239156 ns, At safepoint: 56097 ns, Total: 295253 ns
+[25.282s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 440211385 ns, Reaching safepoint: 420256 ns, At safepoint: 110726 ns, Total: 530982 ns
+[25.287s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 4512864 ns, Reaching safepoint: 211721 ns, At safepoint: 48759 ns, Total: 260480 ns
+[25.292s][info][gc       ] GC(24) Garbage Collection (Allocation Rate) 2952M(46%)->1430M(22%)
+[25.648s][info][safepoint] Safepoint "ZMarkStart", Time since last: 353666047 ns, Reaching safepoint: 7143380 ns, At safepoint: 42761 ns, Total: 7186141 ns
+[25.986s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 337715144 ns, Reaching safepoint: 207978 ns, At safepoint: 30590 ns, Total: 238568 ns
+[25.989s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 3288692 ns, Reaching safepoint: 215205 ns, At safepoint: 21024 ns, Total: 236229 ns
+[25.990s][info][gc       ] GC(25) Garbage Collection (Allocation Rate) 2786M(44%)->1350M(21%)
+[26.542s][info][safepoint] Safepoint "ZMarkStart", Time since last: 551667238 ns, Reaching safepoint: 563879 ns, At safepoint: 40776 ns, Total: 604655 ns
+[26.828s][info][safepoint] Safepoint "ZMarkEnd", Time since last: 285874606 ns, Reaching safepoint: 229233 ns, At safepoint: 79389 ns, Total: 308622 ns
+[26.833s][info][safepoint] Safepoint "ZRelocateStart", Time since last: 4526079 ns, Reaching safepoint: 273051 ns, At safepoint: 37369 ns, Total: 310420 ns
+[26.834s][info][gc       ] GC(26) Garbage Collection (Allocation Rate) 3394M(53%)->1154M(18%)

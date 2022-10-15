@@ -1,0 +1,454 @@
+[0.005s][info][gc] Using Concurrent Mark Sweep
+[0.168s][info][safepoint] Entering safepoint region: ICBufferFull
+[0.168s][info][safepoint] Leaving safepoint region
+[0.169s][info][safepoint] Total time for which application threads were stopped: 0.0004468 seconds, Stopping threads took: 0.0002206 seconds
+[0.171s][info][safepoint] Application time: 0.0018445 seconds
+[0.171s][info][safepoint] Entering safepoint region: Deoptimize
+[0.171s][info][safepoint] Leaving safepoint region
+[0.171s][info][safepoint] Total time for which application threads were stopped: 0.0002942 seconds, Stopping threads took: 0.0001331 seconds
+[0.197s][info][safepoint] Application time: 0.0243776 seconds
+[0.197s][info][safepoint] Entering safepoint region: EnableBiasedLocking
+[0.197s][info][safepoint] Leaving safepoint region
+[0.197s][info][safepoint] Total time for which application threads were stopped: 0.0002864 seconds, Stopping threads took: 0.0000959 seconds
+[0.236s][info][safepoint] Application time: 0.0380267 seconds
+[0.236s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[0.274s][info][gc       ] GC(0) Pause Young (Allocation Failure) 106M->32M(384M) 37.109ms
+[0.274s][info][safepoint] Leaving safepoint region
+[0.274s][info][safepoint] Total time for which application threads were stopped: 0.0382394 seconds, Stopping threads took: 0.0002161 seconds
+[0.292s][info][safepoint] Application time: 0.0171390 seconds
+[0.292s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[0.379s][info][gc       ] GC(1) Pause Young (Allocation Failure) 139M->148M(384M) 87.051ms
+[0.380s][info][safepoint] Leaving safepoint region
+[0.380s][info][safepoint] Total time for which application threads were stopped: 0.0881454 seconds, Stopping threads took: 0.0001800 seconds
+[0.381s][info][safepoint] Application time: 0.0001489 seconds
+[0.381s][info][safepoint] Entering safepoint region: CMS_Initial_Mark
+[0.391s][info][gc       ] GC(2) Pause Initial Mark 150M->150M(384M) 10.012ms
+[0.391s][info][safepoint] Leaving safepoint region
+[0.391s][info][safepoint] Total time for which application threads were stopped: 0.0104789 seconds, Stopping threads took: 0.0001687 seconds
+[0.391s][info][gc       ] GC(2) Concurrent Mark
+[0.409s][info][safepoint] Application time: 0.0171506 seconds
+[0.409s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[0.505s][info][gc       ] GC(3) Pause Young (Allocation Failure) 255M->250M(384M) 96.043ms
+[0.506s][info][safepoint] Leaving safepoint region
+[0.506s][info][safepoint] Total time for which application threads were stopped: 0.0972173 seconds, Stopping threads took: 0.0002746 seconds
+[0.526s][info][safepoint] Application time: 0.0196210 seconds
+[0.526s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[0.626s][info][gc       ] GC(4) Pause Young (Allocation Failure) 357M->353M(461M) 100.148ms
+[0.627s][info][safepoint] Leaving safepoint region
+[0.627s][info][safepoint] Total time for which application threads were stopped: 0.1007430 seconds, Stopping threads took: 0.0001900 seconds
+[0.652s][info][safepoint] Application time: 0.0248485 seconds
+[0.652s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[0.754s][info][gc       ] GC(5) Pause Young (Allocation Failure) 459M->466M(574M) 101.402ms
+[0.754s][info][safepoint] Leaving safepoint region
+[0.754s][info][safepoint] Total time for which application threads were stopped: 0.1019699 seconds, Stopping threads took: 0.0001333 seconds
+[0.773s][info][safepoint] Application time: 0.0184685 seconds
+[0.773s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[0.864s][info][gc       ] GC(6) Pause Young (Allocation Failure) 572M->578M(686M) 90.839ms
+[0.864s][info][safepoint] Leaving safepoint region
+[0.864s][info][safepoint] Total time for which application threads were stopped: 0.0913356 seconds, Stopping threads took: 0.0001068 seconds
+[0.891s][info][safepoint] Application time: 0.0271338 seconds
+[0.892s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[0.982s][info][gc       ] GC(7) Pause Young (Allocation Failure) 684M->690M(798M) 90.360ms
+[0.982s][info][safepoint] Leaving safepoint region
+[0.983s][info][safepoint] Total time for which application threads were stopped: 0.0909967 seconds, Stopping threads took: 0.0001831 seconds
+[1.002s][info][safepoint] Application time: 0.0195897 seconds
+[1.002s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[1.085s][info][gc       ] GC(8) Pause Young (Allocation Failure) 796M->800M(908M) 82.831ms
+[1.086s][info][safepoint] Leaving safepoint region
+[1.086s][info][safepoint] Total time for which application threads were stopped: 0.0834027 seconds, Stopping threads took: 0.0001261 seconds
+[1.104s][info][safepoint] Application time: 0.0177177 seconds
+[1.104s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[1.194s][info][gc       ] GC(9) Pause Young (Allocation Failure) 906M->911M(1019M) 90.276ms
+[1.195s][info][safepoint] Leaving safepoint region
+[1.195s][info][safepoint] Total time for which application threads were stopped: 0.0908732 seconds, Stopping threads took: 0.0001040 seconds
+[1.214s][info][safepoint] Application time: 0.0192760 seconds
+[1.214s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[1.302s][info][gc       ] GC(10) Pause Young (Allocation Failure) 1017M->1022M(1131M) 87.560ms
+[1.302s][info][safepoint] Leaving safepoint region
+[1.302s][info][safepoint] Total time for which application threads were stopped: 0.0881395 seconds, Stopping threads took: 0.0001309 seconds
+[1.317s][info][safepoint] Application time: 0.0139941 seconds
+[1.317s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[1.379s][info][gc       ] GC(11) Pause Young (Allocation Failure) 1101M->1104M(1212M) 62.570ms
+[1.380s][info][safepoint] Leaving safepoint region
+[1.380s][info][safepoint] Total time for which application threads were stopped: 0.0631315 seconds, Stopping threads took: 0.0001251 seconds
+[1.399s][info][safepoint] Application time: 0.0192265 seconds
+[1.399s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[1.513s][info][gc       ] GC(12) Pause Young (Allocation Failure) 1210M->1213M(1322M) 113.391ms
+[1.513s][info][safepoint] Leaving safepoint region
+[1.513s][info][safepoint] Total time for which application threads were stopped: 0.1139828 seconds, Stopping threads took: 0.0001316 seconds
+[1.532s][info][safepoint] Application time: 0.0187460 seconds
+[1.532s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[1.620s][info][gc       ] GC(13) Pause Young (Allocation Failure) 1320M->1325M(1433M) 87.059ms
+[1.620s][info][safepoint] Leaving safepoint region
+[1.620s][info][safepoint] Total time for which application threads were stopped: 0.0876666 seconds, Stopping threads took: 0.0001342 seconds
+[1.664s][info][safepoint] Application time: 0.0439752 seconds
+[1.664s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[1.749s][info][gc       ] GC(14) Pause Young (Allocation Failure) 1431M->1436M(1544M) 84.598ms
+[1.749s][info][safepoint] Leaving safepoint region
+[1.750s][info][safepoint] Total time for which application threads were stopped: 0.0852062 seconds, Stopping threads took: 0.0001524 seconds
+[1.769s][info][safepoint] Application time: 0.0190809 seconds
+[1.769s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[1.856s][info][gc       ] GC(15) Pause Young (Allocation Failure) 1542M->1547M(1655M) 86.428ms
+[1.856s][info][safepoint] Leaving safepoint region
+[1.856s][info][safepoint] Total time for which application threads were stopped: 0.0870008 seconds, Stopping threads took: 0.0001116 seconds
+[1.874s][info][safepoint] Application time: 0.0184163 seconds
+[1.875s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[1.959s][info][gc       ] GC(16) Pause Young (Allocation Failure) 1653M->1656M(1764M) 83.935ms
+[1.959s][info][safepoint] Leaving safepoint region
+[1.959s][info][safepoint] Total time for which application threads were stopped: 0.0844912 seconds, Stopping threads took: 0.0001364 seconds
+[1.976s][info][safepoint] Application time: 0.0171745 seconds
+[1.977s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[2.100s][info][gc       ] GC(17) Pause Young (Allocation Failure) 1762M->1764M(1873M) 123.040ms
+[2.100s][info][safepoint] Leaving safepoint region
+[2.100s][info][safepoint] Total time for which application threads were stopped: 0.1235669 seconds, Stopping threads took: 0.0001394 seconds
+[2.172s][info][safepoint] Application time: 0.0715158 seconds
+[2.172s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[2.289s][info][gc       ] GC(18) Pause Young (Allocation Failure) 1870M->1890M(1999M) 116.182ms
+[2.289s][info][safepoint] Leaving safepoint region
+[2.289s][info][safepoint] Total time for which application threads were stopped: 0.1169552 seconds, Stopping threads took: 0.0002417 seconds
+[2.322s][info][gc       ] GC(2) Concurrent Mark 1930.814ms
+[2.323s][info][gc       ] GC(2) Concurrent Preclean
+[2.357s][info][safepoint] Application time: 0.0675903 seconds
+[2.357s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[2.606s][info][gc       ] GC(19) Pause Young (Allocation Failure) 1996M->2079M(2188M) 248.476ms
+[2.606s][info][safepoint] Leaving safepoint region
+[2.607s][info][safepoint] Total time for which application threads were stopped: 0.2490656 seconds, Stopping threads took: 0.0001617 seconds
+[2.634s][info][safepoint] Application time: 0.0276687 seconds
+[2.635s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[2.701s][info][gc       ] GC(20) Pause Young (Allocation Failure) 2186M->2148M(2257M) 66.372ms
+[2.701s][info][safepoint] Leaving safepoint region
+[2.701s][info][safepoint] Total time for which application threads were stopped: 0.0669483 seconds, Stopping threads took: 0.0001492 seconds
+[2.719s][info][safepoint] Application time: 0.0177198 seconds
+[2.720s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[2.810s][info][gc       ] GC(21) Pause Young (Allocation Failure) 2254M->2258M(2367M) 90.046ms
+[2.810s][info][safepoint] Leaving safepoint region
+[2.810s][info][safepoint] Total time for which application threads were stopped: 0.0905602 seconds, Stopping threads took: 0.0001355 seconds
+[2.827s][info][safepoint] Application time: 0.0173240 seconds
+[2.828s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[2.918s][info][gc       ] GC(22) Pause Young (Allocation Failure) 2365M->2365M(2473M) 89.741ms
+[2.918s][info][safepoint] Leaving safepoint region
+[2.918s][info][safepoint] Total time for which application threads were stopped: 0.0902491 seconds, Stopping threads took: 0.0001373 seconds
+[2.935s][info][safepoint] Application time: 0.0169950 seconds
+[2.935s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[3.025s][info][gc       ] GC(23) Pause Young (Allocation Failure) 2471M->2469M(2577M) 89.813ms
+[3.025s][info][safepoint] Leaving safepoint region
+[3.026s][info][safepoint] Total time for which application threads were stopped: 0.0903166 seconds, Stopping threads took: 0.0001294 seconds
+[3.042s][info][safepoint] Application time: 0.0164852 seconds
+[3.042s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[3.131s][info][gc       ] GC(24) Pause Young (Allocation Failure) 2568M->2572M(2681M) 88.222ms
+[3.131s][info][safepoint] Leaving safepoint region
+[3.131s][info][safepoint] Total time for which application threads were stopped: 0.0887547 seconds, Stopping threads took: 0.0001340 seconds
+[3.158s][info][safepoint] Application time: 0.0268736 seconds
+[3.158s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[3.249s][info][gc       ] GC(25) Pause Young (Allocation Failure) 2678M->2682M(2791M) 90.204ms
+[3.249s][info][safepoint] Leaving safepoint region
+[3.249s][info][safepoint] Total time for which application threads were stopped: 0.0908232 seconds, Stopping threads took: 0.0001338 seconds
+[3.267s][info][safepoint] Application time: 0.0174990 seconds
+[3.267s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[3.352s][info][gc       ] GC(26) Pause Young (Allocation Failure) 2788M->2794M(2902M) 84.576ms
+[3.352s][info][safepoint] Leaving safepoint region
+[3.352s][info][safepoint] Total time for which application threads were stopped: 0.0851780 seconds, Stopping threads took: 0.0001802 seconds
+[3.371s][info][safepoint] Application time: 0.0184573 seconds
+[3.371s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[3.496s][info][gc       ] GC(27) Pause Young (Allocation Failure) 2900M->2904M(3012M) 124.385ms
+[3.496s][info][safepoint] Leaving safepoint region
+[3.496s][info][safepoint] Total time for which application threads were stopped: 0.1249289 seconds, Stopping threads took: 0.0001337 seconds
+[3.514s][info][safepoint] Application time: 0.0178584 seconds
+[3.514s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[3.628s][info][gc       ] GC(28) Pause Young (Allocation Failure) 3010M->3015M(3123M) 114.014ms
+[3.629s][info][safepoint] Leaving safepoint region
+[3.629s][info][safepoint] Total time for which application threads were stopped: 0.1145623 seconds, Stopping threads took: 0.0001116 seconds
+[3.647s][info][safepoint] Application time: 0.0182835 seconds
+[3.647s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[3.758s][info][gc       ] GC(29) Pause Young (Allocation Failure) 3121M->3126M(3235M) 110.881ms
+[3.759s][info][safepoint] Leaving safepoint region
+[3.759s][info][safepoint] Total time for which application threads were stopped: 0.1114739 seconds, Stopping threads took: 0.0001612 seconds
+[3.782s][info][safepoint] Application time: 0.0232504 seconds
+[3.782s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[3.878s][info][gc       ] GC(30) Pause Young (Allocation Failure) 3232M->3235M(3344M) 95.325ms
+[3.878s][info][safepoint] Leaving safepoint region
+[3.878s][info][safepoint] Total time for which application threads were stopped: 0.0958348 seconds, Stopping threads took: 0.0001015 seconds
+[3.896s][info][safepoint] Application time: 0.0175160 seconds
+[3.896s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[4.003s][info][gc       ] GC(31) Pause Young (Allocation Failure) 3341M->3346M(3455M) 107.195ms
+[4.004s][info][safepoint] Leaving safepoint region
+[4.004s][info][safepoint] Total time for which application threads were stopped: 0.1076757 seconds, Stopping threads took: 0.0000936 seconds
+[4.022s][info][safepoint] Application time: 0.0182662 seconds
+[4.022s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[4.130s][info][gc       ] GC(32) Pause Young (Allocation Failure) 3453M->3458M(3566M) 107.563ms
+[4.130s][info][safepoint] Leaving safepoint region
+[4.130s][info][safepoint] Total time for which application threads were stopped: 0.1081000 seconds, Stopping threads took: 0.0001049 seconds
+[4.148s][info][safepoint] Application time: 0.0175564 seconds
+[4.148s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[4.255s][info][gc       ] GC(33) Pause Young (Allocation Failure) 3564M->3569M(3678M) 106.613ms
+[4.255s][info][safepoint] Leaving safepoint region
+[4.255s][info][safepoint] Total time for which application threads were stopped: 0.1071510 seconds, Stopping threads took: 0.0001333 seconds
+[4.274s][info][safepoint] Application time: 0.0182146 seconds
+[4.274s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[4.382s][info][gc       ] GC(34) Pause Young (Allocation Failure) 3675M->3680M(3789M) 107.834ms
+[4.382s][info][safepoint] Leaving safepoint region
+[4.382s][info][safepoint] Total time for which application threads were stopped: 0.1083789 seconds, Stopping threads took: 0.0001018 seconds
+[4.392s][info][safepoint] Application time: 0.0092022 seconds
+[4.392s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[4.448s][info][gc       ] GC(35) Pause Young (Allocation Failure) 3735M->3736M(3845M) 55.570ms
+[4.448s][info][safepoint] Leaving safepoint region
+[4.448s][info][safepoint] Total time for which application threads were stopped: 0.0561131 seconds, Stopping threads took: 0.0001100 seconds
+[4.465s][info][safepoint] Application time: 0.0174002 seconds
+[4.466s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[4.615s][info][gc       ] GC(36) Pause Young (Allocation Failure) 3843M->3845M(3954M) 149.525ms
+[4.616s][info][safepoint] Leaving safepoint region
+[4.616s][info][safepoint] Total time for which application threads were stopped: 0.1501197 seconds, Stopping threads took: 0.0001617 seconds
+[4.690s][info][safepoint] Application time: 0.0740466 seconds
+[4.690s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[4.841s][info][gc       ] GC(37) Pause Young (Allocation Failure) 3951M->3967M(4076M) 150.199ms
+[4.841s][info][safepoint] Leaving safepoint region
+[4.841s][info][safepoint] Total time for which application threads were stopped: 0.1507009 seconds, Stopping threads took: 0.0001218 seconds
+[4.917s][info][safepoint] Application time: 0.0758305 seconds
+[4.917s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[5.148s][info][gc       ] GC(38) Pause Young (Allocation Failure) 4073M->4126M(4235M) 230.964ms
+[5.148s][info][safepoint] Leaving safepoint region
+[5.149s][info][safepoint] Total time for which application threads were stopped: 0.2315434 seconds, Stopping threads took: 0.0001387 seconds
+[5.169s][info][safepoint] Application time: 0.0204013 seconds
+[5.169s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[5.283s][info][gc       ] GC(39) Pause Young (Allocation Failure) 4232M->4237M(4346M) 113.601ms
+[5.284s][info][safepoint] Leaving safepoint region
+[5.284s][info][safepoint] Total time for which application threads were stopped: 0.1142941 seconds, Stopping threads took: 0.0001467 seconds
+[5.301s][info][safepoint] Application time: 0.0167794 seconds
+[5.301s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[5.411s][info][gc       ] GC(40) Pause Young (Allocation Failure) 4343M->4347M(4456M) 109.873ms
+[5.411s][info][safepoint] Leaving safepoint region
+[5.411s][info][safepoint] Total time for which application threads were stopped: 0.1106207 seconds, Stopping threads took: 0.0001327 seconds
+[5.430s][info][safepoint] Application time: 0.0186978 seconds
+[5.431s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[5.538s][info][gc       ] GC(41) Pause Young (Allocation Failure) 4453M->4453M(4562M) 107.638ms
+[5.539s][info][safepoint] Leaving safepoint region
+[5.539s][info][safepoint] Total time for which application threads were stopped: 0.1082089 seconds, Stopping threads took: 0.0001980 seconds
+[5.556s][info][safepoint] Application time: 0.0172760 seconds
+[5.556s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[5.668s][info][gc       ] GC(42) Pause Young (Allocation Failure) 4559M->4557M(4666M) 111.326ms
+[5.668s][info][safepoint] Leaving safepoint region
+[5.668s][info][safepoint] Total time for which application threads were stopped: 0.1119713 seconds, Stopping threads took: 0.0002038 seconds
+[5.685s][info][safepoint] Application time: 0.0160835 seconds
+[5.685s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[5.791s][info][gc       ] GC(43) Pause Young (Allocation Failure) 4663M->4656M(4766M) 105.966ms
+[5.791s][info][safepoint] Leaving safepoint region
+[5.792s][info][safepoint] Total time for which application threads were stopped: 0.1068623 seconds, Stopping threads took: 0.0001319 seconds
+[5.809s][info][safepoint] Application time: 0.0172727 seconds
+[5.809s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[5.913s][info][gc       ] GC(44) Pause Young (Allocation Failure) 4763M->4768M(4876M) 103.232ms
+[5.913s][info][safepoint] Leaving safepoint region
+[5.913s][info][safepoint] Total time for which application threads were stopped: 0.1040078 seconds, Stopping threads took: 0.0001047 seconds
+[5.958s][info][safepoint] Application time: 0.0444014 seconds
+[5.958s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[6.053s][info][gc       ] GC(45) Pause Young (Allocation Failure) 4874M->4878M(4987M) 94.063ms
+[6.053s][info][safepoint] Leaving safepoint region
+[6.054s][info][safepoint] Total time for which application threads were stopped: 0.0951665 seconds, Stopping threads took: 0.0001562 seconds
+[6.071s][info][safepoint] Application time: 0.0175843 seconds
+[6.072s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[6.181s][info][gc       ] GC(46) Pause Young (Allocation Failure) 4984M->4989M(5098M) 109.267ms
+[6.182s][info][safepoint] Leaving safepoint region
+[6.182s][info][safepoint] Total time for which application threads were stopped: 0.1103378 seconds, Stopping threads took: 0.0001594 seconds
+[6.199s][info][safepoint] Application time: 0.0165910 seconds
+[6.199s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[6.302s][info][gc       ] GC(47) Pause Young (Allocation Failure) 5095M->5100M(5209M) 102.763ms
+[6.303s][info][safepoint] Leaving safepoint region
+[6.303s][info][safepoint] Total time for which application threads were stopped: 0.1040291 seconds, Stopping threads took: 0.0001506 seconds
+[6.322s][info][safepoint] Application time: 0.0187026 seconds
+[6.323s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[6.427s][info][gc       ] GC(48) Pause Young (Allocation Failure) 5206M->5211M(5320M) 104.284ms
+[6.428s][info][safepoint] Leaving safepoint region
+[6.428s][info][safepoint] Total time for which application threads were stopped: 0.1052439 seconds, Stopping threads took: 0.0004053 seconds
+[6.446s][info][safepoint] Application time: 0.0183498 seconds
+[6.447s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[7.650s][info][gc       ] GC(2) Concurrent Preclean 5326.977ms
+[9.313s][info][gc       ] GC(50) Pause Full (Allocation Failure) 5317M->1136M(5320M) 2865.851ms
+[9.314s][info][gc       ] GC(49) Pause Young (Allocation Failure) 5317M->1136M(6249M) 2867.542ms
+[9.315s][info][safepoint] Leaving safepoint region
+[9.315s][info][safepoint] Total time for which application threads were stopped: 2.8686807 seconds, Stopping threads took: 0.0001377 seconds
+[9.666s][info][safepoint] Application time: 0.3500883 seconds
+[9.666s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[10.205s][info][gc       ] GC(51) Pause Young (Allocation Failure) 2001M->2111M(6249M) 538.804ms
+[10.206s][info][safepoint] Leaving safepoint region
+[10.206s][info][safepoint] Total time for which application threads were stopped: 0.5393965 seconds, Stopping threads took: 0.0002600 seconds
+[10.334s][info][safepoint] Application time: 0.1279405 seconds
+[10.334s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[10.934s][info][gc       ] GC(52) Pause Young (Allocation Failure) 2976M->3016M(6249M) 598.761ms
+[10.934s][info][safepoint] Leaving safepoint region
+[10.934s][info][safepoint] Total time for which application threads were stopped: 0.5997041 seconds, Stopping threads took: 0.0004826 seconds
+[10.934s][info][safepoint] Application time: 0.0001336 seconds
+[10.938s][info][safepoint] Entering safepoint region: CMS_Initial_Mark
+[10.996s][info][gc       ] GC(53) Pause Initial Mark 3051M->3051M(6249M) 57.902ms
+[10.996s][info][safepoint] Leaving safepoint region
+[10.996s][info][safepoint] Total time for which application threads were stopped: 0.0621563 seconds, Stopping threads took: 0.0038423 seconds
+[10.997s][info][gc       ] GC(53) Concurrent Mark
+[11.178s][info][safepoint] Application time: 0.1813510 seconds
+[11.178s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[11.824s][info][gc       ] GC(54) Pause Young (Allocation Failure) 3882M->3847M(6249M) 645.243ms
+[11.824s][info][safepoint] Leaving safepoint region
+[11.824s][info][safepoint] Total time for which application threads were stopped: 0.6458543 seconds, Stopping threads took: 0.0001755 seconds
+[12.000s][info][gc       ] GC(53) Concurrent Mark 1003.773ms
+[12.001s][info][gc       ] GC(53) Concurrent Preclean
+[12.016s][info][safepoint] Application time: 0.1915017 seconds
+[12.016s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[12.699s][info][gc       ] GC(55) Pause Young (Allocation Failure) 4712M->4733M(6249M) 682.492ms
+[12.699s][info][safepoint] Leaving safepoint region
+[12.699s][info][safepoint] Total time for which application threads were stopped: 0.6831690 seconds, Stopping threads took: 0.0002645 seconds
+[12.835s][info][safepoint] Application time: 0.1359093 seconds
+[12.836s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[13.429s][info][gc       ] GC(53) Concurrent Preclean 1428.711ms
+[15.398s][info][gc       ] GC(57) Pause Full (Allocation Failure) 5546M->1587M(6249M) 2562.291ms
+[15.399s][info][gc       ] GC(56) Pause Young (Allocation Failure) 5546M->1587M(6249M) 2562.825ms
+[15.399s][info][safepoint] Leaving safepoint region
+[15.399s][info][safepoint] Total time for which application threads were stopped: 2.5634414 seconds, Stopping threads took: 0.0001300 seconds
+[15.607s][info][safepoint] Application time: 0.2079578 seconds
+[15.608s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[16.160s][info][gc       ] GC(58) Pause Young (Allocation Failure) 2452M->2549M(6249M) 551.540ms
+[16.160s][info][safepoint] Leaving safepoint region
+[16.160s][info][safepoint] Total time for which application threads were stopped: 0.5523046 seconds, Stopping threads took: 0.0003332 seconds
+[16.290s][info][safepoint] Application time: 0.1301373 seconds
+[16.291s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[16.910s][info][gc       ] GC(59) Pause Young (Allocation Failure) 3414M->3528M(6249M) 618.584ms
+[16.910s][info][safepoint] Leaving safepoint region
+[16.910s][info][safepoint] Total time for which application threads were stopped: 0.6194082 seconds, Stopping threads took: 0.0004194 seconds
+[16.910s][info][safepoint] Application time: 0.0000934 seconds
+[16.913s][info][safepoint] Entering safepoint region: CMS_Initial_Mark
+[16.919s][info][gc       ] GC(60) Pause Initial Mark 3545M->3545M(6249M) 5.721ms
+[16.919s][info][safepoint] Leaving safepoint region
+[16.919s][info][safepoint] Total time for which application threads were stopped: 0.0087440 seconds, Stopping threads took: 0.0027141 seconds
+[16.919s][info][gc       ] GC(60) Concurrent Mark
+[17.147s][info][safepoint] Application time: 0.2276047 seconds
+[17.147s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[17.775s][info][gc       ] GC(61) Pause Young (Allocation Failure) 4393M->4402M(6249M) 627.307ms
+[17.775s][info][safepoint] Leaving safepoint region
+[17.775s][info][safepoint] Total time for which application threads were stopped: 0.6280417 seconds, Stopping threads took: 0.0002865 seconds
+[17.916s][info][safepoint] Application time: 0.1411450 seconds
+[17.917s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[18.531s][info][gc       ] GC(62) Pause Young (Allocation Failure) 5268M->5282M(6249M) 613.909ms
+[18.531s][info][safepoint] Leaving safepoint region
+[18.531s][info][safepoint] Total time for which application threads were stopped: 0.6145106 seconds, Stopping threads took: 0.0001975 seconds
+[18.605s][info][gc       ] GC(60) Concurrent Mark 1686.278ms
+[18.606s][info][gc       ] GC(60) Concurrent Preclean
+[18.767s][info][safepoint] Application time: 0.2355037 seconds
+[18.767s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[19.586s][info][gc       ] GC(60) Concurrent Preclean 980.108ms
+[20.618s][info][gc       ] GC(64) Pause Full (Allocation Failure) 6147M->159M(6249M) 1849.873ms
+[20.618s][info][gc       ] GC(63) Pause Young (Allocation Failure) 6147M->159M(6249M) 1850.420ms
+[20.619s][info][safepoint] Leaving safepoint region
+[20.619s][info][safepoint] Total time for which application threads were stopped: 1.8518984 seconds, Stopping threads took: 0.0003833 seconds
+[20.751s][info][safepoint] Application time: 0.1315638 seconds
+[20.752s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[21.250s][info][gc       ] GC(65) Pause Young (Allocation Failure) 1024M->1129M(6249M) 497.177ms
+[21.250s][info][safepoint] Leaving safepoint region
+[21.250s][info][safepoint] Total time for which application threads were stopped: 0.4981531 seconds, Stopping threads took: 0.0005272 seconds
+[21.457s][info][safepoint] Application time: 0.2065139 seconds
+[21.457s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[22.037s][info][gc       ] GC(66) Pause Young (Allocation Failure) 1995M->1957M(6249M) 579.313ms
+[22.037s][info][safepoint] Leaving safepoint region
+[22.037s][info][safepoint] Total time for which application threads were stopped: 0.5803131 seconds, Stopping threads took: 0.0006274 seconds
+[22.185s][info][safepoint] Application time: 0.1476235 seconds
+[22.186s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[22.773s][info][gc       ] GC(67) Pause Young (Allocation Failure) 2822M->2852M(6249M) 586.606ms
+[22.773s][info][safepoint] Leaving safepoint region
+[22.773s][info][safepoint] Total time for which application threads were stopped: 0.5873183 seconds, Stopping threads took: 0.0002841 seconds
+[22.773s][info][safepoint] Application time: 0.0000900 seconds
+[22.776s][info][safepoint] Entering safepoint region: CMS_Initial_Mark
+[22.821s][info][gc       ] GC(68) Pause Initial Mark 2887M->2887M(6249M) 45.351ms
+[22.822s][info][safepoint] Leaving safepoint region
+[22.822s][info][safepoint] Total time for which application threads were stopped: 0.0487702 seconds, Stopping threads took: 0.0027172 seconds
+[22.822s][info][gc       ] GC(68) Concurrent Mark
+[22.971s][info][safepoint] Application time: 0.1484296 seconds
+[22.971s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[23.597s][info][gc       ] GC(69) Pause Young (Allocation Failure) 3717M->3709M(6249M) 625.506ms
+[23.597s][info][safepoint] Leaving safepoint region
+[23.597s][info][safepoint] Total time for which application threads were stopped: 0.6262756 seconds, Stopping threads took: 0.0003177 seconds
+[23.801s][info][gc       ] GC(68) Concurrent Mark 978.291ms
+[23.801s][info][gc       ] GC(68) Concurrent Preclean
+[23.829s][info][safepoint] Application time: 0.2312137 seconds
+[23.829s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[24.471s][info][gc       ] GC(70) Pause Young (Allocation Failure) 4575M->4584M(6249M) 641.563ms
+[24.471s][info][safepoint] Leaving safepoint region
+[24.471s][info][safepoint] Total time for which application threads were stopped: 0.6423781 seconds, Stopping threads took: 0.0004265 seconds
+[24.613s][info][safepoint] Application time: 0.1419767 seconds
+[24.614s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[25.177s][info][gc       ] GC(68) Concurrent Preclean 1376.329ms
+[27.186s][info][gc       ] GC(72) Pause Full (Allocation Failure) 5449M->1521M(6249M) 2571.389ms
+[27.186s][info][gc       ] GC(71) Pause Young (Allocation Failure) 5449M->1521M(6249M) 2571.999ms
+[27.187s][info][safepoint] Leaving safepoint region
+[27.187s][info][safepoint] Total time for which application threads were stopped: 2.5732923 seconds, Stopping threads took: 0.0003007 seconds
+[27.425s][info][safepoint] Application time: 0.2371925 seconds
+[27.425s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[28.015s][info][gc       ] GC(73) Pause Young (Allocation Failure) 2386M->2522M(6249M) 589.072ms
+[28.015s][info][safepoint] Leaving safepoint region
+[28.015s][info][safepoint] Total time for which application threads were stopped: 0.5899763 seconds, Stopping threads took: 0.0004740 seconds
+[28.151s][info][safepoint] Application time: 0.1350942 seconds
+[28.151s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[28.792s][info][gc       ] GC(74) Pause Young (Allocation Failure) 3387M->3438M(6249M) 640.859ms
+[28.792s][info][safepoint] Leaving safepoint region
+[28.792s][info][safepoint] Total time for which application threads were stopped: 0.6413397 seconds, Stopping threads took: 0.0001005 seconds
+[28.792s][info][safepoint] Application time: 0.0000890 seconds
+[28.795s][info][safepoint] Entering safepoint region: CMS_Initial_Mark
+[28.864s][info][gc       ] GC(75) Pause Initial Mark 3455M->3455M(6249M) 69.269ms
+[28.865s][info][safepoint] Leaving safepoint region
+[28.865s][info][safepoint] Total time for which application threads were stopped: 0.0728563 seconds, Stopping threads took: 0.0026451 seconds
+[28.866s][info][gc       ] GC(75) Concurrent Mark
+[29.097s][info][safepoint] Application time: 0.2316659 seconds
+[29.098s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[29.702s][info][gc       ] GC(76) Pause Young (Allocation Failure) 4303M->4252M(6249M) 603.906ms
+[29.702s][info][safepoint] Leaving safepoint region
+[29.702s][info][safepoint] Total time for which application threads were stopped: 0.6044250 seconds, Stopping threads took: 0.0001114 seconds
+[29.841s][info][safepoint] Application time: 0.1393545 seconds
+[29.842s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[30.513s][info][gc       ] GC(77) Pause Young (Allocation Failure) 5118M->5159M(6249M) 671.055ms
+[30.513s][info][safepoint] Leaving safepoint region
+[30.513s][info][safepoint] Total time for which application threads were stopped: 0.6717679 seconds, Stopping threads took: 0.0002965 seconds
+[30.806s][info][gc       ] GC(75) Concurrent Mark 1940.449ms
+[30.807s][info][gc       ] GC(75) Concurrent Preclean
+[30.834s][info][safepoint] Application time: 0.3207031 seconds
+[30.835s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[31.703s][info][gc       ] GC(75) Concurrent Preclean 896.581ms
+[32.706s][info][gc       ] GC(79) Pause Full (Allocation Failure) 6024M->104M(6249M) 1870.642ms
+[32.706s][info][gc       ] GC(78) Pause Young (Allocation Failure) 6024M->104M(6249M) 1871.160ms
+[32.706s][info][safepoint] Leaving safepoint region
+[32.707s][info][safepoint] Total time for which application threads were stopped: 1.8720858 seconds, Stopping threads took: 0.0002604 seconds
+[32.823s][info][safepoint] Application time: 0.1157915 seconds
+[32.823s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[33.338s][info][gc       ] GC(80) Pause Young (Allocation Failure) 969M->1071M(6249M) 514.560ms
+[33.338s][info][safepoint] Leaving safepoint region
+[33.339s][info][safepoint] Total time for which application threads were stopped: 0.5153360 seconds, Stopping threads took: 0.0003961 seconds
+[33.504s][info][safepoint] Application time: 0.1655010 seconds
+[33.505s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[34.102s][info][gc       ] GC(81) Pause Young (Allocation Failure) 1937M->1931M(6249M) 596.435ms
+[34.102s][info][safepoint] Leaving safepoint region
+[34.102s][info][safepoint] Total time for which application threads were stopped: 0.5973263 seconds, Stopping threads took: 0.0004873 seconds
+[34.271s][info][safepoint] Application time: 0.1694071 seconds
+[34.272s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[34.884s][info][gc       ] GC(82) Pause Young (Allocation Failure) 2796M->2819M(6249M) 611.630ms
+[34.884s][info][safepoint] Leaving safepoint region
+[34.884s][info][safepoint] Total time for which application threads were stopped: 0.6122486 seconds, Stopping threads took: 0.0002698 seconds
+[34.884s][info][safepoint] Application time: 0.0000814 seconds
+[34.887s][info][safepoint] Entering safepoint region: CMS_Initial_Mark
+[34.894s][info][gc       ] GC(83) Pause Initial Mark 2854M->2854M(6249M) 6.993ms
+[34.894s][info][safepoint] Leaving safepoint region
+[34.894s][info][safepoint] Total time for which application threads were stopped: 0.0100093 seconds, Stopping threads took: 0.0026376 seconds
+[34.894s][info][gc       ] GC(83) Concurrent Mark
+[35.021s][info][safepoint] Application time: 0.1269677 seconds
+[35.022s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[35.633s][info][gc       ] GC(84) Pause Young (Allocation Failure) 3639M->3703M(6249M) 610.914ms
+[35.633s][info][safepoint] Leaving safepoint region
+[35.633s][info][safepoint] Total time for which application threads were stopped: 0.6117325 seconds, Stopping threads took: 0.0004039 seconds
+[35.767s][info][gc       ] GC(83) Concurrent Mark 872.290ms
+[35.767s][info][gc       ] GC(83) Concurrent Preclean
+[35.852s][info][safepoint] Application time: 0.2180571 seconds
+[35.852s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[36.448s][info][gc       ] GC(85) Pause Young (Allocation Failure) 4568M->4530M(6249M) 594.830ms
+[36.448s][info][safepoint] Leaving safepoint region
+[36.448s][info][safepoint] Total time for which application threads were stopped: 0.5957593 seconds, Stopping threads took: 0.0004705 seconds
+[36.593s][info][safepoint] Application time: 0.1449935 seconds
+[36.594s][info][safepoint] Entering safepoint region: GenCollectForAllocation
+[37.170s][info][gc       ] GC(83) Concurrent Preclean 1402.767ms
+[38.977s][info][gc       ] GC(87) Pause Full (Allocation Failure) 5395M->1395M(6249M) 2382.992ms
+[38.978s][info][gc       ] GC(86) Pause Young (Allocation Failure) 5395M->1395M(6249M) 2383.539ms
+[38.978s][info][safepoint] Leaving safepoint region
+[38.978s][info][safepoint] Total time for which application threads were stopped: 2.3847422 seconds, Stopping threads took: 0.0004457 seconds
+[39.146s][info][safepoint] Application time: 0.1673154 seconds
+[39.146s][info][safepoint] Entering safepoint region: Halt

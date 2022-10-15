@@ -1,0 +1,79 @@
+[0.004s][info][gc] Using Serial
+[0.128s][info][safepoint] Safepoint "ICBufferFull", Time since last: 120086859 ns, Reaching safepoint: 39862 ns, At safepoint: 11560 ns, Total: 51422 ns
+[0.231s][info][gc       ] GC(0) Pause Young (Allocation Failure) 106M->30M(384M) 27.738ms
+[0.232s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 75224996 ns, Reaching safepoint: 33106 ns, At safepoint: 28341535 ns, Total: 28374641 ns
+[0.302s][info][gc       ] GC(1) Pause Young (Allocation Failure) 136M->130M(384M) 57.000ms
+[0.302s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 13035376 ns, Reaching safepoint: 5526 ns, At safepoint: 57624080 ns, Total: 57629606 ns
+[0.371s][info][gc       ] GC(2) Pause Young (Allocation Failure) 236M->229M(384M) 52.773ms
+[0.371s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 15785429 ns, Reaching safepoint: 3921 ns, At safepoint: 53216725 ns, Total: 53220646 ns
+[0.443s][info][gc       ] GC(3) Pause Young (Allocation Failure) 335M->327M(433M) 57.842ms
+[0.600s][info][gc       ] GC(4) Pause Full (Allocation Failure) 327M->327M(758M) 156.811ms
+[0.601s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 13727698 ns, Reaching safepoint: 9048 ns, At safepoint: 215701594 ns, Total: 215710642 ns
+[0.767s][info][gc       ] GC(5) Pause Young (Allocation Failure) 523M->510M(758M) 138.430ms
+[0.768s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 27813702 ns, Reaching safepoint: 14830 ns, At safepoint: 138891986 ns, Total: 138906816 ns
+[0.918s][info][gc       ] GC(6) Pause Young (Allocation Failure) 720M->704M(913M) 124.751ms
+[1.244s][info][gc       ] GC(7) Pause Full (Allocation Failure) 704M->704M(1639M) 325.639ms
+[1.245s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 25812105 ns, Reaching safepoint: 6335 ns, At safepoint: 451325937 ns, Total: 451332272 ns
+[1.614s][info][gc       ] GC(8) Pause Young (Allocation Failure) 1130M->1107M(1639M) 306.063ms
+[1.615s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 63408291 ns, Reaching safepoint: 19408 ns, At safepoint: 306589880 ns, Total: 306609288 ns
+[1.950s][info][gc       ] GC(9) Pause Young (Allocation Failure) 1527M->1516M(1969M) 282.397ms
+[2.708s][info][gc       ] GC(10) Pause Full (Allocation Failure) 1516M->1516M(3529M) 757.959ms
+[2.709s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 52847091 ns, Reaching safepoint: 6781 ns, At safepoint: 1041201405 ns, Total: 1041208186 ns
+[3.699s][info][gc       ] GC(11) Pause Young (Allocation Failure) 2434M->2350M(3529M) 796.141ms
+[3.699s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 193636471 ns, Reaching safepoint: 23294 ns, At safepoint: 796433638 ns, Total: 796456932 ns
+[4.582s][info][gc       ] GC(12) Pause Young (Allocation Failure) 3323M->3300M(4274M) 745.850ms
+[5.867s][info][gc       ] GC(13) Pause Full (Allocation Failure) 3300M->1453M(3529M) 1285.195ms
+[5.868s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 136928157 ns, Reaching safepoint: 8931 ns, At safepoint: 2031937952 ns, Total: 2031946883 ns
+[6.595s][info][gc       ] GC(14) Pause Young (Allocation Failure) 2427M->2368M(3529M) 528.503ms
+[6.596s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 199055491 ns, Reaching safepoint: 48204 ns, At safepoint: 529065518 ns, Total: 529113722 ns
+[7.456s][info][gc       ] GC(15) Pause Young (Allocation Failure) 3342M->3318M(4292M) 727.221ms
+[8.582s][info][gc       ] GC(16) Pause Full (Allocation Failure) 3318M->1549M(3745M) 1125.943ms
+[8.583s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 132567642 ns, Reaching safepoint: 27179 ns, At safepoint: 1854196628 ns, Total: 1854223807 ns
+[9.281s][info][gc       ] GC(17) Pause Young (Allocation Failure) 2583M->2536M(3745M) 537.956ms
+[9.281s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 159986079 ns, Reaching safepoint: 7549 ns, At safepoint: 538393253 ns, Total: 538400802 ns
+[10.183s][info][gc       ] GC(18) Pause Young (Allocation Failure) 3569M->3510M(4544M) 757.141ms
+[11.459s][info][gc       ] GC(19) Pause Full (Allocation Failure) 3510M->1742M(4211M) 1275.487ms
+[11.459s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 144541913 ns, Reaching safepoint: 7550 ns, At safepoint: 2033612000 ns, Total: 2033619550 ns
+[12.269s][info][gc       ] GC(20) Pause Young (Allocation Failure) 2904M->2844M(4211M) 622.099ms
+[12.269s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 187423687 ns, Reaching safepoint: 8583 ns, At safepoint: 622612389 ns, Total: 622620972 ns
+[12.900s][info][gc       ] GC(21) Pause Young (Allocation Failure) 4006M->3222M(4384M) 420.096ms
+[13.357s][info][gc       ] GC(22) Pause Full (Allocation Failure) 3222M->329M(4211M) 456.041ms
+[13.357s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 210580741 ns, Reaching safepoint: 7598 ns, At safepoint: 877058315 ns, Total: 877065913 ns
+[13.998s][info][gc       ] GC(23) Pause Young (Allocation Failure) 1491M->1434M(4211M) 494.592ms
+[13.999s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 146654626 ns, Reaching safepoint: 8000 ns, At safepoint: 495075319 ns, Total: 495083319 ns
+[14.782s][info][gc       ] GC(24) Pause Young (Allocation Failure) 2596M->2493M(4211M) 598.012ms
+[14.783s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 185288115 ns, Reaching safepoint: 7933 ns, At safepoint: 598549490 ns, Total: 598557423 ns
+[15.589s][info][gc       ] GC(25) Pause Young (Allocation Failure) 3655M->3581M(4743M) 660.973ms
+[16.810s][info][gc       ] GC(26) Pause Full (Allocation Failure) 3581M->1657M(4211M) 1221.106ms
+[16.811s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 144984584 ns, Reaching safepoint: 7398 ns, At safepoint: 1883210183 ns, Total: 1883217581 ns
+[17.592s][info][gc       ] GC(27) Pause Young (Allocation Failure) 2819M->2768M(4211M) 609.749ms
+[17.592s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 171322051 ns, Reaching safepoint: 7846 ns, At safepoint: 610316620 ns, Total: 610324466 ns
+[18.199s][info][gc       ] GC(28) Pause Young (Allocation Failure) 3930M->3148M(4310M) 407.588ms
+[18.687s][info][gc       ] GC(29) Pause Full (Allocation Failure) 3148M->242M(4211M) 488.130ms
+[18.688s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 198580139 ns, Reaching safepoint: 7510 ns, At safepoint: 896798110 ns, Total: 896805620 ns
+[19.326s][info][gc       ] GC(30) Pause Young (Allocation Failure) 1404M->1355M(4211M) 490.711ms
+[19.326s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 147081801 ns, Reaching safepoint: 21973 ns, At safepoint: 491307093 ns, Total: 491329066 ns
+[20.113s][info][gc       ] GC(31) Pause Young (Allocation Failure) 2517M->2417M(4211M) 604.311ms
+[20.114s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 182723941 ns, Reaching safepoint: 8201 ns, At safepoint: 604811852 ns, Total: 604820053 ns
+[20.949s][info][gc       ] GC(32) Pause Young (Allocation Failure) 3579M->3490M(4652M) 684.194ms
+[22.246s][info][gc       ] GC(33) Pause Full (Allocation Failure) 3490M->1657M(4211M) 1296.405ms
+[22.246s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 150730586 ns, Reaching safepoint: 21455 ns, At safepoint: 1981650693 ns, Total: 1981672148 ns
+[22.984s][info][gc       ] GC(34) Pause Young (Allocation Failure) 2819M->2768M(4211M) 573.774ms
+[22.985s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 164424667 ns, Reaching safepoint: 8423 ns, At safepoint: 574221854 ns, Total: 574230277 ns
+[23.531s][info][gc       ] GC(35) Pause Young (Allocation Failure) 3930M->3096M(4258M) 342.191ms
+[24.032s][info][gc       ] GC(36) Pause Full (Allocation Failure) 3096M->294M(4211M) 500.418ms
+[24.032s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 203767287 ns, Reaching safepoint: 16574 ns, At safepoint: 843640180 ns, Total: 843656754 ns
+[24.682s][info][gc       ] GC(37) Pause Young (Allocation Failure) 1456M->1406M(4211M) 499.209ms
+[24.683s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 150938536 ns, Reaching safepoint: 7754 ns, At safepoint: 499812192 ns, Total: 499819946 ns
+[25.464s][info][gc       ] GC(38) Pause Young (Allocation Failure) 2568M->2466M(4211M) 599.866ms
+[25.465s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 181349353 ns, Reaching safepoint: 7815 ns, At safepoint: 600572954 ns, Total: 600580769 ns
+[26.362s][info][gc       ] GC(39) Pause Young (Allocation Failure) 3628M->3511M(4673M) 697.687ms
+[27.679s][info][gc       ] GC(40) Pause Full (Allocation Failure) 3511M->1657M(4211M) 1316.218ms
+[27.680s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 199709929 ns, Reaching safepoint: 9752 ns, At safepoint: 2014939687 ns, Total: 2014949439 ns
+[28.368s][info][gc       ] GC(41) Pause Young (Allocation Failure) 2819M->2749M(4211M) 530.095ms
+[28.368s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 158205940 ns, Reaching safepoint: 8478 ns, At safepoint: 530548383 ns, Total: 530556861 ns
+[28.879s][info][gc       ] GC(42) Pause Young (Allocation Failure) 3911M->3049M(4211M) 298.502ms
+[28.879s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 212054213 ns, Reaching safepoint: 25323 ns, At safepoint: 298763923 ns, Total: 298789246 ns
+[30.065s][info][gc       ] GC(43) Pause Young (Allocation Failure) 4211M->4161M(5323M) 1019.943ms
+[31.351s][info][gc       ] GC(44) Pause Full (Allocation Failure) 4161M->1455M(4211M) 1285.921ms
+[31.352s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 165737336 ns, Reaching safepoint: 8278 ns, At safepoint: 2306790521 ns, Total: 2306798799 ns

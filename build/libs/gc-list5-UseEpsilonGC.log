@@ -1,0 +1,23 @@
+[0.010s][info][gc] Using Epsilon
+[0.306s][info][safepoint] Safepoint "ICBufferFull", Time since last: 289928421 ns, Reaching safepoint: 91502 ns, At safepoint: 1166 ns, Total: 92668 ns
+[1.067s][info][gc       ] Heap: 6357M reserved, 397M (6.25%) committed, 317M (5.00%) used
+[1.288s][info][gc       ] Heap: 6357M reserved, 653M (10.28%) committed, 637M (10.03%) used
+[1.358s][info][safepoint] Safepoint "Cleanup", Time since last: 1052155340 ns, Reaching safepoint: 170453 ns, At safepoint: 58858 ns, Total: 229311 ns
+[1.486s][info][gc       ] Heap: 6357M reserved, 1037M (16.32%) committed, 956M (15.04%) used
+[1.659s][info][gc       ] Heap: 6357M reserved, 1293M (20.34%) committed, 1276M (20.07%) used
+[1.779s][info][gc       ] Heap: 6357M reserved, 1677M (26.38%) committed, 1596M (25.12%) used
+[1.931s][info][gc       ] Heap: 6357M reserved, 1933M (30.41%) committed, 1915M (30.12%) used
+[2.048s][info][gc       ] Heap: 6357M reserved, 2317M (36.45%) committed, 2236M (35.18%) used
+[2.244s][info][gc       ] Heap: 6357M reserved, 2573M (40.48%) committed, 2555M (40.20%) used
+[2.359s][info][safepoint] Safepoint "Cleanup", Time since last: 1000783768 ns, Reaching safepoint: 167991 ns, At safepoint: 23356 ns, Total: 191347 ns
+[2.384s][info][gc       ] Heap: 6357M reserved, 2957M (46.52%) committed, 2887M (45.43%) used
+[2.552s][info][gc       ] Heap: 6357M reserved, 3213M (50.55%) committed, 3206M (50.43%) used
+[2.672s][info][gc       ] Heap: 6357M reserved, 3597M (56.59%) committed, 3527M (55.49%) used
+[2.820s][info][gc       ] Heap: 6357M reserved, 3853M (60.61%) committed, 3848M (60.54%) used
+[2.968s][info][gc       ] Heap: 6357M reserved, 4237M (66.65%) committed, 4167M (65.55%) used
+[3.128s][info][gc       ] Heap: 6357M reserved, 4493M (70.68%) committed, 4488M (70.60%) used
+[3.252s][info][gc       ] Heap: 6357M reserved, 4877M (76.72%) committed, 4807M (75.62%) used
+[3.415s][info][gc       ] Heap: 6357M reserved, 5133M (80.75%) committed, 5128M (80.66%) used
+[3.607s][info][gc       ] Heap: 6357M reserved, 5517M (86.79%) committed, 5447M (85.68%) used
+[3.763s][info][gc       ] Heap: 6357M reserved, 5773M (90.81%) committed, 5767M (90.72%) used
+[3.947s][info][gc       ] Heap: 6357M reserved, 6157M (96.85%) committed, 6087M (95.75%) used

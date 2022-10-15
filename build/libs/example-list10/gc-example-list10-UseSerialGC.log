@@ -1,0 +1,19 @@
+[0.004s][info][gc] Using Serial
+[0.132s][info][safepoint] Safepoint "ICBufferFull", Time since last: 123411746 ns, Reaching safepoint: 35691 ns, At safepoint: 693 ns, Total: 36384 ns
+[0.257s][info][gc       ] GC(0) Pause Young (Allocation Failure) 106M->79M(384M) 40.526ms
+[0.257s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 84409148 ns, Reaching safepoint: 44678 ns, At safepoint: 41037532 ns, Total: 41082210 ns
+[0.323s][info][gc       ] GC(1) Pause Young (Allocation Failure) 185M->180M(384M) 55.337ms
+[0.324s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 10828619 ns, Reaching safepoint: 7613 ns, At safepoint: 55836610 ns, Total: 55844223 ns
+[0.395s][info][gc       ] GC(2) Pause Young (Allocation Failure) 286M->281M(387M) 56.344ms
+[0.523s][info][gc       ] GC(3) Pause Full (Allocation Failure) 281M->281M(648M) 127.970ms
+[0.523s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 14411701 ns, Reaching safepoint: 4336 ns, At safepoint: 185199259 ns, Total: 185203595 ns
+[0.661s][info][gc       ] GC(4) Pause Young (Allocation Failure) 447M->436M(648M) 117.612ms
+[0.661s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 19560897 ns, Reaching safepoint: 7181 ns, At safepoint: 118036640 ns, Total: 118043821 ns
+[0.786s][info][gc       ] GC(5) Pause Young (Allocation Failure) 615M->605M(784M) 106.156ms
+[1.059s][info][gc       ] GC(6) Pause Full (Allocation Failure) 605M->605M(1409M) 272.596ms
+[1.059s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 18756889 ns, Reaching safepoint: 6334 ns, At safepoint: 379562342 ns, Total: 379568676 ns
+[1.363s][info][gc       ] GC(7) Pause Young (Allocation Failure) 972M->956M(1409M) 258.216ms
+[1.364s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 45478551 ns, Reaching safepoint: 20074 ns, At safepoint: 258780822 ns, Total: 258800896 ns
+[1.637s][info][gc       ] GC(8) Pause Young (Allocation Failure) 1345M->1321M(1710M) 234.004ms
+[2.239s][info][gc       ] GC(9) Pause Full (Allocation Failure) 1321M->1321M(3077M) 600.651ms
+[2.239s][info][safepoint] Safepoint "GenCollectForAllocation", Time since last: 39784092 ns, Reaching safepoint: 5214 ns, At safepoint: 835614503 ns, Total: 835619717 ns

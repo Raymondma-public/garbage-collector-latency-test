@@ -1,0 +1,232 @@
+[0.020s][info][gc] Heuristics ergonomically sets -XX:+ExplicitGCInvokesConcurrent
+[0.021s][info][gc] Heuristics ergonomically sets -XX:+ShenandoahImplicitGCInvokesConcurrent
+[0.022s][info][gc] Using Shenandoah
+[0.346s][info][safepoint] Safepoint "ICBufferFull", Time since last: 310214936 ns, Reaching safepoint: 124758 ns, At safepoint: 1614 ns, Total: 126372 ns
+[1.398s][info][safepoint] Safepoint "Cleanup", Time since last: 1051364509 ns, Reaching safepoint: 431342 ns, At safepoint: 85592 ns, Total: 516934 ns
+[2.096s][info][gc       ] Trigger: Learning 1 of 5. Free (4450M) is below initial threshold (4450M)
+[2.099s][info][gc       ] GC(0) Concurrent reset 1.105ms
+[2.100s][info][gc       ] GC(0) Pause Init Mark (unload classes) 0.767ms
+[2.101s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 700918175 ns, Reaching safepoint: 419673 ns, At safepoint: 1037025 ns, Total: 1456698 ns
+[2.101s][info][gc       ] GC(0) Concurrent marking roots 0.488ms
+[2.192s][info][gc       ] GC(0) Concurrent marking (unload classes) 89.956ms
+[2.194s][info][gc       ] GC(0) Pause Final Mark (unload classes) 0.835ms
+[2.194s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 91904543 ns, Reaching safepoint: 371381 ns, At safepoint: 1450605 ns, Total: 1821986 ns
+[2.195s][info][gc       ] GC(0) Concurrent weak references 0.366ms
+[2.196s][info][gc       ] GC(0) Concurrent weak roots 0.813ms
+[2.197s][info][gc       ] GC(0) Concurrent cleanup 1782M->531M(1806M) 0.226ms
+[2.199s][info][gc       ] GC(0) Concurrent class unloading 1.129ms
+[2.199s][info][safepoint] Safepoint "CleanClassLoaderDataMetaspaces", Time since last: 4294311 ns, Reaching safepoint: 337425 ns, At safepoint: 58399 ns, Total: 395824 ns
+[2.200s][info][gc       ] GC(0) Pause Final Roots 0.007ms
+[2.201s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 638870 ns, Reaching safepoint: 242844 ns, At safepoint: 558603 ns, Total: 801447 ns
+[2.499s][info][gc       ] Trigger: Learning 2 of 5. Free (4448M) is below initial threshold (4450M)
+[2.501s][info][gc       ] GC(1) Concurrent reset 1.178ms
+[2.503s][info][gc       ] GC(1) Pause Init Mark (unload classes) 0.342ms
+[2.503s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 301304625 ns, Reaching safepoint: 377606 ns, At safepoint: 962847 ns, Total: 1340453 ns
+[2.504s][info][gc       ] GC(1) Concurrent marking roots 0.463ms
+[2.611s][info][gc       ] GC(1) Concurrent marking (unload classes) 107.035ms
+[2.613s][info][gc       ] GC(1) Pause Final Mark (unload classes) 0.811ms
+[2.614s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 108841136 ns, Reaching safepoint: 283863 ns, At safepoint: 1252649 ns, Total: 1536512 ns
+[2.614s][info][gc       ] GC(1) Concurrent weak references 0.230ms
+[2.615s][info][gc       ] GC(1) Concurrent weak roots 0.561ms
+[2.616s][info][gc       ] GC(1) Concurrent cleanup 1797M->588M(1814M) 0.374ms
+[2.618s][info][gc       ] GC(1) Concurrent class unloading 1.095ms
+[2.618s][info][gc       ] GC(1) Pause Final Roots 0.005ms
+[2.619s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 4647574 ns, Reaching safepoint: 225394 ns, At safepoint: 454558 ns, Total: 679952 ns
+[2.893s][info][gc       ] Trigger: Learning 3 of 5. Free (4446M) is below initial threshold (4450M)
+[2.896s][info][gc       ] GC(2) Concurrent reset 1.830ms
+[2.897s][info][gc       ] GC(2) Pause Init Mark (unload classes) 0.188ms
+[2.897s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 277325219 ns, Reaching safepoint: 254389 ns, At safepoint: 483330 ns, Total: 737719 ns
+[2.898s][info][gc       ] GC(2) Concurrent marking roots 0.796ms
+[3.000s][info][gc       ] GC(2) Concurrent marking (unload classes) 101.554ms
+[3.002s][info][gc       ] GC(2) Pause Final Mark (unload classes) 0.730ms
+[3.002s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 104011876 ns, Reaching safepoint: 203429 ns, At safepoint: 1011894 ns, Total: 1215323 ns
+[3.003s][info][gc       ] GC(2) Concurrent weak references 0.293ms
+[3.004s][info][gc       ] GC(2) Concurrent weak roots 0.437ms
+[3.004s][info][gc       ] GC(2) Concurrent cleanup 1790M->584M(1814M) 0.254ms
+[3.006s][info][gc       ] GC(2) Concurrent class unloading 1.145ms
+[3.007s][info][gc       ] GC(2) Pause Final Roots 0.007ms
+[3.007s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 4151176 ns, Reaching safepoint: 296927 ns, At safepoint: 326791 ns, Total: 623718 ns
+[3.271s][info][gc       ] Trigger: Learning 4 of 5. Free (4448M) is below initial threshold (4450M)
+[3.272s][info][gc       ] GC(3) Concurrent reset 0.869ms
+[3.273s][info][gc       ] GC(3) Pause Init Mark (unload classes) 0.135ms
+[3.274s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 265582576 ns, Reaching safepoint: 404573 ns, At safepoint: 582817 ns, Total: 987390 ns
+[3.274s][info][gc       ] GC(3) Concurrent marking roots 0.399ms
+[3.378s][info][gc       ] GC(3) Concurrent marking (unload classes) 103.477ms
+[3.380s][info][gc       ] GC(3) Pause Final Mark (unload classes) 0.619ms
+[3.380s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 105195768 ns, Reaching safepoint: 184523 ns, At safepoint: 908920 ns, Total: 1093443 ns
+[3.380s][info][gc       ] GC(3) Concurrent weak references 0.138ms
+[3.381s][info][gc       ] GC(3) Concurrent weak roots 0.322ms
+[3.381s][info][gc       ] GC(3) Concurrent cleanup 1778M->570M(1814M) 0.274ms
+[3.382s][info][gc       ] GC(3) Concurrent class unloading 0.624ms
+[3.383s][info][gc       ] GC(3) Pause Final Roots 0.004ms
+[3.383s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 2738698 ns, Reaching safepoint: 191782 ns, At safepoint: 296332 ns, Total: 488114 ns
+[3.642s][info][gc       ] Trigger: Learning 5 of 5. Free (4448M) is below initial threshold (4450M)
+[3.643s][info][gc       ] GC(4) Concurrent reset 0.876ms
+[3.644s][info][gc       ] GC(4) Pause Init Mark (unload classes) 0.213ms
+[3.645s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 260579768 ns, Reaching safepoint: 325005 ns, At safepoint: 703909 ns, Total: 1028914 ns
+[3.646s][info][gc       ] GC(4) Concurrent marking roots 0.683ms
+[3.751s][info][gc       ] GC(4) Concurrent marking (unload classes) 104.947ms
+[3.753s][info][gc       ] GC(4) Pause Final Mark (unload classes) 0.773ms
+[3.753s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 107049088 ns, Reaching safepoint: 251969 ns, At safepoint: 1212217 ns, Total: 1464186 ns
+[3.754s][info][gc       ] GC(4) Concurrent weak references 0.198ms
+[3.755s][info][gc       ] GC(4) Concurrent weak roots 0.549ms
+[3.756s][info][gc       ] GC(4) Concurrent cleanup 1817M->614M(1834M) 0.684ms
+[3.758s][info][gc       ] GC(4) Concurrent class unloading 1.256ms
+[3.759s][info][gc       ] GC(4) Pause Final Roots 0.005ms
+[3.759s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 5205080 ns, Reaching safepoint: 549894 ns, At safepoint: 404971 ns, Total: 954865 ns
+[5.644s][info][gc       ] Trigger: Free (634M) is below minimum threshold (635M)
+[5.646s][info][gc       ] GC(5) Concurrent reset 1.213ms
+[5.648s][info][gc       ] GC(5) Pause Init Mark (unload classes) 0.403ms
+[5.648s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1887686735 ns, Reaching safepoint: 375523 ns, At safepoint: 817321 ns, Total: 1192844 ns
+[5.649s][info][gc       ] GC(5) Concurrent marking roots 0.397ms
+[5.797s][info][gc       ] GC(5) Concurrent marking (unload classes) 147.307ms
+[5.799s][info][gc       ] GC(5) Pause Final Mark (unload classes) 1.062ms
+[5.799s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 149299174 ns, Reaching safepoint: 231302 ns, At safepoint: 1482395 ns, Total: 1713697 ns
+[5.800s][info][gc       ] GC(5) Concurrent weak references 0.262ms
+[5.801s][info][gc       ] GC(5) Concurrent weak roots 0.895ms
+[5.802s][info][gc       ] GC(5) Concurrent cleanup 5477M->629M(5542M) 0.320ms
+[5.804s][info][gc       ] GC(5) Concurrent class unloading 1.208ms
+[5.805s][info][gc       ] GC(5) Pause Final Roots 0.006ms
+[5.805s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 5191090 ns, Reaching safepoint: 517647 ns, At safepoint: 507450 ns, Total: 1025097 ns
+[6.971s][info][gc       ] Trigger: Average GC time (179.76 ms) is above the time for average allocation rate (4025 MB/s) to deplete free headroom (720M) (margin of error = 1.80)
+[6.974s][info][gc       ] GC(6) Concurrent reset 2.090ms
+[6.975s][info][gc       ] GC(6) Pause Init Mark (unload classes) 0.139ms
+[6.976s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1168991823 ns, Reaching safepoint: 553754 ns, At safepoint: 745135 ns, Total: 1298889 ns
+[6.977s][info][gc       ] GC(6) Concurrent marking roots 0.640ms
+[7.016s][info][gc       ] GC(6) Concurrent marking (unload classes) 38.335ms
+[7.018s][info][gc       ] GC(6) Pause Final Mark (unload classes) 0.953ms
+[7.018s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 40635359 ns, Reaching safepoint: 559152 ns, At safepoint: 1450238 ns, Total: 2009390 ns
+[7.019s][info][gc       ] GC(6) Concurrent weak references 0.246ms
+[7.021s][info][gc       ] GC(6) Concurrent weak roots 0.821ms
+[7.022s][info][gc       ] GC(6) Concurrent cleanup 5102M->305M(5542M) 0.319ms
+[7.024s][info][gc       ] GC(6) Concurrent class unloading 1.627ms
+[7.026s][info][gc       ] GC(6) Pause Final Roots 0.005ms
+[7.026s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 6611649 ns, Reaching safepoint: 574450 ns, At safepoint: 471822 ns, Total: 1046272 ns
+[8.237s][info][gc       ] Trigger: Average GC time (175.91 ms) is above the time for average allocation rate (4456 MB/s) to deplete free headroom (778M) (margin of error = 1.78)
+[8.239s][info][gc       ] GC(7) Concurrent reset 1.738ms
+[8.241s][info][gc       ] GC(7) Pause Init Mark (unload classes) 0.442ms
+[8.241s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1213732326 ns, Reaching safepoint: 289814 ns, At safepoint: 1131490 ns, Total: 1421304 ns
+[8.242s][info][gc       ] GC(7) Concurrent marking roots 0.623ms
+[8.259s][info][gc       ] GC(7) Concurrent marking (unload classes) 16.113ms
+[8.262s][info][gc       ] GC(7) Pause Final Mark (unload classes) 1.435ms
+[8.262s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 18938797 ns, Reaching safepoint: 463909 ns, At safepoint: 1860803 ns, Total: 2324712 ns
+[8.265s][info][gc       ] GC(7) Concurrent weak references 0.201ms
+[8.266s][info][gc       ] GC(7) Concurrent weak roots 0.672ms
+[8.271s][info][gc       ] GC(7) Concurrent cleanup 4976M->157M(5542M) 1.575ms
+[8.273s][info][gc       ] GC(7) Concurrent class unloading 1.525ms
+[8.274s][info][gc       ] GC(7) Pause Final Roots 0.006ms
+[8.274s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 10806832 ns, Reaching safepoint: 488371 ns, At safepoint: 545243 ns, Total: 1033614 ns
+[9.513s][info][gc       ] Trigger: Average GC time (142.82 ms) is above the time for average allocation rate (4199 MB/s) to deplete free headroom (586M) (margin of error = 1.76)
+[9.515s][info][gc       ] GC(8) Concurrent reset 0.668ms
+[9.516s][info][gc       ] GC(8) Pause Init Mark (unload classes) 0.425ms
+[9.517s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1240743887 ns, Reaching safepoint: 689546 ns, At safepoint: 834651 ns, Total: 1524197 ns
+[9.517s][info][gc       ] GC(8) Concurrent marking roots 0.358ms
+[9.570s][info][gc       ] GC(8) Concurrent marking (unload classes) 52.606ms
+[9.572s][info][gc       ] GC(8) Pause Final Mark (unload classes) 0.693ms
+[9.573s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 54472710 ns, Reaching safepoint: 436797 ns, At safepoint: 1096058 ns, Total: 1532855 ns
+[9.573s][info][gc       ] GC(8) Concurrent weak references 0.195ms
+[9.574s][info][gc       ] GC(8) Concurrent weak roots 0.875ms
+[9.575s][info][gc       ] GC(8) Concurrent cleanup 5219M->372M(5542M) 0.315ms
+[9.577s][info][gc       ] GC(8) Concurrent class unloading 1.620ms
+[9.578s][info][gc       ] GC(8) Pause Final Roots 0.010ms
+[9.579s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 5114003 ns, Reaching safepoint: 369776 ns, At safepoint: 454685 ns, Total: 824461 ns
+[10.873s][info][gc       ] Trigger: Average GC time (119.47 ms) is above the time for average allocation rate (3741 MB/s) to deplete free headroom (444M) (margin of error = 1.75)
+[10.875s][info][gc       ] GC(9) Concurrent reset 0.979ms
+[10.876s][info][gc       ] GC(9) Pause Init Mark (unload classes) 0.302ms
+[10.877s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1297030010 ns, Reaching safepoint: 428218 ns, At safepoint: 619668 ns, Total: 1047886 ns
+[10.878s][info][gc       ] GC(9) Concurrent marking roots 0.571ms
+[10.993s][info][gc       ] GC(9) Concurrent marking (unload classes) 114.907ms
+[10.995s][info][gc       ] GC(9) Pause Final Mark (unload classes) 0.918ms
+[10.996s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 117146570 ns, Reaching safepoint: 719564 ns, At safepoint: 1386815 ns, Total: 2106379 ns
+[10.997s][info][gc       ] GC(9) Concurrent weak references 0.227ms
+[11.000s][info][gc       ] GC(9) Concurrent weak roots 2.630ms
+[11.000s][info][gc       ] GC(9) Concurrent cleanup 5483M->643M(5548M) 0.357ms
+[11.002s][info][gc       ] GC(9) Concurrent class unloading 1.014ms
+[11.003s][info][gc       ] GC(9) Pause Final Roots 0.005ms
+[11.003s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 6451319 ns, Reaching safepoint: 361204 ns, At safepoint: 532865 ns, Total: 894069 ns
+[12.163s][info][gc       ] Trigger: Average GC time (165.57 ms) is above the time for average allocation rate (4013 MB/s) to deplete free headroom (662M) (margin of error = 1.76)
+[12.164s][info][gc       ] GC(10) Concurrent reset 1.139ms
+[12.165s][info][gc       ] GC(10) Pause Init Mark (unload classes) 0.158ms
+[12.166s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1161774302 ns, Reaching safepoint: 306609 ns, At safepoint: 544760 ns, Total: 851369 ns
+[12.167s][info][gc       ] GC(10) Concurrent marking roots 0.569ms
+[12.209s][info][gc       ] GC(10) Concurrent marking (unload classes) 41.804ms
+[12.212s][info][gc       ] GC(10) Pause Final Mark (unload classes) 1.127ms
+[12.213s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 44107102 ns, Reaching safepoint: 865119 ns, At safepoint: 1677612 ns, Total: 2542731 ns
+[12.213s][info][gc       ] GC(10) Concurrent weak references 0.269ms
+[12.214s][info][gc       ] GC(10) Concurrent weak roots 0.631ms
+[12.215s][info][gc       ] GC(10) Concurrent cleanup 5144M->329M(5548M) 0.308ms
+[12.217s][info][gc       ] GC(10) Concurrent class unloading 1.019ms
+[12.218s][info][gc       ] GC(10) Pause Final Roots 0.024ms
+[12.218s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 4553796 ns, Reaching safepoint: 566318 ns, At safepoint: 372904 ns, Total: 939222 ns
+[13.219s][info][safepoint] Safepoint "Cleanup", Time since last: 1000498124 ns, Reaching safepoint: 256909 ns, At safepoint: 26277 ns, Total: 283186 ns
+[13.467s][info][gc       ] Trigger: Average GC time (136.98 ms) is above the time for average allocation rate (3957 MB/s) to deplete free headroom (540M) (margin of error = 1.75)
+[13.469s][info][gc       ] GC(11) Concurrent reset 0.920ms
+[13.470s][info][gc       ] GC(11) Pause Init Mark (unload classes) 0.185ms
+[13.470s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 250218092 ns, Reaching safepoint: 413718 ns, At safepoint: 450199 ns, Total: 863917 ns
+[13.471s][info][gc       ] GC(11) Concurrent marking roots 0.683ms
+[13.550s][info][gc       ] GC(11) Concurrent marking (unload classes) 78.553ms
+[13.551s][info][gc       ] GC(11) Pause Final Mark (unload classes) 0.962ms
+[13.552s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 80404508 ns, Reaching safepoint: 271905 ns, At safepoint: 1412896 ns, Total: 1684801 ns
+[13.552s][info][gc       ] GC(11) Concurrent weak references 0.235ms
+[13.553s][info][gc       ] GC(11) Concurrent weak roots 0.408ms
+[13.554s][info][gc       ] GC(11) Concurrent cleanup 5398M->563M(5548M) 0.412ms
+[13.556s][info][gc       ] GC(11) Concurrent class unloading 1.145ms
+[13.557s][info][gc       ] GC(11) Pause Final Roots 0.011ms
+[13.557s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 4444212 ns, Reaching safepoint: 393809 ns, At safepoint: 453079 ns, Total: 846888 ns
+[14.748s][info][gc       ] Trigger: Average GC time (127.59 ms) is above the time for average allocation rate (3904 MB/s) to deplete free headroom (496M) (margin of error = 1.75)
+[14.750s][info][gc       ] GC(12) Concurrent reset 1.019ms
+[14.751s][info][gc       ] GC(12) Pause Init Mark (unload classes) 0.180ms
+[14.751s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1193044793 ns, Reaching safepoint: 286320 ns, At safepoint: 562232 ns, Total: 848552 ns
+[14.752s][info][gc       ] GC(12) Concurrent marking roots 0.591ms
+[14.849s][info][gc       ] GC(12) Concurrent marking (unload classes) 97.256ms
+[14.852s][info][gc       ] GC(12) Pause Final Mark (unload classes) 1.004ms
+[14.852s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 99127076 ns, Reaching safepoint: 305995 ns, At safepoint: 1461611 ns, Total: 1767606 ns
+[14.853s][info][gc       ] GC(12) Concurrent weak references 0.345ms
+[14.854s][info][gc       ] GC(12) Concurrent weak roots 0.446ms
+[14.854s][info][gc       ] GC(12) Concurrent cleanup 5429M->585M(5548M) 0.316ms
+[14.856s][info][gc       ] GC(12) Concurrent class unloading 0.891ms
+[14.856s][info][gc       ] GC(12) Pause Final Roots 0.003ms
+[14.857s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 4163021 ns, Reaching safepoint: 160900 ns, At safepoint: 529965 ns, Total: 690865 ns
+[16.053s][info][gc       ] Trigger: Average GC time (134.64 ms) is above the time for average allocation rate (4344 MB/s) to deplete free headroom (584M) (margin of error = 1.76)
+[16.055s][info][gc       ] GC(13) Concurrent reset 1.035ms
+[16.057s][info][gc       ] GC(13) Pause Init Mark (unload classes) 0.214ms
+[16.058s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1199602969 ns, Reaching safepoint: 718802 ns, At safepoint: 682059 ns, Total: 1400861 ns
+[16.059s][info][gc       ] GC(13) Concurrent marking roots 0.606ms
+[16.133s][info][gc       ] GC(13) Concurrent marking (unload classes) 73.483ms
+[16.136s][info][gc       ] GC(13) Pause Final Mark (unload classes) 1.660ms
+[16.137s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 75766742 ns, Reaching safepoint: 312598 ns, At safepoint: 3088356 ns, Total: 3400954 ns
+[16.138s][info][gc       ] GC(13) Concurrent weak references 0.172ms
+[16.139s][info][gc       ] GC(13) Concurrent weak roots 0.851ms
+[16.141s][info][gc       ] GC(13) Concurrent cleanup 5357M->539M(5548M) 0.814ms
+[16.143s][info][gc       ] GC(13) Concurrent class unloading 1.612ms
+[16.144s][info][gc       ] GC(13) Pause Final Roots 0.005ms
+[16.144s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 6409670 ns, Reaching safepoint: 456698 ns, At safepoint: 572692 ns, Total: 1029390 ns
+[17.346s][info][gc       ] Trigger: Average GC time (121.15 ms) is above the time for average allocation rate (3834 MB/s) to deplete free headroom (464M) (margin of error = 1.76)
+[17.347s][info][gc       ] GC(14) Concurrent reset 0.895ms
+[17.349s][info][gc       ] GC(14) Pause Init Mark (unload classes) 0.323ms
+[17.349s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1203597248 ns, Reaching safepoint: 508890 ns, At safepoint: 869891 ns, Total: 1378781 ns
+[17.350s][info][gc       ] GC(14) Concurrent marking roots 0.346ms
+[17.451s][info][gc       ] GC(14) Concurrent marking (unload classes) 100.146ms
+[17.453s][info][gc       ] GC(14) Pause Final Mark (unload classes) 0.983ms
+[17.453s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 101982303 ns, Reaching safepoint: 328493 ns, At safepoint: 1463229 ns, Total: 1791722 ns
+[17.454s][info][gc       ] GC(14) Concurrent weak references 0.190ms
+[17.455s][info][gc       ] GC(14) Concurrent weak roots 0.797ms
+[17.456s][info][gc       ] GC(14) Concurrent cleanup 5431M->591M(5548M) 0.364ms
+[17.457s][info][gc       ] GC(14) Concurrent class unloading 1.172ms
+[17.458s][info][gc       ] GC(14) Pause Final Roots 0.006ms
+[17.459s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 4781625 ns, Reaching safepoint: 284315 ns, At safepoint: 446847 ns, Total: 731162 ns
+[18.633s][info][gc       ] Trigger: Average GC time (129.21 ms) is above the time for average allocation rate (3632 MB/s) to deplete free headroom (468M) (margin of error = 1.77)
+[18.635s][info][gc       ] GC(15) Concurrent reset 1.370ms
+[18.636s][info][gc       ] GC(15) Pause Init Mark (unload classes) 0.130ms
+[18.637s][info][safepoint] Safepoint "ShenandoahInitMark", Time since last: 1176949283 ns, Reaching safepoint: 434898 ns, At safepoint: 689820 ns, Total: 1124718 ns
+[18.638s][info][gc       ] GC(15) Concurrent marking roots 0.706ms
+[18.727s][info][gc       ] GC(15) Concurrent marking (unload classes) 88.462ms
+[18.729s][info][gc       ] GC(15) Pause Final Mark (unload classes) 0.780ms
+[18.729s][info][safepoint] Safepoint "ShenandoahFinalMarkStartEvac", Time since last: 90980570 ns, Reaching safepoint: 269453 ns, At safepoint: 1292037 ns, Total: 1561490 ns
+[18.730s][info][gc       ] GC(15) Concurrent weak references 0.280ms
+[18.731s][info][gc       ] GC(15) Concurrent weak roots 0.486ms
+[18.732s][info][gc       ] GC(15) Concurrent cleanup 5409M->577M(5548M) 0.336ms
+[18.734s][info][gc       ] GC(15) Concurrent class unloading 1.166ms
+[18.735s][info][gc       ] GC(15) Pause Final Roots 0.006ms
+[18.735s][info][safepoint] Safepoint "ShenandoahFinalRoots", Time since last: 5047641 ns, Reaching safepoint: 222511 ns, At safepoint: 434818 ns, Total: 657329 ns
+[18.924s][info][gc       ] Cancelling GC: Stopping VM

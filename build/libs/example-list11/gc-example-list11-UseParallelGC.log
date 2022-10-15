@@ -1,0 +1,1213 @@
+[0.004s][info][gc] Using Parallel
+[0.123s][info][safepoint] Safepoint "ICBufferFull", Time since last: 114490250 ns, Reaching safepoint: 141902 ns, At safepoint: 17917 ns, Total: 159819 ns
+[0.261s][info][gc       ] GC(0) Pause Young (Allocation Failure) 99M->76M(381M) 39.131ms
+[0.262s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 99012167 ns, Reaching safepoint: 157024 ns, At safepoint: 39748097 ns, Total: 39905121 ns
+[0.327s][info][gc       ] GC(1) Pause Young (Allocation Failure) 175M->171M(481M) 54.365ms
+[0.327s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 10445621 ns, Reaching safepoint: 126888 ns, At safepoint: 54635317 ns, Total: 54762205 ns
+[0.452s][info][gc       ] GC(2) Pause Young (Allocation Failure) 370M->359M(559M) 94.170ms
+[0.699s][info][gc       ] GC(3) Pause Full (Ergonomics) 359M->357M(900M) 246.603ms
+[0.700s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 30967348 ns, Reaching safepoint: 107919 ns, At safepoint: 341536360 ns, Total: 341644279 ns
+[0.866s][info][gc       ] GC(4) Pause Young (Allocation Failure) 556M->545M(1019M) 143.185ms
+[1.185s][info][gc       ] GC(5) Pause Full (Ergonomics) 545M->544M(1391M) 318.307ms
+[1.185s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 23083183 ns, Reaching safepoint: 211775 ns, At safepoint: 462048510 ns, Total: 462260285 ns
+[1.487s][info][gc       ] GC(6) Pause Young (Allocation Failure) 926M->928M(1112M) 249.894ms
+[2.039s][info][gc       ] GC(7) Pause Full (Ergonomics) 928M->910M(2065M) 551.594ms
+[2.039s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 51761886 ns, Reaching safepoint: 196271 ns, At safepoint: 802172979 ns, Total: 802369250 ns
+[2.172s][info][gc       ] GC(8) Pause Young (Allocation Failure) 1012M->1012M(2084M) 120.108ms
+[2.172s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 12592815 ns, Reaching safepoint: 199316 ns, At safepoint: 120406439 ns, Total: 120605755 ns
+[2.252s][info][gc       ] GC(9) Pause Young (Allocation Failure) 1159M->1159M(2100M) 61.006ms
+[2.252s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 18379058 ns, Reaching safepoint: 167828 ns, At safepoint: 61298566 ns, Total: 61466394 ns
+[2.511s][info][gc       ] GC(10) Pause Young (Allocation Failure) 1305M->1304M(2114M) 238.798ms
+[2.511s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 19578556 ns, Reaching safepoint: 173365 ns, At safepoint: 239078410 ns, Total: 239251775 ns
+[2.764s][info][gc       ] GC(11) Pause Young (Allocation Failure) 1459M->1460M(2179M) 229.789ms
+[2.764s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 23282812 ns, Reaching safepoint: 174870 ns, At safepoint: 230071526 ns, Total: 230246396 ns
+[3.092s][info][gc       ] GC(12) Pause Young (Allocation Failure) 1615M->1580M(2262M) 307.842ms
+[3.093s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 19906880 ns, Reaching safepoint: 139433 ns, At safepoint: 308174197 ns, Total: 308313630 ns
+[3.331s][info][gc       ] GC(13) Pause Young (Allocation Failure) 1711M->1712M(2351M) 190.330ms
+[3.331s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 47538195 ns, Reaching safepoint: 177950 ns, At safepoint: 190629695 ns, Total: 190807645 ns
+[3.806s][info][gc       ] GC(14) Pause Young (Allocation Failure) 1842M->1785M(2458M) 304.596ms
+[3.806s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 170028589 ns, Reaching safepoint: 165770 ns, At safepoint: 304911251 ns, Total: 305077021 ns
+[4.251s][info][gc       ] GC(15) Pause Young (Allocation Failure) 1973M->1787M(2460M) 309.235ms
+[5.483s][info][gc       ] GC(16) Pause Full (Ergonomics) 1787M->1657M(3166M) 1231.824ms
+[5.483s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 134991589 ns, Reaching safepoint: 230276 ns, At safepoint: 1541728426 ns, Total: 1541958702 ns
+[5.761s][info][gc       ] GC(17) Pause Young (Allocation Failure) 1845M->1658M(3214M) 173.988ms
+[5.761s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 103520652 ns, Reaching safepoint: 177270 ns, At safepoint: 174368570 ns, Total: 174545840 ns
+[5.856s][info][gc       ] GC(18) Pause Young (Allocation Failure) 1911M->1658M(3231M) 8.392ms
+[5.856s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 86058357 ns, Reaching safepoint: 216297 ns, At safepoint: 8787244 ns, Total: 9003541 ns
+[5.945s][info][gc       ] GC(19) Pause Young (Allocation Failure) 1911M->1658M(3286M) 8.712ms
+[5.945s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 79651956 ns, Reaching safepoint: 207237 ns, At safepoint: 9073901 ns, Total: 9281138 ns
+[6.054s][info][gc       ] GC(20) Pause Young (Allocation Failure) 1974M->1658M(3294M) 8.259ms
+[6.054s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 100325193 ns, Reaching safepoint: 184114 ns, At safepoint: 8722651 ns, Total: 8906765 ns
+[6.162s][info][gc       ] GC(21) Pause Young (Allocation Failure) 1974M->1658M(3329M) 8.560ms
+[6.162s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 98721494 ns, Reaching safepoint: 164563 ns, At safepoint: 8958494 ns, Total: 9123057 ns
+[6.282s][info][gc       ] GC(22) Pause Young (Allocation Failure) 2015M->1658M(3335M) 8.436ms
+[6.283s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 111206037 ns, Reaching safepoint: 212058 ns, At safepoint: 8960747 ns, Total: 9172805 ns
+[6.401s][info][gc       ] GC(23) Pause Young (Allocation Failure) 2015M->1658M(3337M) 8.449ms
+[6.401s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 109763695 ns, Reaching safepoint: 213857 ns, At safepoint: 8878035 ns, Total: 9091892 ns
+[6.536s][info][gc       ] GC(24) Pause Young (Allocation Failure) 2050M->1658M(3356M) 10.270ms
+[6.536s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 123984431 ns, Reaching safepoint: 187981 ns, At safepoint: 10721204 ns, Total: 10909185 ns
+[6.668s][info][gc       ] GC(25) Pause Young (Allocation Failure) 2050M->1658M(3300M) 8.839ms
+[6.668s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 122187085 ns, Reaching safepoint: 178766 ns, At safepoint: 9351834 ns, Total: 9530600 ns
+[6.808s][info][gc       ] GC(26) Pause Young (Allocation Failure) 2081M->1658M(3332M) 8.341ms
+[6.809s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 131450865 ns, Reaching safepoint: 236847 ns, At safepoint: 8907207 ns, Total: 9144054 ns
+[6.950s][info][gc       ] GC(27) Pause Young (Allocation Failure) 2081M->1658M(3268M) 8.669ms
+[6.950s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 132126803 ns, Reaching safepoint: 189527 ns, At safepoint: 9154071 ns, Total: 9343598 ns
+[7.092s][info][gc       ] GC(28) Pause Young (Allocation Failure) 2109M->1658M(2723M) 8.130ms
+[7.093s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 134027487 ns, Reaching safepoint: 180497 ns, At safepoint: 8782513 ns, Total: 8963010 ns
+[7.238s][info][gc       ] GC(29) Pause Young (Allocation Failure) 2109M->1658M(3228M) 8.789ms
+[7.238s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 135792602 ns, Reaching safepoint: 245886 ns, At safepoint: 9342791 ns, Total: 9588677 ns
+[7.385s][info][gc       ] GC(30) Pause Young (Allocation Failure) 2127M->1658M(2742M) 8.193ms
+[7.385s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 138096840 ns, Reaching safepoint: 176606 ns, At safepoint: 8670959 ns, Total: 8847565 ns
+[7.535s][info][gc       ] GC(31) Pause Young (Allocation Failure) 2127M->1658M(3191M) 8.610ms
+[7.535s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 140552041 ns, Reaching safepoint: 190655 ns, At safepoint: 9226270 ns, Total: 9416925 ns
+[7.688s][info][gc       ] GC(32) Pause Young (Allocation Failure) 2145M->1658M(2759M) 8.311ms
+[7.688s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 143924891 ns, Reaching safepoint: 190925 ns, At safepoint: 8789244 ns, Total: 8980169 ns
+[7.843s][info][gc       ] GC(33) Pause Young (Allocation Failure) 2145M->1658M(3155M) 8.973ms
+[7.843s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 145149844 ns, Reaching safepoint: 200905 ns, At safepoint: 9453338 ns, Total: 9654243 ns
+[8.006s][info][gc       ] GC(34) Pause Young (Allocation Failure) 2161M->1658M(2776M) 8.754ms
+[8.006s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 153747678 ns, Reaching safepoint: 205127 ns, At safepoint: 9091678 ns, Total: 9296805 ns
+[8.171s][info][gc       ] GC(35) Pause Young (Allocation Failure) 2161M->1658M(3122M) 8.549ms
+[8.171s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 155763324 ns, Reaching safepoint: 168382 ns, At safepoint: 9155585 ns, Total: 9323967 ns
+[8.334s][info][gc       ] GC(36) Pause Young (Allocation Failure) 2177M->1658M(2792M) 8.197ms
+[8.335s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 154501497 ns, Reaching safepoint: 183210 ns, At safepoint: 8854375 ns, Total: 9037585 ns
+[8.501s][info][gc       ] GC(37) Pause Young (Allocation Failure) 2177M->1658M(3091M) 8.555ms
+[8.502s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 157708007 ns, Reaching safepoint: 209289 ns, At safepoint: 9044218 ns, Total: 9253507 ns
+[8.668s][info][gc       ] GC(38) Pause Young (Allocation Failure) 2190M->1658M(2805M) 8.222ms
+[8.669s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 158079229 ns, Reaching safepoint: 201103 ns, At safepoint: 8775213 ns, Total: 8976316 ns
+[8.839s][info][gc       ] GC(39) Pause Young (Allocation Failure) 2190M->1658M(3065M) 8.234ms
+[8.839s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 161428300 ns, Reaching safepoint: 159515 ns, At safepoint: 8747769 ns, Total: 8907284 ns
+[9.012s][info][gc       ] GC(40) Pause Young (Allocation Failure) 2203M->1658M(2817M) 8.334ms
+[9.013s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 164810526 ns, Reaching safepoint: 176495 ns, At safepoint: 8816571 ns, Total: 8993066 ns
+[9.187s][info][gc       ] GC(41) Pause Young (Allocation Failure) 2203M->1658M(3043M) 8.232ms
+[9.187s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 165132807 ns, Reaching safepoint: 331839 ns, At safepoint: 8707975 ns, Total: 9039814 ns
+[9.365s][info][gc       ] GC(42) Pause Young (Allocation Failure) 2215M->1658M(2830M) 8.693ms
+[9.365s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 168887641 ns, Reaching safepoint: 189166 ns, At safepoint: 9157488 ns, Total: 9346654 ns
+[9.544s][info][gc       ] GC(43) Pause Young (Allocation Failure) 2215M->1658M(3026M) 8.247ms
+[9.545s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 170215084 ns, Reaching safepoint: 190743 ns, At safepoint: 8790019 ns, Total: 8980762 ns
+[9.737s][info][gc       ] GC(44) Pause Young (Allocation Failure) 2228M->1658M(2842M) 8.379ms
+[9.737s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 183443200 ns, Reaching safepoint: 163993 ns, At safepoint: 9025903 ns, Total: 9189896 ns
+[9.917s][info][gc       ] GC(45) Pause Young (Allocation Failure) 2228M->1658M(3010M) 8.358ms
+[9.918s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 171394874 ns, Reaching safepoint: 334713 ns, At safepoint: 8833559 ns, Total: 9168272 ns
+[10.100s][info][gc       ] GC(46) Pause Young (Allocation Failure) 2239M->1658M(2853M) 8.466ms
+[10.101s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 173993374 ns, Reaching safepoint: 182306 ns, At safepoint: 9017069 ns, Total: 9199375 ns
+[10.285s][info][gc       ] GC(47) Pause Young (Allocation Failure) 2239M->1658M(2998M) 8.371ms
+[10.286s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 175630480 ns, Reaching safepoint: 192159 ns, At safepoint: 8946685 ns, Total: 9138844 ns
+[10.484s][info][gc       ] GC(48) Pause Young (Allocation Failure) 2250M->1658M(3010M) 8.444ms
+[10.484s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 189297714 ns, Reaching safepoint: 149456 ns, At safepoint: 8726202 ns, Total: 8875658 ns
+[10.705s][info][gc       ] GC(49) Pause Young (Allocation Failure) 2250M->1658M(2988M) 8.743ms
+[10.705s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 212365208 ns, Reaching safepoint: 189970 ns, At safepoint: 9014043 ns, Total: 9204013 ns
+[10.918s][info][gc       ] GC(50) Pause Young (Allocation Failure) 2260M->1658M(2999M) 8.611ms
+[10.919s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 203992359 ns, Reaching safepoint: 228734 ns, At safepoint: 8996317 ns, Total: 9225051 ns
+[11.111s][info][gc       ] GC(51) Pause Young (Allocation Failure) 2260M->1658M(2982M) 8.414ms
+[11.112s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 184117490 ns, Reaching safepoint: 174325 ns, At safepoint: 8912752 ns, Total: 9087077 ns
+[11.305s][info][gc       ] GC(52) Pause Young (Allocation Failure) 2271M->1658M(2991M) 8.405ms
+[11.305s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 184383012 ns, Reaching safepoint: 186997 ns, At safepoint: 8807512 ns, Total: 8994509 ns
+[11.498s][info][gc       ] GC(53) Pause Young (Allocation Failure) 2271M->1658M(2978M) 8.399ms
+[11.498s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 184250308 ns, Reaching safepoint: 172948 ns, At safepoint: 8841557 ns, Total: 9014505 ns
+[11.696s][info][gc       ] GC(54) Pause Young (Allocation Failure) 2281M->1658M(2985M) 8.414ms
+[11.696s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 188772572 ns, Reaching safepoint: 209562 ns, At safepoint: 8910557 ns, Total: 9120119 ns
+[11.897s][info][gc       ] GC(55) Pause Young (Allocation Failure) 2281M->1658M(2975M) 9.102ms
+[11.897s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 191074928 ns, Reaching safepoint: 216114 ns, At safepoint: 9657974 ns, Total: 9874088 ns
+[12.097s][info][gc       ] GC(56) Pause Young (Allocation Failure) 2292M->1658M(2982M) 8.478ms
+[12.098s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 191312236 ns, Reaching safepoint: 199238 ns, At safepoint: 8951245 ns, Total: 9150483 ns
+[12.298s][info][gc       ] GC(57) Pause Young (Allocation Failure) 2292M->1658M(2975M) 8.405ms
+[12.298s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 191197790 ns, Reaching safepoint: 154051 ns, At safepoint: 8855031 ns, Total: 9009082 ns
+[12.502s][info][gc       ] GC(58) Pause Young (Allocation Failure) 2302M->1658M(2981M) 8.262ms
+[12.502s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 195284732 ns, Reaching safepoint: 181284 ns, At safepoint: 8787019 ns, Total: 8968303 ns
+[12.705s][info][gc       ] GC(59) Pause Young (Allocation Failure) 2302M->1658M(2977M) 8.332ms
+[12.705s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 193747200 ns, Reaching safepoint: 188520 ns, At safepoint: 8875033 ns, Total: 9063553 ns
+[12.908s][info][gc       ] GC(60) Pause Young (Allocation Failure) 2313M->1658M(2981M) 8.339ms
+[12.909s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 194529813 ns, Reaching safepoint: 197652 ns, At safepoint: 8896582 ns, Total: 9094234 ns
+[13.115s][info][gc       ] GC(61) Pause Young (Allocation Failure) 2313M->1658M(2979M) 8.519ms
+[13.116s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 197991562 ns, Reaching safepoint: 168835 ns, At safepoint: 9003987 ns, Total: 9172822 ns
+[13.324s][info][gc       ] GC(62) Pause Young (Allocation Failure) 2323M->1658M(2983M) 8.324ms
+[13.325s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 200046631 ns, Reaching safepoint: 176102 ns, At safepoint: 8791020 ns, Total: 8967122 ns
+[13.531s][info][gc       ] GC(63) Pause Young (Allocation Failure) 2323M->1658M(2983M) 8.641ms
+[13.531s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 197054713 ns, Reaching safepoint: 163601 ns, At safepoint: 9053385 ns, Total: 9216986 ns
+[13.741s][info][gc       ] GC(64) Pause Young (Allocation Failure) 2333M->1658M(2986M) 8.169ms
+[13.741s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 201121018 ns, Reaching safepoint: 286058 ns, At safepoint: 8750678 ns, Total: 9036736 ns
+[13.951s][info][gc       ] GC(65) Pause Young (Allocation Failure) 2333M->1658M(2986M) 8.305ms
+[13.951s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 201127042 ns, Reaching safepoint: 312809 ns, At safepoint: 8745625 ns, Total: 9058434 ns
+[14.166s][info][gc       ] GC(66) Pause Young (Allocation Failure) 2343M->1658M(2990M) 8.971ms
+[14.167s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 205760491 ns, Reaching safepoint: 187626 ns, At safepoint: 9368277 ns, Total: 9555903 ns
+[14.383s][info][gc       ] GC(67) Pause Young (Allocation Failure) 2343M->1658M(2993M) 9.573ms
+[14.384s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 206622733 ns, Reaching safepoint: 373460 ns, At safepoint: 10171194 ns, Total: 10544654 ns
+[14.639s][info][gc       ] GC(68) Pause Young (Allocation Failure) 2354M->1658M(2995M) 8.221ms
+[14.639s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 246363786 ns, Reaching safepoint: 193201 ns, At safepoint: 8613210 ns, Total: 8806411 ns
+[14.859s][info][gc       ] GC(69) Pause Young (Allocation Failure) 2354M->1658M(2999M) 9.015ms
+[14.859s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 210292840 ns, Reaching safepoint: 222087 ns, At safepoint: 9345561 ns, Total: 9567648 ns
+[15.079s][info][gc       ] GC(70) Pause Young (Allocation Failure) 2364M->1658M(3001M) 8.809ms
+[15.079s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 210574055 ns, Reaching safepoint: 194848 ns, At safepoint: 9213444 ns, Total: 9408292 ns
+[15.294s][info][gc       ] GC(71) Pause Young (Allocation Failure) 2364M->1658M(3007M) 8.239ms
+[15.294s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 206373562 ns, Reaching safepoint: 235649 ns, At safepoint: 8736456 ns, Total: 8972105 ns
+[15.513s][info][gc       ] GC(72) Pause Young (Allocation Failure) 2375M->1658M(3008M) 8.208ms
+[15.514s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 210260616 ns, Reaching safepoint: 308577 ns, At safepoint: 8675803 ns, Total: 8984380 ns
+[15.935s][info][gc       ] GC(73) Pause Young (Allocation Failure) 2375M->2010M(2889M) 273.958ms
+[15.935s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 147184133 ns, Reaching safepoint: 189361 ns, At safepoint: 274292818 ns, Total: 274482179 ns
+[16.261s][info][gc       ] GC(74) Pause Young (Allocation Failure) 2609M->2585M(3185M) 256.606ms
+[16.893s][info][gc       ] GC(75) Pause Full (Ergonomics) 2585M->925M(2751M) 631.599ms
+[16.893s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 68944804 ns, Reaching safepoint: 228679 ns, At safepoint: 888912830 ns, Total: 889141509 ns
+[17.192s][info][gc       ] GC(76) Pause Young (Allocation Failure) 1543M->1578M(2751M) 231.481ms
+[17.193s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 66879444 ns, Reaching safepoint: 244858 ns, At safepoint: 232091947 ns, Total: 232336805 ns
+[17.853s][info][gc       ] GC(77) Pause Young (Allocation Failure) 2225M->1799M(2876M) 391.150ms
+[17.854s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 269458391 ns, Reaching safepoint: 208775 ns, At safepoint: 391429392 ns, Total: 391638167 ns
+[18.240s][info][gc       ] GC(78) Pause Young (Allocation Failure) 2389M->1799M(2992M) 202.830ms
+[18.240s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 183198867 ns, Reaching safepoint: 200092 ns, At safepoint: 203096501 ns, Total: 203296593 ns
+[18.626s][info][gc       ] GC(79) Pause Young (Allocation Failure) 2389M->1799M(3120M) 203.191ms
+[18.627s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 182805546 ns, Reaching safepoint: 187915 ns, At safepoint: 203471270 ns, Total: 203659185 ns
+[19.004s][info][gc       ] GC(80) Pause Young (Allocation Failure) 2451M->1799M(3120M) 174.040ms
+[19.004s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 203239804 ns, Reaching safepoint: 155672 ns, At safepoint: 174348105 ns, Total: 174503777 ns
+[19.381s][info][gc       ] GC(81) Pause Young (Allocation Failure) 2451M->1799M(3175M) 170.280ms
+[19.381s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 206140519 ns, Reaching safepoint: 179909 ns, At safepoint: 170795021 ns, Total: 170974930 ns
+[19.771s][info][gc       ] GC(82) Pause Young (Allocation Failure) 2506M->1799M(3175M) 173.683ms
+[19.771s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 215893117 ns, Reaching safepoint: 157817 ns, At safepoint: 173991303 ns, Total: 174149120 ns
+[20.189s][info][gc       ] GC(83) Pause Young (Allocation Failure) 2506M->1801M(3215M) 196.079ms
+[21.472s][info][gc       ] GC(84) Pause Full (Ergonomics) 1801M->1658M(4118M) 1283.032ms
+[21.473s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 221011174 ns, Reaching safepoint: 323543 ns, At safepoint: 1479858145 ns, Total: 1480181688 ns
+[21.686s][info][gc       ] GC(85) Pause Young (Allocation Failure) 2365M->1658M(4118M) 1.844ms
+[21.686s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 211122124 ns, Reaching safepoint: 194937 ns, At safepoint: 2320057 ns, Total: 2514994 ns
+[21.904s][info][gc       ] GC(86) Pause Young (Allocation Failure) 2365M->1658M(4118M) 3.928ms
+[21.904s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 213030160 ns, Reaching safepoint: 232268 ns, At safepoint: 4319757 ns, Total: 4552025 ns
+[22.123s][info][gc       ] GC(87) Pause Young (Allocation Failure) 2365M->1658M(4118M) 1.530ms
+[22.124s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 217721460 ns, Reaching safepoint: 231406 ns, At safepoint: 1966314 ns, Total: 2197720 ns
+[22.342s][info][gc       ] GC(88) Pause Young (Allocation Failure) 2365M->1658M(4118M) 1.628ms
+[22.343s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 216736482 ns, Reaching safepoint: 203049 ns, At safepoint: 2063698 ns, Total: 2266747 ns
+[22.562s][info][gc       ] GC(89) Pause Young (Allocation Failure) 2365M->1658M(4118M) 1.698ms
+[22.562s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 216796679 ns, Reaching safepoint: 260700 ns, At safepoint: 1937480 ns, Total: 2198180 ns
+[22.779s][info][gc       ] GC(90) Pause Young (Allocation Failure) 2365M->1658M(4118M) 1.760ms
+[22.780s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 215546284 ns, Reaching safepoint: 193299 ns, At safepoint: 2208092 ns, Total: 2401391 ns
+[22.998s][info][gc       ] GC(91) Pause Young (Allocation Failure) 2365M->1658M(4118M) 1.701ms
+[22.999s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 216664150 ns, Reaching safepoint: 178756 ns, At safepoint: 2109001 ns, Total: 2287757 ns
+[23.224s][info][gc       ] GC(92) Pause Young (Allocation Failure) 2365M->1658M(3412M) 1.645ms
+[23.224s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223250086 ns, Reaching safepoint: 194645 ns, At safepoint: 2023640 ns, Total: 2218285 ns
+[23.442s][info][gc       ] GC(93) Pause Young (Allocation Failure) 2365M->1658M(4057M) 1.919ms
+[23.442s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 215624256 ns, Reaching safepoint: 172407 ns, At safepoint: 2397908 ns, Total: 2570315 ns
+[23.660s][info][gc       ] GC(94) Pause Young (Allocation Failure) 2379M->1658M(3427M) 2.012ms
+[23.661s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 215497527 ns, Reaching safepoint: 177882 ns, At safepoint: 2631984 ns, Total: 2809866 ns
+[23.878s][info][gc       ] GC(95) Pause Young (Allocation Failure) 2379M->1658M(3983M) 2.013ms
+[23.878s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 214855922 ns, Reaching safepoint: 173142 ns, At safepoint: 2418481 ns, Total: 2591623 ns
+[24.108s][info][gc       ] GC(96) Pause Young (Allocation Failure) 2390M->1658M(3437M) 1.714ms
+[24.108s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 227469263 ns, Reaching safepoint: 245890 ns, At safepoint: 2266430 ns, Total: 2512320 ns
+[24.329s][info][gc       ] GC(97) Pause Young (Allocation Failure) 2390M->1658M(3928M) 2.142ms
+[24.330s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 218929122 ns, Reaching safepoint: 187186 ns, At safepoint: 2678226 ns, Total: 2865412 ns
+[24.556s][info][gc       ] GC(98) Pause Young (Allocation Failure) 2397M->1658M(3445M) 1.629ms
+[24.557s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 224485679 ns, Reaching safepoint: 167120 ns, At safepoint: 2005145 ns, Total: 2172265 ns
+[24.781s][info][gc       ] GC(99) Pause Young (Allocation Failure) 2397M->1658M(3873M) 1.539ms
+[24.781s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 222272436 ns, Reaching safepoint: 201731 ns, At safepoint: 2086625 ns, Total: 2288356 ns
+[25.012s][info][gc       ] GC(100) Pause Young (Allocation Failure) 2403M->1658M(3450M) 1.881ms
+[25.012s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 228801229 ns, Reaching safepoint: 190711 ns, At safepoint: 2323030 ns, Total: 2513741 ns
+[25.245s][info][gc       ] GC(101) Pause Young (Allocation Failure) 2403M->1658M(3824M) 1.875ms
+[25.246s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 230818874 ns, Reaching safepoint: 232324 ns, At safepoint: 2172728 ns, Total: 2405052 ns
+[25.474s][info][gc       ] GC(102) Pause Young (Allocation Failure) 2407M->1658M(3455M) 2.131ms
+[25.475s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 226406025 ns, Reaching safepoint: 175575 ns, At safepoint: 2626379 ns, Total: 2801954 ns
+[25.722s][info][gc       ] GC(103) Pause Young (Allocation Failure) 2407M->1658M(3778M) 1.647ms
+[25.723s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 245726829 ns, Reaching safepoint: 203931 ns, At safepoint: 1992036 ns, Total: 2195967 ns
+[25.981s][info][gc       ] GC(104) Pause Young (Allocation Failure) 2411M->1658M(3459M) 1.875ms
+[25.981s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 255841003 ns, Reaching safepoint: 229939 ns, At safepoint: 2184224 ns, Total: 2414163 ns
+[26.228s][info][gc       ] GC(105) Pause Young (Allocation Failure) 2411M->1658M(3739M) 1.738ms
+[26.228s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 244533500 ns, Reaching safepoint: 184905 ns, At safepoint: 2165404 ns, Total: 2350309 ns
+[26.481s][info][gc       ] GC(106) Pause Young (Allocation Failure) 2415M->1658M(3462M) 1.731ms
+[26.481s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 251024250 ns, Reaching safepoint: 182137 ns, At safepoint: 2052983 ns, Total: 2235120 ns
+[26.762s][info][gc       ] GC(107) Pause Young (Allocation Failure) 2415M->1658M(3703M) 1.645ms
+[26.763s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 279204971 ns, Reaching safepoint: 200841 ns, At safepoint: 2005661 ns, Total: 2206502 ns
+[27.030s][info][gc       ] GC(108) Pause Young (Allocation Failure) 2418M->1658M(3465M) 1.892ms
+[27.030s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 264955286 ns, Reaching safepoint: 178694 ns, At safepoint: 2421240 ns, Total: 2599934 ns
+[27.263s][info][gc       ] GC(109) Pause Young (Allocation Failure) 2418M->1658M(3672M) 1.612ms
+[27.263s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 230859208 ns, Reaching safepoint: 192641 ns, At safepoint: 1991136 ns, Total: 2183777 ns
+[27.498s][info][gc       ] GC(110) Pause Young (Allocation Failure) 2421M->1658M(3468M) 1.709ms
+[27.498s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 232604930 ns, Reaching safepoint: 188920 ns, At safepoint: 2038128 ns, Total: 2227048 ns
+[27.733s][info][gc       ] GC(111) Pause Young (Allocation Failure) 2421M->1658M(3645M) 1.727ms
+[27.734s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 233309812 ns, Reaching safepoint: 204042 ns, At safepoint: 2177762 ns, Total: 2381804 ns
+[27.969s][info][gc       ] GC(112) Pause Young (Allocation Failure) 2424M->1658M(3471M) 1.983ms
+[27.970s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 233501039 ns, Reaching safepoint: 215300 ns, At safepoint: 2398788 ns, Total: 2614088 ns
+[28.214s][info][gc       ] GC(113) Pause Young (Allocation Failure) 2424M->1658M(3623M) 1.943ms
+[28.214s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 241723035 ns, Reaching safepoint: 217919 ns, At safepoint: 2251964 ns, Total: 2469883 ns
+[28.460s][info][gc       ] GC(114) Pause Young (Allocation Failure) 2427M->1658M(3474M) 1.587ms
+[28.460s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 244200168 ns, Reaching safepoint: 189913 ns, At safepoint: 1933453 ns, Total: 2123366 ns
+[28.727s][info][gc       ] GC(115) Pause Young (Allocation Failure) 2427M->1658M(3604M) 1.645ms
+[28.727s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 264384383 ns, Reaching safepoint: 185516 ns, At safepoint: 2023284 ns, Total: 2208800 ns
+[28.968s][info][gc       ] GC(116) Pause Young (Allocation Failure) 2430M->1658M(3477M) 1.524ms
+[28.968s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 239140972 ns, Reaching safepoint: 211523 ns, At safepoint: 1837680 ns, Total: 2049203 ns
+[29.203s][info][gc       ] GC(117) Pause Young (Allocation Failure) 2430M->1658M(3587M) 1.948ms
+[29.203s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 232836845 ns, Reaching safepoint: 158971 ns, At safepoint: 2357552 ns, Total: 2516523 ns
+[29.439s][info][gc       ] GC(118) Pause Young (Allocation Failure) 2433M->1658M(3480M) 1.816ms
+[29.440s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 233857123 ns, Reaching safepoint: 171426 ns, At safepoint: 2149651 ns, Total: 2321077 ns
+[29.678s][info][gc       ] GC(119) Pause Young (Allocation Failure) 2433M->1658M(3573M) 1.671ms
+[29.678s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 235982083 ns, Reaching safepoint: 175446 ns, At safepoint: 2133164 ns, Total: 2308610 ns
+[29.912s][info][gc       ] GC(120) Pause Young (Allocation Failure) 2436M->1714M(3582M) 9.860ms
+[29.913s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 224232087 ns, Reaching safepoint: 185836 ns, At safepoint: 10407175 ns, Total: 10593011 ns
+[30.420s][info][gc       ] GC(121) Pause Young (Allocation Failure) 2492M->2451M(3318M) 419.607ms
+[31.049s][info][gc       ] GC(122) Pause Full (Ergonomics) 2451M->792M(2910M) 628.471ms
+[31.050s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 87780659 ns, Reaching safepoint: 191454 ns, At safepoint: 1048985807 ns, Total: 1049177261 ns
+[31.302s][info][gc       ] GC(123) Pause Young (Allocation Failure) 1297M->1298M(2830M) 195.187ms
+[31.302s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 56512207 ns, Reaching safepoint: 163077 ns, At safepoint: 195596469 ns, Total: 195759546 ns
+[31.543s][info][gc       ] GC(124) Pause Young (Allocation Failure) 1722M->1689M(2954M) 181.216ms
+[31.544s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 59853101 ns, Reaching safepoint: 174681 ns, At safepoint: 181519053 ns, Total: 181693734 ns
+[32.157s][info][gc       ] GC(125) Pause Young (Allocation Failure) 2113M->1794M(3195M) 382.901ms
+[32.158s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 230785685 ns, Reaching safepoint: 202663 ns, At safepoint: 383211070 ns, Total: 383413733 ns
+[32.485s][info][gc       ] GC(126) Pause Young (Allocation Failure) 2266M->1794M(3195M) 174.490ms
+[32.486s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 152928866 ns, Reaching safepoint: 173925 ns, At safepoint: 174836774 ns, Total: 175010699 ns
+[32.840s][info][gc       ] GC(127) Pause Young (Allocation Failure) 2266M->1794M(3252M) 194.388ms
+[32.840s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 159500181 ns, Reaching safepoint: 548933 ns, At safepoint: 194700313 ns, Total: 195249246 ns
+[33.196s][info][gc       ] GC(128) Pause Young (Allocation Failure) 2323M->1794M(3252M) 179.481ms
+[33.196s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 175987047 ns, Reaching safepoint: 177959 ns, At safepoint: 179812851 ns, Total: 179990810 ns
+[33.577s][info][gc       ] GC(129) Pause Young (Allocation Failure) 2323M->1794M(3319M) 197.349ms
+[33.577s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 182494569 ns, Reaching safepoint: 243109 ns, At safepoint: 197637765 ns, Total: 197880874 ns
+[33.962s][info][gc       ] GC(130) Pause Young (Allocation Failure) 2390M->1795M(3319M) 178.942ms
+[33.962s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 205796368 ns, Reaching safepoint: 231021 ns, At safepoint: 179241392 ns, Total: 179472413 ns
+[34.356s][info][gc       ] GC(131) Pause Young (Allocation Failure) 2390M->1796M(3394M) 191.075ms
+[35.642s][info][gc       ] GC(132) Pause Full (Ergonomics) 1796M->1658M(4361M) 1285.632ms
+[35.643s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 202953692 ns, Reaching safepoint: 190438 ns, At safepoint: 1477637530 ns, Total: 1477827968 ns
+[35.853s][info][gc       ] GC(133) Pause Young (Allocation Failure) 2328M->1658M(4397M) 1.778ms
+[35.854s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 208508906 ns, Reaching safepoint: 163642 ns, At safepoint: 2236602 ns, Total: 2400244 ns
+[36.080s][info][gc       ] GC(134) Pause Young (Allocation Failure) 2365M->1658M(4397M) 1.672ms
+[36.080s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 224004794 ns, Reaching safepoint: 163861 ns, At safepoint: 2034106 ns, Total: 2197967 ns
+[36.305s][info][gc       ] GC(135) Pause Young (Allocation Failure) 2365M->1658M(4397M) 1.685ms
+[36.305s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 222947112 ns, Reaching safepoint: 189340 ns, At safepoint: 2164115 ns, Total: 2353455 ns
+[36.526s][info][gc       ] GC(136) Pause Young (Allocation Failure) 2365M->1658M(4397M) 1.794ms
+[36.527s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 219094692 ns, Reaching safepoint: 177736 ns, At safepoint: 2268770 ns, Total: 2446506 ns
+[36.750s][info][gc       ] GC(137) Pause Young (Allocation Failure) 2365M->1658M(4397M) 1.677ms
+[36.751s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 221506117 ns, Reaching safepoint: 184939 ns, At safepoint: 2190583 ns, Total: 2375522 ns
+[36.976s][info][gc       ] GC(138) Pause Young (Allocation Failure) 2365M->1658M(4397M) 1.612ms
+[36.976s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223071326 ns, Reaching safepoint: 207461 ns, At safepoint: 2175632 ns, Total: 2383093 ns
+[37.199s][info][gc       ] GC(139) Pause Young (Allocation Failure) 2365M->1658M(4397M) 1.779ms
+[37.199s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 220367951 ns, Reaching safepoint: 200115 ns, At safepoint: 2297281 ns, Total: 2497396 ns
+[37.421s][info][gc       ] GC(140) Pause Young (Allocation Failure) 2365M->1658M(4397M) 1.847ms
+[37.422s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 220000421 ns, Reaching safepoint: 279354 ns, At safepoint: 2394368 ns, Total: 2673722 ns
+[37.649s][info][gc       ] GC(141) Pause Young (Allocation Failure) 2365M->1658M(4397M) 1.565ms
+[37.649s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225457109 ns, Reaching safepoint: 222389 ns, At safepoint: 2039443 ns, Total: 2261832 ns
+[37.876s][info][gc       ] GC(142) Pause Young (Allocation Failure) 2365M->1658M(4397M) 1.824ms
+[37.877s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 224825573 ns, Reaching safepoint: 316488 ns, At safepoint: 2356974 ns, Total: 2673462 ns
+[38.109s][info][gc       ] GC(143) Pause Young (Allocation Failure) 2365M->1658M(4358M) 1.615ms
+[38.109s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 230073173 ns, Reaching safepoint: 218073 ns, At safepoint: 2175602 ns, Total: 2393675 ns
+[38.341s][info][gc       ] GC(144) Pause Young (Allocation Failure) 2365M->1658M(3692M) 1.696ms
+[38.341s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 229218479 ns, Reaching safepoint: 172660 ns, At safepoint: 2229059 ns, Total: 2401719 ns
+[38.568s][info][gc       ] GC(145) Pause Young (Allocation Failure) 2365M->1658M(4269M) 1.982ms
+[38.569s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 224949949 ns, Reaching safepoint: 172764 ns, At safepoint: 2501616 ns, Total: 2674380 ns
+[38.796s][info][gc       ] GC(146) Pause Young (Allocation Failure) 2374M->1658M(3701M) 2.157ms
+[38.797s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225141769 ns, Reaching safepoint: 172132 ns, At safepoint: 2741665 ns, Total: 2913797 ns
+[39.010s][info][gc       ] GC(147) Pause Young (Allocation Failure) 2374M->1658M(4207M) 2.105ms
+[39.011s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 211243364 ns, Reaching safepoint: 298416 ns, At safepoint: 2555087 ns, Total: 2853503 ns
+[39.230s][info][gc       ] GC(148) Pause Young (Allocation Failure) 2381M->1658M(3708M) 1.946ms
+[39.230s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 216628436 ns, Reaching safepoint: 200027 ns, At safepoint: 2358182 ns, Total: 2558209 ns
+[39.458s][info][gc       ] GC(149) Pause Young (Allocation Failure) 2381M->1658M(4149M) 2.002ms
+[39.458s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225607699 ns, Reaching safepoint: 184390 ns, At safepoint: 2599055 ns, Total: 2783445 ns
+[39.692s][info][gc       ] GC(150) Pause Young (Allocation Failure) 2387M->1658M(3714M) 1.826ms
+[39.692s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 231415529 ns, Reaching safepoint: 177667 ns, At safepoint: 2375159 ns, Total: 2552826 ns
+[39.928s][info][gc       ] GC(151) Pause Young (Allocation Failure) 2387M->1658M(4098M) 2.429ms
+[39.928s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 232542572 ns, Reaching safepoint: 313344 ns, At safepoint: 3021042 ns, Total: 3334386 ns
+[40.161s][info][gc       ] GC(152) Pause Young (Allocation Failure) 2392M->1658M(3719M) 2.048ms
+[40.161s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 230605167 ns, Reaching safepoint: 186070 ns, At safepoint: 2399090 ns, Total: 2585160 ns
+[40.390s][info][gc       ] GC(153) Pause Young (Allocation Failure) 2392M->1658M(4051M) 2.159ms
+[40.390s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225966320 ns, Reaching safepoint: 278188 ns, At safepoint: 2706155 ns, Total: 2984343 ns
+[40.621s][info][gc       ] GC(154) Pause Young (Allocation Failure) 2397M->1658M(3724M) 1.848ms
+[40.621s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 228624841 ns, Reaching safepoint: 202366 ns, At safepoint: 2260841 ns, Total: 2463207 ns
+[40.859s][info][gc       ] GC(155) Pause Young (Allocation Failure) 2397M->1658M(4011M) 2.492ms
+[40.860s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 234726654 ns, Reaching safepoint: 344906 ns, At safepoint: 3139414 ns, Total: 3484320 ns
+[41.089s][info][gc       ] GC(156) Pause Young (Allocation Failure) 2402M->1658M(3729M) 2.003ms
+[41.090s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 227077344 ns, Reaching safepoint: 178830 ns, At safepoint: 2706789 ns, Total: 2885619 ns
+[41.319s][info][gc       ] GC(157) Pause Young (Allocation Failure) 2402M->1658M(3975M) 1.555ms
+[41.319s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 227315623 ns, Reaching safepoint: 162624 ns, At safepoint: 2231704 ns, Total: 2394328 ns
+[41.575s][info][gc       ] GC(158) Pause Young (Allocation Failure) 2407M->1658M(3734M) 1.623ms
+[41.576s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 254181748 ns, Reaching safepoint: 207227 ns, At safepoint: 2065901 ns, Total: 2273128 ns
+[41.832s][info][gc       ] GC(159) Pause Young (Allocation Failure) 2407M->1658M(3944M) 1.607ms
+[41.832s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 254183714 ns, Reaching safepoint: 165356 ns, At safepoint: 1877463 ns, Total: 2042819 ns
+[42.121s][info][gc       ] GC(160) Pause Young (Allocation Failure) 2411M->1658M(3738M) 1.662ms
+[42.121s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 286541805 ns, Reaching safepoint: 340015 ns, At safepoint: 2066397 ns, Total: 2406412 ns
+[42.362s][info][gc       ] GC(161) Pause Young (Allocation Failure) 2411M->1658M(3916M) 1.799ms
+[42.363s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 239049486 ns, Reaching safepoint: 194336 ns, At safepoint: 2408568 ns, Total: 2602904 ns
+[42.598s][info][gc       ] GC(162) Pause Young (Allocation Failure) 2414M->1658M(3741M) 1.952ms
+[42.599s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 233611980 ns, Reaching safepoint: 157290 ns, At safepoint: 2400825 ns, Total: 2558115 ns
+[42.837s][info][gc       ] GC(163) Pause Young (Allocation Failure) 2414M->1658M(3894M) 2.035ms
+[42.837s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 235981380 ns, Reaching safepoint: 186448 ns, At safepoint: 2439977 ns, Total: 2626425 ns
+[43.072s][info][gc       ] GC(164) Pause Young (Allocation Failure) 2418M->1658M(3745M) 2.170ms
+[43.072s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 231860228 ns, Reaching safepoint: 167006 ns, At safepoint: 2644821 ns, Total: 2811827 ns
+[43.302s][info][gc       ] GC(165) Pause Young (Allocation Failure) 2418M->1658M(3875M) 1.701ms
+[43.303s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 228516792 ns, Reaching safepoint: 196152 ns, At safepoint: 2259420 ns, Total: 2455572 ns
+[43.555s][info][gc       ] GC(166) Pause Young (Allocation Failure) 2422M->1658M(3749M) 1.584ms
+[43.555s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 250357588 ns, Reaching safepoint: 153812 ns, At safepoint: 1903881 ns, Total: 2057693 ns
+[43.814s][info][gc       ] GC(167) Pause Young (Allocation Failure) 2422M->1658M(3860M) 1.786ms
+[43.815s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 256688215 ns, Reaching safepoint: 187536 ns, At safepoint: 2265218 ns, Total: 2452754 ns
+[44.048s][info][gc       ] GC(168) Pause Young (Allocation Failure) 2426M->1658M(3753M) 2.005ms
+[44.049s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 231447044 ns, Reaching safepoint: 302671 ns, At safepoint: 2677348 ns, Total: 2980019 ns
+[44.283s][info][gc       ] GC(169) Pause Young (Allocation Failure) 2426M->1658M(3848M) 1.979ms
+[44.283s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 231648134 ns, Reaching safepoint: 193147 ns, At safepoint: 2507744 ns, Total: 2700891 ns
+[44.526s][info][gc       ] GC(170) Pause Young (Allocation Failure) 2430M->2009M(3856M) 81.009ms
+[44.527s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 161709684 ns, Reaching safepoint: 195631 ns, At safepoint: 81475877 ns, Total: 81671508 ns
+[45.103s][info][gc       ] GC(171) Pause Young (Allocation Failure) 2782M->2736M(3739M) 481.587ms
+[45.873s][info][gc       ] GC(172) Pause Full (Ergonomics) 2736M->1076M(3572M) 769.426ms
+[45.873s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 94294024 ns, Reaching safepoint: 195935 ns, At safepoint: 1251898713 ns, Total: 1252094648 ns
+[46.181s][info][gc       ] GC(173) Pause Young (Allocation Failure) 1612M->1613M(3513M) 241.029ms
+[46.181s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 66166669 ns, Reaching safepoint: 203600 ns, At safepoint: 241358335 ns, Total: 241561935 ns
+[46.631s][info][gc       ] GC(174) Pause Young (Allocation Failure) 2090M->1797M(3630M) 221.499ms
+[46.631s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 228458039 ns, Reaching safepoint: 203610 ns, At safepoint: 221843087 ns, Total: 222046697 ns
+[47.081s][info][gc       ] GC(175) Pause Young (Allocation Failure) 2275M->1798M(3784M) 284.335ms
+[47.081s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 165149702 ns, Reaching safepoint: 189683 ns, At safepoint: 284595582 ns, Total: 284785265 ns
+[47.421s][info][gc       ] GC(176) Pause Young (Allocation Failure) 2331M->1798M(3784M) 170.627ms
+[47.421s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 168972966 ns, Reaching safepoint: 174166 ns, At safepoint: 170902037 ns, Total: 171076203 ns
+[47.797s][info][gc       ] GC(177) Pause Young (Allocation Failure) 2331M->1798M(3853M) 194.444ms
+[47.798s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 181224061 ns, Reaching safepoint: 187758 ns, At safepoint: 194804957 ns, Total: 194992715 ns
+[48.185s][info][gc       ] GC(178) Pause Young (Allocation Failure) 2400M->1798M(3853M) 178.276ms
+[48.185s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 208572407 ns, Reaching safepoint: 232956 ns, At safepoint: 178518980 ns, Total: 178751936 ns
+[48.574s][info][gc       ] GC(179) Pause Young (Allocation Failure) 2400M->1798M(3932M) 199.327ms
+[48.574s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 189403651 ns, Reaching safepoint: 193534 ns, At safepoint: 199607078 ns, Total: 199800612 ns
+[49.016s][info][gc       ] GC(180) Pause Young (Allocation Failure) 2479M->1800M(3932M) 222.574ms
+[49.016s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 219308221 ns, Reaching safepoint: 170748 ns, At safepoint: 222873113 ns, Total: 223043861 ns
+[49.247s][info][gc       ] GC(181) Pause Young (Allocation Failure) 2481M->1800M(3958M) 6.233ms
+[49.247s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223649656 ns, Reaching safepoint: 246964 ns, At safepoint: 6723433 ns, Total: 6970397 ns
+[49.470s][info][gc       ] GC(182) Pause Young (Allocation Failure) 2507M->1800M(3958M) 5.820ms
+[49.471s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 217051299 ns, Reaching safepoint: 228774 ns, At safepoint: 6347745 ns, Total: 6576519 ns
+[49.694s][info][gc       ] GC(183) Pause Young (Allocation Failure) 2507M->1800M(3958M) 6.311ms
+[49.695s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 217252779 ns, Reaching safepoint: 188399 ns, At safepoint: 6745019 ns, Total: 6933418 ns
+[49.924s][info][gc       ] GC(184) Pause Young (Allocation Failure) 2507M->1800M(3958M) 6.195ms
+[49.924s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 222430664 ns, Reaching safepoint: 234053 ns, At safepoint: 6632011 ns, Total: 6866064 ns
+[50.158s][info][gc       ] GC(185) Pause Young (Allocation Failure) 2507M->1800M(3958M) 6.678ms
+[50.158s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 226806722 ns, Reaching safepoint: 176139 ns, At safepoint: 7251596 ns, Total: 7427735 ns
+[50.383s][info][gc       ] GC(186) Pause Young (Allocation Failure) 2507M->1800M(3958M) 6.230ms
+[50.383s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 217842379 ns, Reaching safepoint: 194205 ns, At safepoint: 6643430 ns, Total: 6837635 ns
+[50.615s][info][gc       ] GC(187) Pause Young (Allocation Failure) 2507M->1800M(3958M) 6.328ms
+[50.616s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225557816 ns, Reaching safepoint: 240814 ns, At safepoint: 6743199 ns, Total: 6984013 ns
+[50.846s][info][gc       ] GC(188) Pause Young (Allocation Failure) 2507M->1800M(3958M) 6.314ms
+[50.847s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 224006969 ns, Reaching safepoint: 193037 ns, At safepoint: 6883971 ns, Total: 7077008 ns
+[51.077s][info][gc       ] GC(189) Pause Young (Allocation Failure) 2507M->1800M(3958M) 6.408ms
+[51.077s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223214384 ns, Reaching safepoint: 168281 ns, At safepoint: 6836476 ns, Total: 7004757 ns
+[51.303s][info][gc       ] GC(190) Pause Young (Allocation Failure) 2507M->1800M(3958M) 6.518ms
+[51.304s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 219620202 ns, Reaching safepoint: 210293 ns, At safepoint: 7019997 ns, Total: 7230290 ns
+[51.528s][info][gc       ] GC(191) Pause Young (Allocation Failure) 2507M->1800M(3898M) 6.509ms
+[51.528s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 217061508 ns, Reaching safepoint: 277610 ns, At safepoint: 7024123 ns, Total: 7301733 ns
+[51.756s][info][gc       ] GC(192) Pause Young (Allocation Failure) 2507M->1800M(3252M) 6.100ms
+[51.756s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 221339460 ns, Reaching safepoint: 173149 ns, At safepoint: 6634660 ns, Total: 6807809 ns
+[51.983s][info][gc       ] GC(193) Pause Young (Allocation Failure) 2507M->1800M(3831M) 6.205ms
+[51.984s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 220614964 ns, Reaching safepoint: 218083 ns, At safepoint: 6800314 ns, Total: 7018397 ns
+[52.220s][info][gc       ] GC(194) Pause Young (Allocation Failure) 2527M->1800M(3272M) 6.187ms
+[52.221s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 229745416 ns, Reaching safepoint: 197470 ns, At safepoint: 6762617 ns, Total: 6960087 ns
+[52.457s][info][gc       ] GC(195) Pause Young (Allocation Failure) 2527M->1800M(3780M) 6.447ms
+[52.457s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 229612237 ns, Reaching safepoint: 181582 ns, At safepoint: 6933592 ns, Total: 7115174 ns
+[52.689s][info][gc       ] GC(196) Pause Young (Allocation Failure) 2545M->1800M(3290M) 6.430ms
+[52.689s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 224748048 ns, Reaching safepoint: 257292 ns, At safepoint: 7060516 ns, Total: 7317808 ns
+[52.919s][info][gc       ] GC(197) Pause Young (Allocation Failure) 2545M->1800M(3735M) 6.053ms
+[52.920s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223845686 ns, Reaching safepoint: 165375 ns, At safepoint: 6587277 ns, Total: 6752652 ns
+[53.162s][info][gc       ] GC(198) Pause Young (Allocation Failure) 2562M->1800M(3307M) 6.561ms
+[53.162s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 234978905 ns, Reaching safepoint: 174931 ns, At safepoint: 7137098 ns, Total: 7312029 ns
+[53.422s][info][gc       ] GC(199) Pause Young (Allocation Failure) 2562M->1800M(3694M) 6.381ms
+[53.423s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 253440230 ns, Reaching safepoint: 174588 ns, At safepoint: 6716046 ns, Total: 6890634 ns
+[53.706s][info][gc       ] GC(200) Pause Young (Allocation Failure) 2578M->1800M(3324M) 6.688ms
+[53.706s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 275923649 ns, Reaching safepoint: 232095 ns, At safepoint: 7019318 ns, Total: 7251413 ns
+[53.973s][info][gc       ] GC(201) Pause Young (Allocation Failure) 2578M->1800M(3659M) 6.494ms
+[53.973s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 260216406 ns, Reaching safepoint: 174932 ns, At safepoint: 7101055 ns, Total: 7275987 ns
+[54.223s][info][gc       ] GC(202) Pause Young (Allocation Failure) 2594M->1800M(3340M) 5.991ms
+[54.224s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 243693809 ns, Reaching safepoint: 199538 ns, At safepoint: 6545876 ns, Total: 6745414 ns
+[54.472s][info][gc       ] GC(203) Pause Young (Allocation Failure) 2594M->1800M(3630M) 6.188ms
+[54.472s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 241360743 ns, Reaching safepoint: 293797 ns, At safepoint: 6758585 ns, Total: 7052382 ns
+[54.733s][info][gc       ] GC(204) Pause Young (Allocation Failure) 2610M->1800M(3355M) 6.165ms
+[54.733s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 254360466 ns, Reaching safepoint: 192140 ns, At safepoint: 6660728 ns, Total: 6852868 ns
+[54.995s][info][gc       ] GC(205) Pause Young (Allocation Failure) 2610M->1800M(3606M) 6.538ms
+[54.995s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 254599916 ns, Reaching safepoint: 165145 ns, At safepoint: 7129257 ns, Total: 7294402 ns
+[55.255s][info][gc       ] GC(206) Pause Young (Allocation Failure) 2626M->1800M(3371M) 6.201ms
+[55.256s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 253597010 ns, Reaching safepoint: 285994 ns, At safepoint: 6708510 ns, Total: 6994504 ns
+[55.523s][info][gc       ] GC(207) Pause Young (Allocation Failure) 2625M->1800M(3587M) 6.223ms
+[55.524s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 261167674 ns, Reaching safepoint: 197949 ns, At safepoint: 6643906 ns, Total: 6841855 ns
+[55.809s][info][gc       ] GC(208) Pause Young (Allocation Failure) 2641M->1800M(3386M) 7.285ms
+[55.809s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 277212787 ns, Reaching safepoint: 253191 ns, At safepoint: 7538070 ns, Total: 7791261 ns
+[56.091s][info][gc       ] GC(209) Pause Young (Allocation Failure) 2641M->1800M(3574M) 6.823ms
+[56.092s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 275383514 ns, Reaching safepoint: 310148 ns, At safepoint: 7375199 ns, Total: 7685347 ns
+[56.382s][info][gc       ] GC(210) Pause Young (Allocation Failure) 2657M->1800M(3589M) 6.620ms
+[56.382s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 282947967 ns, Reaching safepoint: 199458 ns, At safepoint: 6913917 ns, Total: 7113375 ns
+[56.675s][info][gc       ] GC(211) Pause Young (Allocation Failure) 2657M->1800M(3563M) 6.399ms
+[56.675s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 286259791 ns, Reaching safepoint: 229232 ns, At safepoint: 6767338 ns, Total: 6996570 ns
+[56.961s][info][gc       ] GC(212) Pause Young (Allocation Failure) 2672M->1800M(3577M) 6.632ms
+[56.961s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 278494925 ns, Reaching safepoint: 175855 ns, At safepoint: 7131421 ns, Total: 7307276 ns
+[57.238s][info][gc       ] GC(213) Pause Young (Allocation Failure) 2672M->1800M(3556M) 6.005ms
+[57.239s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 270966337 ns, Reaching safepoint: 179702 ns, At safepoint: 6638469 ns, Total: 6818171 ns
+[57.522s][info][gc       ] GC(214) Pause Young (Allocation Failure) 2688M->1800M(3568M) 6.189ms
+[57.522s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 276578718 ns, Reaching safepoint: 195998 ns, At safepoint: 6691399 ns, Total: 6887397 ns
+[57.812s][info][gc       ] GC(215) Pause Young (Allocation Failure) 2688M->1800M(3553M) 6.437ms
+[57.813s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 283377718 ns, Reaching safepoint: 232689 ns, At safepoint: 6916067 ns, Total: 7148756 ns
+[58.121s][info][gc       ] GC(216) Pause Young (Allocation Failure) 2703M->2415M(3563M) 149.589ms
+[58.573s][info][gc       ] GC(217) Pause Full (Ergonomics) 2415M->615M(3522M) 450.718ms
+[58.573s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 158770580 ns, Reaching safepoint: 219781 ns, At safepoint: 601347286 ns, Total: 601567067 ns
+[58.980s][info][gc       ] GC(218) Pause Young (Allocation Failure) 1566M->1572M(3522M) 298.383ms
+[58.981s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 108542537 ns, Reaching safepoint: 268983 ns, At safepoint: 298722138 ns, Total: 298991121 ns
+[59.734s][info][gc       ] GC(219) Pause Young (Allocation Failure) 2543M->1794M(3560M) 396.656ms
+[59.734s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 356141106 ns, Reaching safepoint: 188638 ns, At safepoint: 396918086 ns, Total: 397106724 ns
+[60.130s][info][gc       ] GC(220) Pause Young (Allocation Failure) 2501M->1794M(3635M) 154.562ms
+[60.130s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 240861411 ns, Reaching safepoint: 235776 ns, At safepoint: 155078337 ns, Total: 155314113 ns
+[60.563s][info][gc       ] GC(221) Pause Young (Allocation Failure) 2501M->1794M(3635M) 195.585ms
+[60.564s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 237348320 ns, Reaching safepoint: 169445 ns, At safepoint: 196008775 ns, Total: 196178220 ns
+[60.957s][info][gc       ] GC(222) Pause Young (Allocation Failure) 2501M->1794M(3635M) 155.377ms
+[60.957s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 237600504 ns, Reaching safepoint: 182389 ns, At safepoint: 155913415 ns, Total: 156095804 ns
+[61.347s][info][gc       ] GC(223) Pause Young (Allocation Failure) 2501M->1794M(3635M) 153.383ms
+[61.347s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 235984773 ns, Reaching safepoint: 159846 ns, At safepoint: 153644357 ns, Total: 153804203 ns
+[61.739s][info][gc       ] GC(224) Pause Young (Allocation Failure) 2501M->1794M(3635M) 154.190ms
+[61.739s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 237484774 ns, Reaching safepoint: 182878 ns, At safepoint: 154540586 ns, Total: 154723464 ns
+[62.148s][info][gc       ] GC(225) Pause Young (Allocation Failure) 2501M->1796M(3635M) 169.707ms
+[63.495s][info][gc       ] GC(226) Pause Full (Ergonomics) 1796M->1658M(4823M) 1346.898ms
+[63.495s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 238308648 ns, Reaching safepoint: 161478 ns, At safepoint: 1517343873 ns, Total: 1517505351 ns
+[63.733s][info][gc       ] GC(227) Pause Young (Allocation Failure) 2365M->1658M(4823M) 1.704ms
+[63.734s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 236389125 ns, Reaching safepoint: 195670 ns, At safepoint: 2110615 ns, Total: 2306285 ns
+[63.959s][info][gc       ] GC(228) Pause Young (Allocation Failure) 2365M->1658M(4823M) 1.464ms
+[63.960s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223727588 ns, Reaching safepoint: 213698 ns, At safepoint: 1893427 ns, Total: 2107125 ns
+[64.200s][info][gc       ] GC(229) Pause Young (Allocation Failure) 2365M->1658M(4823M) 1.557ms
+[64.201s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 238974892 ns, Reaching safepoint: 164162 ns, At safepoint: 1875480 ns, Total: 2039642 ns
+[64.436s][info][gc       ] GC(230) Pause Young (Allocation Failure) 2365M->1658M(4823M) 1.560ms
+[64.436s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 233383282 ns, Reaching safepoint: 244483 ns, At safepoint: 2047457 ns, Total: 2291940 ns
+[64.667s][info][gc       ] GC(231) Pause Young (Allocation Failure) 2365M->1658M(4823M) 1.944ms
+[64.667s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 228108240 ns, Reaching safepoint: 167766 ns, At safepoint: 2397822 ns, Total: 2565588 ns
+[64.895s][info][gc       ] GC(232) Pause Young (Allocation Failure) 2365M->1658M(4823M) 1.847ms
+[64.896s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225964341 ns, Reaching safepoint: 229705 ns, At safepoint: 2424502 ns, Total: 2654207 ns
+[65.123s][info][gc       ] GC(233) Pause Young (Allocation Failure) 2365M->1658M(4823M) 1.768ms
+[65.123s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225222491 ns, Reaching safepoint: 209684 ns, At safepoint: 2305261 ns, Total: 2514945 ns
+[65.343s][info][gc       ] GC(234) Pause Young (Allocation Failure) 2365M->1658M(4823M) 1.843ms
+[65.344s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 217790796 ns, Reaching safepoint: 172303 ns, At safepoint: 2279316 ns, Total: 2451619 ns
+[65.568s][info][gc       ] GC(235) Pause Young (Allocation Failure) 2365M->1658M(4823M) 2.281ms
+[65.569s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 221974338 ns, Reaching safepoint: 317024 ns, At safepoint: 2880968 ns, Total: 3197992 ns
+[65.792s][info][gc       ] GC(236) Pause Young (Allocation Failure) 2365M->1658M(4118M) 1.713ms
+[65.793s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 221140809 ns, Reaching safepoint: 381942 ns, At safepoint: 2235896 ns, Total: 2617838 ns
+[66.012s][info][gc       ] GC(237) Pause Young (Allocation Failure) 2365M->1658M(4751M) 2.061ms
+[66.013s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 217445000 ns, Reaching safepoint: 306083 ns, At safepoint: 2570708 ns, Total: 2876791 ns
+[66.241s][info][gc       ] GC(238) Pause Young (Allocation Failure) 2380M->1658M(4133M) 2.053ms
+[66.242s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 226126787 ns, Reaching safepoint: 166577 ns, At safepoint: 2665756 ns, Total: 2832333 ns
+[66.473s][info][gc       ] GC(239) Pause Young (Allocation Failure) 2380M->1658M(4676M) 1.857ms
+[66.473s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 228591686 ns, Reaching safepoint: 271493 ns, At safepoint: 2446283 ns, Total: 2717776 ns
+[66.701s][info][gc       ] GC(240) Pause Young (Allocation Failure) 2391M->1658M(4144M) 1.922ms
+[66.701s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225544866 ns, Reaching safepoint: 196744 ns, At safepoint: 2460160 ns, Total: 2656904 ns
+[66.937s][info][gc       ] GC(241) Pause Young (Allocation Failure) 2391M->1658M(4622M) 2.286ms
+[66.938s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 233118817 ns, Reaching safepoint: 164107 ns, At safepoint: 2877205 ns, Total: 3041312 ns
+[67.174s][info][gc       ] GC(242) Pause Young (Allocation Failure) 2400M->1658M(4153M) 2.246ms
+[67.174s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 233798296 ns, Reaching safepoint: 152955 ns, At safepoint: 2845613 ns, Total: 2998568 ns
+[67.413s][info][gc       ] GC(243) Pause Young (Allocation Failure) 2400M->1658M(4571M) 2.160ms
+[67.413s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 236021700 ns, Reaching safepoint: 271724 ns, At safepoint: 2720132 ns, Total: 2991856 ns
+[67.646s][info][gc       ] GC(244) Pause Young (Allocation Failure) 2408M->1658M(4161M) 1.809ms
+[67.647s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 230605754 ns, Reaching safepoint: 213763 ns, At safepoint: 2401741 ns, Total: 2615504 ns
+[67.880s][info][gc       ] GC(245) Pause Young (Allocation Failure) 2408M->1658M(4524M) 1.795ms
+[67.881s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 231780086 ns, Reaching safepoint: 189829 ns, At safepoint: 2289174 ns, Total: 2479003 ns
+[68.130s][info][gc       ] GC(246) Pause Young (Allocation Failure) 2414M->1658M(4167M) 2.307ms
+[68.130s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 246270006 ns, Reaching safepoint: 230344 ns, At safepoint: 2869346 ns, Total: 3099690 ns
+[68.379s][info][gc       ] GC(247) Pause Young (Allocation Failure) 2414M->1658M(4482M) 1.656ms
+[68.379s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 246493649 ns, Reaching safepoint: 253767 ns, At safepoint: 2006096 ns, Total: 2259863 ns
+[68.620s][info][gc       ] GC(248) Pause Young (Allocation Failure) 2420M->1658M(4173M) 1.763ms
+[68.620s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 238695482 ns, Reaching safepoint: 193117 ns, At safepoint: 2241487 ns, Total: 2434604 ns
+[68.871s][info][gc       ] GC(249) Pause Young (Allocation Failure) 2420M->1658M(4445M) 1.609ms
+[68.871s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 248736170 ns, Reaching safepoint: 238281 ns, At safepoint: 1960723 ns, Total: 2199004 ns
+[69.140s][info][gc       ] GC(250) Pause Young (Allocation Failure) 2426M->1658M(4179M) 1.610ms
+[69.141s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 267530862 ns, Reaching safepoint: 193763 ns, At safepoint: 2005796 ns, Total: 2199559 ns
+[69.417s][info][gc       ] GC(251) Pause Young (Allocation Failure) 2426M->1658M(4413M) 1.771ms
+[69.418s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 274650427 ns, Reaching safepoint: 188621 ns, At safepoint: 2145731 ns, Total: 2334352 ns
+[69.680s][info][gc       ] GC(252) Pause Young (Allocation Failure) 2431M->1658M(4184M) 2.510ms
+[69.680s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 259013480 ns, Reaching safepoint: 248692 ns, At safepoint: 3017108 ns, Total: 3265800 ns
+[69.976s][info][gc       ] GC(253) Pause Young (Allocation Failure) 2431M->1658M(4384M) 1.622ms
+[69.976s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 294144942 ns, Reaching safepoint: 200303 ns, At safepoint: 1898920 ns, Total: 2099223 ns
+[70.246s][info][gc       ] GC(254) Pause Young (Allocation Failure) 2436M->1658M(4189M) 1.943ms
+[70.246s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 267205301 ns, Reaching safepoint: 189933 ns, At safepoint: 2441857 ns, Total: 2631790 ns
+[70.507s][info][gc       ] GC(255) Pause Young (Allocation Failure) 2436M->1658M(4361M) 1.875ms
+[70.508s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 259272654 ns, Reaching safepoint: 201985 ns, At safepoint: 2341025 ns, Total: 2543010 ns
+[70.776s][info][gc       ] GC(256) Pause Young (Allocation Failure) 2441M->1658M(4194M) 1.690ms
+[70.776s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 265956605 ns, Reaching safepoint: 234592 ns, At safepoint: 2085044 ns, Total: 2319636 ns
+[71.042s][info][gc       ] GC(257) Pause Young (Allocation Failure) 2441M->1658M(4341M) 1.737ms
+[71.043s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 263952940 ns, Reaching safepoint: 226758 ns, At safepoint: 2158878 ns, Total: 2385636 ns
+[71.288s][info][gc       ] GC(258) Pause Young (Allocation Failure) 2446M->1658M(4199M) 2.072ms
+[71.289s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 243490837 ns, Reaching safepoint: 185831 ns, At safepoint: 2623765 ns, Total: 2809596 ns
+[71.536s][info][gc       ] GC(259) Pause Young (Allocation Failure) 2446M->1658M(4325M) 1.791ms
+[71.536s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 244795769 ns, Reaching safepoint: 222006 ns, At safepoint: 2292438 ns, Total: 2514444 ns
+[71.786s][info][gc       ] GC(260) Pause Young (Allocation Failure) 2451M->1658M(4204M) 1.797ms
+[71.787s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 247939996 ns, Reaching safepoint: 167104 ns, At safepoint: 2360712 ns, Total: 2527816 ns
+[72.026s][info][gc       ] GC(261) Pause Young (Allocation Failure) 2451M->1710M(4326M) 9.386ms
+[72.027s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 230185747 ns, Reaching safepoint: 163825 ns, At safepoint: 9945155 ns, Total: 10108980 ns
+[72.365s][info][gc       ] GC(262) Pause Young (Allocation Failure) 2504M->2463M(4331M) 247.097ms
+[72.365s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 90674770 ns, Reaching safepoint: 318394 ns, At safepoint: 247461477 ns, Total: 247779871 ns
+[72.983s][info][gc       ] GC(263) Pause Young (Allocation Failure) 3213M->3179M(4444M) 520.783ms
+[74.201s][info][gc       ] GC(264) Pause Full (Ergonomics) 3179M->1517M(4663M) 1218.371ms
+[74.202s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 96219775 ns, Reaching safepoint: 193207 ns, At safepoint: 1740071846 ns, Total: 1740265053 ns
+[74.582s][info][gc       ] GC(265) Pause Young (Allocation Failure) 2142M->1834M(4739M) 128.973ms
+[74.582s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 251036986 ns, Reaching safepoint: 180006 ns, At safepoint: 129305674 ns, Total: 129485680 ns
+[74.939s][info][gc       ] GC(266) Pause Young (Allocation Failure) 2535M->1834M(4746M) 122.980ms
+[74.940s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 233806958 ns, Reaching safepoint: 174597 ns, At safepoint: 123373944 ns, Total: 123548541 ns
+[75.340s][info][gc       ] GC(267) Pause Young (Allocation Failure) 2534M->1834M(4836M) 164.346ms
+[75.340s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 235703221 ns, Reaching safepoint: 183351 ns, At safepoint: 164657195 ns, Total: 164840546 ns
+[75.762s][info][gc       ] GC(268) Pause Young (Allocation Failure) 2624M->1834M(4835M) 153.529ms
+[75.762s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 267830912 ns, Reaching safepoint: 360286 ns, At safepoint: 153795964 ns, Total: 154156250 ns
+[76.152s][info][gc       ] GC(269) Pause Young (Allocation Failure) 2624M->1834M(4834M) 126.500ms
+[76.152s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 262727078 ns, Reaching safepoint: 173634 ns, At safepoint: 126768745 ns, Total: 126942379 ns
+[76.550s][info][gc       ] GC(270) Pause Young (Allocation Failure) 2636M->1834M(4835M) 128.320ms
+[76.550s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 269604987 ns, Reaching safepoint: 196157 ns, At safepoint: 128613072 ns, Total: 128809229 ns
+[76.946s][info][gc       ] GC(271) Pause Young (Allocation Failure) 2636M->1834M(4842M) 126.876ms
+[76.947s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 269051639 ns, Reaching safepoint: 188283 ns, At safepoint: 127243819 ns, Total: 127432102 ns
+[77.372s][info][gc       ] GC(272) Pause Young (Allocation Failure) 2665M->1835M(4844M) 148.849ms
+[77.372s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 275671124 ns, Reaching safepoint: 190015 ns, At safepoint: 149164586 ns, Total: 149354601 ns
+[77.651s][info][gc       ] GC(273) Pause Young (Allocation Failure) 2665M->1835M(4871M) 6.377ms
+[77.651s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 272146423 ns, Reaching safepoint: 177021 ns, At safepoint: 6878349 ns, Total: 7055370 ns
+[77.926s][info][gc       ] GC(274) Pause Young (Allocation Failure) 2692M->1835M(4242M) 6.878ms
+[77.927s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 267893150 ns, Reaching safepoint: 303667 ns, At safepoint: 7366298 ns, Total: 7669965 ns
+[78.203s][info][gc       ] GC(275) Pause Young (Allocation Failure) 2692M->1835M(4879M) 6.517ms
+[78.203s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 269565144 ns, Reaching safepoint: 180416 ns, At safepoint: 6963953 ns, Total: 7144369 ns
+[78.483s][info][gc       ] GC(276) Pause Young (Allocation Failure) 2709M->1835M(4865M) 6.301ms
+[78.483s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 273193276 ns, Reaching safepoint: 174194 ns, At safepoint: 6571419 ns, Total: 6745613 ns
+[78.765s][info][gc       ] GC(277) Pause Young (Allocation Failure) 2709M->1835M(4877M) 6.944ms
+[78.765s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 274137047 ns, Reaching safepoint: 212997 ns, At safepoint: 7461278 ns, Total: 7674275 ns
+[79.051s][info][gc       ] GC(278) Pause Young (Allocation Failure) 2747M->1835M(4866M) 6.279ms
+[79.052s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 279856149 ns, Reaching safepoint: 170212 ns, At safepoint: 6673503 ns, Total: 6843715 ns
+[79.336s][info][gc       ] GC(279) Pause Young (Allocation Failure) 2747M->1835M(4840M) 6.964ms
+[79.337s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 277271917 ns, Reaching safepoint: 306512 ns, At safepoint: 7435936 ns, Total: 7742448 ns
+[79.636s][info][gc       ] GC(280) Pause Young (Allocation Failure) 2795M->1835M(4870M) 6.536ms
+[79.636s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 291920572 ns, Reaching safepoint: 315170 ns, At safepoint: 7036546 ns, Total: 7351716 ns
+[79.938s][info][gc       ] GC(281) Pause Young (Allocation Failure) 2795M->1835M(4831M) 6.536ms
+[79.939s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 295362394 ns, Reaching safepoint: 185556 ns, At safepoint: 7024706 ns, Total: 7210262 ns
+[80.259s][info][gc       ] GC(282) Pause Young (Allocation Failure) 2834M->1835M(4860M) 7.285ms
+[80.260s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 313202807 ns, Reaching safepoint: 193723 ns, At safepoint: 7848158 ns, Total: 8041881 ns
+[80.573s][info][gc       ] GC(283) Pause Young (Allocation Failure) 2834M->1835M(4817M) 6.613ms
+[80.573s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 305897158 ns, Reaching safepoint: 179560 ns, At safepoint: 7147026 ns, Total: 7326586 ns
+[80.888s][info][gc       ] GC(284) Pause Young (Allocation Failure) 2867M->1835M(4844M) 6.123ms
+[80.889s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 309044025 ns, Reaching safepoint: 186234 ns, At safepoint: 6555388 ns, Total: 6741622 ns
+[81.204s][info][gc       ] GC(285) Pause Young (Allocation Failure) 2867M->1835M(4799M) 6.370ms
+[81.205s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 308552475 ns, Reaching safepoint: 198287 ns, At safepoint: 6891982 ns, Total: 7090269 ns
+[81.542s][info][gc       ] GC(286) Pause Young (Allocation Failure) 2895M->1835M(4825M) 6.391ms
+[81.542s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 330824099 ns, Reaching safepoint: 180771 ns, At safepoint: 6855668 ns, Total: 7036439 ns
+[81.876s][info][gc       ] GC(287) Pause Young (Allocation Failure) 2895M->1835M(4781M) 6.524ms
+[81.876s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 326778621 ns, Reaching safepoint: 191133 ns, At safepoint: 6945671 ns, Total: 7136804 ns
+[82.211s][info][gc       ] GC(288) Pause Young (Allocation Failure) 2920M->1835M(4805M) 6.796ms
+[82.212s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 327755122 ns, Reaching safepoint: 181022 ns, At safepoint: 7311365 ns, Total: 7492387 ns
+[82.551s][info][gc       ] GC(289) Pause Young (Allocation Failure) 2920M->1835M(4767M) 7.021ms
+[82.551s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 332122060 ns, Reaching safepoint: 188769 ns, At safepoint: 7644073 ns, Total: 7832842 ns
+[82.905s][info][gc       ] GC(290) Pause Young (Allocation Failure) 2944M->1835M(4787M) 6.624ms
+[82.906s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 346750805 ns, Reaching safepoint: 185143 ns, At safepoint: 7119173 ns, Total: 7304316 ns
+[83.248s][info][gc       ] GC(291) Pause Young (Allocation Failure) 2944M->1835M(4752M) 6.398ms
+[83.249s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 336128670 ns, Reaching safepoint: 228367 ns, At safepoint: 6887464 ns, Total: 7115831 ns
+[83.607s][info][gc       ] GC(292) Pause Young (Allocation Failure) 2966M->1835M(4772M) 6.830ms
+[83.608s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 351467334 ns, Reaching safepoint: 221139 ns, At safepoint: 7398006 ns, Total: 7619145 ns
+[83.969s][info][gc       ] GC(293) Pause Young (Allocation Failure) 2966M->1835M(4743M) 6.596ms
+[83.969s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 354087661 ns, Reaching safepoint: 198464 ns, At safepoint: 7151215 ns, Total: 7349679 ns
+[84.328s][info][gc       ] GC(294) Pause Young (Allocation Failure) 2988M->1835M(4760M) 7.027ms
+[84.328s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 351284602 ns, Reaching safepoint: 185917 ns, At safepoint: 7549421 ns, Total: 7735338 ns
+[84.726s][info][gc       ] GC(295) Pause Young (Allocation Failure) 2988M->1835M(4736M) 6.787ms
+[84.727s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 390709550 ns, Reaching safepoint: 259677 ns, At safepoint: 7232035 ns, Total: 7491712 ns
+[85.097s][info][gc       ] GC(296) Pause Young (Allocation Failure) 3010M->1835M(4751M) 6.713ms
+[85.098s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 363827003 ns, Reaching safepoint: 307890 ns, At safepoint: 7279191 ns, Total: 7587081 ns
+[85.456s][info][gc       ] GC(297) Pause Young (Allocation Failure) 3010M->2159M(4663M) 68.226ms
+[85.457s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 289913860 ns, Reaching safepoint: 192326 ns, At safepoint: 68721259 ns, Total: 68913585 ns
+[86.017s][info][gc       ] GC(298) Pause Young (Allocation Failure) 3259M->3216M(4760M) 423.766ms
+[87.055s][info][gc       ] GC(299) Pause Full (Ergonomics) 3216M->1377M(4902M) 1037.987ms
+[87.056s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 136483299 ns, Reaching safepoint: 205925 ns, At safepoint: 1462491719 ns, Total: 1462697644 ns
+[87.466s][info][gc       ] GC(300) Pause Young (Allocation Failure) 2113M->1821M(4655M) 157.110ms
+[87.466s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 252654171 ns, Reaching safepoint: 311977 ns, At safepoint: 157384774 ns, Total: 157696751 ns
+[87.987s][info][gc       ] GC(301) Pause Young (Allocation Failure) 2557M->1821M(4887M) 275.827ms
+[87.987s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 244703744 ns, Reaching safepoint: 265649 ns, At safepoint: 276099667 ns, Total: 276365316 ns
+[88.359s][info][gc       ] GC(302) Pause Young (Allocation Failure) 2528M->1821M(4887M) 148.774ms
+[88.359s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 222221665 ns, Reaching safepoint: 184691 ns, At safepoint: 149113434 ns, Total: 149298125 ns
+[88.738s][info][gc       ] GC(303) Pause Young (Allocation Failure) 2528M->1821M(4887M) 149.843ms
+[88.738s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 229018992 ns, Reaching safepoint: 209395 ns, At safepoint: 150176832 ns, Total: 150386227 ns
+[89.124s][info][gc       ] GC(304) Pause Young (Allocation Failure) 2528M->1821M(4887M) 149.215ms
+[89.125s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 236499072 ns, Reaching safepoint: 222530 ns, At safepoint: 149624347 ns, Total: 149846877 ns
+[89.510s][info][gc       ] GC(305) Pause Young (Allocation Failure) 2528M->1821M(4887M) 149.827ms
+[89.511s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 235780639 ns, Reaching safepoint: 174620 ns, At safepoint: 150155686 ns, Total: 150330306 ns
+[89.902s][info][gc       ] GC(306) Pause Young (Allocation Failure) 2528M->1821M(4887M) 151.942ms
+[89.902s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 238808464 ns, Reaching safepoint: 190050 ns, At safepoint: 152220458 ns, Total: 152410508 ns
+[90.314s][info][gc       ] GC(307) Pause Young (Allocation Failure) 2528M->1822M(4887M) 186.032ms
+[90.314s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225989141 ns, Reaching safepoint: 174975 ns, At safepoint: 186339065 ns, Total: 186514040 ns
+[90.559s][info][gc       ] GC(308) Pause Young (Allocation Failure) 2529M->1822M(4887M) 6.723ms
+[90.560s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 237959039 ns, Reaching safepoint: 168658 ns, At safepoint: 7230501 ns, Total: 7399159 ns
+[90.783s][info][gc       ] GC(309) Pause Young (Allocation Failure) 2529M->1822M(4887M) 6.044ms
+[90.783s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 216589995 ns, Reaching safepoint: 194857 ns, At safepoint: 6573698 ns, Total: 6768555 ns
+[91.008s][info][gc       ] GC(310) Pause Young (Allocation Failure) 2529M->1822M(4887M) 6.545ms
+[91.009s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 218365784 ns, Reaching safepoint: 215588 ns, At safepoint: 7020974 ns, Total: 7236562 ns
+[91.232s][info][gc       ] GC(311) Pause Young (Allocation Failure) 2529M->1822M(4887M) 6.138ms
+[91.232s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 216529081 ns, Reaching safepoint: 200291 ns, At safepoint: 6592744 ns, Total: 6793035 ns
+[91.457s][info][gc       ] GC(312) Pause Young (Allocation Failure) 2529M->1822M(4887M) 6.453ms
+[91.458s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 218372525 ns, Reaching safepoint: 182760 ns, At safepoint: 6957601 ns, Total: 7140361 ns
+[91.675s][info][gc       ] GC(313) Pause Young (Allocation Failure) 2529M->1822M(4887M) 6.485ms
+[91.676s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 210822030 ns, Reaching safepoint: 175757 ns, At safepoint: 6957778 ns, Total: 7133535 ns
+[91.898s][info][gc       ] GC(314) Pause Young (Allocation Failure) 2529M->1822M(4182M) 6.380ms
+[91.898s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 215436575 ns, Reaching safepoint: 307493 ns, At safepoint: 7018681 ns, Total: 7326174 ns
+[92.121s][info][gc       ] GC(315) Pause Young (Allocation Failure) 2529M->1822M(4875M) 6.518ms
+[92.121s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 215484689 ns, Reaching safepoint: 166839 ns, At safepoint: 7063218 ns, Total: 7230057 ns
+[92.346s][info][gc       ] GC(316) Pause Young (Allocation Failure) 2562M->1822M(4866M) 6.491ms
+[92.347s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 218586790 ns, Reaching safepoint: 234491 ns, At safepoint: 6989584 ns, Total: 7224075 ns
+[92.579s][info][gc       ] GC(317) Pause Young (Allocation Failure) 2562M->1822M(4799M) 6.471ms
+[92.579s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225277810 ns, Reaching safepoint: 203847 ns, At safepoint: 7002049 ns, Total: 7205896 ns
+[92.829s][info][gc       ] GC(318) Pause Young (Allocation Failure) 2597M->1822M(4836M) 6.725ms
+[92.830s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 242834145 ns, Reaching safepoint: 203231 ns, At safepoint: 7222850 ns, Total: 7426081 ns
+[93.080s][info][gc       ] GC(319) Pause Young (Allocation Failure) 2597M->1822M(4769M) 6.612ms
+[93.081s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 243649587 ns, Reaching safepoint: 232922 ns, At safepoint: 7098179 ns, Total: 7331101 ns
+[93.340s][info][gc       ] GC(320) Pause Young (Allocation Failure) 2628M->1822M(4280M) 6.510ms
+[93.340s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 252371413 ns, Reaching safepoint: 202553 ns, At safepoint: 7017224 ns, Total: 7219777 ns
+[93.595s][info][gc       ] GC(321) Pause Young (Allocation Failure) 2628M->1822M(4738M) 6.819ms
+[93.596s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 248057731 ns, Reaching safepoint: 320486 ns, At safepoint: 7375027 ns, Total: 7695513 ns
+[93.862s][info][gc       ] GC(322) Pause Young (Allocation Failure) 2656M->1822M(4308M) 6.954ms
+[93.862s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 258623664 ns, Reaching safepoint: 192693 ns, At safepoint: 7588486 ns, Total: 7781179 ns
+[94.131s][info][gc       ] GC(323) Pause Young (Allocation Failure) 2656M->1822M(4710M) 6.512ms
+[94.131s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 261516303 ns, Reaching safepoint: 201611 ns, At safepoint: 7125385 ns, Total: 7326996 ns
+[94.416s][info][gc       ] GC(324) Pause Young (Allocation Failure) 2682M->1822M(4335M) 6.900ms
+[94.416s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 277809362 ns, Reaching safepoint: 161083 ns, At safepoint: 7171534 ns, Total: 7332617 ns
+[94.723s][info][gc       ] GC(325) Pause Young (Allocation Failure) 2682M->1822M(4687M) 6.874ms
+[94.724s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 299686744 ns, Reaching safepoint: 185454 ns, At safepoint: 7441392 ns, Total: 7626846 ns
+[95.006s][info][gc       ] GC(326) Pause Young (Allocation Failure) 2707M->1822M(4713M) 6.561ms
+[95.007s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 275589934 ns, Reaching safepoint: 177314 ns, At safepoint: 7167131 ns, Total: 7344445 ns
+[95.281s][info][gc       ] GC(327) Pause Young (Allocation Failure) 2707M->1822M(4667M) 6.566ms
+[95.281s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 267209845 ns, Reaching safepoint: 167661 ns, At safepoint: 7170068 ns, Total: 7337729 ns
+[95.563s][info][gc       ] GC(328) Pause Young (Allocation Failure) 2732M->1822M(4691M) 6.404ms
+[95.564s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 275572625 ns, Reaching safepoint: 168838 ns, At safepoint: 6855870 ns, Total: 7024708 ns
+[95.851s][info][gc       ] GC(329) Pause Young (Allocation Failure) 2732M->1822M(4653M) 6.646ms
+[95.852s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 280471663 ns, Reaching safepoint: 265386 ns, At safepoint: 7240983 ns, Total: 7506369 ns
+[96.147s][info][gc       ] GC(330) Pause Young (Allocation Failure) 2756M->1822M(4673M) 6.355ms
+[96.148s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 288731306 ns, Reaching safepoint: 202741 ns, At safepoint: 6892911 ns, Total: 7095652 ns
+[96.441s][info][gc       ] GC(331) Pause Young (Allocation Failure) 2756M->1822M(4642M) 6.874ms
+[96.442s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 286529214 ns, Reaching safepoint: 176967 ns, At safepoint: 7435558 ns, Total: 7612525 ns
+[96.739s][info][gc       ] GC(332) Pause Young (Allocation Failure) 2780M->1822M(4660M) 6.761ms
+[96.740s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 290603698 ns, Reaching safepoint: 184356 ns, At safepoint: 7241950 ns, Total: 7426306 ns
+[97.047s][info][gc       ] GC(333) Pause Young (Allocation Failure) 2780M->1822M(4638M) 7.883ms
+[97.047s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 298743974 ns, Reaching safepoint: 195764 ns, At safepoint: 8386175 ns, Total: 8581939 ns
+[97.367s][info][gc       ] GC(334) Pause Young (Allocation Failure) 2805M->1822M(4653M) 6.809ms
+[97.368s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 313079026 ns, Reaching safepoint: 185230 ns, At safepoint: 7353315 ns, Total: 7538545 ns
+[97.751s][info][gc       ] GC(335) Pause Young (Allocation Failure) 2805M->1822M(4632M) 6.660ms
+[97.752s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 376661053 ns, Reaching safepoint: 369972 ns, At safepoint: 7258995 ns, Total: 7628967 ns
+[98.076s][info][gc       ] GC(336) Pause Young (Allocation Failure) 2828M->1822M(4648M) 6.747ms
+[98.077s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 317131288 ns, Reaching safepoint: 187809 ns, At safepoint: 7307110 ns, Total: 7494919 ns
+[98.394s][info][gc       ] GC(337) Pause Young (Allocation Failure) 2828M->1822M(4635M) 6.765ms
+[98.395s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 310780508 ns, Reaching safepoint: 222732 ns, At safepoint: 7212266 ns, Total: 7434998 ns
+[98.715s][info][gc       ] GC(338) Pause Young (Allocation Failure) 2852M->2205M(4647M) 82.910ms
+[98.715s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 236912355 ns, Reaching safepoint: 216422 ns, At safepoint: 83506590 ns, Total: 83723012 ns
+[99.209s][info][gc       ] GC(339) Pause Young (Allocation Failure) 3235M->3191M(4463M) 366.097ms
+[100.328s][info][gc       ] GC(340) Pause Full (Ergonomics) 3191M->1365M(4895M) 1118.611ms
+[100.329s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 127626236 ns, Reaching safepoint: 231413 ns, At safepoint: 1485601545 ns, Total: 1485832958 ns
+[100.841s][info][gc       ] GC(341) Pause Young (Allocation Failure) 2087M->1820M(4880M) 271.908ms
+[100.842s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 240405572 ns, Reaching safepoint: 173512 ns, At safepoint: 272244121 ns, Total: 272417633 ns
+[101.226s][info][gc       ] GC(342) Pause Young (Allocation Failure) 2527M->1820M(4941M) 152.390ms
+[101.226s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 231294421 ns, Reaching safepoint: 170647 ns, At safepoint: 152715885 ns, Total: 152886532 ns
+[101.618s][info][gc       ] GC(343) Pause Young (Allocation Failure) 2527M->1820M(4941M) 152.443ms
+[101.618s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 239447098 ns, Reaching safepoint: 364019 ns, At safepoint: 152730844 ns, Total: 153094863 ns
+[102.007s][info][gc       ] GC(344) Pause Young (Allocation Failure) 2527M->1820M(4941M) 150.219ms
+[102.007s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 238077019 ns, Reaching safepoint: 207734 ns, At safepoint: 150552769 ns, Total: 150760503 ns
+[102.394s][info][gc       ] GC(345) Pause Young (Allocation Failure) 2527M->1820M(4941M) 150.603ms
+[102.394s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 235980863 ns, Reaching safepoint: 173249 ns, At safepoint: 150891760 ns, Total: 151065009 ns
+[102.786s][info][gc       ] GC(346) Pause Young (Allocation Failure) 2527M->1820M(4941M) 153.278ms
+[102.787s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 238399667 ns, Reaching safepoint: 168961 ns, At safepoint: 153650826 ns, Total: 153819787 ns
+[103.174s][info][gc       ] GC(347) Pause Young (Allocation Failure) 2527M->1820M(4941M) 152.225ms
+[103.174s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 234712461 ns, Reaching safepoint: 319096 ns, At safepoint: 152513000 ns, Total: 152832096 ns
+[103.601s][info][gc       ] GC(348) Pause Young (Allocation Failure) 2527M->1821M(4941M) 189.704ms
+[103.602s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 237355243 ns, Reaching safepoint: 202241 ns, At safepoint: 189979736 ns, Total: 190181977 ns
+[103.852s][info][gc       ] GC(349) Pause Young (Allocation Failure) 2528M->1821M(4941M) 6.167ms
+[103.853s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 244223602 ns, Reaching safepoint: 181074 ns, At safepoint: 6599766 ns, Total: 6780840 ns
+[104.087s][info][gc       ] GC(350) Pause Young (Allocation Failure) 2528M->1821M(4941M) 6.437ms
+[104.087s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 227461740 ns, Reaching safepoint: 160320 ns, At safepoint: 7046164 ns, Total: 7206484 ns
+[104.316s][info][gc       ] GC(351) Pause Young (Allocation Failure) 2528M->1821M(4941M) 6.356ms
+[104.317s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 222563881 ns, Reaching safepoint: 173884 ns, At safepoint: 6913033 ns, Total: 7086917 ns
+[104.541s][info][gc       ] GC(352) Pause Young (Allocation Failure) 2528M->1821M(4941M) 6.522ms
+[104.542s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 217712247 ns, Reaching safepoint: 184534 ns, At safepoint: 7050241 ns, Total: 7234775 ns
+[104.763s][info][gc       ] GC(353) Pause Young (Allocation Failure) 2528M->1821M(4941M) 6.065ms
+[104.764s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 214781420 ns, Reaching safepoint: 181937 ns, At safepoint: 6680598 ns, Total: 6862535 ns
+[104.986s][info][gc       ] GC(354) Pause Young (Allocation Failure) 2528M->1821M(4941M) 6.360ms
+[104.986s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 215719890 ns, Reaching safepoint: 208072 ns, At safepoint: 6971570 ns, Total: 7179642 ns
+[105.210s][info][gc       ] GC(355) Pause Young (Allocation Failure) 2528M->1821M(4903M) 6.745ms
+[105.211s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 216746943 ns, Reaching safepoint: 241422 ns, At safepoint: 7302939 ns, Total: 7544361 ns
+[105.431s][info][gc       ] GC(356) Pause Young (Allocation Failure) 2528M->1821M(4922M) 6.162ms
+[105.432s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 213944675 ns, Reaching safepoint: 180094 ns, At safepoint: 6681838 ns, Total: 6861932 ns
+[105.655s][info][gc       ] GC(357) Pause Young (Allocation Failure) 2528M->1821M(4860M) 6.365ms
+[105.656s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 216923562 ns, Reaching safepoint: 197192 ns, At safepoint: 6877649 ns, Total: 7074841 ns
+[105.894s][info][gc       ] GC(358) Pause Young (Allocation Failure) 2568M->1821M(4897M) 6.685ms
+[105.894s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 231103543 ns, Reaching safepoint: 202454 ns, At safepoint: 7175355 ns, Total: 7377809 ns
+[106.137s][info][gc       ] GC(359) Pause Young (Allocation Failure) 2568M->1821M(4832M) 6.541ms
+[106.137s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 236161444 ns, Reaching safepoint: 199227 ns, At safepoint: 7051520 ns, Total: 7250747 ns
+[106.390s][info][gc       ] GC(360) Pause Young (Allocation Failure) 2603M->1821M(4867M) 6.629ms
+[106.390s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 245575560 ns, Reaching safepoint: 197280 ns, At safepoint: 7114493 ns, Total: 7311773 ns
+[106.640s][info][gc       ] GC(361) Pause Young (Allocation Failure) 2603M->1821M(4803M) 6.693ms
+[106.641s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 243004824 ns, Reaching safepoint: 178078 ns, At safepoint: 7125037 ns, Total: 7303115 ns
+[106.901s][info][gc       ] GC(362) Pause Young (Allocation Failure) 2635M->1821M(4836M) 6.501ms
+[106.901s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 253458522 ns, Reaching safepoint: 185554 ns, At safepoint: 7034445 ns, Total: 7219999 ns
+[107.157s][info][gc       ] GC(363) Pause Young (Allocation Failure) 2635M->1821M(4777M) 6.793ms
+[107.158s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 248966228 ns, Reaching safepoint: 363314 ns, At safepoint: 7278559 ns, Total: 7641873 ns
+[107.422s][info][gc       ] GC(364) Pause Young (Allocation Failure) 2665M->1821M(4807M) 6.254ms
+[107.423s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 257662197 ns, Reaching safepoint: 211744 ns, At safepoint: 6858389 ns, Total: 7070133 ns
+[107.679s][info][gc       ] GC(365) Pause Young (Allocation Failure) 2665M->1821M(4754M) 6.425ms
+[107.680s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 249975255 ns, Reaching safepoint: 167876 ns, At safepoint: 6975027 ns, Total: 7142903 ns
+[107.954s][info][gc       ] GC(366) Pause Young (Allocation Failure) 2694M->1821M(4781M) 6.455ms
+[107.954s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 267301081 ns, Reaching safepoint: 210014 ns, At safepoint: 6994112 ns, Total: 7204126 ns
+[108.239s][info][gc       ] GC(367) Pause Young (Allocation Failure) 2694M->1821M(4736M) 7.208ms
+[108.240s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 277561063 ns, Reaching safepoint: 204841 ns, At safepoint: 7646458 ns, Total: 7851299 ns
+[108.543s][info][gc       ] GC(368) Pause Young (Allocation Failure) 2722M->1821M(4760M) 6.694ms
+[108.544s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 296821567 ns, Reaching safepoint: 183695 ns, At safepoint: 7099888 ns, Total: 7283583 ns
+[108.873s][info][gc       ] GC(369) Pause Young (Allocation Failure) 2722M->1821M(4719M) 6.698ms
+[108.874s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 322705401 ns, Reaching safepoint: 180816 ns, At safepoint: 7127398 ns, Total: 7308214 ns
+[109.165s][info][gc       ] GC(370) Pause Young (Allocation Failure) 2748M->1821M(4742M) 6.566ms
+[109.165s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 283946677 ns, Reaching safepoint: 239291 ns, At safepoint: 7325673 ns, Total: 7564964 ns
+[109.452s][info][gc       ] GC(371) Pause Young (Allocation Failure) 2748M->1821M(4709M) 6.483ms
+[109.453s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 280396679 ns, Reaching safepoint: 216471 ns, At safepoint: 7011800 ns, Total: 7228271 ns
+[109.757s][info][gc       ] GC(372) Pause Young (Allocation Failure) 2775M->1821M(4729M) 6.762ms
+[109.757s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 297263509 ns, Reaching safepoint: 185424 ns, At safepoint: 7129885 ns, Total: 7315309 ns
+[110.061s][info][gc       ] GC(373) Pause Young (Allocation Failure) 2775M->1821M(4704M) 7.119ms
+[110.062s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 296449607 ns, Reaching safepoint: 199239 ns, At safepoint: 7681296 ns, Total: 7880535 ns
+[110.377s][info][gc       ] GC(374) Pause Young (Allocation Failure) 2802M->1821M(4721M) 7.483ms
+[110.378s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 307862629 ns, Reaching safepoint: 182572 ns, At safepoint: 8021621 ns, Total: 8204193 ns
+[110.730s][info][gc       ] GC(375) Pause Young (Allocation Failure) 2802M->1821M(4702M) 6.637ms
+[110.730s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 345254517 ns, Reaching safepoint: 181913 ns, At safepoint: 7106281 ns, Total: 7288194 ns
+[111.057s][info][gc       ] GC(376) Pause Young (Allocation Failure) 2829M->1821M(4718M) 6.632ms
+[111.057s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 319488913 ns, Reaching safepoint: 170706 ns, At safepoint: 7026380 ns, Total: 7197086 ns
+[111.381s][info][gc       ] GC(377) Pause Young (Allocation Failure) 2829M->1821M(4705M) 6.365ms
+[111.382s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 317562412 ns, Reaching safepoint: 184902 ns, At safepoint: 6876010 ns, Total: 7060912 ns
+[111.706s][info][gc       ] GC(378) Pause Young (Allocation Failure) 2855M->1821M(4718M) 6.442ms
+[111.706s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 317197683 ns, Reaching safepoint: 185151 ns, At safepoint: 7030810 ns, Total: 7215961 ns
+[112.045s][info][gc       ] GC(379) Pause Young (Allocation Failure) 2855M->2178M(4618M) 93.167ms
+[112.045s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 245150763 ns, Reaching safepoint: 174798 ns, At safepoint: 93813705 ns, Total: 93988503 ns
+[112.408s][info][gc       ] GC(380) Pause Young (Allocation Failure) 3124M->3079M(4733M) 245.848ms
+[113.407s][info][gc       ] GC(381) Pause Full (Ergonomics) 3079M->1254M(5032M) 997.945ms
+[113.407s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 117088888 ns, Reaching safepoint: 213042 ns, At safepoint: 1244555222 ns, Total: 1244768264 ns
+[113.909s][info][gc       ] GC(382) Pause Young (Allocation Failure) 2161M->1809M(4981M) 220.273ms
+[113.910s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 281843790 ns, Reaching safepoint: 204620 ns, At safepoint: 220526163 ns, Total: 220730783 ns
+[114.620s][info][gc       ] GC(383) Pause Young (Allocation Failure) 2716M->1809M(4883M) 403.784ms
+[114.620s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 306367352 ns, Reaching safepoint: 279802 ns, At safepoint: 404059852 ns, Total: 404339654 ns
+[115.028s][info][gc       ] GC(384) Pause Young (Allocation Failure) 2516M->1809M(4932M) 167.194ms
+[115.028s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 240055893 ns, Reaching safepoint: 196151 ns, At safepoint: 167459315 ns, Total: 167655466 ns
+[115.436s][info][gc       ] GC(385) Pause Young (Allocation Failure) 2516M->1809M(4932M) 170.770ms
+[115.437s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 237310844 ns, Reaching safepoint: 198959 ns, At safepoint: 171027800 ns, Total: 171226759 ns
+[115.842s][info][gc       ] GC(386) Pause Young (Allocation Failure) 2516M->1809M(4932M) 169.129ms
+[115.842s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 236029281 ns, Reaching safepoint: 181614 ns, At safepoint: 169383673 ns, Total: 169565287 ns
+[116.253s][info][gc       ] GC(387) Pause Young (Allocation Failure) 2516M->1809M(4932M) 169.621ms
+[116.253s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 240765484 ns, Reaching safepoint: 195110 ns, At safepoint: 169893126 ns, Total: 170088236 ns
+[116.674s][info][gc       ] GC(388) Pause Young (Allocation Failure) 2516M->1809M(4932M) 180.427ms
+[116.675s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 240464561 ns, Reaching safepoint: 186097 ns, At safepoint: 180737653 ns, Total: 180923750 ns
+[117.134s][info][gc       ] GC(389) Pause Young (Allocation Failure) 2516M->1811M(4932M) 228.009ms
+[117.135s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 231656646 ns, Reaching safepoint: 214087 ns, At safepoint: 228297710 ns, Total: 228511797 ns
+[117.382s][info][gc       ] GC(390) Pause Young (Allocation Failure) 2518M->1811M(4932M) 6.568ms
+[117.383s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 240865028 ns, Reaching safepoint: 161685 ns, At safepoint: 6995027 ns, Total: 7156712 ns
+[117.618s][info][gc       ] GC(391) Pause Young (Allocation Failure) 2518M->1811M(4932M) 6.539ms
+[117.619s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 228776563 ns, Reaching safepoint: 170641 ns, At safepoint: 7040777 ns, Total: 7211418 ns
+[117.849s][info][gc       ] GC(392) Pause Young (Allocation Failure) 2518M->1811M(4932M) 6.404ms
+[117.849s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223424212 ns, Reaching safepoint: 224528 ns, At safepoint: 6761223 ns, Total: 6985751 ns
+[118.079s][info][gc       ] GC(393) Pause Young (Allocation Failure) 2518M->1811M(4932M) 6.360ms
+[118.079s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 222956809 ns, Reaching safepoint: 207603 ns, At safepoint: 6898764 ns, Total: 7106367 ns
+[118.310s][info][gc       ] GC(394) Pause Young (Allocation Failure) 2518M->1811M(4932M) 6.833ms
+[118.311s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223843768 ns, Reaching safepoint: 171562 ns, At safepoint: 7324391 ns, Total: 7495953 ns
+[118.538s][info][gc       ] GC(395) Pause Young (Allocation Failure) 2518M->1811M(4932M) 6.302ms
+[118.539s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 221334424 ns, Reaching safepoint: 157495 ns, At safepoint: 6855979 ns, Total: 7013474 ns
+[118.752s][info][gc       ] GC(396) Pause Young (Allocation Failure) 2518M->1811M(4932M) 5.996ms
+[118.753s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 207316468 ns, Reaching safepoint: 182134 ns, At safepoint: 6402566 ns, Total: 6584700 ns
+[118.979s][info][gc       ] GC(397) Pause Young (Allocation Failure) 2518M->1811M(4932M) 6.529ms
+[118.980s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 219809216 ns, Reaching safepoint: 169072 ns, At safepoint: 6968159 ns, Total: 7137231 ns
+[119.209s][info][gc       ] GC(398) Pause Young (Allocation Failure) 2518M->1811M(4932M) 6.524ms
+[119.209s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 222297455 ns, Reaching safepoint: 183316 ns, At safepoint: 7009358 ns, Total: 7192674 ns
+[119.435s][info][gc       ] GC(399) Pause Young (Allocation Failure) 2518M->1811M(4886M) 6.279ms
+[119.436s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 219581149 ns, Reaching safepoint: 188028 ns, At safepoint: 6812964 ns, Total: 7000992 ns
+[119.663s][info][gc       ] GC(400) Pause Young (Allocation Failure) 2518M->1811M(4909M) 6.426ms
+[119.663s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 220107779 ns, Reaching safepoint: 189946 ns, At safepoint: 6957155 ns, Total: 7147101 ns
+[119.892s][info][gc       ] GC(401) Pause Young (Allocation Failure) 2518M->1811M(4829M) 6.624ms
+[119.892s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 222113933 ns, Reaching safepoint: 189340 ns, At safepoint: 7047039 ns, Total: 7236379 ns
+[120.132s][info][gc       ] GC(402) Pause Young (Allocation Failure) 2553M->1811M(4262M) 6.644ms
+[120.133s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 233065653 ns, Reaching safepoint: 151464 ns, At safepoint: 7172361 ns, Total: 7323825 ns
+[120.375s][info][gc       ] GC(403) Pause Young (Allocation Failure) 2553M->1811M(4795M) 6.985ms
+[120.375s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 234961512 ns, Reaching safepoint: 218992 ns, At safepoint: 7509443 ns, Total: 7728435 ns
+[120.617s][info][gc       ] GC(404) Pause Young (Allocation Failure) 2586M->1811M(4295M) 6.299ms
+[120.618s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 235267866 ns, Reaching safepoint: 182956 ns, At safepoint: 6844317 ns, Total: 7027273 ns
+[120.863s][info][gc       ] GC(405) Pause Young (Allocation Failure) 2586M->1811M(4762M) 6.590ms
+[120.864s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 238819380 ns, Reaching safepoint: 179797 ns, At safepoint: 7003189 ns, Total: 7182986 ns
+[121.119s][info][gc       ] GC(406) Pause Young (Allocation Failure) 2617M->1811M(4796M) 6.344ms
+[121.120s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 248756063 ns, Reaching safepoint: 185073 ns, At safepoint: 6869623 ns, Total: 7054696 ns
+[121.379s][info][gc       ] GC(407) Pause Young (Allocation Failure) 2617M->1811M(4735M) 6.625ms
+[121.380s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 252747353 ns, Reaching safepoint: 178619 ns, At safepoint: 7140141 ns, Total: 7318760 ns
+[121.642s][info][gc       ] GC(408) Pause Young (Allocation Failure) 2647M->1811M(4766M) 6.599ms
+[121.643s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 255594314 ns, Reaching safepoint: 147278 ns, At safepoint: 7127917 ns, Total: 7275195 ns
+[121.897s][info][gc       ] GC(409) Pause Young (Allocation Failure) 2647M->1811M(4715M) 6.600ms
+[121.897s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 247614714 ns, Reaching safepoint: 200757 ns, At safepoint: 6992329 ns, Total: 7193086 ns
+[122.174s][info][gc       ] GC(410) Pause Young (Allocation Failure) 2677M->1811M(4742M) 6.712ms
+[122.175s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 270048453 ns, Reaching safepoint: 211318 ns, At safepoint: 7264938 ns, Total: 7476256 ns
+[122.453s][info][gc       ] GC(411) Pause Young (Allocation Failure) 2677M->1811M(4699M) 6.998ms
+[122.454s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 271096560 ns, Reaching safepoint: 196980 ns, At safepoint: 7471217 ns, Total: 7668197 ns
+[122.774s][info][gc       ] GC(412) Pause Young (Allocation Failure) 2707M->1811M(4723M) 6.594ms
+[122.775s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 313922618 ns, Reaching safepoint: 180180 ns, At safepoint: 6903482 ns, Total: 7083662 ns
+[123.060s][info][gc       ] GC(413) Pause Young (Allocation Failure) 2707M->1811M(4689M) 6.626ms
+[123.060s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 278390457 ns, Reaching safepoint: 176605 ns, At safepoint: 7104394 ns, Total: 7280999 ns
+[123.354s][info][gc       ] GC(414) Pause Young (Allocation Failure) 2737M->1811M(4710M) 6.438ms
+[123.355s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 287486780 ns, Reaching safepoint: 184349 ns, At safepoint: 6985175 ns, Total: 7169524 ns
+[123.664s][info][gc       ] GC(415) Pause Young (Allocation Failure) 2737M->1811M(4683M) 6.961ms
+[123.665s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 302146278 ns, Reaching safepoint: 201919 ns, At safepoint: 7309543 ns, Total: 7511462 ns
+[123.978s][info][gc       ] GC(416) Pause Young (Allocation Failure) 2766M->1811M(4701M) 7.093ms
+[123.978s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 305780423 ns, Reaching safepoint: 204141 ns, At safepoint: 7443780 ns, Total: 7647921 ns
+[124.302s][info][gc       ] GC(417) Pause Young (Allocation Failure) 2766M->1811M(4681M) 6.738ms
+[124.302s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 317201195 ns, Reaching safepoint: 176158 ns, At safepoint: 7024037 ns, Total: 7200195 ns
+[124.645s][info][gc       ] GC(418) Pause Young (Allocation Failure) 2796M->1811M(4698M) 6.785ms
+[124.646s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 336031208 ns, Reaching safepoint: 228291 ns, At safepoint: 7144783 ns, Total: 7373074 ns
+[124.971s][info][gc       ] GC(419) Pause Young (Allocation Failure) 2796M->1811M(4685M) 6.930ms
+[124.972s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 318187379 ns, Reaching safepoint: 206857 ns, At safepoint: 7304933 ns, Total: 7511790 ns
+[125.304s][info][gc       ] GC(420) Pause Young (Allocation Failure) 2825M->1811M(4699M) 6.467ms
+[125.304s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 325492774 ns, Reaching safepoint: 216876 ns, At safepoint: 6875466 ns, Total: 7092342 ns
+[125.649s][info][gc       ] GC(421) Pause Young (Allocation Failure) 2825M->2431M(4505M) 153.059ms
+[125.650s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 191647630 ns, Reaching safepoint: 249211 ns, At safepoint: 153503467 ns, Total: 153752678 ns
+[125.979s][info][gc       ] GC(422) Pause Young (Allocation Failure) 3264M->3229M(4716M) 220.984ms
+[127.185s][info][gc       ] GC(423) Pause Full (Ergonomics) 3229M->1414M(5335M) 1205.878ms
+[127.185s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 107911589 ns, Reaching safepoint: 169071 ns, At safepoint: 1427740922 ns, Total: 1427909993 ns
+[127.630s][info][gc       ] GC(424) Pause Young (Allocation Failure) 2214M->1824M(5086M) 161.845ms
+[127.630s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 282336588 ns, Reaching safepoint: 190688 ns, At safepoint: 162132332 ns, Total: 162323020 ns
+[128.214s][info][gc       ] GC(425) Pause Young (Allocation Failure) 2624M->1824M(5284M) 322.465ms
+[128.215s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 261594749 ns, Reaching safepoint: 176493 ns, At safepoint: 322803408 ns, Total: 322979901 ns
+[128.599s][info][gc       ] GC(426) Pause Young (Allocation Failure) 2531M->1824M(5288M) 151.739ms
+[128.599s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 232467070 ns, Reaching safepoint: 222153 ns, At safepoint: 152046964 ns, Total: 152269117 ns
+[129.005s][info][gc       ] GC(427) Pause Young (Allocation Failure) 2531M->1824M(5288M) 158.745ms
+[129.005s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 246662235 ns, Reaching safepoint: 234008 ns, At safepoint: 159062060 ns, Total: 159296068 ns
+[129.401s][info][gc       ] GC(428) Pause Young (Allocation Failure) 2531M->1824M(5288M) 156.611ms
+[129.401s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 238857099 ns, Reaching safepoint: 230936 ns, At safepoint: 156908399 ns, Total: 157139335 ns
+[129.780s][info][gc       ] GC(429) Pause Young (Allocation Failure) 2531M->1824M(5288M) 156.757ms
+[129.780s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 221612855 ns, Reaching safepoint: 307271 ns, At safepoint: 157066567 ns, Total: 157373838 ns
+[130.182s][info][gc       ] GC(430) Pause Young (Allocation Failure) 2531M->1824M(5288M) 156.594ms
+[130.182s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 244810947 ns, Reaching safepoint: 187892 ns, At safepoint: 156971240 ns, Total: 157159132 ns
+[130.603s][info][gc       ] GC(431) Pause Young (Allocation Failure) 2531M->1826M(5288M) 188.720ms
+[130.603s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 231753649 ns, Reaching safepoint: 185642 ns, At safepoint: 189004740 ns, Total: 189190382 ns
+[130.854s][info][gc       ] GC(432) Pause Young (Allocation Failure) 2533M->1826M(5288M) 6.404ms
+[130.855s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 244337181 ns, Reaching safepoint: 184556 ns, At safepoint: 6943341 ns, Total: 7127897 ns
+[131.092s][info][gc       ] GC(433) Pause Young (Allocation Failure) 2533M->1826M(5288M) 6.767ms
+[131.092s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 230412924 ns, Reaching safepoint: 153478 ns, At safepoint: 7227159 ns, Total: 7380637 ns
+[131.324s][info][gc       ] GC(434) Pause Young (Allocation Failure) 2533M->1826M(5288M) 6.727ms
+[131.325s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 224773971 ns, Reaching safepoint: 255990 ns, At safepoint: 7291784 ns, Total: 7547774 ns
+[131.557s][info][gc       ] GC(435) Pause Young (Allocation Failure) 2533M->1826M(5288M) 6.467ms
+[131.557s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 225096887 ns, Reaching safepoint: 179365 ns, At safepoint: 7023352 ns, Total: 7202717 ns
+[131.786s][info][gc       ] GC(436) Pause Young (Allocation Failure) 2533M->1826M(4583M) 6.573ms
+[131.787s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 222605983 ns, Reaching safepoint: 174165 ns, At safepoint: 7059173 ns, Total: 7233338 ns
+[132.009s][info][gc       ] GC(437) Pause Young (Allocation Failure) 2533M->1826M(5303M) 6.590ms
+[132.010s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 215788611 ns, Reaching safepoint: 181273 ns, At safepoint: 7128368 ns, Total: 7309641 ns
+[132.245s][info][gc       ] GC(438) Pause Young (Allocation Failure) 2560M->1826M(4610M) 6.729ms
+[132.245s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 227738308 ns, Reaching safepoint: 162129 ns, At safepoint: 7294908 ns, Total: 7457037 ns
+[132.485s][info][gc       ] GC(439) Pause Young (Allocation Failure) 2560M->1826M(5269M) 6.581ms
+[132.485s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 232918180 ns, Reaching safepoint: 310334 ns, At safepoint: 6988127 ns, Total: 7298461 ns
+[132.736s][info][gc       ] GC(440) Pause Young (Allocation Failure) 2614M->1826M(5270M) 6.574ms
+[132.736s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 243513308 ns, Reaching safepoint: 209638 ns, At safepoint: 7137838 ns, Total: 7347476 ns
+[132.987s][info][gc       ] GC(441) Pause Young (Allocation Failure) 2614M->1826M(5221M) 6.509ms
+[132.987s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 243537527 ns, Reaching safepoint: 198895 ns, At safepoint: 7075924 ns, Total: 7274819 ns
+[133.253s][info][gc       ] GC(442) Pause Young (Allocation Failure) 2660M->1826M(5256M) 7.187ms
+[133.253s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 258369728 ns, Reaching safepoint: 186467 ns, At safepoint: 7778791 ns, Total: 7965258 ns
+[133.523s][info][gc       ] GC(443) Pause Young (Allocation Failure) 2660M->1826M(5207M) 6.633ms
+[133.524s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 262855791 ns, Reaching safepoint: 329151 ns, At safepoint: 7195175 ns, Total: 7524326 ns
+[133.806s][info][gc       ] GC(444) Pause Young (Allocation Failure) 2702M->1826M(5239M) 6.789ms
+[133.807s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 275674794 ns, Reaching safepoint: 174412 ns, At safepoint: 7282316 ns, Total: 7456728 ns
+[134.086s][info][gc       ] GC(445) Pause Young (Allocation Failure) 2702M->1826M(5189M) 6.623ms
+[134.087s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 272577327 ns, Reaching safepoint: 179782 ns, At safepoint: 7232334 ns, Total: 7412116 ns
+[134.380s][info][gc       ] GC(446) Pause Young (Allocation Failure) 2740M->1826M(5220M) 6.553ms
+[134.380s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 286069447 ns, Reaching safepoint: 155691 ns, At safepoint: 7100553 ns, Total: 7256244 ns
+[134.661s][info][gc       ] GC(447) Pause Young (Allocation Failure) 2740M->1826M(5176M) 6.685ms
+[134.662s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 274281545 ns, Reaching safepoint: 242475 ns, At safepoint: 7134784 ns, Total: 7377259 ns
+[134.958s][info][gc       ] GC(448) Pause Young (Allocation Failure) 2776M->1826M(5204M) 6.657ms
+[134.958s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 289099535 ns, Reaching safepoint: 297996 ns, At safepoint: 7185681 ns, Total: 7483677 ns
+[135.252s][info][gc       ] GC(449) Pause Young (Allocation Failure) 2776M->1826M(5165M) 6.747ms
+[135.252s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 286317796 ns, Reaching safepoint: 205286 ns, At safepoint: 7179962 ns, Total: 7385248 ns
+[135.590s][info][gc       ] GC(450) Pause Young (Allocation Failure) 2811M->1826M(5190M) 6.727ms
+[135.590s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 330473707 ns, Reaching safepoint: 211260 ns, At safepoint: 7268194 ns, Total: 7479454 ns
+[135.896s][info][gc       ] GC(451) Pause Young (Allocation Failure) 2811M->1826M(5158M) 6.868ms
+[135.896s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 298150287 ns, Reaching safepoint: 373092 ns, At safepoint: 7264347 ns, Total: 7637439 ns
+[136.210s][info][gc       ] GC(452) Pause Young (Allocation Failure) 2844M->1826M(5180M) 6.648ms
+[136.210s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 306753702 ns, Reaching safepoint: 172187 ns, At safepoint: 7211239 ns, Total: 7383426 ns
+[136.523s][info][gc       ] GC(453) Pause Young (Allocation Failure) 2844M->1826M(5155M) 6.734ms
+[136.524s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 306343071 ns, Reaching safepoint: 179387 ns, At safepoint: 7329982 ns, Total: 7509369 ns
+[136.846s][info][gc       ] GC(454) Pause Young (Allocation Failure) 2878M->1826M(5175M) 6.518ms
+[136.846s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 315043074 ns, Reaching safepoint: 178432 ns, At safepoint: 7093097 ns, Total: 7271529 ns
+[137.172s][info][gc       ] GC(455) Pause Young (Allocation Failure) 2878M->1826M(5156M) 6.714ms
+[137.173s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 319100585 ns, Reaching safepoint: 177809 ns, At safepoint: 7286909 ns, Total: 7464718 ns
+[137.533s][info][gc       ] GC(456) Pause Young (Allocation Failure) 2911M->1826M(5174M) 7.504ms
+[137.534s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 352829176 ns, Reaching safepoint: 171266 ns, At safepoint: 7902246 ns, Total: 8073512 ns
+[137.889s][info][gc       ] GC(457) Pause Young (Allocation Failure) 2911M->1826M(5161M) 6.305ms
+[137.890s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 348774253 ns, Reaching safepoint: 318376 ns, At safepoint: 6892234 ns, Total: 7210610 ns
+[138.237s][info][gc       ] GC(458) Pause Young (Allocation Failure) 2944M->1826M(5177M) 6.259ms
+[138.237s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 340359234 ns, Reaching safepoint: 206765 ns, At safepoint: 6865580 ns, Total: 7072345 ns
+[138.583s][info][gc       ] GC(459) Pause Young (Allocation Failure) 2944M->1826M(5170M) 6.315ms
+[138.583s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 339016906 ns, Reaching safepoint: 183629 ns, At safepoint: 6865762 ns, Total: 7049391 ns
+[138.950s][info][gc       ] GC(460) Pause Young (Allocation Failure) 2977M->2416M(5183M) 137.074ms
+[138.951s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 230033116 ns, Reaching safepoint: 192564 ns, At safepoint: 137596648 ns, Total: 137789212 ns
+[139.612s][info][gc       ] GC(461) Pause Young (Allocation Failure) 3567M->3498M(4938M) 518.224ms
+[140.821s][info][gc       ] GC(462) Pause Full (Ergonomics) 3498M->1658M(5652M) 1208.904ms
+[140.821s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 142370616 ns, Reaching safepoint: 205495 ns, At safepoint: 1727924474 ns, Total: 1728129969 ns
+[141.274s][info][gc       ] GC(463) Pause Young (Allocation Failure) 2365M->1802M(5652M) 152.874ms
+[141.275s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 299606994 ns, Reaching safepoint: 208176 ns, At safepoint: 153341542 ns, Total: 153549718 ns
+[141.584s][info][gc       ] GC(464) Pause Young (Allocation Failure) 2509M->1802M(5090M) 88.006ms
+[141.585s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 221223330 ns, Reaching safepoint: 186040 ns, At safepoint: 88749001 ns, Total: 88935041 ns
+[141.922s][info][gc       ] GC(465) Pause Young (Allocation Failure) 2509M->1802M(5652M) 113.611ms
+[141.922s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223048849 ns, Reaching safepoint: 216360 ns, At safepoint: 114173231 ns, Total: 114389591 ns
+[142.246s][info][gc       ] GC(466) Pause Young (Allocation Failure) 2551M->1802M(5609M) 87.997ms
+[142.246s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 235213416 ns, Reaching safepoint: 174800 ns, At safepoint: 88636867 ns, Total: 88811667 ns
+[142.584s][info][gc       ] GC(467) Pause Young (Allocation Failure) 2551M->1802M(5627M) 90.196ms
+[142.585s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 247740188 ns, Reaching safepoint: 160534 ns, At safepoint: 90833088 ns, Total: 90993622 ns
+[142.939s][info][gc       ] GC(468) Pause Young (Allocation Failure) 2658M->1802M(5641M) 89.075ms
+[142.940s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 264892358 ns, Reaching safepoint: 206207 ns, At safepoint: 89622092 ns, Total: 89828299 ns
+[143.339s][info][gc       ] GC(469) Pause Young (Allocation Failure) 2658M->1802M(5672M) 124.856ms
+[143.340s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 274422054 ns, Reaching safepoint: 197159 ns, At safepoint: 125379996 ns, Total: 125577155 ns
+[143.757s][info][gc       ] GC(470) Pause Young (Allocation Failure) 2782M->1802M(5701M) 96.005ms
+[143.757s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 320576243 ns, Reaching safepoint: 206329 ns, At safepoint: 96645345 ns, Total: 96851674 ns
+[144.071s][info][gc       ] GC(471) Pause Young (Allocation Failure) 2782M->1802M(5797M) 3.049ms
+[144.071s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 310325119 ns, Reaching safepoint: 203827 ns, At safepoint: 3525294 ns, Total: 3729121 ns
+[144.406s][info][gc       ] GC(472) Pause Young (Allocation Failure) 2909M->1802M(5817M) 3.375ms
+[144.407s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 331365057 ns, Reaching safepoint: 166382 ns, At safepoint: 3908228 ns, Total: 4074610 ns
+[144.750s][info][gc       ] GC(473) Pause Young (Allocation Failure) 2909M->1802M(5851M) 3.135ms
+[144.751s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 340138113 ns, Reaching safepoint: 202153 ns, At safepoint: 3749347 ns, Total: 3951500 ns
+[145.110s][info][gc       ] GC(474) Pause Young (Allocation Failure) 2990M->1802M(5873M) 2.959ms
+[145.110s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 355859520 ns, Reaching safepoint: 190009 ns, At safepoint: 3414405 ns, Total: 3604414 ns
+[145.473s][info][gc       ] GC(475) Pause Young (Allocation Failure) 2990M->1802M(5871M) 3.118ms
+[145.473s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 358978106 ns, Reaching safepoint: 188231 ns, At safepoint: 3676817 ns, Total: 3865048 ns
+[145.849s][info][gc       ] GC(476) Pause Young (Allocation Failure) 3043M->1802M(5895M) 3.141ms
+[145.850s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 372509495 ns, Reaching safepoint: 195839 ns, At safepoint: 3766372 ns, Total: 3962211 ns
+[146.226s][info][gc       ] GC(477) Pause Young (Allocation Failure) 3043M->1802M(5902M) 3.405ms
+[146.227s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 372792665 ns, Reaching safepoint: 187991 ns, At safepoint: 4015119 ns, Total: 4203110 ns
+[146.624s][info][gc       ] GC(478) Pause Young (Allocation Failure) 3110M->1802M(5925M) 3.221ms
+[146.625s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 394438016 ns, Reaching safepoint: 197290 ns, At safepoint: 3716116 ns, Total: 3913406 ns
+[147.056s][info][gc       ] GC(479) Pause Young (Allocation Failure) 3110M->1802M(5913M) 3.429ms
+[147.056s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 427295428 ns, Reaching safepoint: 323368 ns, At safepoint: 3886691 ns, Total: 4210059 ns
+[147.477s][info][gc       ] GC(480) Pause Young (Allocation Failure) 3163M->1802M(5941M) 3.029ms
+[147.478s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 417635578 ns, Reaching safepoint: 201127 ns, At safepoint: 3505930 ns, Total: 3707057 ns
+[147.897s][info][gc       ] GC(481) Pause Young (Allocation Failure) 3163M->1802M(5921M) 3.107ms
+[147.897s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 415485297 ns, Reaching safepoint: 192537 ns, At safepoint: 3661994 ns, Total: 3854531 ns
+[148.330s][info][gc       ] GC(482) Pause Young (Allocation Failure) 3204M->1802M(5945M) 2.947ms
+[148.331s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 429795158 ns, Reaching safepoint: 202191 ns, At safepoint: 3517467 ns, Total: 3719658 ns
+[148.765s][info][gc       ] GC(483) Pause Young (Allocation Failure) 3204M->1802M(5921M) 3.685ms
+[148.765s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 430321118 ns, Reaching safepoint: 167425 ns, At safepoint: 4179170 ns, Total: 4346595 ns
+[149.198s][info][gc       ] GC(484) Pause Young (Allocation Failure) 3236M->1802M(5942M) 3.129ms
+[149.199s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 429517420 ns, Reaching safepoint: 178610 ns, At safepoint: 3615307 ns, Total: 3793917 ns
+[149.637s][info][gc       ] GC(485) Pause Young (Allocation Failure) 3236M->1802M(5917M) 3.180ms
+[149.637s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 434884670 ns, Reaching safepoint: 189113 ns, At safepoint: 3706020 ns, Total: 3895133 ns
+[150.089s][info][gc       ] GC(486) Pause Young (Allocation Failure) 3262M->1802M(5936M) 3.191ms
+[150.089s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 447945941 ns, Reaching safepoint: 202561 ns, At safepoint: 3642436 ns, Total: 3844997 ns
+[150.530s][info][gc       ] GC(487) Pause Young (Allocation Failure) 3262M->1802M(5914M) 3.562ms
+[150.530s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 436907358 ns, Reaching safepoint: 169613 ns, At safepoint: 4207253 ns, Total: 4376866 ns
+[150.983s][info][gc       ] GC(488) Pause Young (Allocation Failure) 3286M->1802M(5929M) 3.244ms
+[150.984s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 449373404 ns, Reaching safepoint: 222641 ns, At safepoint: 3799358 ns, Total: 4021999 ns
+[151.414s][info][gc       ] GC(489) Pause Young (Allocation Failure) 3286M->2011M(5885M) 35.108ms
+[151.415s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 394927722 ns, Reaching safepoint: 173948 ns, At safepoint: 35775561 ns, Total: 35949509 ns
+[151.948s][info][gc       ] GC(490) Pause Young (Allocation Failure) 3465M->3381M(5938M) 367.624ms
+[153.217s][info][gc       ] GC(491) Pause Full (Ergonomics) 3381M->1574M(5366M) 1268.930ms
+[153.218s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 165376269 ns, Reaching safepoint: 165602 ns, At safepoint: 1637465751 ns, Total: 1637631353 ns
+[153.692s][info][gc       ] GC(492) Pause Young (Allocation Failure) 2281M->1803M(5652M) 181.787ms
+[153.692s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 292022790 ns, Reaching safepoint: 186181 ns, At safepoint: 182066924 ns, Total: 182253105 ns
+[154.090s][info][gc       ] GC(493) Pause Young (Allocation Failure) 2510M->1803M(5637M) 173.451ms
+[154.090s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 224401611 ns, Reaching safepoint: 186440 ns, At safepoint: 173712283 ns, Total: 173898723 ns
+[154.500s][info][gc       ] GC(494) Pause Young (Allocation Failure) 2510M->1803M(5174M) 178.559ms
+[154.500s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 231050913 ns, Reaching safepoint: 195067 ns, At safepoint: 178902065 ns, Total: 179097132 ns
+[154.894s][info][gc       ] GC(495) Pause Young (Allocation Failure) 2510M->1803M(5663M) 172.671ms
+[154.894s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 220782116 ns, Reaching safepoint: 207277 ns, At safepoint: 173037354 ns, Total: 173244631 ns
+[155.325s][info][gc       ] GC(496) Pause Young (Allocation Failure) 2568M->1803M(5627M) 175.195ms
+[155.325s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 255016413 ns, Reaching safepoint: 158261 ns, At safepoint: 175440957 ns, Total: 175599218 ns
+[155.747s][info][gc       ] GC(497) Pause Young (Allocation Failure) 2568M->1803M(5683M) 183.307ms
+[155.747s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 237925577 ns, Reaching safepoint: 208021 ns, At safepoint: 183655597 ns, Total: 183863618 ns
+[156.197s][info][gc       ] GC(498) Pause Young (Allocation Failure) 2670M->1803M(5666M) 175.682ms
+[156.197s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 273872462 ns, Reaching safepoint: 206848 ns, At safepoint: 175998185 ns, Total: 176205033 ns
+[156.667s][info][gc       ] GC(499) Pause Young (Allocation Failure) 2670M->1803M(5749M) 190.261ms
+[156.668s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 279872207 ns, Reaching safepoint: 307991 ns, At safepoint: 190515997 ns, Total: 190823988 ns
+[156.997s][info][gc       ] GC(500) Pause Young (Allocation Failure) 2782M->1803M(5753M) 9.305ms
+[156.998s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 320130441 ns, Reaching safepoint: 239458 ns, At safepoint: 9933871 ns, Total: 10173329 ns
+[157.315s][info][gc       ] GC(501) Pause Young (Allocation Failure) 2782M->1803M(5807M) 8.147ms
+[157.316s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 309001359 ns, Reaching safepoint: 200973 ns, At safepoint: 8648765 ns, Total: 8849738 ns
+[157.647s][info][gc       ] GC(502) Pause Young (Allocation Failure) 2854M->1803M(5815M) 8.383ms
+[157.647s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 322086508 ns, Reaching safepoint: 361121 ns, At safepoint: 8823996 ns, Total: 9185117 ns
+[157.973s][info][gc       ] GC(503) Pause Young (Allocation Failure) 2854M->1803M(5806M) 8.798ms
+[157.973s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 316888708 ns, Reaching safepoint: 211971 ns, At safepoint: 9210129 ns, Total: 9422100 ns
+[158.316s][info][gc       ] GC(504) Pause Young (Allocation Failure) 2881M->1803M(5818M) 8.226ms
+[158.316s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 334297357 ns, Reaching safepoint: 202944 ns, At safepoint: 8621636 ns, Total: 8824580 ns
+[158.651s][info][gc       ] GC(505) Pause Young (Allocation Failure) 2881M->1803M(5825M) 8.267ms
+[158.652s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 326399294 ns, Reaching safepoint: 339313 ns, At safepoint: 8843392 ns, Total: 9182705 ns
+[159.017s][info][gc       ] GC(506) Pause Young (Allocation Failure) 2936M->1803M(5839M) 8.443ms
+[159.018s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 356383225 ns, Reaching safepoint: 197046 ns, At safepoint: 8895878 ns, Total: 9092924 ns
+[159.388s][info][gc       ] GC(507) Pause Young (Allocation Failure) 2936M->1803M(5857M) 8.239ms
+[159.389s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 362287482 ns, Reaching safepoint: 248290 ns, At safepoint: 8719859 ns, Total: 8968149 ns
+[159.758s][info][gc       ] GC(508) Pause Young (Allocation Failure) 3008M->1803M(5871M) 8.244ms
+[159.758s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 360782701 ns, Reaching safepoint: 194640 ns, At safepoint: 8725165 ns, Total: 8919805 ns
+[160.133s][info][gc       ] GC(509) Pause Young (Allocation Failure) 3008M->1803M(5875M) 8.441ms
+[160.133s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 365749308 ns, Reaching safepoint: 228208 ns, At safepoint: 8916204 ns, Total: 9144412 ns
+[160.530s][info][gc       ] GC(510) Pause Young (Allocation Failure) 3078M->1803M(5899M) 8.245ms
+[160.530s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 387917190 ns, Reaching safepoint: 179889 ns, At safepoint: 8751907 ns, Total: 8931796 ns
+[160.925s][info][gc       ] GC(511) Pause Young (Allocation Failure) 3078M->1803M(5893M) 8.407ms
+[160.926s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 386648099 ns, Reaching safepoint: 174727 ns, At safepoint: 9035376 ns, Total: 9210103 ns
+[161.346s][info][gc       ] GC(512) Pause Young (Allocation Failure) 3139M->1803M(5919M) 8.657ms
+[161.347s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 411134468 ns, Reaching safepoint: 200936 ns, At safepoint: 9211135 ns, Total: 9412071 ns
+[161.753s][info][gc       ] GC(513) Pause Young (Allocation Failure) 3139M->1803M(5912M) 8.530ms
+[161.754s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 398041776 ns, Reaching safepoint: 220534 ns, At safepoint: 9094249 ns, Total: 9314783 ns
+[162.182s][info][gc       ] GC(514) Pause Young (Allocation Failure) 3194M->1803M(5935M) 8.008ms
+[162.183s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 419900537 ns, Reaching safepoint: 229219 ns, At safepoint: 8498257 ns, Total: 8727476 ns
+[162.612s][info][gc       ] GC(515) Pause Young (Allocation Failure) 3194M->1803M(5930M) 8.522ms
+[162.612s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 420197189 ns, Reaching safepoint: 172631 ns, At safepoint: 9058956 ns, Total: 9231587 ns
+[163.060s][info][gc       ] GC(516) Pause Young (Allocation Failure) 3246M->1803M(5950M) 8.314ms
+[163.061s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 439536311 ns, Reaching safepoint: 246576 ns, At safepoint: 8694657 ns, Total: 8941233 ns
+[163.515s][info][gc       ] GC(517) Pause Young (Allocation Failure) 3246M->1803M(5946M) 8.314ms
+[163.515s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 445662736 ns, Reaching safepoint: 155186 ns, At safepoint: 8836055 ns, Total: 8991241 ns
+[163.966s][info][gc       ] GC(518) Pause Young (Allocation Failure) 3294M->1803M(5965M) 8.511ms
+[163.966s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 441939293 ns, Reaching safepoint: 185548 ns, At safepoint: 8907005 ns, Total: 9092553 ns
+[164.425s][info][gc       ] GC(519) Pause Young (Allocation Failure) 3294M->1803M(5966M) 8.713ms
+[164.426s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 450254191 ns, Reaching safepoint: 190231 ns, At safepoint: 9107059 ns, Total: 9297290 ns
+[164.933s][info][gc       ] GC(520) Pause Young (Allocation Failure) 3342M->2995M(5982M) 286.975ms
+[164.934s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 220485217 ns, Reaching safepoint: 186607 ns, At safepoint: 287349134 ns, Total: 287535741 ns
+[165.738s][info][gc       ] GC(521) Pause Young (Allocation Failure) 4534M->3560M(5322M) 337.139ms
+[166.979s][info][gc       ] GC(522) Pause Full (Ergonomics) 3560M->1658M(5652M) 1240.760ms
+[166.979s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 466722315 ns, Reaching safepoint: 182233 ns, At safepoint: 1578736264 ns, Total: 1578918497 ns
+[167.196s][info][gc       ] GC(523) Pause Young (Allocation Failure) 2365M->1658M(5652M) 2.067ms
+[167.196s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 214192875 ns, Reaching safepoint: 194757 ns, At safepoint: 2640624 ns, Total: 2835381 ns
+[167.411s][info][gc       ] GC(524) Pause Young (Allocation Failure) 2365M->1658M(5652M) 1.727ms
+[167.411s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 212441509 ns, Reaching safepoint: 181111 ns, At safepoint: 2254631 ns, Total: 2435742 ns
+[167.628s][info][gc       ] GC(525) Pause Young (Allocation Failure) 2365M->1658M(5652M) 1.771ms
+[167.628s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 214197052 ns, Reaching safepoint: 174418 ns, At safepoint: 2255304 ns, Total: 2429722 ns
+[167.844s][info][gc       ] GC(526) Pause Young (Allocation Failure) 2365M->1658M(4946M) 1.710ms
+[167.844s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 214005590 ns, Reaching safepoint: 184239 ns, At safepoint: 2193333 ns, Total: 2377572 ns
+[168.061s][info][gc       ] GC(527) Pause Young (Allocation Failure) 2365M->1658M(5652M) 1.858ms
+[168.061s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 214343015 ns, Reaching safepoint: 174830 ns, At safepoint: 2323366 ns, Total: 2498196 ns
+[168.287s][info][gc       ] GC(528) Pause Young (Allocation Failure) 2397M->1658M(5633M) 1.835ms
+[168.288s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223800859 ns, Reaching safepoint: 165288 ns, At safepoint: 2369141 ns, Total: 2534429 ns
+[168.513s][info][gc       ] GC(529) Pause Young (Allocation Failure) 2397M->1658M(5566M) 1.919ms
+[168.514s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 223799527 ns, Reaching safepoint: 167625 ns, At safepoint: 2493675 ns, Total: 2661300 ns
+[168.751s][info][gc       ] GC(530) Pause Young (Allocation Failure) 2436M->1658M(5606M) 1.759ms
+[168.751s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 235010470 ns, Reaching safepoint: 167683 ns, At safepoint: 2146174 ns, Total: 2313857 ns
+[168.988s][info][gc       ] GC(531) Pause Young (Allocation Failure) 2436M->1658M(5533M) 2.324ms
+[168.989s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 234650663 ns, Reaching safepoint: 151210 ns, At safepoint: 2830386 ns, Total: 2981596 ns
+[169.234s][info][gc       ] GC(532) Pause Young (Allocation Failure) 2466M->1658M(5047M) 1.924ms
+[169.234s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 242660374 ns, Reaching safepoint: 183978 ns, At safepoint: 2377385 ns, Total: 2561363 ns
+[169.485s][info][gc       ] GC(533) Pause Young (Allocation Failure) 2466M->1658M(5498M) 1.860ms
+[169.485s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 248336077 ns, Reaching safepoint: 208396 ns, At safepoint: 2379968 ns, Total: 2588364 ns
+[169.742s][info][gc       ] GC(534) Pause Young (Allocation Failure) 2488M->1658M(5070M) 2.191ms
+[169.743s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 254895580 ns, Reaching safepoint: 189185 ns, At safepoint: 2783690 ns, Total: 2972875 ns
+[169.998s][info][gc       ] GC(535) Pause Young (Allocation Failure) 2488M->1658M(5462M) 1.839ms
+[169.998s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 253032664 ns, Reaching safepoint: 165545 ns, At safepoint: 2279644 ns, Total: 2445189 ns
+[170.260s][info][gc       ] GC(536) Pause Young (Allocation Failure) 2506M->1658M(5088M) 1.916ms
+[170.260s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 258870048 ns, Reaching safepoint: 289863 ns, At safepoint: 2364460 ns, Total: 2654323 ns
+[170.529s][info][gc       ] GC(537) Pause Young (Allocation Failure) 2506M->1658M(5429M) 1.745ms
+[170.529s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 267102583 ns, Reaching safepoint: 194872 ns, At safepoint: 2166320 ns, Total: 2361192 ns
+[170.848s][info][gc       ] GC(538) Pause Young (Allocation Failure) 2521M->1658M(5103M) 1.708ms
+[170.848s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 316159173 ns, Reaching safepoint: 201730 ns, At safepoint: 2123176 ns, Total: 2324906 ns
+[171.110s][info][gc       ] GC(539) Pause Young (Allocation Failure) 2521M->1658M(5398M) 1.821ms
+[171.110s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 259708686 ns, Reaching safepoint: 274339 ns, At safepoint: 2457882 ns, Total: 2732221 ns
+[171.375s][info][gc       ] GC(540) Pause Young (Allocation Failure) 2534M->1658M(5115M) 1.776ms
+[171.375s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 262567788 ns, Reaching safepoint: 288607 ns, At safepoint: 2311084 ns, Total: 2599691 ns
+[171.641s][info][gc       ] GC(541) Pause Young (Allocation Failure) 2534M->1658M(5370M) 1.610ms
+[171.641s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 263383377 ns, Reaching safepoint: 212370 ns, At safepoint: 2109783 ns, Total: 2322153 ns
+[171.912s][info][gc       ] GC(542) Pause Young (Allocation Failure) 2545M->1658M(5127M) 1.803ms
+[171.912s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 268505579 ns, Reaching safepoint: 154248 ns, At safepoint: 2260427 ns, Total: 2414675 ns
+[172.189s][info][gc       ] GC(543) Pause Young (Allocation Failure) 2545M->1658M(5348M) 2.041ms
+[172.190s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 274825144 ns, Reaching safepoint: 181039 ns, At safepoint: 2595113 ns, Total: 2776152 ns
+[172.471s][info][gc       ] GC(544) Pause Young (Allocation Failure) 2557M->1658M(5138M) 1.607ms
+[172.472s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 279751087 ns, Reaching safepoint: 178704 ns, At safepoint: 1888878 ns, Total: 2067582 ns
+[172.786s][info][gc       ] GC(545) Pause Young (Allocation Failure) 2557M->1658M(5328M) 2.156ms
+[172.786s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 311828118 ns, Reaching safepoint: 206352 ns, At safepoint: 2580201 ns, Total: 2786553 ns
+[173.065s][info][gc       ] GC(546) Pause Young (Allocation Failure) 2568M->1658M(5149M) 1.772ms
+[173.066s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 276882580 ns, Reaching safepoint: 362506 ns, At safepoint: 2282394 ns, Total: 2644900 ns
+[173.339s][info][gc       ] GC(547) Pause Young (Allocation Failure) 2568M->1658M(5314M) 1.874ms
+[173.340s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 271580331 ns, Reaching safepoint: 187961 ns, At safepoint: 2436231 ns, Total: 2624192 ns
+[173.619s][info][gc       ] GC(548) Pause Young (Allocation Failure) 2579M->1658M(5160M) 1.823ms
+[173.620s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 277156026 ns, Reaching safepoint: 268055 ns, At safepoint: 2410636 ns, Total: 2678691 ns
+[173.898s][info][gc       ] GC(549) Pause Young (Allocation Failure) 2579M->1658M(5301M) 1.805ms
+[173.898s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 276171381 ns, Reaching safepoint: 183022 ns, At safepoint: 2248458 ns, Total: 2431480 ns
+[174.185s][info][gc       ] GC(550) Pause Young (Allocation Failure) 2590M->1658M(5171M) 1.701ms
+[174.186s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 285062310 ns, Reaching safepoint: 194148 ns, At safepoint: 2108396 ns, Total: 2302544 ns
+[174.479s][info][gc       ] GC(551) Pause Young (Allocation Failure) 2590M->1658M(5293M) 1.811ms
+[174.479s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 291133369 ns, Reaching safepoint: 241671 ns, At safepoint: 2359155 ns, Total: 2600826 ns
+[174.777s][info][gc       ] GC(552) Pause Young (Allocation Failure) 2600M->1658M(5303M) 1.985ms
+[174.777s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 294901299 ns, Reaching safepoint: 197501 ns, At safepoint: 2532246 ns, Total: 2729747 ns
+[175.068s][info][gc       ] GC(553) Pause Young (Allocation Failure) 2600M->1658M(5287M) 2.362ms
+[175.069s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 288547442 ns, Reaching safepoint: 181641 ns, At safepoint: 2919189 ns, Total: 3100830 ns
+[175.351s][info][gc       ] GC(554) Pause Young (Allocation Failure) 2612M->1658M(5296M) 2.029ms
+[175.352s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 280352270 ns, Reaching safepoint: 204253 ns, At safepoint: 2505869 ns, Total: 2710122 ns
+[175.641s][info][gc       ] GC(555) Pause Young (Allocation Failure) 2612M->1658M(5284M) 1.775ms
+[175.642s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 287509599 ns, Reaching safepoint: 265606 ns, At safepoint: 2173229 ns, Total: 2438835 ns
+[175.931s][info][gc       ] GC(556) Pause Young (Allocation Failure) 2623M->1658M(5292M) 1.886ms
+[175.931s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 286837642 ns, Reaching safepoint: 175397 ns, At safepoint: 2448039 ns, Total: 2623436 ns
+[176.218s][info][gc       ] GC(557) Pause Young (Allocation Failure) 2623M->1658M(5283M) 1.845ms
+[176.219s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 284787077 ns, Reaching safepoint: 201772 ns, At safepoint: 2441403 ns, Total: 2643175 ns
+[176.548s][info][gc       ] GC(558) Pause Young (Allocation Failure) 2635M->2420M(5290M) 190.309ms
+[176.548s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 138822774 ns, Reaching safepoint: 194795 ns, At safepoint: 190722048 ns, Total: 190916843 ns
+[177.071s][info][gc       ] GC(559) Pause Young (Allocation Failure) 3397M->3342M(5366M) 384.742ms
+[178.432s][info][gc       ] GC(560) Pause Full (Ergonomics) 3342M->1658M(5679M) 1360.412ms
+[178.432s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 137776884 ns, Reaching safepoint: 160803 ns, At safepoint: 1746045152 ns, Total: 1746205955 ns
+[178.832s][info][gc       ] GC(561) Pause Young (Allocation Failure) 2438M->1789M(5614M) 85.459ms
+[178.832s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 313601096 ns, Reaching safepoint: 194918 ns, At safepoint: 86094096 ns, Total: 86289014 ns
+[179.160s][info][gc       ] GC(562) Pause Young (Allocation Failure) 2589M->1789M(5656M) 80.612ms
+[179.161s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 247438974 ns, Reaching safepoint: 189010 ns, At safepoint: 81256493 ns, Total: 81445503 ns
+[179.489s][info][gc       ] GC(563) Pause Young (Allocation Failure) 2589M->1789M(5658M) 80.886ms
+[179.490s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 246797966 ns, Reaching safepoint: 243327 ns, At safepoint: 81452955 ns, Total: 81696282 ns
+[179.849s][info][gc       ] GC(564) Pause Young (Allocation Failure) 2700M->1789M(5693M) 80.092ms
+[179.850s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 278984157 ns, Reaching safepoint: 183509 ns, At safepoint: 80764157 ns, Total: 80947666 ns
+[180.214s][info][gc       ] GC(565) Pause Young (Allocation Failure) 2700M->1789M(5723M) 80.919ms
+[180.215s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 283809810 ns, Reaching safepoint: 159046 ns, At safepoint: 81515624 ns, Total: 81674670 ns
+[180.643s][info][gc       ] GC(566) Pause Young (Allocation Failure) 2825M->1789M(5754M) 105.355ms
+[180.643s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 322063729 ns, Reaching safepoint: 202365 ns, At safepoint: 105787798 ns, Total: 105990163 ns
+[181.042s][info][gc       ] GC(567) Pause Young (Allocation Failure) 2825M->1789M(5814M) 81.930ms
+[181.043s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 316763746 ns, Reaching safepoint: 180547 ns, At safepoint: 82598401 ns, Total: 82778948 ns
+[181.493s][info][gc       ] GC(568) Pause Young (Allocation Failure) 2966M->1789M(5842M) 86.193ms
+[181.494s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 363963504 ns, Reaching safepoint: 346371 ns, At safepoint: 86796588 ns, Total: 87142959 ns
+[181.858s][info][gc       ] GC(569) Pause Young (Allocation Failure) 2966M->1789M(5919M) 2.897ms
+[181.859s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 361410524 ns, Reaching safepoint: 196763 ns, At safepoint: 3369798 ns, Total: 3566561 ns
+[182.262s][info][gc       ] GC(570) Pause Young (Allocation Failure) 3059M->1789M(5927M) 3.145ms
+[182.263s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 399849318 ns, Reaching safepoint: 192134 ns, At safepoint: 3775156 ns, Total: 3967290 ns
+[182.647s][info][gc       ] GC(571) Pause Young (Allocation Failure) 3059M->1789M(5919M) 3.304ms
+[182.647s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 380599817 ns, Reaching safepoint: 186476 ns, At safepoint: 3809661 ns, Total: 3996137 ns
+[183.042s][info][gc       ] GC(572) Pause Young (Allocation Failure) 3081M->1789M(5929M) 2.981ms
+[183.043s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 391667699 ns, Reaching safepoint: 223020 ns, At safepoint: 3549306 ns, Total: 3772326 ns
+[183.435s][info][gc       ] GC(573) Pause Young (Allocation Failure) 3081M->1789M(5934M) 3.039ms
+[183.436s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 389189504 ns, Reaching safepoint: 193470 ns, At safepoint: 3588720 ns, Total: 3782190 ns
+[183.850s][info][gc       ] GC(574) Pause Young (Allocation Failure) 3125M->1789M(5945M) 3.056ms
+[183.851s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 411318980 ns, Reaching safepoint: 302689 ns, At safepoint: 3687237 ns, Total: 3989926 ns
+[184.256s][info][gc       ] GC(575) Pause Young (Allocation Failure) 3125M->1789M(5960M) 3.098ms
+[184.257s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 402251172 ns, Reaching safepoint: 255916 ns, At safepoint: 3652067 ns, Total: 3907983 ns
+[184.689s][info][gc       ] GC(576) Pause Young (Allocation Failure) 3182M->1789M(5971M) 2.876ms
+[184.689s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 428771350 ns, Reaching safepoint: 202032 ns, At safepoint: 3443117 ns, Total: 3645149 ns
+[185.116s][info][gc       ] GC(577) Pause Young (Allocation Failure) 3182M->1789M(5962M) 2.852ms
+[185.116s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 423345294 ns, Reaching safepoint: 176017 ns, At safepoint: 3471576 ns, Total: 3647593 ns
+[185.556s][info][gc       ] GC(578) Pause Young (Allocation Failure) 3232M->1789M(5988M) 3.090ms
+[185.557s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 436750217 ns, Reaching safepoint: 184992 ns, At safepoint: 3573189 ns, Total: 3758181 ns
+[185.997s][info][gc       ] GC(579) Pause Young (Allocation Failure) 3232M->1789M(5972M) 3.160ms
+[185.998s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 436898467 ns, Reaching safepoint: 289133 ns, At safepoint: 3782430 ns, Total: 4071563 ns
+[186.446s][info][gc       ] GC(580) Pause Young (Allocation Failure) 3270M->1789M(5994M) 2.936ms
+[186.447s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 445130543 ns, Reaching safepoint: 175720 ns, At safepoint: 3430732 ns, Total: 3606452 ns
+[186.895s][info][gc       ] GC(581) Pause Young (Allocation Failure) 3270M->1789M(5973M) 3.093ms
+[186.895s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 444651778 ns, Reaching safepoint: 179860 ns, At safepoint: 3560239 ns, Total: 3740099 ns
+[187.353s][info][gc       ] GC(582) Pause Young (Allocation Failure) 3300M->1789M(5992M) 3.135ms
+[187.354s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 454967087 ns, Reaching safepoint: 197517 ns, At safepoint: 3609952 ns, Total: 3807469 ns
+[187.820s][info][gc       ] GC(583) Pause Young (Allocation Failure) 3300M->1789M(5972M) 2.869ms
+[187.821s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 463232390 ns, Reaching safepoint: 215156 ns, At safepoint: 3445141 ns, Total: 3660297 ns
+[188.273s][info][gc       ] GC(584) Pause Young (Allocation Failure) 3325M->1789M(5988M) 3.006ms
+[188.274s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 449062468 ns, Reaching safepoint: 197870 ns, At safepoint: 3643479 ns, Total: 3841349 ns
+[188.777s][info][gc       ] GC(585) Pause Young (Allocation Failure) 3325M->1906M(5981M) 60.112ms
+[188.777s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 442688688 ns, Reaching safepoint: 330495 ns, At safepoint: 60845240 ns, Total: 61175735 ns
+[189.328s][info][gc       ] GC(586) Pause Young (Allocation Failure) 3449M->3358M(5998M) 378.035ms
+[190.562s][info][gc       ] GC(587) Pause Full (Ergonomics) 3358M->1563M(5306M) 1233.643ms
+[190.563s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 172389963 ns, Reaching safepoint: 170702 ns, At safepoint: 1612592249 ns, Total: 1612762951 ns
+[191.045s][info][gc       ] GC(588) Pause Young (Allocation Failure) 2270M->1802M(5652M) 191.739ms
+[191.045s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 290055197 ns, Reaching safepoint: 196239 ns, At safepoint: 191995215 ns, Total: 192191454 ns
+[191.451s][info][gc       ] GC(589) Pause Young (Allocation Failure) 2509M->1802M(5620M) 185.761ms
+[191.451s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 220050650 ns, Reaching safepoint: 199664 ns, At safepoint: 186002287 ns, Total: 186201951 ns
+[191.866s][info][gc       ] GC(590) Pause Young (Allocation Failure) 2509M->1802M(5636M) 180.157ms
+[191.867s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 234934285 ns, Reaching safepoint: 246702 ns, At safepoint: 180516779 ns, Total: 180763481 ns
+[192.277s][info][gc       ] GC(591) Pause Young (Allocation Failure) 2509M->1802M(5623M) 185.230ms
+[192.277s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 224418373 ns, Reaching safepoint: 270295 ns, At safepoint: 185480339 ns, Total: 185750634 ns
+[192.706s][info][gc       ] GC(592) Pause Young (Allocation Failure) 2575M->1802M(5636M) 187.964ms
+[192.707s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 241323039 ns, Reaching safepoint: 200395 ns, At safepoint: 188264138 ns, Total: 188464533 ns
+[193.156s][info][gc       ] GC(593) Pause Young (Allocation Failure) 2575M->1802M(5684M) 191.990ms
+[193.156s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 256814550 ns, Reaching safepoint: 193402 ns, At safepoint: 192270582 ns, Total: 192463984 ns
+[193.621s][info][gc       ] GC(594) Pause Young (Allocation Failure) 2696M->1802M(5700M) 185.251ms
+[193.622s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 279997418 ns, Reaching safepoint: 191968 ns, At safepoint: 185543769 ns, Total: 185735737 ns
+[194.123s][info][gc       ] GC(595) Pause Young (Allocation Failure) 2696M->1802M(5778M) 204.618ms
+[194.124s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 296693348 ns, Reaching safepoint: 191311 ns, At safepoint: 204866917 ns, Total: 205058228 ns
+[194.445s][info][gc       ] GC(596) Pause Young (Allocation Failure) 2800M->1802M(5782M) 8.297ms
+[194.445s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 312649253 ns, Reaching safepoint: 227420 ns, At safepoint: 8815022 ns, Total: 9042442 ns
+[194.768s][info][gc       ] GC(597) Pause Young (Allocation Failure) 2800M->1802M(5798M) 8.209ms
+[194.768s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 314244409 ns, Reaching safepoint: 202348 ns, At safepoint: 8688992 ns, Total: 8891340 ns
+[195.102s][info][gc       ] GC(598) Pause Young (Allocation Failure) 2834M->1802M(5806M) 8.622ms
+[195.102s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 324419493 ns, Reaching safepoint: 207249 ns, At safepoint: 9040236 ns, Total: 9247485 ns
+[195.427s][info][gc       ] GC(599) Pause Young (Allocation Failure) 2834M->1802M(5797M) 8.363ms
+[195.427s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 316045625 ns, Reaching safepoint: 200323 ns, At safepoint: 8866863 ns, Total: 9067186 ns
+[195.757s][info][gc       ] GC(600) Pause Young (Allocation Failure) 2862M->1802M(5808M) 8.473ms
+[195.757s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 321013870 ns, Reaching safepoint: 164478 ns, At safepoint: 8938960 ns, Total: 9103438 ns
+[196.089s][info][gc       ] GC(601) Pause Young (Allocation Failure) 2862M->1802M(5816M) 8.322ms
+[196.089s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 322731885 ns, Reaching safepoint: 182390 ns, At safepoint: 8825488 ns, Total: 9007878 ns
+[196.435s][info][gc       ] GC(602) Pause Young (Allocation Failure) 2919M->1802M(5829M) 8.311ms
+[196.436s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 337810910 ns, Reaching safepoint: 186754 ns, At safepoint: 8754092 ns, Total: 8940846 ns
+[196.782s][info][gc       ] GC(603) Pause Young (Allocation Failure) 2919M->1802M(5849M) 8.297ms
+[196.783s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 338109343 ns, Reaching safepoint: 275717 ns, At safepoint: 8662417 ns, Total: 8938134 ns
+[197.151s][info][gc       ] GC(604) Pause Young (Allocation Failure) 2993M->1802M(5863M) 8.051ms
+[197.151s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 359437889 ns, Reaching safepoint: 349004 ns, At safepoint: 8578261 ns, Total: 8927265 ns
+[197.519s][info][gc       ] GC(605) Pause Young (Allocation Failure) 2993M->1802M(5866M) 8.193ms
+[197.519s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 359157996 ns, Reaching safepoint: 187321 ns, At safepoint: 8821298 ns, Total: 9008619 ns
+[197.909s][info][gc       ] GC(606) Pause Young (Allocation Failure) 3063M->1802M(5892M) 8.693ms
+[197.909s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 380496524 ns, Reaching safepoint: 207866 ns, At safepoint: 9126210 ns, Total: 9334076 ns
+[198.295s][info][gc       ] GC(607) Pause Young (Allocation Failure) 3063M->1802M(5885M) 8.299ms
+[198.295s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 376794743 ns, Reaching safepoint: 234386 ns, At safepoint: 8836034 ns, Total: 9070420 ns
+[198.705s][info][gc       ] GC(608) Pause Young (Allocation Failure) 3125M->1802M(5912M) 8.566ms
+[198.705s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 400803935 ns, Reaching safepoint: 187972 ns, At safepoint: 9057932 ns, Total: 9245904 ns
+[199.118s][info][gc       ] GC(609) Pause Young (Allocation Failure) 3125M->1802M(5904M) 8.429ms
+[199.118s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 403868195 ns, Reaching safepoint: 173134 ns, At safepoint: 8920278 ns, Total: 9093412 ns
+[199.537s][info][gc       ] GC(610) Pause Young (Allocation Failure) 3181M->1802M(5928M) 8.494ms
+[199.537s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 409816494 ns, Reaching safepoint: 195122 ns, At safepoint: 9017561 ns, Total: 9212683 ns
+[199.965s][info][gc       ] GC(611) Pause Young (Allocation Failure) 3181M->1802M(5922M) 8.448ms
+[199.966s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 419561543 ns, Reaching safepoint: 195970 ns, At safepoint: 8975600 ns, Total: 9171570 ns
+[200.409s][info][gc       ] GC(612) Pause Young (Allocation Failure) 3234M->1802M(5943M) 8.528ms
+[200.409s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 434058168 ns, Reaching safepoint: 162462 ns, At safepoint: 9086721 ns, Total: 9249183 ns
+[200.844s][info][gc       ] GC(613) Pause Young (Allocation Failure) 3234M->1802M(5941M) 8.732ms
+[200.844s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 425807969 ns, Reaching safepoint: 162805 ns, At safepoint: 9108186 ns, Total: 9270991 ns
+[201.300s][info][gc       ] GC(614) Pause Young (Allocation Failure) 3284M->1802M(5959M) 8.341ms
+[201.301s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 447376398 ns, Reaching safepoint: 174419 ns, At safepoint: 8787349 ns, Total: 8961768 ns
+[201.756s][info][gc       ] GC(615) Pause Young (Allocation Failure) 3284M->1802M(5959M) 8.394ms
+[201.757s][info][safepoint] Safepoint "ParallelGCFailedAllocation", Time since last: 447208457 ns, Reaching safepoint: 185042 ns, At safepoint: 8842811 ns, Total: 9027853 ns
