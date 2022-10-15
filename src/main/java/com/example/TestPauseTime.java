@@ -9,19 +9,15 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Scanner;
 
 public class TestPauseTime {
     public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Press any button to start");
-//        scanner.nextLine();
+
         System.out.println("Start" + new Date());
         OutputStream outputStream = ObjectOutputStream.nullOutputStream();
         for (int i = 0; i < 15; i++) {
             List<Event> currentBatch = testCreateList();
             batchHandle(currentBatch);
-
 
             for (Event e : currentBatch) {
                 outputStream.write(SerializationUtils.serialize(e));
