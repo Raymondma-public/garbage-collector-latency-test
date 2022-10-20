@@ -11,10 +11,13 @@ import java.util.Date;
 import java.util.List;
 
 public class TestPauseTime {
+    public static final int ITERATION_COUNT = 15;
+    public static final int EVENT_COUNT_PER_ITERATION = 10000000;
+
     public static void main(String[] args) throws IOException {
         System.out.println("Start" + new Date());
         try (OutputStream outputStream = ObjectOutputStream.nullOutputStream()) {
-            for (int i = 0; i < 15; i++) {
+            for (int i = 0; i < ITERATION_COUNT; i++) {
                 List<Event> currentBatch = testCreateList();
                 batchHandle(currentBatch);
                 batchWrite(outputStream, currentBatch);
@@ -39,7 +42,7 @@ public class TestPauseTime {
 
     static List<Event> testCreateList() {
         List<Event> list = new ArrayList<>();
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < EVENT_COUNT_PER_ITERATION; i++) {
             list.add(new Event("ABCDEFGHIJILMNOPQRSTUVWXYZABCDEFGHIJILMNOPQRSTUVWXYZABCDEFGHIJILMNOPQRSTUVWXYZ" + i, i));
         }
         return list;
