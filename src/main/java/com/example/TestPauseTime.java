@@ -12,20 +12,22 @@ import java.util.List;
 
 public class TestPauseTime {
     public static void main(String[] args) throws IOException {
-
         System.out.println("Start" + new Date());
-        OutputStream outputStream = ObjectOutputStream.nullOutputStream();
-        for (int i = 0; i < 15; i++) {
-            List<Event> currentBatch = testCreateList();
-            batchHandle(currentBatch);
+        try (OutputStream outputStream = ObjectOutputStream.nullOutputStream()) {
+            for (int i = 0; i < 15; i++) {
+                List<Event> currentBatch = testCreateList();
+                batchHandle(currentBatch);
+                batchWrite(outputStream, currentBatch);
 
-            for (Event e : currentBatch) {
-                outputStream.write(SerializationUtils.serialize(e));
             }
-
         }
-        outputStream.close();
         System.out.println("End" + new Date());
+    }
+
+    private static void batchWrite(OutputStream outputStream, List<Event> currentBatch) throws IOException {
+        for (Event e : currentBatch) {
+            outputStream.write(SerializationUtils.serialize(e));
+        }
     }
 
     private static void batchHandle(List<Event> currentBatch) {
