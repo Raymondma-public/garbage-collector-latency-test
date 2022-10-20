@@ -1,2 +1,0 @@
-#$enableGCOpt="UseEpsilonGC"
-& 'C:\Program Files\Zulu\zulu-17\bin\java' -javaagent:jHiccup.jar -Xlog:gc:./gc-$enableGCOpt.log  -Xlog:safepoint   -D"com.sun.management.jmxremote.port"=9010 -D"com.sun.management.jmxremote.rmi.port"=9010 -D"com.sun.management.jmxremote.local.only"=false -D"com.sun.management.jmxremote.authenticate"=false -D"com.sun.management.jmxremote.ssl"=false -jar JVMBenchmark-1.0-SNAPSHOT.jar

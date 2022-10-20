@@ -1,1 +1,0 @@
-java -jar HistogramLogAnalyzer-1.0.4-SNAPSHOT.jar -f $args[0]

@@ -1,8 +1,0 @@
-[0.005s][info][gc] Using Epsilon
-[0.135s][info][safepoint] Safepoint "ICBufferFull", Time since last: 126798295 ns, Reaching safepoint: 113007 ns, At safepoint: 18362 ns, Total: 131369 ns
-[0.265s][info][gc       ] Heap: 6357M reserved, 397M (6.25%) committed, 319M (5.03%) used
-[0.336s][info][gc       ] Heap: 6357M reserved, 653M (10.28%) committed, 637M (10.04%) used
-[0.407s][info][gc       ] Heap: 6357M reserved, 1037M (16.32%) committed, 957M (15.06%) used
-[0.498s][info][gc       ] Heap: 6357M reserved, 1293M (20.34%) committed, 1276M (20.08%) used
-[0.592s][info][gc       ] Heap: 6357M reserved, 1677M (26.38%) committed, 1645M (25.88%) used
-[0.811s][info][gc       ] Heap: 6357M reserved, 1933M (30.41%) committed, 1921M (30.22%) used
