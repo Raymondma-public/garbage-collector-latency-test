@@ -21,7 +21,7 @@ function get_arguments() {
   enableGCOpt=$1
   enableGCOptWithPrefix=""
 
-  commonArg="-javaagent:$proj_root_dir/jHiccup.jar=-l,$enableGCOpt.hlog -Xms5G -Xmx5G -XX:+PrintCommandLineFlags -XX:+UnlockExperimentalVMOptions $enableGCOptWithPrefix -XX:MaxGCPauseMillis=50 -Xlog:gc,safepoint:./gc-$case_name-$enableGCOpt.log  -Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.rmi.port=9010 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -jar $build_lib_dir/JVMBenchmark-1.0-SNAPSHOT.jar"
+  commonArg="-javaagent:$proj_root_dir/jHiccup.jar=-l,$enableGCOpt.hlog -Xms5G -Xmx5G -XX:+PrintCommandLineFlags -XX:+UnlockExperimentalVMOptions $enableGCOptWithPrefix -Xlog:gc,safepoint:./gc-$case_name-$enableGCOpt.log  -Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.rmi.port=9010 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -jar $build_lib_dir/JVMBenchmark-1.0-SNAPSHOT.jar"
   echo "$commonArg"
 }
 
