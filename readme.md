@@ -5,12 +5,13 @@
 * Install the jdk you want to test
 * Edit `run.sh` to modify your jdk paths
 
-# Execute
-* Run `./run.sh "test-case-name"` to
+# Try with it
+* Modify the `TestPauseTime.java` to test with your logic
+* Run `./run.sh "test-case-name"` to build the jar and run your test case
   * e.g. `./run.sh "test-gc-1"` 
 * The results will be generated under `results/test-case-name`
 
-# Visualize
+# Visualization
 * Run `HistogramLogAnalyzer-1.0.4-SNAPSHOT.jar`
 * Drag the `.hlog` files under your test into Histogram Log Analyzer to visualize and analyze the result
 

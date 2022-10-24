@@ -32,4 +32,4 @@ function get_arguments() {
 /usr/lib/jvm/java-17-openjdk-amd64/bin/java $(get_arguments UseG1GC)
 /usr/lib/jvm/java-17-openjdk-amd64/bin/java $(get_arguments UseShenandoahGC)
 /usr/lib/jvm/java-17-openjdk-amd64/bin/java $(get_arguments UseZGC)
-/opt/zing/zing-jdk17/bin/java $(get_arguments UseZST)
+/opt/zing/zing-jdk17/bin/java $(get_arguments UseGenPauselessGC)
