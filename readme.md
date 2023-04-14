@@ -1,5 +1,6 @@
 # Background
 * This repo is intended to let you try out different garbage collector
+* For more detail, please refer to the [GC-cheatsheet](GC-cheatsheet.pdf)
 
 # Prerequisite
 * Install the jdk you want to test
@@ -14,6 +15,9 @@
 # Visualization
 * Run `HistogramLogAnalyzer-1.0.4-SNAPSHOT.jar`
 * Drag the `.hlog` files under your test into Histogram Log Analyzer to visualize and analyze the result
+
+# GC Overview
+![GC-Overview](GC-Overview.png)
 
 # Reference
 * Azul Platform Prime download
